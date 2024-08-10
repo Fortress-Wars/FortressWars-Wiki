@@ -154,10 +154,11 @@ Soldier
 - Shield block delay decreased from **5** ticks to **0** ticks.
 
 ## Other Changes
--
+- King of the Hill respawn times will now be even if both teams have 99% and it is overtime.
 
 ## Bug Fixes
 - Aquaman trident now returns to the item slot the user is on if it's empty.
 - Bomber no longer blocks redstone events.
 - Fixed issue where if an engineer died, the sentry would do more damage.
 - Fixed engineer teleporter not able to be used if on soul sand and other partially lowered blocks moved.
+- Fixed issue where a player could get stuck in spectator mode if there is a 1v1 classic game going on, a player dies and overtime triggers.
