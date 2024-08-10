@@ -20,6 +20,7 @@
 - Chainmail Boots
 - Staff
 - Switch Mode
+- {{ kits.mercy.data.MAX_HEALING_POTIONS }} Healing Potions
 
 <br />  
 

@@ -86,7 +86,8 @@ Hitting an enemy with shield bash will trigger Ironclad. Ironclad will provide d
 | CRUSADER_SHIELD_BASH_DAMAGE | `{{ kits.crusader.data.CRUSADER_SHIELD_BASH_DAMAGE }}` | The base damage of a shield bash collision. |
 | CRUSADER_SHIELD_BASH_KNOCKBACK | `{{ kits.crusader.data.CRUSADER_SHIELD_BASH_KNOCKBACK }}` | The knockback multiplier of a shield bash collision. |
 | CRUSADER_SHIELD_BASH_COOLDOWN | `{{ kits.crusader.data.CRUSADER_SHIELD_BASH_COOLDOWN }}` | The cooldown, in ticks, of the Shield Bash ability. |
-| CRUSADER_SHIELD_BASH_IMPACT_RADIUS | `{{ kits.crusader.data.CRUSADER_SHIELD_BASH_IMPACT_RADIUS }}` | The collision radius of the Shield Bash ability. |
+| CRUSADER_SHIELD_BASH_IMPACT_CHECK_RADIUS | `{{ kits.crusader.data.CRUSADER_SHIELD_BASH_IMPACT_CHECK_RADIUS }}` | The radius, in meters, used to check if nearby entities are colliding with the player. |
+| CRUSADER_SHIELD_BASH_COLLISION_HIT_BOX_EXPANSION | `{{ kits.crusader.data.CRUSADER_SHIELD_BASH_COLLISION_HIT_BOX_EXPANSION }}` | The value, in meters, to expand the collision hitbox size. | 
 | CRUSADER_SHIELD_BASH_VELOCITY_MULTIPLIER | `{{ kits.crusader.data.CRUSADER_SHIELD_BASH_VELOCITY_MULTIPLIER }}` | The launch velocity multiplier of the Shield Bash ability.  |
 | CRUSADER_SHIELD_BASH_IMPACT_ICD | `{{ kits.crusader.data.CRUSADER_SHIELD_BASH_IMPACT_ICD }}` | The cooldown, in ticks, of an enemy being able to be hit by Shield Bash.  |
 | CRUSADER_SHIELD_BASH_VELOCITY_THRESHOLD | `{{ kits.crusader.data.CRUSADER_SHIELD_BASH_VELOCITY_THRESHOLD }}` | The velocity threshold used to determine if a player is moving too slow during a Shield Bash. |

@@ -22,7 +22,7 @@
 - Stone Sword
 - Dart Shooter
 - Select Potion
-- 7 Healing Potions
+- {{ kits.hitman.data.MAX_HEALING_POTIONS }} Healing Potions
 
 <br />  
 
@@ -98,7 +98,7 @@ Damages the enemy for `{{ kits.hitman.data.HITMAN_INSTANT_DAMAGE_DAMAGE }}` HP.
 | MAX_HEALING_POTIONS | `{{ kits.hitman.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |
 | HITMAN_SWORD_DAMAGE | `{{ kits.hitman.data.HITMAN_SWORD_DAMAGE }}` | The base damage of the sword. |
 | HITMAN_SWORD_SPEED | `{{ kits.hitman.data.HITMAN_SWORD_SPEED }}` | The base speed of the sword. |
-| HITMAN_BOW_DAMAGE | `{{ kits.hitman.data.HITMAN_BOW_DAMAGE }}` | The base damage of the Dart Shooter projectile. |
+| HITMAN_BOW_MAX_DAMAGE | `{{ kits.hitman.data.HITMAN_BOW_MAX_DAMAGE }}` | The max damage of the Dart Shooter projectile. |
 | HITMAN_MAX_TAG_TRIGGERS | `{{ kits.hitman.data.HITMAN_MAX_TAG_TRIGGERS }}` | The number of times the player can trigger debuffs from a tag. |
 | HITMAN_MAX_TAGS | `{{ kits.hitman.data.HITMAN_MAX_TAGS }}` | The maximum number of tags the player can have active at once. |
 | HITMAN_GLOWING_DURATION | `{{ kits.hitman.data.HITMAN_GLOWING_DURATION }}` | The duration, in ticks, of the glowing effect. |

@@ -88,7 +88,7 @@ If the player damages an enemy to uncloak, they will also hack them for `{{ kits
 | MAX_HEALING_POTIONS | `{{ kits.illusionist.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |
 | ILLUSIONIST_SWORD_DAMAGE | `{{ kits.illusionist.data.ILLUSIONIST_SWORD_DAMAGE }}` | The base damage of the sword. |
 | ILLUSIONIST_SWORD_SPEED | `{{ kits.illusionist.data.ILLUSIONIST_SWORD_SPEED }}` | The base speed of the sword. |
-| ILLUSIONIST_DIVINATION_STAR_DAMAGE_MULTIPLIER_ADDITIVE | `{{ kits.illusionist.data.ILLUSIONIST_DIVINATION_STAR_DAMAGE_MULTIPLIER_ADDITIVE }}` | The damage increase provided when an enemy is tagged with Future Sight. |
+| ILLUSIONIST_DIVINATION_STAR_DAMAGE_PERCENTAGE_INCREASE | `{{ kits.illusionist.data.ILLUSIONIST_DIVINATION_STAR_DAMAGE_PERCENTAGE_INCREASE }}` | The damage increase provided when an enemy is tagged with Future Sight. |
 | ILLUSIONIST_DIVINATION_STAR_BLOCK_HACK_DURATION | `{{ kits.illusionist.data.ILLUSIONIST_DIVINATION_STAR_BLOCK_HACK_DURATION }}` | The duration, in ticks, that the Divination Star will hack Engineer Blocks by. |
 | ILLUSIONIST_DIVINATION_STAR_BLOCK_HACK_RADIUS | `{{ kits.illusionist.data.ILLUSIONIST_DIVINATION_STAR_BLOCK_HACK_RADIUS }}` | The radius of the Divination Star hack. |
 | ILLUSIONIST_DIVINATION_STAR_COOLDOWN | `{{ kits.illusionist.data.ILLUSIONIST_DIVINATION_STAR_COOLDOWN }}` | The cooldown, in ticks, of the Divination Star ability. |
