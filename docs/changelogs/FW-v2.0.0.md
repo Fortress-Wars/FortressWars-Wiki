@@ -130,7 +130,7 @@ Necromancer
 - Max Essence of the afterlife reduced from **30** to **15**.
 - Max number of skeletons reduced from **3** to **1**.
 - Essnece to spawn a skeleton reduced from **3** to **1**.
-- Skeleton can now be upgraded by right-clicking them. There are **5** levels: Level 1: 20 health, 11 armor points, stone sword, and extra speed. Level 2: full chain armor (3 additional armor points; 14 total). Level 3: 20 addition health (40 total). Level 4: full iron armor (6 additional armor poitns, 20 total). Level 5: 75% knockback resistance.
+- Skeleton can now be upgraded by right-clicking them. There are **5** levels: Level 1: 20 health, 10 armor points, stone sword, and extra speed. Level 2: More defense points (15 total). Level 3: 20 addition health (40 total). Level 4: More defense (20 total). Level 5: +75% knockback resistance.
 - Cost to upgrade skeleton is **1** essence per level.
 - Right clicking the player's skeleton will restore **10** health. This will consume **1** essence.
 - Skeleton can not be picked up by right clicking it while sneaking. This will remember its current health and level.
