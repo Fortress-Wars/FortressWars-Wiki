@@ -135,8 +135,12 @@ Necromancer
 - Right clicking the player's skeleton will restore **10** health. This will consume **1** essence.
 - Skeleton can not be picked up by right clicking it while sneaking. This will remember its current health and level.
 - The spawn skeleton item and shield will become enchanted to indicate that a skeleton is being held.
-- Essence now drops for every entity death (was previously only player deaths caused by another player).
-- 
+- Essence now drops for every entity death (was previously only player deaths caused by another player). 
+
+Porcupine
+- Increased quills spread from **0.1** to **0.2**.
+- Reduced quill damage from **11** to **9**.
+- Porcupine quills will stun enemies for **30** ticks upon damaging them.
 
 Soldier
 - Grenade radius increased from **2** to **3** 
@@ -162,3 +166,4 @@ Soldier
 - Fixed issue where if an engineer died, the sentry would do more damage.
 - Fixed engineer teleporter not able to be used if on soul sand and other partially lowered blocks moved.
 - Fixed issue where a player could get stuck in spectator mode if there is a 1v1 classic game going on, a player dies and overtime triggers.
+- Fixed bug where the auto-balance timer would not properly reset for all players when a game ends or is canceled
