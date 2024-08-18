@@ -22,7 +22,7 @@ Index for all playable kits in Fortress Wars
 * [Master](Master)
 * [Musketeer](Musketeer)
 * [None](None)
-* [Porcupine](Porcupine)
+> # ![porcupine-icon](../assets/icons/porcupine-icon.jpg) [Porcupine](Porcupine)
 * [Potion Master](PotionMaster)
 * [Prometheus](Prometheus)
 * [Pyrotechnic](Pytrotechnic)
