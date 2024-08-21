@@ -142,6 +142,9 @@ Porcupine
 - Reduced quill damage from **11** to **9**.
 - Porcupine quills will stun enemies for **30** ticks upon damaging them.
 
+Potion Master
+- Increased slowness level from **0** to **1** (level 1 starts at 0)
+
 Soldier
 - Grenade radius increased from **2** to **3** 
 - Grenades now consider line of sight when damaging enemies.
