@@ -159,7 +159,7 @@ When the player dies, they will drop `{{ kits.necromancer.data.NECROMANCER_ESSEN
 | MAX_HEALING_POTIONS | `{{ kits.necromancer.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |
 | NECROMANCER_SWORD_DAMAGE | `{{ kits.necromancer.data.NECROMANCER_SWORD_DAMAGE }}` | The base damage of the sword. |
 | NECROMANCER_SWORD_SPEED | `{{ kits.necromancer.data.NECROMANCER_SWORD_SPEED }}` | The base speed of the sword. |
-| NECROMANCER_SWORD_WITHER_EFFECT_LEVEL | `{{ kits.necromancer.data.NECROMANCER_SWORD_WITHER_EFFECT_LEVEL }}` | The level of the sword's wither effect. (level 1 starts at 0) |
+| NECROMANCER_SWORD_WITHER_EFFECT_LEVEL | `{{ kits.necromancer.data.NECROMANCER_SWORD_WITHER_EFFECT_LEVEL }}` | The level of the sword's wither effect. |
 | NECROMANCER_SWORD_WITHER_EFFECT_DURATION | `{{ kits.necromancer.data.NECROMANCER_SWORD_WITHER_EFFECT_DURATION }}` | The duration, in ticks, of the sword's wither effect. |
 | NECROMANCER_ESSENCE_OF_THE_AFTER_LIFE_MAX | `{{ kits.necromancer.data.NECROMANCER_ESSENCE_OF_THE_AFTER_LIFE_MAX }}` | The maximum number of essense the player can have at once. |
 | NECROMANCER_ESSENCE_OF_THE_AFTER_LIFE_FINAL_BLOW_DROP_BONUS | `{{ kits.necromancer.data.NECROMANCER_ESSENCE_OF_THE_AFTER_LIFE_FINAL_BLOW_DROP_BONUS }}` | The number of extra essence to drop when the player kills an enemy. |
@@ -187,5 +187,5 @@ When the player dies, they will drop `{{ kits.necromancer.data.NECROMANCER_ESSEN
 | NECROMANCER_WITHER_SKELETON_PICKUP_SKELETON_COOLDOWN | `{{ kits.necromancer.data.NECROMANCER_WITHER_SKELETON_PICKUP_SKELETON_COOLDOWN }}` | The cooldown, in ticks, after picking up a wither skeleton. |
 | NECROMANCER_WITHER_SKELETON_SPAWN_SKELETON_COOLDOWN | `{{ kits.necromancer.data.NECROMANCER_WITHER_SKELETON_SPAWN_SKELETON_COOLDOWN }}` | The cooldownn, in ticks, after spawning a witehr skeleton. |
 | NECROMANCER_WITHER_SKELETON_DEATH_COOLDOWN | `{{ kits.necromancer.data.NECROMANCER_WITHER_SKELETON_DEATH_COOLDOWN }}` | The cooldown, in ticks, given when the player's wither skeleton dies. |
-| NECROMANCER_WITHER_SKELETON_WITHER_EFFECT_LEVEL | `{{ kits.necromancer.data.NECROMANCER_WITHER_SKELETON_WITHER_EFFECT_LEVEL }}` | The level of the wither skeleton's witehr effect. (level 1 starts at 0) |
+| NECROMANCER_WITHER_SKELETON_WITHER_EFFECT_LEVEL | `{{ kits.necromancer.data.NECROMANCER_WITHER_SKELETON_WITHER_EFFECT_LEVEL }}` | The level of the wither skeleton's witehr effect. |
 | NECROMANCER_WITHER_SKELETON_WITHER_EFFECT_DURATION | `{{ kits.necromancer.data.NECROMANCER_WITHER_SKELETON_WITHER_EFFECT_DURATION }}` | The duration, in ticks, of the wither skeleton's wither effect. |

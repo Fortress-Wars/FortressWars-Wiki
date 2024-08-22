@@ -97,12 +97,12 @@ Gives the resistance effect *(level: `{{ kits.buff_master.data.BUFF_MASTER_RESIS
 | BUFF_MASTER_BUFF_RADIUS | `{{ kits.buff_master.data.BUFF_MASTER_BUFF_RADIUS }}` | The radius of the Buff ability. |
 | BUFF_MASTER_BUFF_SWITCH_ICD | `{{ kits.buff_master.data.BUFF_MASTER_BUFF_SWITCH_ICD }}` | The cooldown, in ticks, for switching effects. |
 | BUFF_MASTER_REGENERATION_DURATION | `{{ kits.buff_master.data.BUFF_MASTER_REGENERATION_DURATION }}` | The duration of the regeneration effect. |
-| BUFF_MASTER_REGENERATION_LEVEL | `{{ kits.buff_master.data.BUFF_MASTER_REGENERATION_LEVEL }}` | The level of the regeneration effect. (level 1 starts at value 0) |
+| BUFF_MASTER_REGENERATION_LEVEL | `{{ kits.buff_master.data.BUFF_MASTER_REGENERATION_LEVEL }}` | The level of the regeneration effect. |
 | BUFF_MASTER_ABSORPTION_DURATION | `{{ kits.buff_master.data.BUFF_MASTER_ABSORPTION_DURATION }}` | The duration of the absorption effect. |
-| BUFF_MASTER_ABSORPTION_LEVEL | `{{ kits.buff_master.data.BUFF_MASTER_ABSORPTION_LEVEL }}` | The level of the absorption effect. (level 1 starts at value 0) |
+| BUFF_MASTER_ABSORPTION_LEVEL | `{{ kits.buff_master.data.BUFF_MASTER_ABSORPTION_LEVEL }}` | The level of the absorption effect. |
 | BUFF_MASTER_SPEED_DURATION | `{{ kits.buff_master.data.BUFF_MASTER_SPEED_DURATION }}` | The duration of the speed effect. |
-| BUFF_MASTER_SPEED_LEVEL | `{{ kits.buff_master.data.BUFF_MASTER_SPEED_LEVEL }}` | The level of the speed effect. (level 1 starts at value 0) |
+| BUFF_MASTER_SPEED_LEVEL | `{{ kits.buff_master.data.BUFF_MASTER_SPEED_LEVEL }}` | The level of the speed effect. |
 | BUFF_MASTER_RESISTANCE_DURATION | `{{ kits.buff_master.data.BUFF_MASTER_RESISTANCE_DURATION }}` | The duration of the resistance effect. |
-| BUFF_MASTER_RESISTANCE_LEVEL | `{{ kits.buff_master.data.BUFF_MASTER_RESISTANCE_LEVEL }}` | The level of the resistance effect. (level 1 starts at value 0) |
+| BUFF_MASTER_RESISTANCE_LEVEL | `{{ kits.buff_master.data.BUFF_MASTER_RESISTANCE_LEVEL }}` | The level of the resistance effect. |
 | BUFF_MASTER_SWORD_DAMAGE | `{{ kits.buff_master.data.BUFF_MASTER_SWORD_DAMAGE }}` | The base melee damage of the sword. |
 | BUFF_MASTER_SWORD_SPEED | `{{ kits.buff_master.data.BUFF_MASTER_SWORD_SPEED }}` | The base melee speed of the sword. |
