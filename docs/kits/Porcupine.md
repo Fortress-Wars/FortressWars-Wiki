@@ -75,9 +75,9 @@ After using the quills ability, the player will receive the thorns effect for `{
 | PORCUPINE_QUILL_ARROWS_PER_LAYER | `{{ kits.porcupine.data.PORCUPINE_QUILL_ARROWS_PER_LAYER }}` | The number of quills that are in each layer in the summoned quill sphere. |
 | PORCUPINE_QUILL_NUMBER_OF_LAYERS | `{{ kits.porcupine.data.PORCUPINE_QUILL_NUMBER_OF_LAYERS }}` | The number of layers that are in the summoned quill sphere. |
 | PORCUPINE_QUILL_STUN_DURATION | `{{ kits.porcupine.data.PORCUPINE_QUILL_STUN_DURATION }}` | The duration, in ticks, of the quill's stun effect. |
-| PORCUPINE_QUILL_POISON_LEVEL | `{{ kits.porcupine.data.PORCUPINE_QUILL_POISON_LEVEL }}` | The level of the quill's poison effect. (level 1 starts at 0) |
+| PORCUPINE_QUILL_POISON_LEVEL | `{{ kits.porcupine.data.PORCUPINE_QUILL_POISON_LEVEL }}` | The level of the quill's poison effect. |
 | PORCUPINE_QUILL_POISON_DURATION | `{{ kits.porcupine.data.PORCUPINE_QUILL_POISON_DURATION }}` | The duration, in ticks, of the quill's poison effect. |
-| PORCUPINE_QUILL_SLOWNESS_LEVEL | `{{ kits.porcupine.data.PORCUPINE_QUILL_SLOWNESS_LEVEL }}` | The level of the quill's slowness effect. (level 1 starts at 0) |
+| PORCUPINE_QUILL_SLOWNESS_LEVEL | `{{ kits.porcupine.data.PORCUPINE_QUILL_SLOWNESS_LEVEL }}` | The level of the quill's slowness effect. |
 | PORCUPINE_QUILL_SLOWNESS_DURATION | `{{ kits.porcupine.data.PORCUPINE_QUILL_SLOWNESS_DURATION }}` | The duration, in ticks, of the quill's slowness effect. |
 | PORCUPINE_THORNS_DURATION | `{{ kits.porcupine.data.PORCUPINE_THORNS_DURATION }}` | The duration, in ticks, of the thorns ability. |
 | PORCUPINE_THORNS_HIT_CHANCE_PERCENTAGE | `{{ kits.porcupine.data.PORCUPINE_THORNS_HIT_CHANCE_PERCENTAGE }}` | The probability (percentage) that the thorns ability will deal damage. |

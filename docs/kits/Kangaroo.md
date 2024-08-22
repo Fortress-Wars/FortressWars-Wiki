@@ -72,7 +72,7 @@ The player is immune to fall damage.
 | KANGAROO_SWORD_SPEED | `{{ kits.kangaroo.data.KANGAROO_SWORD_SPEED }}` | The base speed of the sword. |
 | KANGAROO_STOMP_COOLDOWN | `{{ kits.kangaroo.data.KANGAROO_STOMP_COOLDOWN }}` | The cooldown, in ticks, of the Stomp ability. |
 | KANGAROO_STOMP_DURATION | `{{ kits.kangaroo.data.KANGAROO_STOMP_DURATION }}` | The duration, in ticks, of the Stomp ability. |
-| KANGAROO_STOMP_JUMPBOOST_LEVEL | `{{ kits.kangaroo.data.KANGAROO_STOMP_JUMPBOOST_LEVEL }}` | The level of the jump boost effect. (level 1 starts at value 0) |
+| KANGAROO_STOMP_JUMPBOOST_LEVEL | `{{ kits.kangaroo.data.KANGAROO_STOMP_JUMPBOOST_LEVEL }}` | The level of the jump boost effect. |
 | KANGAROO_STOMP_HEIGHT_THRESHOLD | `{{ kits.kangaroo.data.KANGAROO_STOMP_HEIGHT_THRESHOLD }}` | The minimum fall distance required to deal Stomp damage. |
 | KANGAROO_STOMP_MIN_DAMAGE | `{{ kits.kangaroo.data.KANGAROO_STOMP_MIN_DAMAGE }}` | The minimum damage the Stomp ability will deal. |
 | KANGAROO_STOMP_MAX_DAMAGE | `{{ kits.kangaroo.data.KANGAROO_STOMP_MAX_DAMAGE }}` | The maximum damage the Stomp ability will deal. |

@@ -2,7 +2,7 @@ _Release Date: TBD_
 
 # v2.0.0
 - Health Bars
-- NEW_FEATURE_2
+- Discord Killfeed
 - NEW_FEATURE_3
 - Kit Changes
 - Technical Changes
@@ -11,6 +11,9 @@ _Release Date: TBD_
 
 ### Health Bars
 Health bars appear above ally player models. They show the player's Kit, Name, Health Bar, Numeric Health Value, and number of potions. Absorption and other status effects will also be reflected in the health bar. Enemies only see the player's name and nothing else!
+
+### Discord Killfeed
+A new channel has been created that will show all in game eliminations.
 
 ### Kit Changes
 
@@ -141,6 +144,9 @@ Porcupine
 - Increased quills spread from **0.1** to **0.2**.
 - Reduced quill damage from **11** to **9**.
 - Porcupine quills will stun enemies for **30** ticks upon damaging them.
+
+Potion Master
+- Increased slowness level from **1** to **2**
 
 Soldier
 - Grenade radius increased from **2** to **3** 

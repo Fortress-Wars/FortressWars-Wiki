@@ -151,7 +151,7 @@ Available Debuffs:
 | MATHEMATICIAN_WORKSHEET_REGENERATION_RATE | `{{ kits.mathematician.data.MATHEMATICIAN_WORKSHEET_REGENERATION_RATE }}` | The rate, in ticks, that distributable worksheets will be restored. |
 | MATHEMATICIAN_WORKSHEET_THROW_COOLDOWN | `{{ kits.mathematician.data.MATHEMATICIAN_WORKSHEET_THROW_COOLDOWN }}` | The cooldown, in ticks, of distributing worksheets. |
 | MATHEMATICIAN_WORKSHEET_EFFECT_DURATION | `{{ kits.mathematician.data.MATHEMATICIAN_WORKSHEET_EFFECT_DURATION }}` | The duration, in ticks, of buffs and debuffs. |
-| MATHEMATICIAN_WORKSHEET_EFFECT_LEVEL | `{{ kits.mathematician.data.MATHEMATICIAN_WORKSHEET_EFFECT_LEVEL }}` | The level of buffs and debuffs. (Level 1 starts at 0) |
+| MATHEMATICIAN_WORKSHEET_EFFECT_LEVEL | `{{ kits.mathematician.data.MATHEMATICIAN_WORKSHEET_EFFECT_LEVEL }}` | The level of buffs and debuffs. |
 | MATHEMATICIAN_WORKSHEET_VELOCITY_MULTIPLIER | `{{ kits.mathematician.data.MATHEMATICIAN_WORKSHEET_VELOCITY_MULTIPLIER }}` | The throw velocity of distributing worksheets. |
 | MATHEMATICIAN_WORKSHEET_DISTRIBUTE_INCREMENT_AMOUNT | `{{ kits.mathematician.data.MATHEMATICIAN_WORKSHEET_DISTRIBUTE_INCREMENT_AMOUNT }}` | The amount of worksheets to remove after solving a problem from affected players. |
 | MATHEMATICIAN_WORKSHEET_DISTRIBUTE_DECREMENT_AMOUNT | `{{ kits.mathematician.data.MATHEMATICIAN_WORKSHEET_DISTRIBUTE_DECREMENT_AMOUNT }}` | The amount of worksheets to add after a player picks up a worksheet. |

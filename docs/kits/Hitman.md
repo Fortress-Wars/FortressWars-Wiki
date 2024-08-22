@@ -102,12 +102,12 @@ Damages the enemy for `{{ kits.hitman.data.HITMAN_INSTANT_DAMAGE_DAMAGE }}` HP.
 | HITMAN_MAX_TAG_TRIGGERS | `{{ kits.hitman.data.HITMAN_MAX_TAG_TRIGGERS }}` | The number of times the player can trigger debuffs from a tag. |
 | HITMAN_MAX_TAGS | `{{ kits.hitman.data.HITMAN_MAX_TAGS }}` | The maximum number of tags the player can have active at once. |
 | HITMAN_GLOWING_DURATION | `{{ kits.hitman.data.HITMAN_GLOWING_DURATION }}` | The duration, in ticks, of the glowing effect. |
-| HITMAN_GLOWING_LEVEL | `{{ kits.hitman.data.HITMAN_GLOWING_LEVEL }}` | The level of the glowing effect. (level 1 starts at value 0) |
+| HITMAN_GLOWING_LEVEL | `{{ kits.hitman.data.HITMAN_GLOWING_LEVEL }}` | The level of the glowing effect. |
 | HITMAN_STUN_DURATION | `{{ kits.hitman.data.HITMAN_STUN_DURATION }}` | The duration, in ticks, of the stun effect. |
 | HITMAN_DARKNESS_DURATION | `{{ kits.hitman.data.HITMAN_DARKNESS_DURATION }}` | The duration, in ticks, of the darkness effect. |
-| HITMAN_DARKNESS_LEVEL | `{{ kits.hitman.data.HITMAN_DARKNESS_LEVEL }}` | The level of the darkness effect. (level 1 starts at value 0) |
+| HITMAN_DARKNESS_LEVEL | `{{ kits.hitman.data.HITMAN_DARKNESS_LEVEL }}` | The level of the darkness effect. |
 | HITMAN_WEAKNESS_DURATION | `{{ kits.hitman.data.HITMAN_WEAKNESS_DURATION }}` | The duration, in ticks, of the weakness effect. |
-| HITMAN_WEAKNESS_LEVEL | `{{ kits.hitman.data.HITMAN_WEAKNESS_LEVEL }}` | The level of the weakness effect. (level 1 starts at value 0) |
+| HITMAN_WEAKNESS_LEVEL | `{{ kits.hitman.data.HITMAN_WEAKNESS_LEVEL }}` | The level of the weakness effect. |
 | HITMAN_INSTANT_DAMAGE_DAMAGE | `{{ kits.hitman.data.HITMAN_INSTANT_DAMAGE_DAMAGE }}` | The base damage of the harming effect. |
 | HITMAN_ROTATE_EFFECT_COOLDOWN | `{{ kits.hitman.data.HITMAN_ROTATE_EFFECT_COOLDOWN }}` | The cooldown, in ticks, of the Select Debuff ability. |
 | HITMAN_ACTIVATE_EFFECT_COOLDOOWN | `{{ kits.hitman.data.HITMAN_ACTIVATE_EFFECT_COOLDOOWN }}` | The cooldown, in ticks, of triggering debuffs. |
