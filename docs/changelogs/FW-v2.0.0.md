@@ -150,6 +150,7 @@ Potion Master
 
 Pyrotechnic
 - Added knockback to the rockets.
+- When the barrage ability is activated and the crossbow is already loaded, the crossbow will instantly load the additional barrage rockets.
 
 Soldier
 - Grenade radius increased from **2** to **3** 
