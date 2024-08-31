@@ -30,7 +30,7 @@
 <!-- tabs:start -->
 #### **Quills**
 ## Quills
-Right click to summon a sphere of quills. When a quill hits an enemy, it will deal `{{ kits.porcupine.data.PORCUPINE_QUILL_DAMAGE }}`. Quills will stun enemies for `{{ kits.porcupine.data.PORCUPINE_QUILL_STUN_DURATION }}` ticks and apply poison and slowness potion effects. Using the quills ability will also activate the [Thorns](#thorns) passive ability.
+Right-click to summon a sphere of quills. When a quill hits an enemy, it will deal `{{ kits.porcupine.data.PORCUPINE_QUILL_DAMAGE }}`. Quills will stun enemies for `{{ kits.porcupine.data.PORCUPINE_QUILL_STUN_DURATION }}` ticks and apply poison and slowness potion effects. Using the quills ability will also activate the [Thorns](#thorns) passive ability.
 
 ![Porcupine - Quills 1](../assets/kits/porcupine/Porcupine%20-%20Quills%201.gif)
 ![Porcupine - Quills 2](../assets/kits/porcupine/Porcupine%20-%20Quills%202.gif)

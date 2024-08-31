@@ -73,7 +73,7 @@ Players will receive `{{ kits.musketeer.data.MUSKETEER_AMMO_FINAL_BLOW_REWARD }}
 
 ![Musketeer - Elimination](../assets/kits/musketeer/Musketeer%20-%20Elimination.gif)
 
-Ally engineer dispensers will dispense `{{ kits.musketeer.data.MUSKETEER_AMMO_DISPENSER_DISPENSE_AMOUNT }}` ammo if the player is in range.
+Ally engineer dispensers will dispense `{{ kits.musketeer.data.MUSKETEER_AMMO_DISPENSER_DISPENSE_AMOUNT }}` ammo to the player if they are in range.
 
 ![Musketeer - Dispenser Ammo](../assets/kits/musketeer/Musketeer%20-%20Dispenser%20Ammo.gif)
 
@@ -85,7 +85,7 @@ Ally engineer dispensers will dispense `{{ kits.musketeer.data.MUSKETEER_AMMO_DI
 
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
-| ahh mustard... | Eliminate an enemy musketeer from a far distance as they eliminate you. | 20 Credits. |
+| ahh mustard... | Eliminate an enemy musketeer from a far distance as they eliminate you. | 20 Credits |
 | Jumper Stumper | Eliminate an enemy that is in midair with your rifle | 20 Credits |
 | A shield's not gonna stop me! | Shoot an enemy through their shield to eliminate them. | 20 Credits |
 | Sentry Sniper | Destroy a sentry from over 75 blocks away. | 20 Credits |
