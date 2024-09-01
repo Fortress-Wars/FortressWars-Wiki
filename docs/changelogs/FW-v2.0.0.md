@@ -89,6 +89,8 @@ Kangaroo
 - Stomp ability now considers line of sight when damaging enemies.
 - Increased stomp cooldown from **180** ticks to **210** ticks.
 - Decreased stomp impact radius from **5** meters to **3** meters.
+- Decreased max stomp damage from **25** to **20**
+- Properly implemented ramp up damage fro the stomp ability. It start at **5** meters (5 damage) and end at **50** meters (20 damage).
 
 Knight
 - Removed Pull ability
@@ -152,6 +154,13 @@ Pyrotechnic
 - Added knockback to the rockets.
 - When the barrage ability is activated and the crossbow is already loaded, the crossbow will instantly load the additional barrage rockets.
 
+Slime
+- Slime armor no longer mitigates anvil damage.
+- Slime armor no mitigates piercing damage by **50%** (Arrows, Bullets, and Thorns).
+- Slime armor will no longer break if the fall damage is too high
+- Slime armor will now also break if the slime armor takes blast damage above a certain threshold.
+- Reduced slime minion spawn cooldown from **90** ticks to **75** ticks.
+
 Soldier
 - Grenade radius increased from **2** to **3** 
 - Grenades now consider line of sight when damaging enemies.
@@ -166,6 +175,8 @@ Soldier
 - Refactor healing and mana potions. (Auto-pot no triggers in the same game tick (faster))
 - Absorption hearts now count towards "Damage Dealt" stats and "Damage Taken" stats.
 - Shield block delay decreased from **5** ticks to **0** ticks.
+- Standardized all armor pieces to all have protection level **1**.
+- Standardized all custom damage types to include armor into the damage calculation.
 
 ## Other Changes
 - King of the Hill respawn times will now be even if both teams have 99% and it is overtime.

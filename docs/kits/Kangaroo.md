@@ -30,7 +30,7 @@
 <!-- tabs:start -->
 #### **Stomp**
 ## Stomp
-Right click to gain jump boost for `{{ kits.kangaroo.data.KANGAROO_STOMP_DURATION }}` ticks. When the player lands, they will deal damage in a `{{ kits.kangaroo.data.KANGAROO_STOMP_RADIUS }}` meter radius. The damage is based the player's fall distance and the enemy's on armor points. The formula is `Fall Distance / (Armor Points - {{ kits.kangaroo.data.KANGAROO_STOMP_MIN_DAMAGE }}) + {{ kits.kangaroo.data.KANGAROO_STOMP_MIN_DAMAGE }}`. The player can deal a max of `{{ kits.kangaroo.data.KANGAROO_STOMP_MAX_DAMAGE }}` damage.
+Right click to gain jump boost for `{{ kits.kangaroo.data.KANGAROO_STOMP_DURATION }}` ticks. When the player lands, they will deal damage in a `{{ kits.kangaroo.data.KANGAROO_STOMP_RADIUS }}` meter radius. The damage is based the player's fall distance. The damage does a minimum damage of `{{ kits.kangaroo.data.KANGAROO_STOMP_MIN_DAMAGE }}`. The damage begins to ramp at a fall distance of `{{ kits.kangaroo.data.KANGAROO_STOMP_RAMP_UP_START }}m`. The damage stops ramping up at `{{ kits.kangaroo.data.KANGAROO_STOMP_RAMP_UP_END }}m` and will deal `{{ kits.kangaroo.data.KANGAROO_STOMP_MAX_DAMAGE }}` damage.
 
 ![Stomp](../assets/kits/kangaroo/Kangaroo%20-%20Stomp.gif)
 
@@ -76,4 +76,6 @@ The player is immune to fall damage.
 | KANGAROO_STOMP_HEIGHT_THRESHOLD | `{{ kits.kangaroo.data.KANGAROO_STOMP_HEIGHT_THRESHOLD }}` | The minimum fall distance required to deal Stomp damage. |
 | KANGAROO_STOMP_MIN_DAMAGE | `{{ kits.kangaroo.data.KANGAROO_STOMP_MIN_DAMAGE }}` | The minimum damage the Stomp ability will deal. |
 | KANGAROO_STOMP_MAX_DAMAGE | `{{ kits.kangaroo.data.KANGAROO_STOMP_MAX_DAMAGE }}` | The maximum damage the Stomp ability will deal. |
+| KANGAROO_STOMP_MIN_DAMAGE | `{{ kits.kangaroo.data.KANGAROO_STOMP_RAMP_UP_START }}` | The fall distance, in meters, at which the stomp damage starts to ramp up. |
+| KANGAROO_STOMP_MAX_DAMAGE | `{{ kits.kangaroo.data.KANGAROO_STOMP_RAMP_UP_END }}` | The fall distance, in meters, at which the stomp damage stops ramping up. |
 | KANGAROO_STOMP_RADIUS | `{{ kits.kangaroo.data.KANGAROO_STOMP_RADIUS }}` | The radius of the Stomp ability. |
