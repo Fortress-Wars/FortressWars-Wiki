@@ -84,6 +84,7 @@ When the player is close to a friendly [Bomber](./Bomber.md), and the friendly B
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.demolitionist.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |
+| TANK_ROLE_KNOCKBACK_PERCENTAGE | `{{ kits.demolitionist.data.TANK_ROLE_KNOCKBACK_PERCENTAGE }}` | {{ kitDataSharedDescriptions.TANK_ROLE_KNOCKBACK_PERCENTAGE }} |
 | DEMOLITIONIST_SWORD_DAMAGE | `{{ kits.demolitionist.data.DEMOLITIONIST_SWORD_DAMAGE }}` | The base damage of the sword. |
 | DEMOLITIONIST_SWORD_SPEED | `{{ kits.demolitionist.data.DEMOLITIONIST_SWORD_SPEED }}` | The base speed of the sword. |
 | DEMOLITIONIST_DEMOLISH_YIELD | `{{ kits.demolitionist.data.DEMOLITIONIST_DEMOLISH_YIELD }}` | The minecraft bomb yield value. (this isn't measured in meters/blocks) |

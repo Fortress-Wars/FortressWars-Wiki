@@ -3,7 +3,6 @@ _Release Date: TBD_
 # v2.0.0
 - Health Bars
 - Discord Killfeed
-- NEW_FEATURE_3
 - Kit Changes
 - Technical Changes
 - Other Changes
@@ -179,6 +178,7 @@ Soldier
 - Standardized all custom damage types to include armor into the damage calculation.
 
 ## Other Changes
+- Tanks now have a **50%** knockback resistance blocking.
 - King of the Hill respawn times will now be even if both teams have 99% and it is overtime.
 
 ## Bug Fixes

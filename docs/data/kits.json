@@ -1,7 +1,8 @@
 {
   "kitDataSharedDescriptions": {
     "MAX_HEALING_POTIONS": "Maximum number of healing potions the player can carry.",
-    "MAX_MANA_POTIONS": "Maximum number of mana potions the player can carry."
+    "MAX_MANA_POTIONS": "Maximum number of mana potions the player can carry.",
+    "TANK_ROLE_KNOCKBACK_PERCENTAGE": "How much the player's knockback will be reduced while blocking."
   },
   "kits": {
     "aquaman": {
@@ -105,6 +106,7 @@
     "crusader": {
       "data": {
         "MAX_HEALING_POTIONS": 5,
+        "TANK_ROLE_KNOCKBACK_PERCENTAGE": 50,
         "CRUSADER_SWORD_DAMAGE": 5,
         "CRUSADER_SWORD_SPEED": 4,
         "CRUSADER_SHIELD_BASH_DAMAGE": 8,
@@ -150,6 +152,7 @@
     "demolitionist": {
       "data": {
         "MAX_HEALING_POTIONS": 5,
+        "TANK_ROLE_KNOCKBACK_PERCENTAGE": 50,
         "DEMOLITIONIST_SWORD_DAMAGE": 5,
         "DEMOLITIONIST_SWORD_SPEED": 4,
         "DEMOLITIONIST_DEMOLISH_YIELD": 20,
@@ -344,6 +347,7 @@
     "knight": {
       "data": {
         "MAX_HEALING_POTIONS": 5,
+        "TANK_ROLE_KNOCKBACK_PERCENTAGE": 50,
         "KNIGHT_SWORD_DAMAGE": 5,
         "KNIGHT_SWORD_SPEED": 4,
         "KNIGHT_FORTIFY_SHIELD_DAMAGE_PERCENTAGE": 75,
@@ -491,6 +495,7 @@
     "necromancer": {
       "data": {
         "MAX_HEALING_POTIONS": 5,
+        "TANK_ROLE_KNOCKBACK_PERCENTAGE": 50,
         "NECROMANCER_SWORD_DAMAGE": 5,
         "NECROMANCER_SWORD_SPEED": 4,
         "NECROMANCER_SWORD_WITHER_EFFECT_LEVEL": 2,
