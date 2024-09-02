@@ -100,9 +100,12 @@ Ally engineer dispensers will dispense `{{ kits.pyrotechnic.data.PYROTECHNIC_AMM
 | PYROTECHNIC_AMMO_FINAL_BLOW_REWARD | `{{ kits.pyrotechnic.data.PYROTECHNIC_AMMO_FINAL_BLOW_REWARD }}` | The amount of rockets that the player receives after earning an assist. |
 | PYROTECHNIC_ROCKET_AMMO_CONSUMPTION | `{{ kits.pyrotechnic.data.PYROTECHNIC_ROCKET_AMMO_CONSUMPTION }}` | The amount of rockets to use to reload the rocket launcher. |
 | PYROTECHNIC_ROCKET_SHOOT_COOLDOWN | `{{ kits.pyrotechnic.data.PYROTECHNIC_ROCKET_SHOOT_COOLDOWN }}` | The cooldown, in ticks, after shooting a rocket. |
-| PYROTECHNIC_ROCKET_DAMAGE | `{{ kits.pyrotechnic.data.PYROTECHNIC_ROCKET_DAMAGE }}` | The damage of rocket explosions. |
+| PYROTECHNIC_ROCKET_DAMAGE | `{{ kits.pyrotechnic.data.PYROTECHNIC_ROCKET_DAMAGE }}` | The rocket exploision damage dealt to enemies. |
+| PYROTECHNIC_ROCKET_SELF_DAMAGE_MULTIPLIER | `{{ kits.pyrotechnic.data.PYROTECHNIC_ROCKET_SELF_DAMAGE_MULTIPLIER }}` | The mutliplier for the rocket exploision damage dealt to the player. |
 | PYROTECHNIC_ROCKET_RADIUS | `{{ kits.pyrotechnic.data.PYROTECHNIC_ROCKET_RADIUS }}` | The radius of rocket explosions. |
-| PYROTECHNIC_ROCKET_KNOCKBACK_MULTIPLIER | `{{ kits.pyrotechnic.data.PYROTECHNIC_ROCKET_KNOCKBACK_MULTIPLIER }}` | The knockback multiplier of a rocket exploisions. |
+| PYROTECHNIC_ROCKET_KNOCKBACK_MULTIPLIER | `{{ kits.pyrotechnic.data.PYROTECHNIC_ROCKET_KNOCKBACK_MULTIPLIER }}` | The knockback multiplier of a rocket exploisions that hit enemies. |
+| PYROTECHNIC_ROCKET_SELF_KNOCKBACK_MULTIPLIER | `{{ kits.pyrotechnic.data.PYROTECHNIC_ROCKET_SELF_KNOCKBACK_MULTIPLIER }}` | The knockback multiplier of a rocket exploisions that hit the player. |
+| PYROTECHNIC_ROCKET_RECOIL_MULTIPLIER | `{{ kits.pyrotechnic.data.PYROTECHNIC_ROCKET_RECOIL_MULTIPLIER }}` | The recoil when shooting rockets. (This scales on the number of rockets shot) |
 | PYROTECHNIC_BARRAGE_LOAD_ROCKETS_WHEN_ACTIVATING | `{{ kits.pyrotechnic.data.PYROTECHNIC_BARRAGE_LOAD_ROCKETS_WHEN_ACTIVATING }}` | If the additional Barrage rockets should instantly be loaded into the rocket launcher when activating the Barrage ability.  |
 | PYROTECHNIC_BARRAGE_COOLDOWN | `{{ kits.pyrotechnic.data.PYROTECHNIC_BARRAGE_COOLDOWN }}` | The cooldown, in ticks, of the Barrage ability. |
 | PYROTECHNIC_BARRAGE_DURATION | `{{ kits.pyrotechnic.data.PYROTECHNIC_BARRAGE_DURATION }}` | The duration, in ticks, of the Barrage ability. |

@@ -152,6 +152,8 @@ Potion Master
 Pyrotechnic
 - Added knockback to the rockets.
 - When the barrage ability is activated and the crossbow is already loaded, the crossbow will instantly load the additional barrage rockets.
+- Player can now use the rocket launcher top rocket jump.
+- Added recoil the the rocket launcher.
 
 Slime
 - Slime armor no longer mitigates anvil damage.
@@ -190,3 +192,4 @@ Soldier
 - Fixed engineer teleporter not able to be used if on soul sand and other partially lowered blocks moved.
 - Fixed issue where a player could get stuck in spectator mode if there is a 1v1 classic game going on, a player dies and overtime triggers.
 - Fixed bug where the auto-balance timer would not properly reset for all players when a game ends or is canceled
+- Fixed bug where damage achievements' progress would display when damaging self even though self damage doesn't count towards the statistic/achievement.
