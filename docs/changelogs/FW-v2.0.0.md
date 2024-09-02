@@ -175,7 +175,7 @@ Soldier
 - Absorption hearts now count towards "Damage Dealt" stats and "Damage Taken" stats.
 - Shield block delay decreased from **5** ticks to **0** ticks.
 - Standardized all armor pieces to all have protection level **1**.
-- Standardized all custom damage types to include armor into the damage calculation.
+- Standardized all **physical** damage types to include armor into the damage calculation.
 
 ## Other Changes
 - Tanks now have a **50%** knockback resistance blocking.
