@@ -6,7 +6,17 @@
     "SHIELD_REGENERATION_DELAY": "The delay, in ticks, before the shield starts regenerating health.",
     "SHIELD_REGENERATION_RATE": "The shield's regeneration rate in ticks",
     "SHIELD_REGENERATION_AMOUNT": "The amount of shield health to regenerate during shield regeneration.",
-    "SHIELD_BREAK_COOLDOWN": "The cooldown, in ticks, after the shield breaks before it is usable again."
+    "SHIELD_BREAK_COOLDOWN": "The cooldown, in ticks, after the shield breaks before it is usable again.",
+    "POTION_IN_COMBAT_REGENERATION_RATE": "The rate, in ticks, at which potions regenerate while in combat.",
+    "POTION_OUT_OF_COMBAT_REGENERATION_RATE": "The rate, in ticks, at which potions regenerate while out of combat.",
+    "HEALING_POTION_CLICK_POTENCY": "The amount of health restored when using a healing potion by clicking.",
+    "HEALING_POTION_AUTOPOT_POTENCY": "The amount of health restored when using a healing potion though autopot.",
+    "HEALING_POTION_AUTOPOT_THRESHOLD": "The threshold of health at which autopot should trigger.",
+    "HEALING_POTION_AUTOPOT_HOTBAR_ONLY": "If autopot should only use healing potions in the hotbar.",
+    "MANA_POTION_CLICK_POTENCY": "The amount of mana restored when using a mana potion by clicking.",
+    "MANA_POTION_AUTOPOT_POTENCY": "The amount of mana restored when using a mana potion though autopot.",
+    "MANA_POTION_AUTOPOT_THRESHOLD": "The threshold of mana at which when autopot should trigger.",
+    "MANA_POTION_AUTOPOT_HOTBAR_ONLY": "If autopot should only use mana potions in the hotbar."
   },
   "kits": {
     "_shared": {
@@ -15,7 +25,17 @@
         "SHIELD_REGENERATION_DELAY": 40,
         "SHIELD_REGENERATION_RATE": 20,
         "SHIELD_REGENERATION_AMOUNT": 20,
-        "SHIELD_BREAK_COOLDOWN": 100
+        "SHIELD_BREAK_COOLDOWN": 100,
+        "POTION_IN_COMBAT_REGENERATION_RATE": 200,
+        "POTION_OUT_OF_COMBAT_REGENERATION_RATE": 100,
+        "HEALING_POTION_CLICK_POTENCY": 7.5,
+        "HEALING_POTION_AUTOPOT_POTENCY": 6,
+        "HEALING_POTION_AUTOPOT_THRESHOLD": 10,
+        "HEALING_POTION_AUTOPOT_HOTBAR_ONLY": true,
+        "MANA_POTION_CLICK_POTENCY": 50,
+        "MANA_POTION_AUTOPOT_POTENCY": 40,
+        "MANA_POTION_AUTOPOT_THRESHOLD": 50,
+        "MANA_POTION_AUTOPOT_HOTBAR_ONLY": true
       }
     },
     "aquaman": {

@@ -178,6 +178,8 @@ Soldier
 - Standardized all **physical** damage types to include armor into the damage calculation.
 
 ## Other Changes
+- Regeneration rate for potions while **in** combat reduced from **420** ticks to **200** ticks.
+- Regeneration rate for potions while **out of** combat reduced from **140** ticks to **100** ticks.
 - Tanks now have a **50%** knockback resistance blocking.
 - King of the Hill respawn times will now be even if both teams have 99% and it is overtime.
 
