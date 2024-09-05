@@ -636,7 +636,20 @@
     },
     "slime": {
       "data": {
-        
+        "SLIME_SWORD_DAMAGE": 5,
+        "SLIME_SWORD_SPEED": 4,
+        "SLIME_MINION_HEALTH": 14,
+        "SLIME_MINION_DAMAGE": 4,
+        "SLIME_MINION_DURATION": 400,
+        "SLIME_MINION_SUMMON_COOLDOWN": 75,
+        "SLIME_MINION_MAX_MINIONS": 3,
+        "SLIME_MINION_ABSORPTION_LEVEL": 1,
+        "SLIME_MINION_ABSORPTION_DURATION": 400,
+        "SLIME_MINION_ABSORPTION_RADIUS": 5,
+        "SLIME_ARMOR_DURATION": 200,
+        "SLIME_ARMOR_LEVEL": 2,
+        "SLIME_ARMOR_COOLDOWN": 200,
+        "SLIME_ARMOR_APPLY_RADIUS": 7
       }
     },
     "soldier": {
