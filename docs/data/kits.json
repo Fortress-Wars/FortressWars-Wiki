@@ -636,6 +636,7 @@
     },
     "slime": {
       "data": {
+        "MAX_HEALING_POTIONS": 5,
         "SLIME_SWORD_DAMAGE": 5,
         "SLIME_SWORD_SPEED": 4,
         "SLIME_MINION_HEALTH": 14,
