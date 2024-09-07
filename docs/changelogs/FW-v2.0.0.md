@@ -3,7 +3,6 @@ _Release Date: TBD_
 # v2.0.0
 - Health Bars
 - Discord Killfeed
-- NEW_FEATURE_3
 - Kit Changes
 - Technical Changes
 - Other Changes
@@ -89,6 +88,8 @@ Kangaroo
 - Stomp ability now considers line of sight when damaging enemies.
 - Increased stomp cooldown from **180** ticks to **210** ticks.
 - Decreased stomp impact radius from **5** meters to **3** meters.
+- Decreased max stomp damage from **25** to **20**
+- Properly implemented ramp up damage fro the stomp ability. It start at **5** meters (5 damage) and end at **50** meters (20 damage).
 
 Knight
 - Removed Pull ability
@@ -151,6 +152,15 @@ Potion Master
 Pyrotechnic
 - Added knockback to the rockets.
 - When the barrage ability is activated and the crossbow is already loaded, the crossbow will instantly load the additional barrage rockets.
+- Player can now use the rocket launcher top rocket jump.
+- Added recoil the the rocket launcher.
+
+Slime
+- Slime armor no longer mitigates anvil damage.
+- Slime armor no mitigates piercing damage by **50%** (Arrows, Bullets, and Thorns).
+- Slime armor will no longer break if the fall damage is too high
+- Slime armor will now also break if the slime armor takes blast damage above a certain threshold.
+- Reduced slime minion spawn cooldown from **90** ticks to **75** ticks.
 
 Soldier
 - Grenade radius increased from **2** to **3** 
@@ -166,8 +176,13 @@ Soldier
 - Refactor healing and mana potions. (Auto-pot no triggers in the same game tick (faster))
 - Absorption hearts now count towards "Damage Dealt" stats and "Damage Taken" stats.
 - Shield block delay decreased from **5** ticks to **0** ticks.
+- Standardized all armor pieces to all have protection level **1**.
+- Standardized all **physical** damage types to include armor into the damage calculation.
 
 ## Other Changes
+- Regeneration rate for potions while **in** combat reduced from **420** ticks to **200** ticks.
+- Regeneration rate for potions while **out of** combat reduced from **140** ticks to **100** ticks.
+- Tanks now have a **50%** knockback resistance blocking.
 - King of the Hill respawn times will now be even if both teams have 99% and it is overtime.
 
 ## Bug Fixes
@@ -177,3 +192,4 @@ Soldier
 - Fixed engineer teleporter not able to be used if on soul sand and other partially lowered blocks moved.
 - Fixed issue where a player could get stuck in spectator mode if there is a 1v1 classic game going on, a player dies and overtime triggers.
 - Fixed bug where the auto-balance timer would not properly reset for all players when a game ends or is canceled
+- Fixed bug where damage achievements' progress would display when damaging self even though self damage doesn't count towards the statistic/achievement.

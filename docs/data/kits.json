@@ -1,9 +1,43 @@
 {
   "kitDataSharedDescriptions": {
     "MAX_HEALING_POTIONS": "Maximum number of healing potions the player can carry.",
-    "MAX_MANA_POTIONS": "Maximum number of mana potions the player can carry."
+    "MAX_MANA_POTIONS": "Maximum number of mana potions the player can carry.",
+    "TANK_ROLE_KNOCKBACK_PERCENTAGE": "How much the player's knockback will be reduced while blocking.",
+    "SHIELD_REGENERATION_DELAY": "The delay, in ticks, before the shield starts regenerating health.",
+    "SHIELD_REGENERATION_RATE": "The shield's regeneration rate in ticks",
+    "SHIELD_REGENERATION_AMOUNT": "The amount of shield health to regenerate during shield regeneration.",
+    "SHIELD_BREAK_COOLDOWN": "The cooldown, in ticks, after the shield breaks before it is usable again.",
+    "POTION_IN_COMBAT_REGENERATION_RATE": "The rate, in ticks, at which potions regenerate while in combat.",
+    "POTION_OUT_OF_COMBAT_REGENERATION_RATE": "The rate, in ticks, at which potions regenerate while out of combat.",
+    "HEALING_POTION_CLICK_POTENCY": "The amount of health restored when using a healing potion by clicking.",
+    "HEALING_POTION_AUTOPOT_POTENCY": "The amount of health restored when using a healing potion though autopot.",
+    "HEALING_POTION_AUTOPOT_THRESHOLD": "The threshold of health at which autopot should trigger.",
+    "HEALING_POTION_AUTOPOT_HOTBAR_ONLY": "If autopot should only use healing potions in the hotbar.",
+    "MANA_POTION_CLICK_POTENCY": "The amount of mana restored when using a mana potion by clicking.",
+    "MANA_POTION_AUTOPOT_POTENCY": "The amount of mana restored when using a mana potion though autopot.",
+    "MANA_POTION_AUTOPOT_THRESHOLD": "The threshold of mana at which when autopot should trigger.",
+    "MANA_POTION_AUTOPOT_HOTBAR_ONLY": "If autopot should only use mana potions in the hotbar."
   },
   "kits": {
+    "_shared": {
+      "data": {
+        "TANK_ROLE_KNOCKBACK_PERCENTAGE": 50,
+        "SHIELD_REGENERATION_DELAY": 40,
+        "SHIELD_REGENERATION_RATE": 20,
+        "SHIELD_REGENERATION_AMOUNT": 20,
+        "SHIELD_BREAK_COOLDOWN": 100,
+        "POTION_IN_COMBAT_REGENERATION_RATE": 200,
+        "POTION_OUT_OF_COMBAT_REGENERATION_RATE": 100,
+        "HEALING_POTION_CLICK_POTENCY": 7.5,
+        "HEALING_POTION_AUTOPOT_POTENCY": 6,
+        "HEALING_POTION_AUTOPOT_THRESHOLD": 10,
+        "HEALING_POTION_AUTOPOT_HOTBAR_ONLY": true,
+        "MANA_POTION_CLICK_POTENCY": 50,
+        "MANA_POTION_AUTOPOT_POTENCY": 40,
+        "MANA_POTION_AUTOPOT_THRESHOLD": 50,
+        "MANA_POTION_AUTOPOT_HOTBAR_ONLY": true
+      }
+    },
     "aquaman": {
       "data": {
         "MAX_HEALING_POTIONS": 7,
@@ -335,7 +369,9 @@
         "KANGAROO_STOMP_JUMPBOOST_LEVEL": 5,
         "KANGAROO_STOMP_HEIGHT_THRESHOLD": 3.5,
         "KANGAROO_STOMP_MIN_DAMAGE": 4,
-        "KANGAROO_STOMP_MAX_DAMAGE": 25,
+        "KANGAROO_STOMP_MAX_DAMAGE": 20,
+        "KANGAROO_STOMP_RAMP_UP_START": 5,
+        "KANGAROO_STOMP_RAMP_UP_END": 50,
         "KANGAROO_STOMP_RADIUS": 3
       }
     },
@@ -587,6 +623,9 @@
         "PYROTECHNIC_ROCKET_DAMAGE": 4,
         "PYROTECHNIC_ROCKET_RADIUS": 3,
         "PYROTECHNIC_ROCKET_KNOCKBACK_MULTIPLIER": 0.5,
+        "PYROTECHNIC_ROCKET_SELF_KNOCKBACK_MULTIPLIER": 0.35,
+        "PYROTECHNIC_ROCKET_SELF_DAMAGE_MULTIPLIER": 0.5,
+        "PYROTECHNIC_ROCKET_RECOIL_MULTIPLIER": 0.05,
         "PYROTECHNIC_BARRAGE_LOAD_ROCKETS_WHEN_ACTIVATING": true,
         "PYROTECHNIC_BARRAGE_COOLDOWN": 400,
         "PYROTECHNIC_BARRAGE_DURATION": 120,
@@ -597,7 +636,21 @@
     },
     "slime": {
       "data": {
-        
+        "MAX_HEALING_POTIONS": 5,
+        "SLIME_SWORD_DAMAGE": 5,
+        "SLIME_SWORD_SPEED": 4,
+        "SLIME_MINION_HEALTH": 14,
+        "SLIME_MINION_DAMAGE": 4,
+        "SLIME_MINION_DURATION": 400,
+        "SLIME_MINION_SUMMON_COOLDOWN": 75,
+        "SLIME_MINION_MAX_MINIONS": 3,
+        "SLIME_MINION_ABSORPTION_LEVEL": 1,
+        "SLIME_MINION_ABSORPTION_DURATION": 400,
+        "SLIME_MINION_ABSORPTION_RADIUS": 5,
+        "SLIME_ARMOR_DURATION": 200,
+        "SLIME_ARMOR_LEVEL": 2,
+        "SLIME_ARMOR_COOLDOWN": 200,
+        "SLIME_ARMOR_APPLY_RADIUS": 7
       }
     },
     "soldier": {
