@@ -33,31 +33,31 @@
 ## Slime Armor
 Provide the `Slime Armor` status effect to all allies in a `{{ kits.slime.data.SLIME_ARMOR_APPLY_RADIUS }}` meter radius. The slime armor level is `level {{ kits.slime.data.SLIME_ARMOR_LEVEL }}` and provides affected allies with the following effects: Mitigates `100%` fall damage and mitigates `level * 15%` `Piercing Damage`. Examples of [Piercing Damage](/systems/Damage#damage-types) include damage from arrows, bullets, and thorns.
 
-![Slime - Slime Armor Provide](../assets/kits/slime/_image_1_.jpg_)
+![Slime - Slime Armor Provide](../assets/kits/slime/Slime%20-%20Slime%20Armor%20Provide.gif)
 
-![Slime - Slime Armor Mitigate Fall Damage](../assets/kits/slime/_image_1_.jpg_)
+![Slime - Slime Armor Mitigate Fall Damage](../assets/kits/slime/Slime%20-%20Slime%20Armor%20Mitigate%20Fall%20Damage.gif)
 
-![Slime - Slime Armor Mitigate Piercing Damage](../assets/kits/slime/_image_1_.jpg_)
+![Slime - Slime Armor Mitigate Piercing Damage](../assets/kits/slime/Slime%20-%20Slime%20Armor%20Mitigate%20Piercing%20Damage.gif)
 
 Slime Armor will break from fire and ice damage, and it will break from `Blast Damage` that is equal to or greater than `level * 2` damage. Examples of [Blast Damage](/systems/Damage#damage-types) include: Bombs, Rockets, Grenades, and Creepers.
 
-![Slime - Slime Armor Break Blast Damage](../assets/kits/slime/_image_1_.jpg_)
+![Slime - Slime Armor Break Blast Damage](../assets/kits/slime/Slime%20-%20Slime%20Armor%20Break%20Blast%20Damage.gif)
 
 #### **Slime Shield**
 ## Slime Shield
 A shield used to summon slime minions. The shield will summon slimes when it is damaged. There is a cooldown of `{{ kits.slime.data.SLIME_MINION_SUMMON_COOLDOWN }}` ticks.
 
-![Slime - Slime Shield Summon Slime](../assets/kits/slime/_image_2_.jpg_)
+![Slime - Slime Shield Summon Slime](../assets/kits/slime/Slime%20-%20Slime%20Shield%20Summon%20Slime.gif)
 
 #### **Slime Minion**
 ## Slime Minion
 Slimes are minions that help the player in battle. Slimes have `{{ kits.slime.data.SLIME_MINION_HEALTH }}` health and deal `{{ kits.slime.data.SLIME_MINION_DAMAGE }}` damage per attack. The player can only have a maximum of `{{ kits.slime.data.SLIME_MINION_MAX_MINIONS }}` slimes.
 
-![Slime - Slime Minion Attack](../assets/kits/slime/_image_2_.jpg_)
+![Slime - Slime Minion Attack](../assets/kits/slime/Slime%20-%20Slime%20Minion%20Attack.gif)
 
 When a slime minion dies and the player is within `{{ kits.slime.data.SLIME_MINION_ABSORPTION_RADIUS }}` meters, it will affect the player with absorption level `{{ kits.slime.data.SLIME_MINION_ABSORPTION_LEVEL }}` for `{{ kits.slime.data.SLIME_MINION_ABSORPTION_DURATION }}` ticks.
 
-![Slime - Slime Minion Absorption](../assets/kits/slime/_image_2_.jpg_)
+![Slime - Slime Minion Absorption](../assets/kits/slime/Slime%20-%20Slime%20Minion%20Absorption.gif)
 
 <!-- tabs:end -->
 
