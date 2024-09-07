@@ -41,7 +41,7 @@ Provide the `Slime Armor` status effect to all allies in a `{{ kits.slime.data.S
 
 Slime Armor will break from fire and ice damage, and it will break from `Blast Damage` that is equal to or greater than `level * 2` damage. Examples of [Blast Damage](/systems/Damage#damage-types) include: Bombs, Rockets, Grenades, and Creepers.
 
-![Slime - Slime Armor Break Fire](../assets/kits/slime/_image_1_.jpg_)
+![Slime - Slime Armor Break Blast Damage](../assets/kits/slime/_image_1_.jpg_)
 
 #### **Slime Shield**
 ## Slime Shield
@@ -57,7 +57,7 @@ Slimes are minions that help the player in battle. Slimes have `{{ kits.slime.da
 
 When a slime minion dies and the player is within `{{ kits.slime.data.SLIME_MINION_ABSORPTION_RADIUS }}` meters, it will affect the player with absorption level `{{ kits.slime.data.SLIME_MINION_ABSORPTION_LEVEL }}` for `{{ kits.slime.data.SLIME_MINION_ABSORPTION_DURATION }}` ticks.
 
-![Slime - Slime Minion Attack](../assets/kits/slime/_image_2_.jpg_)
+![Slime - Slime Minion Absorption](../assets/kits/slime/_image_2_.jpg_)
 
 <!-- tabs:end -->
 
