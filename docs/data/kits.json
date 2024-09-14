@@ -682,6 +682,23 @@
         "SOLDIER_SWORD_DAMAGE": 6,
         "SOLDIER_SWORD_SPEED": 4
       }
+    },
+    "sonic": {
+      "data": {
+        "MAX_HEALING_POTIONS": 7,
+        "SONIC_SWORD_DAMAGE": 6,
+        "SONIC_SWORD_SPEED": 4,
+        "SONIC_SPEED_DURATION": 100,
+        "SONIC_SPEED_COOLDOWN": 180,
+        "SONIC_SPEED_LEVEL": 8,
+        "SONIC_BOOM_DAMAGE": 10,
+        "SONIC_BOOM_KNOCKBACK_MULTIPLIER": 2.5,
+        "SONIC_BOOM_RECOIL_MULTIPLIER": 0.75,
+        "SONIC_BOOM_COLLISION_CHECK_RADIUS": 2,
+        "SONIC_BOOM_COLLISION_HIT_BOX_EXPANSION": 0.25,
+        "SONIC_BOOM_RADIUS": 15,
+        "SONIC_BOOM_STUN_DURATION": 40
+      }
     }
   }
 }
