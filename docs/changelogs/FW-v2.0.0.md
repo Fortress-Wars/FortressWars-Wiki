@@ -171,6 +171,11 @@ Soldier
 - Grenade radius increased from **2** to **3** 
 - Grenades now consider line of sight when damaging enemies.
 
+Sonic
+- Reduced engineer block stun duration from **200** to **40** ticks
+- Sonic Boom now stuns nearby enemies for **40** ticks.
+- Sonic Boom collision knockback and collision recoil adds instead of setting the new velocity.
+
 ## Technical Changes
 - Reimplemented all kits
 - Players can now be hacked. Hacked players will not be able to use their abilities (active and passive) and any active abilities will be terminated.
