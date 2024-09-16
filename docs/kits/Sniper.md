@@ -34,19 +34,19 @@
 ## Infinity Bow
 The Infinity Bow that does not consume arrows and deals extra damage when hitting headshots. Headshots increase the damage dealt by `x1.25`.
 
-![Sniper - Infinity Bow Shoot](../assets/kits/sniper/_image_1_.jpg_)
+![Sniper - Infinity Bow Shoot](../assets/kits/sniper/Sniper%20-%20Infinity%20Bow%20Shoot.gif)
 
-![Sniper - Infinity Bow Headshot](../assets/kits/sniper/_image_1_.jpg_)
+![Sniper - Infinity Bow Headshot](../assets/kits/sniper/Sniper%20-%20Infinity%20Bow%20Headshot.gif)
 
 #### **Power Bow**
 ## Power Bow
 The Power Bow is a bow that does increased base damage and has knockback on arrows. Shooting consumes arrows. The bow will deal `x1.25` more damage compared to a normal bow. 
 
-![Sniper - Power Bow Shoot](../assets/kits/sniper/_image_1_.jpg_)
+![Sniper - Power Bow Shoot](../assets/kits/sniper/Sniper%20-%20Power%20Bow%20Shoot.gif)
 
 If the player shoots an enemy in the knees, the enemy will be slowed for `100` ticks.
 
-![Sniper - Power Bow Kneeshot](../assets/kits/sniper/_image_1_.jpg_)
+![Sniper - Power Bow Kneeshot](../assets/kits/sniper/Sniper%20-%20Power%20Bow%20Kneeshot.gif)
 
 <!-- tabs:end -->
 
@@ -56,15 +56,15 @@ If the player shoots an enemy in the knees, the enemy will be slowed for `100` t
 ## Arrows
 Arrows are used by the `Infinity Bow` and `Power Bow`. The player can carry a maximum of `8` arrows.
 
-![Sniper - Arrows](../assets/kits/sniper/_image_1_.jpg_)
+![Sniper - Arrows](../assets/kits/sniper/Sniper%20-%20Arrows.png)
 
 When the player doesn't have maximum arrows, they will slowly regenerate them over time.
 
-![Sniper - Arrows Regenerate](../assets/kits/sniper/_image_1_.jpg_)
+![Sniper - Arrows Regenerate](../assets/kits/sniper/Sniper%20-%20Arrows%20Regenerate.gif)
 
 Players will earn `2` arrows from final blows and `1` arrows from assists.
 
-![Sniper - Arrows Elimination](../assets/kits/sniper/_image_1_.jpg_)
+![Sniper - Arrows Final Blow](../assets/kits/sniper/Sniper%20-%20Arrows%20Final%20Blow.gif)
 
 <!-- tabs:end -->
 <br />
