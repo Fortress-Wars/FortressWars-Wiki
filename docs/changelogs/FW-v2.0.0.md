@@ -162,6 +162,11 @@ Slime
 - Slime armor will now also break if the slime armor takes blast damage above a certain threshold.
 - Reduced slime minion spawn cooldown from **90** ticks to **75** ticks.
 
+Sniper
+- Increased headshot hitbox.
+- Decreased headshot damage from **x1.50** to **x1.25**.
+- Powerbow damage increase is now **x1.25** of the base bow damage.
+
 Soldier
 - Grenade radius increased from **2** to **3** 
 - Grenades now consider line of sight when damaging enemies.
