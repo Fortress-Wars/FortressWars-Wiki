@@ -176,6 +176,12 @@ Sonic
 - Sonic Boom now stuns nearby enemies for **40** ticks.
 - Sonic Boom collision knockback and collision recoil adds instead of setting the new velocity.
 
+Spider
+- If a cobweb trap is detroyed for whatever reason, we will now give a cooldown.
+- Deployed cobwebs no longer stack.
+- Cobweb cooldown now starts as soon as a the cobweb trap is triggered instead of when the duration ends.
+- Increased cobweb trap from **1** to **2**
+
 ## Technical Changes
 - Reimplemented all kits
 - Players can now be hacked. Hacked players will not be able to use their abilities (active and passive) and any active abilities will be terminated.
