@@ -2,7 +2,7 @@ _Release Date: TBD_
 
 # v2.0.0
 - Health Bars
-- Discord Killfeed
+- Discord Integration
 - Kit Changes
 - Technical Changes
 - Other Changes
@@ -11,8 +11,9 @@ _Release Date: TBD_
 ### Health Bars
 Health bars appear above ally player models. They show the player's Kit, Name, Health Bar, Numeric Health Value, and number of potions. Absorption and other status effects will also be reflected in the health bar. Enemies only see the player's name and nothing else!
 
-### Discord Killfeed
-A new channel has been created that will show all in game eliminations.
+### Discord Integration
+A new channel has been created that will show game events and player deaths messages.
+- Configured via "killfeed" and "game" channels in the DiscordSRV config.
 
 ### Kit Changes
 
@@ -176,6 +177,12 @@ Sonic
 - Sonic Boom now stuns nearby enemies for **40** ticks.
 - Sonic Boom collision knockback and collision recoil adds instead of setting the new velocity.
 
+Spider
+- If a cobweb trap is detroyed for whatever reason, we will now give a cooldown.
+- Deployed cobwebs no longer stack.
+- Cobweb cooldown now starts as soon as a the cobweb trap is triggered instead of when the duration ends.
+- Cobweb traps items now last **1200** ticks before despawning.
+
 ## Technical Changes
 - Reimplemented all kits
 - Players can now be hacked. Hacked players will not be able to use their abilities (active and passive) and any active abilities will be terminated.
@@ -188,12 +195,14 @@ Sonic
 - Shield block delay decreased from **5** ticks to **0** ticks.
 - Standardized all armor pieces to all have protection level **1**.
 - Standardized all **physical** damage types to include armor into the damage calculation.
+- When a liquid is replaced from player's building and the block they placed is detroyed, the liquid will be restored.
 
 ## Other Changes
 - Regeneration rate for potions while **in** combat reduced from **420** ticks to **200** ticks.
 - Regeneration rate for potions while **out of** combat reduced from **140** ticks to **100** ticks.
 - Tanks now have a **50%** knockback resistance blocking.
 - King of the Hill respawn times will now be even if both teams have 99% and it is overtime.
+- Players can now quick builder of vegetation.
 
 ## Bug Fixes
 - Aquaman trident now returns to the item slot the user is on if it's empty.
@@ -203,3 +212,4 @@ Sonic
 - Fixed issue where a player could get stuck in spectator mode if there is a 1v1 classic game going on, a player dies and overtime triggers.
 - Fixed bug where the auto-balance timer would not properly reset for all players when a game ends or is canceled
 - Fixed bug where damage achievements' progress would display when damaging self even though self damage doesn't count towards the statistic/achievement.
+- Fixed bug where the classic overtime sudden death scoreboard would not update properly if for the player that died.
