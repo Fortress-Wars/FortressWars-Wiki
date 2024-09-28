@@ -186,6 +186,7 @@ Spider
 Spy
 - Any melee attack during while the player is cloaked now is considered a "Sneak Attack" (Previously it was just if the player attacked with the sneak attack sword)
 - If the player gets a sneak attack kill while invisible, the cloak ability cooldown will be refreshed by **50%**.
+- Spy's "Didn't see you there" achievement now only requires the player to kill an enemy cloaked spy instead of also requireing the damage type to be a sneak attack.
 
 ## Technical Changes
 - Reimplemented all kits

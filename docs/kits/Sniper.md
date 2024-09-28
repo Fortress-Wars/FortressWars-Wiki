@@ -32,7 +32,7 @@
 <!-- tabs:start -->
 #### **Infinity Bow**
 ## Infinity Bow
-The Infinity Bow that does not consume arrows and deals extra damage when hitting headshots. Headshots increase the damage dealt by `x1.25`.
+The Infinity Bow that does not consume arrows and deals extra damage when hitting headshots. Headshots increase the damage dealt by `x{{ kits.sniper.data.SNIPER_INFINITY_BOW_HEADSHOT_MULTIPLIER }}`.
 
 ![Sniper - Infinity Bow Shoot](../assets/kits/sniper/Sniper%20-%20Infinity%20Bow%20Shoot.gif)
 
@@ -40,11 +40,11 @@ The Infinity Bow that does not consume arrows and deals extra damage when hittin
 
 #### **Power Bow**
 ## Power Bow
-The Power Bow is a bow that does increased base damage and has knockback on arrows. Shooting consumes arrows. The bow will deal `x1.25` more damage compared to a normal bow. 
+The Power Bow is a bow that does increased base damage and has knockback on arrows. Shooting consumes arrows. The bow will deal `x{{ kits.sniper.data.SNIPER_POWER_BOW_DAMAGE_MULTIPLIER }}` more damage compared to a normal bow. 
 
 ![Sniper - Power Bow Shoot](../assets/kits/sniper/Sniper%20-%20Power%20Bow%20Shoot.gif)
 
-If the player shoots an enemy in the knees, the enemy will be slowed for `100` ticks.
+If the player shoots an enemy in the knees, the enemy will be slowed for `{{ kits.sniper.data.SNIPER_POWER_BOW_KNEE_SHOT_SLOWNESS_DURATION }}` ticks.
 
 ![Sniper - Power Bow Kneeshot](../assets/kits/sniper/Sniper%20-%20Power%20Bow%20Kneeshot.gif)
 
@@ -54,7 +54,7 @@ If the player shoots an enemy in the knees, the enemy will be slowed for `100` t
 <!-- tabs:start -->
 #### **Arrows**
 ## Arrows
-Arrows are used by the `Infinity Bow` and `Power Bow`. The player can carry a maximum of `8` arrows.
+Arrows are used by the `Infinity Bow` and `Power Bow`. The player can carry a maximum of `{{ kits.sniper.data.SNIPER_ARROWS_MAX }}` arrows.
 
 ![Sniper - Arrows](../assets/kits/sniper/Sniper%20-%20Arrows.png)
 
@@ -62,7 +62,7 @@ When the player doesn't have maximum arrows, they will slowly regenerate them ov
 
 ![Sniper - Arrows Regenerate](../assets/kits/sniper/Sniper%20-%20Arrows%20Regenerate.gif)
 
-Players will earn `2` arrows from final blows and `1` arrows from assists.
+Players will earn `{{ kits.sniper.data.SNIPER_ARROWS_FINAL_BLOW_REWARD }}` arrows from final blows and `{{ kits.sniper.data.SNIPER_ARROWS_ASSIST_REWARD }}` arrows from assists.
 
 ![Sniper - Arrows Final Blow](../assets/kits/sniper/Sniper%20-%20Arrows%20Final%20Blow.gif)
 

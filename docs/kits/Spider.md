@@ -31,7 +31,7 @@
 <!-- tabs:start -->
 #### **Cobweb Traps**
 ## Cobweb Traps
-Deploy cobwebs in order to trap enemies. Cobweb traps are activated when enemy players walk over them. When activated, deployed traps will turn into a blob of cobweb blocks. Activated traps last for `100` ticks.
+Deploy cobwebs in order to trap enemies. Cobweb traps are activated when enemy players walk over them. When activated, deployed traps will turn into a blob of cobweb blocks. Activated traps last for `{{ kits.spider.data.SPIDER_COBWEB_TRAP_DURATION }}` ticks.
 
 ![Spider - Cobweb Trap Deploy](../assets/kits/spider/Spider%20-%20Cobweb%20Trap%20Deploy.gif)
 
@@ -49,7 +49,7 @@ Cobwebs can be destroyed by enemies and the environment.
 
 #### **Spider Sword**
 ## Spider Sword
-A stone sword that applies poison level `1` when hitting enemies. The poison effect lasts for `50` ticks.
+A stone sword that applies poison level `{{ kits.spider.data.SPIDER_SWORD_POISON_LEVEL }}` when hitting enemies. The poison effect lasts for `{{ kits.spider.data.SPIDER_SWORD_POISON_DURATION }}` ticks.
 
 ![Spider - Spider Sword](../assets/kits/spider/Spider%20-%20Spider%20Sword.gif)
 
