@@ -81,12 +81,24 @@ Hitting an enemy with shield bash will trigger Ironclad. Ironclad will provide d
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.crusader.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |
+| HEALING_POTION_CLICK_POTENCY | `{{ kits._shared.data.HEALING_POTION_CLICK_POTENCY }}` | {{ kitDataSharedDescriptions.HEALING_POTION_CLICK_POTENCY }} |
+| HEALING_POTION_AUTOPOT_POTENCY | `{{ kits._shared.data.HEALING_POTION_AUTOPOT_POTENCY }}` | {{ kitDataSharedDescriptions.HEALING_POTION_AUTOPOT_POTENCY }} |
+| HEALING_POTION_AUTOPOT_THRESHOLD | `{{ kits._shared.data.HEALING_POTION_AUTOPOT_THRESHOLD }}` | {{ kitDataSharedDescriptions.HEALING_POTION_AUTOPOT_THRESHOLD }} |
+| HEALING_POTION_AUTOPOT_HOTBAR_ONLY | `{{ kits._shared.data.HEALING_POTION_AUTOPOT_HOTBAR_ONLY }}` | {{ kitDataSharedDescriptions.HEALING_POTION_AUTOPOT_HOTBAR_ONLY }} |
+| POTION_IN_COMBAT_REGENERATION_RATE | `{{ kits._shared.data.POTION_IN_COMBAT_REGENERATION_RATE }}` | {{ kitDataSharedDescriptions.POTION_IN_COMBAT_REGENERATION_RATE }} |
+| POTION_OUT_OF_COMBAT_REGENERATION_RATE | `{{ kits._shared.data.POTION_OUT_OF_COMBAT_REGENERATION_RATE }}` | {{ kitDataSharedDescriptions.POTION_OUT_OF_COMBAT_REGENERATION_RATE }} |
+| TANK_ROLE_KNOCKBACK_PERCENTAGE | `{{ kits._shared.data.TANK_ROLE_KNOCKBACK_PERCENTAGE }}` | {{ kitDataSharedDescriptions.TANK_ROLE_KNOCKBACK_PERCENTAGE }} |
+| SHIELD_REGENERATION_DELAY | `{{ kits._shared.data.SHIELD_REGENERATION_DELAY }}` | {{ kitDataSharedDescriptions.SHIELD_REGENERATION_DELAY }} |
+| SHIELD_REGENERATION_RATE | `{{ kits._shared.data.SHIELD_REGENERATION_RATE }}` | {{ kitDataSharedDescriptions.SHIELD_REGENERATION_RATE }} |
+| SHIELD_REGENERATION_AMOUNT | `{{ kits._shared.data.SHIELD_REGENERATION_AMOUNT }}` | {{ kitDataSharedDescriptions.SHIELD_REGENERATION_AMOUNT }} |
+| SHIELD_BREAK_COOLDOWN | `{{ kits._shared.data.SHIELD_BREAK_COOLDOWN }}` | {{ kitDataSharedDescriptions.SHIELD_BREAK_COOLDOWN }} |
 | CRUSADER_SWORD_DAMAGE | `{{ kits.crusader.data.CRUSADER_SWORD_DAMAGE }}` | The base damage of the sword. |
 | CRUSADER_SWORD_SPEED | `{{ kits.crusader.data.CRUSADER_SWORD_SPEED }}` | The base speed of the sword. |
 | CRUSADER_SHIELD_BASH_DAMAGE | `{{ kits.crusader.data.CRUSADER_SHIELD_BASH_DAMAGE }}` | The base damage of a shield bash collision. |
 | CRUSADER_SHIELD_BASH_KNOCKBACK | `{{ kits.crusader.data.CRUSADER_SHIELD_BASH_KNOCKBACK }}` | The knockback multiplier of a shield bash collision. |
 | CRUSADER_SHIELD_BASH_COOLDOWN | `{{ kits.crusader.data.CRUSADER_SHIELD_BASH_COOLDOWN }}` | The cooldown, in ticks, of the Shield Bash ability. |
-| CRUSADER_SHIELD_BASH_IMPACT_RADIUS | `{{ kits.crusader.data.CRUSADER_SHIELD_BASH_IMPACT_RADIUS }}` | The collision radius of the Shield Bash ability. |
+| CRUSADER_SHIELD_BASH_IMPACT_CHECK_RADIUS | `{{ kits.crusader.data.CRUSADER_SHIELD_BASH_IMPACT_CHECK_RADIUS }}` | The radius, in meters, used to check if nearby entities are colliding with the player. |
+| CRUSADER_SHIELD_BASH_COLLISION_HIT_BOX_EXPANSION | `{{ kits.crusader.data.CRUSADER_SHIELD_BASH_COLLISION_HIT_BOX_EXPANSION }}` | The value, in meters, to expand the collision hitbox size. | 
 | CRUSADER_SHIELD_BASH_VELOCITY_MULTIPLIER | `{{ kits.crusader.data.CRUSADER_SHIELD_BASH_VELOCITY_MULTIPLIER }}` | The launch velocity multiplier of the Shield Bash ability.  |
 | CRUSADER_SHIELD_BASH_IMPACT_ICD | `{{ kits.crusader.data.CRUSADER_SHIELD_BASH_IMPACT_ICD }}` | The cooldown, in ticks, of an enemy being able to be hit by Shield Bash.  |
 | CRUSADER_SHIELD_BASH_VELOCITY_THRESHOLD | `{{ kits.crusader.data.CRUSADER_SHIELD_BASH_VELOCITY_THRESHOLD }}` | The velocity threshold used to determine if a player is moving too slow during a Shield Bash. |

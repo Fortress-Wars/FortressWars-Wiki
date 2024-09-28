@@ -88,11 +88,17 @@ While in water, deal `+{{ kits.aquaman.data.AQUAMAN_TRIDENT_WATER_SYNERGY_DAMAGE
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.aquaman.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |
+| HEALING_POTION_CLICK_POTENCY | `{{ kits._shared.data.HEALING_POTION_CLICK_POTENCY }}` | {{ kitDataSharedDescriptions.HEALING_POTION_CLICK_POTENCY }} |
+| HEALING_POTION_AUTOPOT_POTENCY | `{{ kits._shared.data.HEALING_POTION_AUTOPOT_POTENCY }}` | {{ kitDataSharedDescriptions.HEALING_POTION_AUTOPOT_POTENCY }} |
+| HEALING_POTION_AUTOPOT_THRESHOLD | `{{ kits._shared.data.HEALING_POTION_AUTOPOT_THRESHOLD }}` | {{ kitDataSharedDescriptions.HEALING_POTION_AUTOPOT_THRESHOLD }} |
+| HEALING_POTION_AUTOPOT_HOTBAR_ONLY | `{{ kits._shared.data.HEALING_POTION_AUTOPOT_HOTBAR_ONLY }}` | {{ kitDataSharedDescriptions.HEALING_POTION_AUTOPOT_HOTBAR_ONLY }} |
+| POTION_IN_COMBAT_REGENERATION_RATE | `{{ kits._shared.data.POTION_IN_COMBAT_REGENERATION_RATE }}` | {{ kitDataSharedDescriptions.POTION_IN_COMBAT_REGENERATION_RATE }} |
+| POTION_OUT_OF_COMBAT_REGENERATION_RATE | `{{ kits._shared.data.POTION_OUT_OF_COMBAT_REGENERATION_RATE }}` | {{ kitDataSharedDescriptions.POTION_OUT_OF_COMBAT_REGENERATION_RATE }} |
 | AQUAMAN_TRIDENT_MELEE_DAMAGE | `{{ kits.aquaman.data.AQUAMAN_TRIDENT_MELEE_DAMAGE }}` | The base melee damage of the trident. |
 | AQUAMAN_TRIDENT_MELEE_SPEED | `{{ kits.aquaman.data.AQUAMAN_TRIDENT_MELEE_SPEED }}` | The base melee speed of the trident. |
-| AQUAMAN_ONE_WITH_THE_SEA_REGENERATION_AMPLIFIER | `{{ kits.aquaman.data.AQUAMAN_ONE_WITH_THE_SEA_REGENERATION_AMPLIFIER }}` | The level of the regeneration potion effect that the One With The Sea passive gives. (level 1 starts at value 0) |
+| AQUAMAN_ONE_WITH_THE_SEA_REGENERATION_LEVEL | `{{ kits.aquaman.data.AQUAMAN_ONE_WITH_THE_SEA_REGENERATION_LEVEL }}` | The level of the regeneration potion effect that the One With The Sea passive gives. |
 | AQUAMAN_ONE_WITH_THE_SEA_REGENERATION_DURATION | `{{ kits.aquaman.data.AQUAMAN_ONE_WITH_THE_SEA_REGENERATION_DURATION }}` | The duration, in ticks, of the regeneration effect that the One With the Sea passive gives. |
-| AQUAMAN_ONE_WITH_THE_SEA_WATER_BREATHING_AMPLIFIER | `{{ kits.aquaman.data.AQUAMAN_ONE_WITH_THE_SEA_WATER_BREATHING_AMPLIFIER }}` | The level of the water breathing potion effect that the One With The Sea passive gives. (level 1 starts at value 0)  |
+| AQUAMAN_ONE_WITH_THE_SEA_WATER_BREATHING_LEVEL | `{{ kits.aquaman.data.AQUAMAN_ONE_WITH_THE_SEA_WATER_BREATHING_LEVEL }}` | The level of the water breathing potion effect that the One With The Sea passive gives. |
 | AQUAMAN_ONE_WITH_THE_SEA_WATER_BREATHING_DURATION | `{{ kits.aquaman.data.AQUAMAN_ONE_WITH_THE_SEA_WATER_BREATHING_DURATION }}` | The duration, in ticks, of the water breathing potion effect that the One With the Sea passive gives. |
 | AQUAMAN_TRIDENT_FAR_DISTANCE | `{{ kits.aquaman.data.AQUAMAN_TRIDENT_FAR_DISTANCE }}` | The distance from an enemy that is hit by the player's trident projectile that is required to be considered far trident damage. |
 | AQUAMAN_TRIDENT_FAR_MULTIPLIER | `{{ kits.aquaman.data.AQUAMAN_TRIDENT_FAR_MULTIPLIER }}` | The multiplicative damage bonus that is applied to far trident damage

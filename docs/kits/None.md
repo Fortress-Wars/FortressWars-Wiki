@@ -8,9 +8,9 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** A variation of kit Default that requires more skill..
+- **Description:** A variation of kit Default that requires more skill.
 - **Role:** Damage
-- **How to Unlock:** Unlocked by Default.
+- **How to Unlock:** Unobtainable.
 
 <br />  
 
@@ -21,7 +21,7 @@
 - Leather Boots
 - Iron Sword
 - Bow
-- {{ kits.default.data.MAX_HEALING_POTIONS }} Healing Potions
+- {{ kits.none.data.MAX_HEALING_POTIONS }} Healing Potions
 
 <br />  
 
@@ -56,6 +56,12 @@ None
 
 | Property | Value | Description |
 |----------|-------|-------------|
-| MAX_HEALING_POTIONS | `{{ kits.default.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |
-| DEFAULT_SWORD_DAMAGE | `{{ kits.default.data.DEFAULT_SWORD_DAMAGE }}` | The base damage of the sword. |
-| DEFAULT_SWORD_SPEED | `{{ kits.default.data.DEFAULT_SWORD_SPEED }}` | The base speed of the sword. |
+| MAX_HEALING_POTIONS | `{{ kits.none.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |
+| HEALING_POTION_CLICK_POTENCY | `{{ kits._shared.data.HEALING_POTION_CLICK_POTENCY }}` | {{ kitDataSharedDescriptions.HEALING_POTION_CLICK_POTENCY }} |
+| HEALING_POTION_AUTOPOT_POTENCY | `{{ kits._shared.data.HEALING_POTION_AUTOPOT_POTENCY }}` | {{ kitDataSharedDescriptions.HEALING_POTION_AUTOPOT_POTENCY }} |
+| HEALING_POTION_AUTOPOT_THRESHOLD | `{{ kits._shared.data.HEALING_POTION_AUTOPOT_THRESHOLD }}` | {{ kitDataSharedDescriptions.HEALING_POTION_AUTOPOT_THRESHOLD }} |
+| HEALING_POTION_AUTOPOT_HOTBAR_ONLY | `{{ kits._shared.data.HEALING_POTION_AUTOPOT_HOTBAR_ONLY }}` | {{ kitDataSharedDescriptions.HEALING_POTION_AUTOPOT_HOTBAR_ONLY }} |
+| POTION_IN_COMBAT_REGENERATION_RATE | `{{ kits._shared.data.POTION_IN_COMBAT_REGENERATION_RATE }}` | {{ kitDataSharedDescriptions.POTION_IN_COMBAT_REGENERATION_RATE }} |
+| POTION_OUT_OF_COMBAT_REGENERATION_RATE | `{{ kits._shared.data.POTION_OUT_OF_COMBAT_REGENERATION_RATE }}` | {{ kitDataSharedDescriptions.POTION_OUT_OF_COMBAT_REGENERATION_RATE }} |
+| NONE_SWORD_DAMAGE | `{{ kits.none.data.NONE_SWORD_DAMAGE }}` | The base damage of the sword. |
+| NONE_SWORD_SPEED | `{{ kits.none.data.NONE_SWORD_SPEED }}` | The base speed of the sword. |

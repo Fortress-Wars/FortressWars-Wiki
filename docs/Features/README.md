@@ -1,5 +1,5 @@
 # Features
-* [Achievements](#Achievements)
-* [Autopot](#Autopot)
-* [Health Bars](#Health_Bars)
-* [Parkour](#Health_Bars)
+* [Achievements](Achievements)
+* [Autopot](Autopot)
+* [Health Bars](HealthBars)
+* [Parkour](Health_Bars)
