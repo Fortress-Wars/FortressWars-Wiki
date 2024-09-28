@@ -183,6 +183,10 @@ Spider
 - Cobweb cooldown now starts as soon as a the cobweb trap is triggered instead of when the duration ends.
 - Cobweb traps items now last **1200** ticks before despawning.
 
+Spy
+- Any melee attack during while the player is cloaked now is considered a "Sneak Attack" (Previously it was just if the player attacked with the sneak attack sword)
+- If the player gets a sneak attack kill while invisible, the cloak ability cooldown will be refreshed by **50%**.
+
 ## Technical Changes
 - Reimplemented all kits
 - Players can now be hacked. Hacked players will not be able to use their abilities (active and passive) and any active abilities will be terminated.
@@ -213,3 +217,4 @@ Spider
 - Fixed bug where the auto-balance timer would not properly reset for all players when a game ends or is canceled
 - Fixed bug where damage achievements' progress would display when damaging self even though self damage doesn't count towards the statistic/achievement.
 - Fixed bug where the classic overtime sudden death scoreboard would not update properly if for the player that died.
+- Fixed The Engineer "Doc Holiday" achievement including enemies.
