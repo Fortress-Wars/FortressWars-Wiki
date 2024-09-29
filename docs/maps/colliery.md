@@ -10,9 +10,9 @@
 ***
 - **Introduced:** v1.7.0
 - **Description:** ___
-- **Gamemode:**___
-- **Map Type:**___
-- **Size:**___
+- **Gamemode:** Attack and Defend
+- **Map Type:** Build
+- **Size:** Large
 - **Contributors:** LinkFD & TheLordStan
 
 <br />  

@@ -175,6 +175,12 @@
                 "buildHeight":20
             }
         },
+        "somberswamps":{
+            "data":{
+                "buildRadius":8,
+                "buildHeight":25
+            }
+        },
         "underworld":{
             "data":{
                 "buildRadius":45,

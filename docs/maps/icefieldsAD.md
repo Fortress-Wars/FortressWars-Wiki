@@ -10,10 +10,10 @@
 ***
 - **Introduced:** v1.7.0
 - **Description:** ___
-- **Gamemode:**___
-- **Map Type:**___
-- **Size:**___
-- **Contributors:** LuckyLew & alfredodan
+- **Gamemode:** Attack and Defend
+- **Map Type:** Build
+- **Size:** Large
+- **Contributors:** Lucky_Lew & alfredodan
 
 <br />  
 
