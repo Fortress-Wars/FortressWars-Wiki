@@ -192,7 +192,7 @@
 > - **Contributors**: alfredodan
 > # ![SomberSwampsicon](../assets/maps/SomberSwamps/SomberSwamps-icon.jpg)
 
-> ## [Two Castles](Biohazard)
+> ## [Two Castles](TwoCastles)
 > - **Gamemode**: Classic
 > - **Type**: Non-Build
 > - **Introduced**: v1.7.0
