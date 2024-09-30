@@ -18,7 +18,9 @@
 <br />  
 
 # Map Galley
-![cliffs - Beacon](../assets/maps/cliffs/ '')
+![cliffs - Overview](../assets/maps/cliffs/cliffs-overview.jpg '')
+![cliffs - Beacon](../assets/maps/cliffs/cliffs-beacon.jpg '')
+![cliffs - Flank](../assets/maps/cliffs/cliffs-flank.jpg '')
 
 # Achievements
 ***

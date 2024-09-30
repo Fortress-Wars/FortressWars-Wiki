@@ -18,9 +18,9 @@
 <br />  
 
 # Map Galley
-![Bootcamp - Beacon](../assets/maps/bootcamp/bootcamp-beacon.gif 'Beacon')
-![Bootcamp - Base](../assets/maps/bootcamp/bootcamp-base.gif 'Base')
-![Bootcamp - Middle](../assets/maps/bootcamp/bootcamp-middle.gif 'Middle')
+![Bootcamp - Beacon](../assets/maps/bootcamp/bootcamp-beacon.jpg '')
+![Bootcamp - Base](../assets/maps/bootcamp/bootcamp-base.jpg '')
+![Bootcamp - Middle](../assets/maps/bootcamp/bootcamp-middle.jpg '')
 
 # Achievements
 ***
