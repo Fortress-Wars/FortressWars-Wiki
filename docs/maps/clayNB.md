@@ -20,7 +20,7 @@
 # Map Galley
 ![clayNB - Middle](../assets/maps/clayNB/claynb-middle.jpg '')
 ![clayNB - Base](../assets/maps/clayNB/claynb-base.jpg '')
-![clayNB - Tower](../assets/maps/clayNB/claynb-tower.gif '')
+![clayNB - Tower](../assets/maps/clayNB/claynb-tower.jpg '')
 
 # Achievements
 ***
