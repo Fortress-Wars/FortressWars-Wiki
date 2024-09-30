@@ -18,7 +18,11 @@
 <br />  
 
 # Map Galley
-![Coast - Beacon](../assets/maps/coast/ '')
+![Coast - Overview](../assets/maps/coast/coast-overview.jpg 'Overview')
+![Coast - Middle](../assets/maps/coast/coast-middle.jpg 'Middle')
+![Coast - Beacon](../assets/maps/coast/coast-beacon.jpg 'Beacon')
+![Coast - Flank](../assets/maps/coast/coast-flank.jpg 'Flank')
+![Coast - Underbridge](../assets/maps/coast/coast-under_bridge.jpg 'Flank Under bridge')
 
 # Achievements
 ***

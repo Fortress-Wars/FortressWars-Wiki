@@ -18,6 +18,11 @@
 <br />  
 
 # Map Galley
+![Candyland - Beacon](../assets/maps/candyland/candyland-overview.jpg 'Overview')
+![Candyland - Middle](../assets/maps/candyland/candyland-mid.jpg 'Middle')
+![Candyland - Beacon](../assets/maps/candyland/candyland-beacon.jpg 'Beacon Area')
+![Candyland - Attacking Spawn](../assets/maps/candyland/candyland-spawnroom.jpg 'Attacking Spawn')
+
 
 
 # Achievements

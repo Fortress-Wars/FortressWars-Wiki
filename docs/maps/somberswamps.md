@@ -4,7 +4,7 @@
 
 ***
 
-#### ![somberswampsicon](../assets/maps/somberswamps/somberswamps-icon.jpg)
+#### ![somberswampsicon](../assets/maps/somberswamps/somber_swamps-icon.png)
 
 # Overview
 ***
@@ -18,6 +18,9 @@
 <br />  
 
 # Map Galley
+![Somber Swamps - Beacon](../assets/maps/somber 'Beacon')
+![Somber Swamps - Flank](../assets/maps/somber 'Flank')
+![Somber Swamps - Spawn](../assets/maps/somber 'Spawn Area')
 
 # Achievements
 ***

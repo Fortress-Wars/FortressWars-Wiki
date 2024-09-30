@@ -68,7 +68,7 @@
 
 > ## [Colliery](Colliery)
 > - **Gamemode**: Attack and Defend
-> - **Type**: x
+> - **Type**: Build
 > - **Introduced**: v1.7.0
 > - **Contributors**: LinkFD & TheLordStan
 > # ![Collieryicon](../assets/maps/Colliery/Colliery-icon.jpg)
@@ -190,7 +190,7 @@
 > - **Type**: Non-Build
 > - **Introduced**: v2.0.0
 > - **Contributors**: alfredodan
-> # ![SomberSwampsicon](../assets/maps/SomberSwamps/SomberSwamps-icon.jpg)
+> # ![SomberSwampsicon](../assets/maps/somberswamps/somber_swamps-icon.png)
 
 > ## [Two Castles](TwoCastles)
 > - **Gamemode**: Classic
