@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** ___
+- **Description:** A toxic and dangerous chemical plant.
 - **Gamemode:** Classic
 - **Map Type:** Non-Build (NB)
 - **Size:** Medium

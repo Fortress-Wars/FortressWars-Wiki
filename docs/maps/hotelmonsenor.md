@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** ___
+- **Description:** A underwater hotel resort.
 - **Gamemode:** King of the Hill
 - **Map Type:** Non-Build (NB)
 - **Size:** Medium
@@ -18,6 +18,11 @@
 <br />  
 
 # Map Galley
+![HotelMonsenor - Overview](../assets/maps/hotelmonsenor/hotelmonsenor-overview.jpg '')
+![HotelMonsenor - Beacon](../assets/maps/hotelmonsenor/hotelmonsenor-beacon.jpg '')
+![HotelMonsenor - UnderBeacon](../assets/maps/hotelmonsenor/hotelmonsenor-underbeacon.jpg '')
+![HotelMonsenor - Spawn](../assets/maps/hotelmonsenor/hotelmonsenor-spawn.jpg '')
+![HotelMonsenor - Extra](../assets/maps/hotelmonsenor/hotelmonsenor-signunderwater.jpg '')
 
 # Achievements
 ***

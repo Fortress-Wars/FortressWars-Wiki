@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** ___
+- **Description:** A reformated version of the map [Icefields](icefields)
 - **Gamemode:** Attack and Defend
 - **Map Type:** Build
 - **Size:** Large

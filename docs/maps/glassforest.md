@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** ___
+- **Description:** A forest with leaves made of some magical glass.
 - **Gamemode:** Classic
 - **Map Type:** Build (B)
 - **Size:** Large
@@ -18,7 +18,9 @@
 <br />  
 
 # Map Galley
-![glassforest - Beacon](../assets/maps/glassforest/ '')
+![glassforest - Overview](../assets/maps/glassforest/glassforest-overview.jpg '')
+![glassforest - Beacon](../assets/maps/glassforest/glassforest-beacon.jpg '')
+![glassforest - Sponge](../assets/maps/glassforest/glassforest-sponge.jpg '')
 
 # Achievements
 ***

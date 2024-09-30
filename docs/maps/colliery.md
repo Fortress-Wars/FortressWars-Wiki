@@ -18,6 +18,10 @@
 <br />  
 
 # Map Galley
+![Colliery - Overview](../assets/maps/colliery/colliery-overview.jpg)
+![Colliery - Beacon](../assets/maps/colliery/colliery-beacon.jpg)
+![Colliery - Ataccker Spawn](../assets/maps/colliery/colliery-attacker_spawn.jpg)
+
 
 
 # Achievements

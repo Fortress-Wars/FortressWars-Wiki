@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** ___
+- **Description:** A frozen tundra with ice spikes coming out on the side.
 - **Gamemode:** Classic
 - **Map Type:** Build and Break (BAB)
 - **Size:** Large
@@ -18,7 +18,11 @@
 <br />  
 
 # Map Galley
-![Frostnova - Beacon](../assets/maps/frostnova/ '')
+![Frostnova - Overview](../assets/maps/frostnova/frostnova-overview.jpg '')
+![Frostnova - Beacon](../assets/maps/frostnova/frostnova-beacon.jpg '')
+![Frostnova - Sponge](../assets/maps/frostnova/frostnova-sponge.jpg '')
+![Frostnova - Bridseye](../assets/maps/frostnova/frostnova-birdseye.jpg '')
+![Frostnova - Underwater](../assets/maps/frostnova/frostnova-underwater.jpg '')
 
 # Achievements
 ***

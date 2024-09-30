@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** ___
+- **Description:** A underground cave with a old forgtten structure build over lava.
 - **Gamemode:** Classic
 - **Map Type:** Build (B)
 - **Size:** Small

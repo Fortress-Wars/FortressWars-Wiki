@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.8.0
-- **Description:** ___
+- **Description:** A harsh firey hellish land.
 - **Gamemode:** King of the Hill
 - **Map Type:** Non-Build (NB)
 - **Size:** Small
