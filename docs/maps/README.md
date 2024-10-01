@@ -115,7 +115,7 @@
 > - **Contributors**: LuckyLew & alfredodan
 > # ![IceADicon](../assets/maps/IceAD/IceAD-icon.jpg)
 
-> ## [Icefields (NB)](IcefieldsAD)
+> ## [Icefields (NB)](IcefieldsNB)
 > - **Gamemode**: Classic
 > - **Type**: Non-Build and Break
 > - **Introduced**: v1.7.0

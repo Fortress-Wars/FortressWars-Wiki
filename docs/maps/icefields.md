@@ -18,7 +18,10 @@
 <br />  
 
 # Map Galley
-![Ice - Beacon](../assets/maps/ice/ '')
+![Ice - Overview](../assets/maps/ice/ice-overview.jpg '')
+![Ice - Beacon](../assets/maps/ice/ice-beacon.jpg '')
+![Ice - Middle](../assets/maps/ice/ice-middle.jpg '')
+![Ice - Under Middle](../assets/maps/ice/ice-undermid.jpg '')
 
 # Achievements
 ***

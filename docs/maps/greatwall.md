@@ -18,9 +18,9 @@
 <br />  
 
 # Map Galley
-![Great Wall - Beacon](../assets/maps/greatwall/greatwall%20-%20beacon.gif 'Beacon')
-![Great Wall - Middle](../assets/maps/greatwall/greatwall%20-%20mid.gif 'Middle')
-![Great Wall - Sponges](../assets/maps/greatwall/greatwall%20-%20sponges.gif 'Sponges')
+![Great Wall - Overview](../assets/maps/greatwall/greatwall-overview.jpg '')
+![Great Wall - Beacon](../assets/maps/greatwall/greatwall-beacon.jpg '')
+![Great Wall - Middle](../assets/maps/greatwall/greatwall-mid.jpg '')
 
 # Achievements
 ***

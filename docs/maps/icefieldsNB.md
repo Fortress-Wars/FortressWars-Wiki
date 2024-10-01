@@ -18,7 +18,10 @@
 <br />  
 
 # Map Galley
-![IceNB - Beacon](../assets/maps/iceNB/ '')
+![IceNB - Overview](../assets/maps/iceNB/icenb-overview.jpg '')
+![IceNB - Base](../assets/maps/iceNB/iceNB-base.jpg '')
+![IceNB - Middle](../assets/maps/iceNB/icenb-middle.jpg '')
+![IceNB - Under Middle](../assets/maps/iceNB/icenb-underice.jpg '')
 
 # Achievements
 ***
