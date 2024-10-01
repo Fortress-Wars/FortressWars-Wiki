@@ -150,7 +150,7 @@
 > - **Contributors**: LinkFD & TheLordStan
 > # ![Oasiscityicon](../assets/maps/oasis/oasiscity-icon.jpg)
 
-> ## [Overgrown](IcefieldsAD)
+> ## [Overgrown](Overgrown)
 > - **Gamemode**: Classic
 > - **Type**: Build and Break
 > - **Introduced**: v1.7.0

@@ -18,6 +18,9 @@
 <br />  
 
 # Map Galley
+![Leafy Canyon - Overview](../assets/maps/leafycanyon/leafycanyon-overview.jpg '')
+![Leafy Canyon - Overview](../assets/maps/leafycanyon/leafycanyon-spawn.jpg '')
+![Leafy Canyon - Overview](../assets/maps/leafycanyon/leafycanyon-beacon.jpg '')
 
 # Achievements
 ***

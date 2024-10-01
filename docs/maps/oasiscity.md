@@ -18,6 +18,9 @@
 <br />  
 
 # Map Galley
+![Oasis City - Overview](../assets/maps/oasis/oasiscity-overview.jpg '')
+![Oasis City - Beacon](../assets/maps/oasis/oasiscity-beacon.jpg '')
+![Oasis City - Spawn](../assets/maps/oasis/oasiscity-spawn.jpg '')
 
 # Achievements
 ***

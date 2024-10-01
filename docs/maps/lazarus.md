@@ -18,6 +18,9 @@
 <br />  
 
 # Map Galley
+![Lazarus - Overview](../assets/maps/lazarus/lazarus-overview.jpg '')
+![Lazarus - Spawn](../assets/maps/lazarus/lazarus-spawn.jpg '')
+![Lazarus - Beacon](../assets/maps/lazarus/lazarus-beacon.jpg '')
 
 # Achievements
 ***

@@ -18,7 +18,11 @@
 <br />  
 
 # Map Galley
-![Mountain - Beacon](../assets/maps/mountain/ '')
+![Mountain - Overview](../assets/maps/mountain/mountain-overview.jpg '')
+![Mountain - Beacon](../assets/maps/mountain/mountain-beacon.jpg '')
+![Mountain - Middle](../assets/maps/mountain/mountain-middle.jpg '')
+![Mountain - Flank1](../assets/maps/mountain/mountain-flank1.jpg '')
+![Mountain - Flank2](../assets/maps/mountain/mountain-flank2.jpg '')
 
 # Achievements
 ***

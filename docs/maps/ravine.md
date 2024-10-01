@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** ___
+- **Description:** A chasm that seperates two bases apart.
 - **Gamemode:** Classic
 - **Map Type:** Build (B)
 - **Size:** Medium
@@ -18,7 +18,9 @@
 <br />  
 
 # Map Galley
-![Ravine - Beacon](../assets/maps/ravine/ '')
+![Ravine - Overview](../assets/maps/ravine/ravine-overview.jpg '')
+![Ravine - Beacon](../assets/maps/ravine/ravine-beacon.jpg '')
+![Ravine - Sponges](../assets/maps/ravine/ravine-sponges.jpg '')
 
 # Achievements
 ***
