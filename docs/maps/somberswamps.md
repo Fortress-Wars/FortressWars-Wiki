@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v2.0.0
-- **Description:** ___
+- **Description:** A outpost in the darkest part of the swamps.
 - **Gamemode:** King of the Hill
 - **Map Type:** Non-Build (NB)
 - **Size:** Medium
@@ -18,9 +18,10 @@
 <br />  
 
 # Map Galley
-![Somber Swamps - Beacon](../assets/maps/somber 'Beacon')
-![Somber Swamps - Flank](../assets/maps/somber 'Flank')
-![Somber Swamps - Spawn](../assets/maps/somber 'Spawn Area')
+![Somber Swamps - Beacon](../assets/maps/somberswamps/somber_swamps-overview.jpg '')
+![Somber Swamps - Spawn](../assets/maps/somberswamps/somber_swamps-spawn.jpg)
+![Somber Swamps - Beacon](../assets/maps/somberswamps/somber_swamps-beacon.jpg )
+![Somber Swamps - Flank](../assets/maps/somberswamps/somber_swamps-flank.jpg '')
 
 # Achievements
 ***

@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** ___
+- **Description:** Two castles that mirror themselves in a spruce valley.
 - **Gamemode:** Classic
 - **Map Type:** Non-Build (NB)
 - **Size:** Medium
@@ -18,9 +18,11 @@
 <br />  
 
 # Map Galley
-![2castles - Beacon](../assets/maps/2castles/twocastles%20-%20beacon.gif 'Beacon')
-![2castles - Spawn](../assets/maps/2castles/twocastles%20-%20spawn%20room.gif 'Spawn')
-![2castles - Middle](../assets/maps/2castles/two%20castles%20-%20middle.gif 'Middle')
+![Two Castles - Overview](../assets/maps/2castles/twocastles-overview.jpg '')
+![Two Castles - Beacon](../assets/maps/2castles/twocastles-base.jpg '')
+![Two Castles - Beacon](../assets/maps/2castles/twocastles-beacon.jpg '')
+![Two Castles - Beacon](../assets/maps/2castles/twocastles-spawn.jpg '')
+![Two Castles - Beacon](../assets/maps/2castles/twocastles-sponges.jpg '')
 
 # Achievements
 ***

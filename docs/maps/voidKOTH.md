@@ -18,6 +18,8 @@
 <br />  
 
 # Map Galley
+![Void KOTH - Overview](../assets/maps/voidKOTH/voidKOTH-overview.jpg '')
+![Void KOTH - Spawn](../assets/maps/voidKOTH/voidKOTH-spawn.jpg '')
 
 # Achievements
 ***

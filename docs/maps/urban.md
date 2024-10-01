@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** ___
+- **Description:** A fort built in a metropolis
 - **Gamemode:** Classic
 - **Map Type:** Build (B)
 - **Size:** Medium
@@ -18,7 +18,9 @@
 <br />  
 
 # Map Galley
-![Urban - Beacon](../assets/maps/urban/ '')
+![Urban - Overview](../assets/maps/urban/urban-overview.jpg '')
+![Urban - Beacon](../assets/maps/urban/urban-beacon.jpg '')
+![Urban - Rooftops](../assets/maps/urban/urban-rooftops.jpg '')
 
 # Achievements
 ***

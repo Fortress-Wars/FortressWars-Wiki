@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** ___
+- **Description:** A flat plain with mountainous range surrounding it.
 - **Gamemode:** Classic
 - **Map Type:** Build and Break (BAB)
 - **Size:** Medium
@@ -18,7 +18,9 @@
 <br />  
 
 # Map Galley
-![valley - Beacon](../assets/maps/valley/ '')
+![Valley - Beacon](../assets/maps/valley/valley-overview.jpg '')
+![Valley - Red Base](../assets/maps/valley/valley-redbase.jpg '')
+![Valley - Blue Base](../assets/maps/valley/valley-bluebase.jpg '')
 
 # Achievements
 ***

@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** ___
+- **Description:** A nether waste plains.
 - **Gamemode:** Classic
 - **Map Type:** Build (B)
 - **Size:** Large
@@ -18,7 +18,9 @@
 <br />  
 
 # Map Galley
-![Underworld - Beacon](../assets/maps/underworld/ '')
+![Underworld - Overview](../assets/maps/underworld/underworld-overview.jpg '')
+![Underworld - Beacon](../assets/maps/underworld/underworld-beacon.jpg '')
+![Underworld - Extra](../assets/maps/underworld/underworld-extra.jpg '')
 
 # Achievements
 ***

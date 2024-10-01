@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** ___
+- **Description:** Nothing... there is nothing...
 - **Gamemode:** Classic
 - **Map Type:** Build and Break (BAB)
 - **Size:** Medium
@@ -18,7 +18,8 @@
 <br />  
 
 # Map Galley
-![Void - Beacon](../assets/maps/void/ '')
+![Void - Overview](../assets/maps/void/void-overview.jpg '')
+![Void - Beacon](../assets/maps/void/void-beacon.jpg '')
 
 # Achievements
 ***

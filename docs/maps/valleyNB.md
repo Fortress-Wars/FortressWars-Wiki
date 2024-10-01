@@ -18,7 +18,9 @@
 <br />  
 
 # Map Galley
-![Valley (NB) - Beacon](../assets/maps/valleyNB/ '')
+![Valley NB - Overview](../assets/maps/valleyNB/valleyNB-overview.jpg '')
+![Valley NB - Red Base](../assets/maps/valleyNB/valleyNB_redbase.jpg '')
+![Valley NB - Blue Base](../assets/maps/valleyNB/valleyNB-bluebase.jpg '')
 
 # Achievements
 ***

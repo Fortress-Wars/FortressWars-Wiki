@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** ___
+- **Description:** A battle between two boats over a lighthouse.
 - **Gamemode:** Classic
 - **Map Type:** Non-Build (NB)
 - **Size:** Large
@@ -18,7 +18,12 @@
 <br />  
 
 # Map Galley
-![ships - Beacon](../assets/maps/ships/ '')
+![Ships - Overview](../assets/maps/ships/ships-overview.jpg '')
+![Ships - Middle](../assets/maps/ships/ships-middle.jpg '')
+![Ships - Blue Boat](../assets/maps/ships/ships-blueboat.jpg '')
+![Ships - Red Boat](../assets/maps/ships/ships-redboat.jpg '')
+![Ships - Beacon](../assets/maps/ships/ships-beacon.jpg '')
+![Ships - Spawn](../assets/maps/ships/ships-spawn.jpg '')
 
 # Achievements
 ***

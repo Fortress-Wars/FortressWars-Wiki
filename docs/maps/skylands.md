@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** ___
+- **Description:** Fortress built on floating islands.
 - **Gamemode:** Classic
 - **Map Type:** Build (B)
 - **Size:** Medium
@@ -18,7 +18,10 @@
 <br />  
 
 # Map Galley
-![Skylands - Beacon](../assets/maps/skylands/ '')
+![Skylands - Overview](../assets/maps/skylands/skylands-overview.jpg '')
+![Skylands - Beacon](../assets/maps/skylands/skylands-beacon.jpg '')
+![Skylands - Middle](../assets/maps/skylands/skylands-middle.jpg '')
+![Skylands - Sponges](../assets/maps/skylands/skylands-sponge.jpg '')
 
 # Achievements
 ***

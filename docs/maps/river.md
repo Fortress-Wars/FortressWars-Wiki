@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** ___
+- **Description:** A flat plains divided by a river.
 - **Gamemode:** Classic
 - **Map Type:** Build (B)
 - **Size:** Large
@@ -18,7 +18,10 @@
 <br />  
 
 # Map Galley
-![River - Beacon](../assets/maps/river/ '')
+![River - Overview](../assets/maps/river/river-overview.jpg '')
+![River - Beacon1](../assets/maps/river/river-beacon.jpg '')
+![River - Beacon2](../assets/maps/river/river-back_beacon.jpg '')
+![River - Middle](../assets/maps/river/river-middle.jpg '')
 
 # Achievements
 ***
