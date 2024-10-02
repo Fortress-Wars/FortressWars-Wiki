@@ -5,7 +5,7 @@
 
 > ## [Ashlands](Ashlands)
 > - **Gamemode**: King of the Hill
-> - **Type**: Non-Build (NB)
+> - **Type**: Non-Build
 > - **Introduced**: v1.8.0
 > - **Contributors**: alfredodan & LinkFD
 > # ![ashlandsicon](../assets/maps/ashlands/ashlands-icon.jpg)
@@ -230,7 +230,7 @@
 > # ![valleynbicon](../assets/maps/valleynb/valleynb-icon.jpg)
 
 > ## [Void](Void)
-> - **Gamemode**: Non-Build (NB)
+> - **Gamemode**: Non-Build
 > - **Type**: Classic
 > - **Introduced**: v1.7.0
 > - **Contributors**: St3vanAU
@@ -239,7 +239,7 @@
 
 > ## [Void (KOTH)](VoidKOTH)
 > - **Gamemode**: King of the Hill
-> - **Type**: Non-Build (NB)
+> - **Type**: Non-Build
 > - **Introduced**: v1.7.0
 > - **Contributors**: LinkFD
 > # ![voidkothicon](../assets/maps/voidKOTH/voidKOTH-icon.jpg)
