@@ -188,6 +188,16 @@ Spy
 - If the player gets a sneak attack kill while invisible, the cloak ability cooldown will be refreshed by **50%**.
 - Spy's "Didn't see you there" achievement now only requires the player to kill an enemy cloaked spy instead of also requireing the damage type to be a sneak attack.
 
+Vitalist
+- Reduced crossbow magazine size from **7** to **4**.
+- Reduced projectile size from **0.4** to **0.1**.
+- Reduced projecile speed from **32** from **16**.
+- Reduced total healing instances from **5** to **3**.
+- Reduced healing rate from from **5** to **3**.
+- Increased healing potency increased from **1** to **1.5**.
+- Increased healing tick rate from **4** to **10**
+- Added projectile spread to the crossbow.
+
 ## Technical Changes
 - Reimplemented all kits
 - Players can now be hacked. Hacked players will not be able to use their abilities (active and passive) and any active abilities will be terminated.
