@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** ___
+- **Description:** A woodland canyon.
 - **Gamemode:** King of the Hill
 - **Map Type:** Non-Build (NB)
 - **Size:** Small

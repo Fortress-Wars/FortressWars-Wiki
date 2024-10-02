@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** ___
+- **Description:** A relic ruins that was built near a beach.
 - **Gamemode:** Classic
 - **Map Type:** Build (B)
 - **Size:** Large
@@ -18,11 +18,11 @@
 <br />  
 
 # Map Galley
-![Coast - Overview](../assets/maps/coast/coast-overview.jpg 'Overview')
-![Coast - Middle](../assets/maps/coast/coast-middle.jpg 'Middle')
-![Coast - Beacon](../assets/maps/coast/coast-beacon.jpg 'Beacon')
-![Coast - Flank](../assets/maps/coast/coast-flank.jpg 'Flank')
-![Coast - Underbridge](../assets/maps/coast/coast-under_bridge.jpg 'Flank Under bridge')
+![Coast - Overview](../assets/maps/coast/coast-overview.jpg '')
+![Coast - Middle](../assets/maps/coast/coast-middle.jpg '')
+![Coast - Beacon](../assets/maps/coast/coast-beacon.jpg '')
+![Coast - Flank](../assets/maps/coast/coast-flank.jpg '')
+![Coast - Underbridge](../assets/maps/coast/coast-under_bridge.jpg '')
 
 # Achievements
 ***

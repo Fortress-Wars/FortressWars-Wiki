@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** ___
+- **Description:** A base that is split by a mountain.
 - **Gamemode:** Classic
 - **Map Type:** Build (B)
 - **Size:** Medium

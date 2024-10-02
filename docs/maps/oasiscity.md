@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** ___
+- **Description:** A sandy sanctuary in the desert.
 - **Gamemode:** King of the Hill
 - **Map Type:** Non-Build (NB)
 - **Size:** Large

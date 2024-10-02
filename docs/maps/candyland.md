@@ -18,10 +18,10 @@
 <br />  
 
 # Map Galley
-![Candyland - Beacon](../assets/maps/candyland/candyland-overview.jpg 'Overview')
-![Candyland - Middle](../assets/maps/candyland/candyland-mid.jpg 'Middle')
-![Candyland - Beacon](../assets/maps/candyland/candyland-beacon.jpg 'Beacon Area')
-![Candyland - Attacking Spawn](../assets/maps/candyland/candyland-spawnroom.jpg 'Attacking Spawn')
+![Candyland - Beacon](../assets/maps/candyland/candyland-overview.jpg '')
+![Candyland - Middle](../assets/maps/candyland/candyland-mid.jpg '')
+![Candyland - Beacon](../assets/maps/candyland/candyland-beacon.jpg '')
+![Candyland - Attacking Spawn](../assets/maps/candyland/candyland-spawnroom.jpg '')
 
 
 

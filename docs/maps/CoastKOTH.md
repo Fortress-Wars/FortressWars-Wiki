@@ -18,11 +18,11 @@
 <br />  
 
 # Map Galley
-![Coast - Overview](../assets/maps/coastKOTH/coast_koth-overview.jpg 'Overview')
-![Coast - Middle](../assets/maps/coastKOTH/coast_koth-middle.jpg 'Middle')
-![Coast - Beacon](../assets/maps/coastKOTH/coast_koth-spawn.jpg 'Spawn')
-![Coast - Flank](../assets/maps/coastKOTH/coast_koth-flank.jpg 'Flank')
-![Coast - Underbridge](../assets/maps/coastKOTH/coast_koth-underbridge.jpg 'Flank Under bridge')
+![Coast - Overview](../assets/maps/coastKOTH/coast_koth-overview.jpg '')
+![Coast - Middle](../assets/maps/coastKOTH/coast_koth-middle.jpg '')
+![Coast - Beacon](../assets/maps/coastKOTH/coast_koth-spawn.jpg '')
+![Coast - Flank](../assets/maps/coastKOTH/coast_koth-flank.jpg '')
+![Coast - Underbridge](../assets/maps/coastKOTH/coast_koth-underbridge.jpg '')
 
 # Achievements
 ***

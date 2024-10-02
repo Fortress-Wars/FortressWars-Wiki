@@ -18,9 +18,9 @@
 <br />  
 
 # Map Galley
-![Ashlands - Beacon](../assets/maps/ashlands/ashlands-beacon.jpg 'Beacon')
-![Ashlands - Flank](../assets/maps/ashlands/ashlands-flank.jpg 'Flank')
-![Ashlands - Spawn](../assets/maps/ashlands/ashlands-spawn.jpg 'Spawn Area')
+![Ashlands - Beacon](../assets/maps/ashlands/ashlands-beacon.jpg '')
+![Ashlands - Flank](../assets/maps/ashlands/ashlands-flank.jpg '')
+![Ashlands - Spawn](../assets/maps/ashlands/ashlands-spawn.jpg '')
 
 
 # Achievements

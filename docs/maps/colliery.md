@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** ___
+- **Description:** A mine that has dug a deep hole.
 - **Gamemode:** Attack and Defend
 - **Map Type:** Build
 - **Size:** Large
