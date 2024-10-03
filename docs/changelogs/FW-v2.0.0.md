@@ -196,7 +196,8 @@ Vitalist
 - Reduced healing rate from from **5** to **3**.
 - Increased healing potency increased from **1** to **1.5**.
 - Increased healing tick rate from **4** to **10**
-- Added projectile spread to the crossbow.
+- The crossbow projectile now has a max travel distance of **50** meters.
+- Added spread to the crossbow projectile.
 
 ## Technical Changes
 - Reimplemented all kits
