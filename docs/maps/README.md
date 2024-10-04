@@ -190,7 +190,7 @@
 > - **Type**: Non-Build
 > - **Introduced**: v2.0.0
 > - **Contributors**: alfredodan
-> # ![SomberSwampsicon](../assets/maps/somberswamps/somber_swamps-icon.png)
+> # ![SomberSwampsicon](../assets/maps/somberswamps/somber_swamps-icon.jpg)
 
 > ## [Two Castles](TwoCastles)
 > - **Gamemode**: Classic
