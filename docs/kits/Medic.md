@@ -1,4 +1,3 @@
-<!-- replace medic with the actual kit name -->
 # Medic
 
 ***

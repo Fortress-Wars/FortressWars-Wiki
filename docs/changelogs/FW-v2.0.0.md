@@ -216,9 +216,9 @@ Vitalist
 ## Other Changes
 - Regeneration rate for potions while **in** combat reduced from **420** ticks to **200** ticks.
 - Regeneration rate for potions while **out of** combat reduced from **140** ticks to **100** ticks.
-- Tanks now have a **50%** knockback resistance blocking.
+- Tanks now have a **50%** knockback resistance when blocking.
 - King of the Hill respawn times will now be even if both teams have 99% and it is overtime.
-- Players can now quick builder of vegetation.
+- Players can now quick build over vegetation.
 
 ## Bug Fixes
 - Aquaman trident now returns to the item slot the user is on if it's empty.
