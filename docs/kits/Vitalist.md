@@ -41,27 +41,27 @@ The player canshoot by right-clicking. The crossbow must be loaded in order to f
 
 ![Vitalist - Crossbow Shoot](../assets/kits/vitalist/_image_1_.jpg_)
 
-When a crossbow projectile hits an ally, it heals them overtime. The projectile has `3` healing ticks. One healing tick is equivalent to `10` ticks and restores `1.5` health. 
+When a crossbow projectile hits an ally, it heals them overtime. The projectile has `{{ kits.vitalist.data.VITALIST_CROSSBOW_HEALING_TICKS }}` healing ticks. One healing tick is equivalent to `{{ kits.vitalist.data.VITALIST_CROSSBOW_HEALING_TICK_RATE }}` ticks and restores `{{ kits.vitalist.data.VITALIST_CROSSBOW_HEALING_TICK_POTENCY }}` health. 
 
 ![Vitalist - Crossbow Projectile Hit Ally](../assets/kits/vitalist/_image_1_.jpg_)
 
-When a crossbow projectile hits an enemy, it deals `2` damage.
+When a crossbow projectile hits an enemy, it deals `{{ kits.vitalist.data.VITALIST_CROSSBOW_PROJECTILE_DAMAGE }}` damage.
 
 ![Vitalist - Crossbow Projectile Hit Enemy](../assets/kits/vitalist/_image_1_.jpg_)
 
-Crossbow projectile pierce up to `3` times.
+Crossbow projectile pierce up to `{{ kits.vitalist.data. VITALIST_CROSSBOW_PIERCING_LEVEL}}` times.
 
 ![Vitalist - Crossbow Projectile Piercing](../assets/kits/vitalist/_image_1_.jpg_)
 
 #### **Reloading**
 ## Reloading
-The player can reload by left-clicking. The reload duration depends on how empty the crossbow's magazine is. It takes `10` ticks to reload `1` ammo..
+The player can reload by left-clicking. The reload duration depends on how empty the crossbow's magazine is. It takes `{{ kits.vitalist.data.VITALIST_CROSSBOW_RELOAD_DURATION_PER_1_AMMO }}` ticks to reload `1` ammo..
 
 ![Vitalist - Crossbow Reload](../assets/kits/vitalist/_image_1_.jpg_)
 
 If the crossbow's magazine is empty and the player has reserve ammo, the crossbow reloads automatically. 
 
-![Vitalist - Crossbow AUto Reload](../assets/kits/vitalist/_image_1_.jpg_)
+![Vitalist - Crossbow Auto Reload](../assets/kits/vitalist/_image_1_.jpg_)
 
 <!-- tabs:end -->
 <!-- tabs:end -->
@@ -70,19 +70,19 @@ If the crossbow's magazine is empty and the player has reserve ammo, the crossbo
 <!-- tabs:start -->
 #### **Ammo**
 ## Ammo
-Ammo is a resource that is used by the [Crusader's Crossbow](#crusaders-crossbow). The maximum amount of reserve ammo the player can hold is `24`.
+Ammo is a resource that is used by the [Crusader's Crossbow](#crusaders-crossbow). The maximum amount of reserve ammo the player can hold is `{{ kits.vitalist.data.VITALIST_MAX_AMMO }}`.
 
 ![Vitalist - Ammo](../assets/kits/vitalist/_image_1_.jpg_)
 
-Ammo automatically regenerates at a rate of `1` ammo every `60` ticks.
+Ammo automatically regenerates at a rate of `{{ kits.vitalist.data.VITALIST_CROSSBOW_AMMO_REGENERATION_AMOUNT }}` ammo every `{{ kits.vitalist.data.VITALIST_CROSSBOW_AMMO_REGENERATION_RATE }}` ticks.
 
 ![Vitalist - Ammo Regenerate](../assets/kits/vitalist/_image_1_.jpg_)
 
-The player receives `12` ammo after earning a file blow and `6` ammo after earning an assist.
+The player receives `{{ kits.vitalist.data.VITALIST_CROSSBOW_AMMO_FINAL_BLOW_REWARD }}` ammo after earning a file blow and `{{ kits.vitalist.data.VITALIST_CROSSBOW_AMMO_ASSIST_REWARD }}` ammo after earning an assist.
 
 ![Vitalist - Ammo Final Blow](../assets/kits/vitalist/_image_1_.jpg_)
 
-Ally engineer dispensers dispense `3` ammo to the player if they are in range.
+Ally engineer dispensers dispense `{{ kits.vitalist.data.VITALIST_CROSSBOW_AMMO_DISPENSE_COUNT }}` ammo to the player if they are in range.
 
 ![Vitalist - Ammo Dispenser](../assets/kits/vitalist/_image_1_.jpg_)
 
@@ -113,24 +113,24 @@ Ally engineer dispensers dispense `3` ammo to the player if they are in range.
 | HEALING_POTION_AUTOPOT_HOTBAR_ONLY | `{{ kits._shared.data.HEALING_POTION_AUTOPOT_HOTBAR_ONLY }}` | {{ kitDataSharedDescriptions.HEALING_POTION_AUTOPOT_HOTBAR_ONLY }} |
 | POTION_IN_COMBAT_REGENERATION_RATE | `{{ kits._shared.data.POTION_IN_COMBAT_REGENERATION_RATE }}` | {{ kitDataSharedDescriptions.POTION_IN_COMBAT_REGENERATION_RATE }} |
 | POTION_OUT_OF_COMBAT_REGENERATION_RATE | `{{ kits._shared.data.POTION_OUT_OF_COMBAT_REGENERATION_RATE }}` | {{ kitDataSharedDescriptions.POTION_OUT_OF_COMBAT_REGENERATION_RATE }} |
-| VITALIST_SWORD_DAMAGE | `{{ kits.vitalist.data.VITALIST_SWORD_DAMAGE }}` | |
-| VITALIST_SWORD_SPEED | `{{ kits.vitalist.data.VITALIST_SWORD_SPEED }}` | |
-| VITALIST_MAX_AMMO | `{{ kits.vitalist.data.VITALIST_MAX_AMMO }}` | |
-| VITALIST_CROSSBOW_AMMO_FINAL_BLOW_REWARD | `{{ kits.vitalist.data.VITALIST_CROSSBOW_AMMO_FINAL_BLOW_REWARD }}` | |
-| VITALIST_CROSSBOW_AMMO_ASSIST_REWARD | `{{ kits.vitalist.data.VITALIST_CROSSBOW_AMMO_ASSIST_REWARD }}` | |
-| VITALIST_CROSSBOW_AMMO_DISPENSE_COUNT | `{{ kits.vitalist.data.VITALIST_CROSSBOW_AMMO_DISPENSE_COUNT }}` | |
-| VITALIST_CROSSBOW_AMMO_REGENERATION_RATE | `{{ kits.vitalist.data.VITALIST_CROSSBOW_AMMO_REGENERATION_RATE }}` | |
-| VITALIST_CROSSBOW_AMMO_REGENERATION_AMOUNT | `{{ kits.vitalist.data.VITALIST_CROSSBOW_AMMO_REGENERATION_AMOUNT }}` | |
-| VITALIST_CROSSBOW_MAGAZINE_SIZE | `{{ kits.vitalist.data.VITALIST_CROSSBOW_MAGAZINE_SIZE }}` | |
-| VITALIST_CROSSBOW_SHOOT_COOLDOWN | `{{ kits.vitalist.data.VITALIST_CROSSBOW_SHOOT_COOLDOWN }}` | |
-| VITALIST_CROSSBOW_RELOAD_DURATION_PER_1_AMMO | `{{ kits.vitalist.data.VITALIST_CROSSBOW_RELOAD_DURATION_PER_1_AMMO }}` | |
-| VITALIST_CROSSBOW_PROJECTILE_SPEED | `{{ kits.vitalist.data.VITALIST_CROSSBOW_PROJECTILE_SPEED }}` | |
-| VITALIST_CROSSBOW_PROJECTILE_SIZE | `{{ kits.vitalist.data.VITALIST_CROSSBOW_PROJECTILE_SIZE }}` | |
-| VITALIST_CROSSBOW_PROJECTILE_MAX_DISTANCE | `{{ kits.vitalist.data.VITALIST_CROSSBOW_PROJECTILE_MAX_DISTANCE }}` | |
-| VITALIST_CROSSBOW_PIERCING_LEVEL | `{{ kits.vitalist.data. VITALIST_CROSSBOW_PIERCING_LEVEL}}` | |
-| VITALIST_CROSSBOW_PROJECTILE_SPREAD | `{{ kits.vitalist.data.VITALIST_CROSSBOW_PROJECTILE_SPREAD }}` | |
-| VITALIST_CROSSBOW_PROJECTILE_DAMAGE | `{{ kits.vitalist.data.VITALIST_CROSSBOW_PROJECTILE_DAMAGE }}` | |
-| VITALIST_CROSSBOW_HEALING_TICKS | `{{ kits.vitalist.data.VITALIST_CROSSBOW_HEALING_TICKS }}` | |
-| VITALIST_CROSSBOW_HEALING_TICK_RATE | `{{ kits.vitalist.data.VITALIST_CROSSBOW_HEALING_TICK_RATE }}` | |
-| VITALIST_CROSSBOW_HEALING_TICK_POTENCY | `{{ kits.vitalist.data.VITALIST_CROSSBOW_HEALING_TICK_POTENCY }}` | |
-| VITALIST_CROSSBOW_LEFT_CLICK_ICD | `{{ kits.vitalist.data.VITALIST_CROSSBOW_LEFT_CLICK_ICD }}` | |
+| VITALIST_SWORD_DAMAGE | `{{ kits.vitalist.data.VITALIST_SWORD_DAMAGE }}` | The base damage of the sword. |
+| VITALIST_SWORD_SPEED | `{{ kits.vitalist.data.VITALIST_SWORD_SPEED }}` | The base speed of the sword. |
+| VITALIST_MAX_AMMO | `{{ kits.vitalist.data.VITALIST_MAX_AMMO }}` | The maximum amount of ammo the player can hold. |
+| VITALIST_CROSSBOW_AMMO_FINAL_BLOW_REWARD | `{{ kits.vitalist.data.VITALIST_CROSSBOW_AMMO_FINAL_BLOW_REWARD }}` | The amount of ammo that the player receives after earning a final blow. |
+| VITALIST_CROSSBOW_AMMO_ASSIST_REWARD | `{{ kits.vitalist.data.VITALIST_CROSSBOW_AMMO_ASSIST_REWARD }}` | The amount of ammo that the player receives after earning an assist. |
+| VITALIST_CROSSBOW_AMMO_DISPENSE_COUNT | `{{ kits.vitalist.data.VITALIST_CROSSBOW_AMMO_DISPENSE_COUNT }}` | The amount of ammo dispensed from a dispenser to the player. |
+| VITALIST_CROSSBOW_AMMO_REGENERATION_RATE | `{{ kits.vitalist.data.VITALIST_CROSSBOW_AMMO_REGENERATION_RATE }}` | The rate at which ammo passively regenerates. |
+| VITALIST_CROSSBOW_AMMO_REGENERATION_AMOUNT | `{{ kits.vitalist.data.VITALIST_CROSSBOW_AMMO_REGENERATION_AMOUNT }}` | The amount of ammo to regenerate at a time. |
+| VITALIST_CROSSBOW_MAGAZINE_SIZE | `{{ kits.vitalist.data.VITALIST_CROSSBOW_MAGAZINE_SIZE }}` | The size of the crossbow's magazine. |
+| VITALIST_CROSSBOW_SHOOT_COOLDOWN | `{{ kits.vitalist.data.VITALIST_CROSSBOW_SHOOT_COOLDOWN }}` | The cooldown, in ticks, after firing a projectile from the crossbow. |
+| VITALIST_CROSSBOW_RELOAD_DURATION_PER_1_AMMO | `{{ kits.vitalist.data.VITALIST_CROSSBOW_RELOAD_DURATION_PER_1_AMMO }}` | The duration, in ticks, to reload one ammo into the crossbow's magazine. |
+| VITALIST_CROSSBOW_PROJECTILE_SPEED | `{{ kits.vitalist.data.VITALIST_CROSSBOW_PROJECTILE_SPEED }}` | The speed of crossbow projectiles. |
+| VITALIST_CROSSBOW_PROJECTILE_SIZE | `{{ kits.vitalist.data.VITALIST_CROSSBOW_PROJECTILE_SIZE }}` | The size of crossbow projectiles. |
+| VITALIST_CROSSBOW_PROJECTILE_MAX_DISTANCE | `{{ kits.vitalist.data.VITALIST_CROSSBOW_PROJECTILE_MAX_DISTANCE }}` | The maxiumum distance of crossbow projectiles. |
+| VITALIST_CROSSBOW_PIERCING_LEVEL | `{{ kits.vitalist.data.VITALIST_CROSSBOW_PIERCING_LEVEL }}` | The number of allies and enemies that crossbow projectiles pierce. |
+| VITALIST_CROSSBOW_PROJECTILE_SPREAD | `{{ kits.vitalist.data.VITALIST_CROSSBOW_PROJECTILE_SPREAD }}` | The random spread of crossbow projectiles. |
+| VITALIST_CROSSBOW_PROJECTILE_DAMAGE | `{{ kits.vitalist.data.VITALIST_CROSSBOW_PROJECTILE_DAMAGE }}` | The amount of damage that crossbow projectiles deal to enemies. |
+| VITALIST_CROSSBOW_HEALING_TICKS | `{{ kits.vitalist.data.VITALIST_CROSSBOW_HEALING_TICKS }}` | The amount of healing instances one crossbow projectile has. |
+| VITALIST_CROSSBOW_HEALING_TICK_RATE | `{{ kits.vitalist.data.VITALIST_CROSSBOW_HEALING_TICK_RATE }}` | The time, in ticks, between each healing tick. |
+| VITALIST_CROSSBOW_HEALING_TICK_POTENCY | `{{ kits.vitalist.data.VITALIST_CROSSBOW_HEALING_TICK_POTENCY }}` | The amount of health to restore per healing tick. |
+| VITALIST_CROSSBOW_LEFT_CLICK_ICD | `{{ kits.vitalist.data.VITALIST_CROSSBOW_LEFT_CLICK_ICD }}` | The internal cooldown, in ticks, when left-clicking the crossbow. |
