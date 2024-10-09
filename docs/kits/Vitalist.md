@@ -9,7 +9,7 @@
 - **Introduced:** v1.7.0
 - **Description:** A kit that uses a crossbow to heal allies and damage enemies.
 - **Role:** Support
-- **How to Unlock:** Purchase for 500 Crdits.
+- **How to Unlock:** Purchase for 500 Credits.
 
 <br />  
 
@@ -37,11 +37,11 @@ A crossbow that shoots projectiles that heal allies and damage enemies.
 <!-- tabs:start -->
 #### **Shooting**
 ## Shooting
-The player canshoot by right-clicking. The crossbow must be loaded in order to fire a projectile.
+The player can shoot by right-clicking. The crossbow must be loaded in order to fire a projectile.
 
 ![Vitalist - Crossbow Shoot](../assets/kits/vitalist/Vitalist%20-%20Crossbow%20Shoot.gif)
 
-When a crossbow projectile hits an ally, it heals them overtime. The projectile has `{{ kits.vitalist.data.VITALIST_CROSSBOW_HEALING_TICKS }}` healing ticks. One healing tick is equivalent to `{{ kits.vitalist.data.VITALIST_CROSSBOW_HEALING_TICK_RATE }}` ticks and restores `{{ kits.vitalist.data.VITALIST_CROSSBOW_HEALING_TICK_POTENCY }}` health. 
+When a crossbow projectile hits an ally, it heals them over time. The projectile has `{{ kits.vitalist.data.VITALIST_CROSSBOW_HEALING_TICKS }}` healing ticks. One healing tick is equivalent to `{{ kits.vitalist.data.VITALIST_CROSSBOW_HEALING_TICK_RATE }}` ticks and restores `{{ kits.vitalist.data.VITALIST_CROSSBOW_HEALING_TICK_POTENCY }}` health. 
 
 ![Vitalist - Crossbow Projectile Hit Ally](../assets/kits/vitalist/Vitalist%20-%20Crossbow%20Projectile%20Hit%20Ally.gif)
 
@@ -49,7 +49,7 @@ When a crossbow projectile hits an enemy, it deals `{{ kits.vitalist.data.VITALI
 
 ![Vitalist - Crossbow Projectile Hit Enemy](../assets/kits/vitalist/Vitalist%20-%20Crossbow%20Projectile%20Hit%20Enemy.gif)
 
-Crossbow projectile pierce up to `{{ kits.vitalist.data.VITALIST_CROSSBOW_PIERCING_LEVEL }}` times.
+Crossbow projectiles pierce up to `{{ kits.vitalist.data.VITALIST_CROSSBOW_PIERCING_LEVEL }}` times.
 
 ![Vitalist - Crossbow Projectile Piercing](../assets/kits/vitalist/Vitalist%20-%20Crossbow%20Projectile%20Piercing.gif)
 
