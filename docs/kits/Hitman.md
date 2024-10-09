@@ -1,4 +1,3 @@
-<!-- replace hitman with the actual kit name -->
 # Hitman
 
 ***

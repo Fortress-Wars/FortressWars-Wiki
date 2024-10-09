@@ -129,7 +129,7 @@ The resource to summon, heal, and upgrade wither skeletons. The player can hold 
 
 ![Necromancer - Essence of the Afterlife](../assets/kits/necromancer/Necromancer%20-%20Essence%20of%20the%20Afterlife.gif)
 
-Essence of the Afterlife will drop from any player or minion that dies.
+Essence of the Afterlife will drop from any player or necromancer skeleton that dies.
 
 ![Necromancer - Essence of the Afterlife Drop](../assets/kits/necromancer/Necromancer%20-%20Essence%20of%20the%20Afterlife%20Drop.gif)
 

@@ -183,6 +183,22 @@ Spider
 - Cobweb cooldown now starts as soon as a the cobweb trap is triggered instead of when the duration ends.
 - Cobweb traps items now last **1200** ticks before despawning.
 
+Spy
+- Any melee attack during while the player is cloaked now is considered a "Sneak Attack" (Previously it was just if the player attacked with the sneak attack sword)
+- If the player gets a sneak attack kill while invisible, the cloak ability cooldown will be refreshed by **50%**.
+- Spy's "Didn't see you there" achievement now only requires the player to kill an enemy cloaked spy instead of also requireing the damage type to be a sneak attack.
+
+Vitalist
+- Reduced crossbow magazine size from **7** to **4**.
+- Reduced projectile size from **0.4** to **0.1**.
+- Reduced projecile speed from **32** from **16**.
+- Reduced total healing instances from **5** to **3**.
+- Reduced healing rate from from **5** to **3**.
+- Increased healing potency increased from **1** to **1.5**.
+- Increased healing tick rate from **4** to **10**
+- The crossbow projectile now has a max travel distance of **150** meters.
+- Added spread to the crossbow projectile.
+
 ## Technical Changes
 - Reimplemented all kits
 - Players can now be hacked. Hacked players will not be able to use their abilities (active and passive) and any active abilities will be terminated.
@@ -200,9 +216,9 @@ Spider
 ## Other Changes
 - Regeneration rate for potions while **in** combat reduced from **420** ticks to **200** ticks.
 - Regeneration rate for potions while **out of** combat reduced from **140** ticks to **100** ticks.
-- Tanks now have a **50%** knockback resistance blocking.
+- Tanks now have a **50%** knockback resistance when blocking.
 - King of the Hill respawn times will now be even if both teams have 99% and it is overtime.
-- Players can now quick builder of vegetation.
+- Players can now quick build over vegetation.
 
 ## Bug Fixes
 - Aquaman trident now returns to the item slot the user is on if it's empty.
@@ -213,3 +229,4 @@ Spider
 - Fixed bug where the auto-balance timer would not properly reset for all players when a game ends or is canceled
 - Fixed bug where damage achievements' progress would display when damaging self even though self damage doesn't count towards the statistic/achievement.
 - Fixed bug where the classic overtime sudden death scoreboard would not update properly if for the player that died.
+- Fixed The Engineer "Doc Holiday" achievement including enemies.

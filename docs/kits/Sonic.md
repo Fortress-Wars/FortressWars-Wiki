@@ -30,19 +30,19 @@
 <!-- tabs:start -->
 #### **Sonic Speed**
 ## Sonic Speed
-Right click to gain speed. The player's speed level is level `8` and the duration lasts for `100` ticks or until a `Sonic Boom` occurs.
+Right click to gain speed. The player's speed level is level `{{ kits.sonic.data.SONIC_SPEED_LEVEL }}` and the duration lasts for `{{ kits.sonic.data.SONIC_SPEED_DURATION }}` ticks or until a `Sonic Boom` occurs.
 
 ![Sonic - Sonic Speed Activate](../assets/kits/sonic/Sonic%20-%20Sonic%20Speed%20Activate.gif)
 
 #### **Sonic Boom**
 ## Sonic Boom
-Colliding with an enemy while `Sonic Speed` is active will trigger a `Sonic Boom`. A Sonic Boom will deal `10` damage to all hit enemies and unleash a shockwave.
+Colliding with an enemy while `Sonic Speed` is active will trigger a `Sonic Boom`. A Sonic Boom will deal `{{ kits.sonic.data.SONIC_BOOM_DAMAGE }}` damage to all hit enemies and unleash a shockwave.
 
 ![Sonic - Sonic Boom](../assets/kits/sonic/Sonic%20-%20Sonic%20Boom.gif)
 
 ![Sonic - Sonic Boom Kill](../assets/kits/sonic/Sonic%20-%20Sonic%20Boom%20Kill.gif)
 
-The shockwave will stun all nearby enemies and engineer blocks within `15` meters for `40` ticks.
+The shockwave will stun all nearby enemies and engineer blocks within `{{ kits.sonic.data.SONIC_BOOM_RADIUS }}` meters for `{{ kits.sonic.data.SONIC_BOOM_STUN_DURATION }}` ticks.
 
 ![Sonic - Sonic Boom Stun Effect](../assets/kits/sonic/Sonic%20-%20Sonic%20Boom%20Stun%20Effect.gif)
 
