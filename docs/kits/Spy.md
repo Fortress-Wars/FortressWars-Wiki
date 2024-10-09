@@ -33,23 +33,23 @@
 ## Cloak
 Right-click to become completely invisible for `{{ kits.spy.data.SPY_CLOAK_DURATION }}` ticks. 
 
-![Spy - Cloak Activate](../assets/kits/spy/_image_1_.jpg_)
+![Spy - Cloak Activate](../assets/kits/spy/Spy%20-%20Cloak%20Activate.gif)
 
 The player's invisibility will end early if the player attacks an enemy or attempts to break a block.
 
-![Spy - Cloak Attack Enemy](../assets/kits/spy/_image_1_.jpg_)
+![Spy - Cloak Attack Enemy](../assets/kits/spy/Spy%20-%20Cloak%20Attack%20Enemy.gif)
 
-![Spy - Clock Break Block](../assets/kits/spy/_image_1_.jpg_)
+![Spy - Clock Break Block](../assets/kits/spy/Spy%20-%20Clock%20Break%20Block.gif)
 
 Earning a final blow while invisible will reduce the cloak's cooldown by `{{ kits.spy.data.SPY_CLOAK_REFRESH_PERCENTAGE_AFTER_SNEAK_ATTACK_ELIMINATION }}%`.
 
-![Spy - Clock Sneak Attack Final Blow](../assets/kits/spy/_image_1_.jpg_)
+![Spy - Clock Sneak Attack Final Blow](../assets/kits/spy/Spy%20-%20Clock%20Sneak%20Attack%20Final%20Blow.gif)
 
 #### **Sneak Attack Sword**
 ## Sneak Attack Sword
 A sword with a base damage of `{{ kits.spy.data.SPY_SNEAK_ATTACK_SWORD_DAMAGE }}`. The player equips this sword when they use the cloak ability.
 
-![Spy - Sneak Attack Sword](../assets/kits/spy/_image_2_.jpg_)
+![Spy - Sneak Attack Sword](../assets/kits/spy/Spy%20-%20Sneak%20Attack%20Sword.gif)
 
 <!-- tabs:end -->
 
@@ -59,15 +59,15 @@ A sword with a base damage of `{{ kits.spy.data.SPY_SNEAK_ATTACK_SWORD_DAMAGE }}
 ## Electro Sapper
 Enemy engineer sentries will not target the player.
 
-![Spy - Electro Sapper Sentry](../assets/kits/spy/_image_1_.jpg_)
+![Spy - Electro Sapper Sentry](../assets/kits/spy/Spy%20-%20Electro%20Sapper%20Sentry.gif)
 
 The player can use enemy engineer teleporters.
 
-![Spy - Electro Sapper Teleporter](../assets/kits/spy/_image_1_.jpg_)
+![Spy - Electro Sapper Teleporter](../assets/kits/spy/Spy%20-%20Electro%20Sapper%20Teleporter.gif)
 
 Enemy engineer dispensers will dispense to the player.
 
-![Spy - Electro Sapper Dispenser](../assets/kits/spy/_image_1_.jpg_)
+![Spy - Electro Sapper Dispenser](../assets/kits/spy/Spy%20-%20Electro%20Sapper%20Dispenser.gif)
 
 <!-- tabs:end -->
 <br />

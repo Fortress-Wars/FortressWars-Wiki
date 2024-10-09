@@ -39,29 +39,29 @@ A crossbow that shoots projectiles that heal allies and damage enemies.
 ## Shooting
 The player canshoot by right-clicking. The crossbow must be loaded in order to fire a projectile.
 
-![Vitalist - Crossbow Shoot](../assets/kits/vitalist/_image_1_.jpg_)
+![Vitalist - Crossbow Shoot](../assets/kits/vitalist/Vitalist%20-%20Crossbow%20Shoot.gif)
 
 When a crossbow projectile hits an ally, it heals them overtime. The projectile has `{{ kits.vitalist.data.VITALIST_CROSSBOW_HEALING_TICKS }}` healing ticks. One healing tick is equivalent to `{{ kits.vitalist.data.VITALIST_CROSSBOW_HEALING_TICK_RATE }}` ticks and restores `{{ kits.vitalist.data.VITALIST_CROSSBOW_HEALING_TICK_POTENCY }}` health. 
 
-![Vitalist - Crossbow Projectile Hit Ally](../assets/kits/vitalist/_image_1_.jpg_)
+![Vitalist - Crossbow Projectile Hit Ally](../assets/kits/vitalist/Vitalist%20-%20Crossbow%20Projectile%20Hit%20Ally.gif)
 
 When a crossbow projectile hits an enemy, it deals `{{ kits.vitalist.data.VITALIST_CROSSBOW_PROJECTILE_DAMAGE }}` damage.
 
-![Vitalist - Crossbow Projectile Hit Enemy](../assets/kits/vitalist/_image_1_.jpg_)
+![Vitalist - Crossbow Projectile Hit Enemy](../assets/kits/vitalist/Vitalist%20-%20Crossbow%20Projectile%20Hit%20Enemy.gif)
 
-Crossbow projectile pierce up to `{{ kits.vitalist.data. VITALIST_CROSSBOW_PIERCING_LEVEL}}` times.
+Crossbow projectile pierce up to `{{ kits.vitalist.data.VITALIST_CROSSBOW_PIERCING_LEVEL }}` times.
 
-![Vitalist - Crossbow Projectile Piercing](../assets/kits/vitalist/_image_1_.jpg_)
+![Vitalist - Crossbow Projectile Piercing](../assets/kits/vitalist/Vitalist%20-%20Crossbow%20Projectile%20Piercing.gif)
 
 #### **Reloading**
 ## Reloading
 The player can reload by left-clicking. The reload duration depends on how empty the crossbow's magazine is. It takes `{{ kits.vitalist.data.VITALIST_CROSSBOW_RELOAD_DURATION_PER_1_AMMO }}` ticks to reload `1` ammo..
 
-![Vitalist - Crossbow Reload](../assets/kits/vitalist/_image_1_.jpg_)
+![Vitalist - Crossbow Reload](../assets/kits/vitalist/Vitalist%20-%20Crossbow%20Reload.gif)
 
 If the crossbow's magazine is empty and the player has reserve ammo, the crossbow reloads automatically. 
 
-![Vitalist - Crossbow Auto Reload](../assets/kits/vitalist/_image_1_.jpg_)
+![Vitalist - Crossbow Auto Reload](../assets/kits/vitalist/Vitalist%20-%20Crossbow%20Auto%20Reload.gif)
 
 <!-- tabs:end -->
 <!-- tabs:end -->
@@ -72,19 +72,19 @@ If the crossbow's magazine is empty and the player has reserve ammo, the crossbo
 ## Ammo
 Ammo is a resource that is used by the [Crusader's Crossbow](#crusaders-crossbow). The maximum amount of reserve ammo the player can hold is `{{ kits.vitalist.data.VITALIST_MAX_AMMO }}`.
 
-![Vitalist - Ammo](../assets/kits/vitalist/_image_1_.jpg_)
+![Vitalist - Ammo](../assets/kits/vitalist/Vitalist%20-%20Ammo.png)
 
 Ammo automatically regenerates at a rate of `{{ kits.vitalist.data.VITALIST_CROSSBOW_AMMO_REGENERATION_AMOUNT }}` ammo every `{{ kits.vitalist.data.VITALIST_CROSSBOW_AMMO_REGENERATION_RATE }}` ticks.
 
-![Vitalist - Ammo Regenerate](../assets/kits/vitalist/_image_1_.jpg_)
+![Vitalist - Ammo Regenerate](../assets/kits/vitalist/Vitalist%20-%20Ammo%20Regenerate.gif)
 
 The player receives `{{ kits.vitalist.data.VITALIST_CROSSBOW_AMMO_FINAL_BLOW_REWARD }}` ammo after earning a file blow and `{{ kits.vitalist.data.VITALIST_CROSSBOW_AMMO_ASSIST_REWARD }}` ammo after earning an assist.
 
-![Vitalist - Ammo Final Blow](../assets/kits/vitalist/_image_1_.jpg_)
+![Vitalist - Ammo Final Blow](../assets/kits/vitalist/Vitalist%20-%20Ammo%20Final%20Blow.gif)
 
 Ally engineer dispensers dispense `{{ kits.vitalist.data.VITALIST_CROSSBOW_AMMO_DISPENSE_COUNT }}` ammo to the player if they are in range.
 
-![Vitalist - Ammo Dispenser](../assets/kits/vitalist/_image_1_.jpg_)
+![Vitalist - Ammo Dispenser](../assets/kits/vitalist/Vitalist%20-%20Ammo%20Dispenser.gif)
 
 <!-- tabs:end -->
 <br />
