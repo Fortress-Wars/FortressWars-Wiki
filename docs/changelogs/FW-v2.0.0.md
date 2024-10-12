@@ -24,6 +24,12 @@ Aquaman
 - Base trident throw damage reduced from **6** to **5**
 - Water synergy damage bonus now also applies to melee trident attacks
 
+Aquarius
+- Water Beam and Water Bomb Spells no longer destroy jumper translocators.
+- Removed the regeneration given when casting water beam
+- Added a new passive "Soothing Water". The caster slowly regenerates health when casting "Water Beam" and "Water Sphere" spells.
+- The "Water Bomb" and "Soothing Water" healing effects now count towards the healing stats.
+
 Bomber
 - Increased bomber knockback multiplier from **1.25** to **0.75**
 - Bombs now consider line of sight when damaging enemies.
