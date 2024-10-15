@@ -89,7 +89,8 @@ Use your grenade to launch yourself up.
 | SOLDIER_GRENADE_RADIUS | `{{ kits.soldier.data.SOLDIER_GRENADE_RADIUS }}` | The impact radius of a grenade. |
 | SOLDIER_GRENADE_COOLDOWN | `{{ kits.soldier.data.SOLDIER_GRENADE_COOLDOWN }}` | The cooldown, in ticks, of the Grenade ability. |
 | SOLDIER_GRENADE_DAMAGE | `{{ kits.soldier.data.SOLDIER_GRENADE_DAMAGE }}` | The base damage of the grenade. |
-| SOLDIER_GRENADE_KNOCKBACK_MULTIPLIER | `{{ kits.soldier.data.SOLDIER_GRENADE_KNOCKBACK_MULTIPLIER }}` | The knockback multiplier of Grenade ability. |
+| SOLDIER_GRENADE_VELOCITY_MULTIPLIER | `{{ kits.soldier.data.SOLDIER_GRENADE_VELOCITY_MULTIPLIER }}` | The velocity mutliplier when throwing the grenade. |
+| SOLDIER_GRENADE_KNOCKBACK_MULTIPLIER | `{{ kits.soldier.data.SOLDIER_GRENADE_KNOCKBACK_MULTIPLIER }}` | The knockback multiplier of grenade ability when it hits enemies. |
 | SOLDIER_GRENADE_SELF_DAMAGE_MULTIPLIER | `{{ kits.soldier.data.SOLDIER_GRENADE_SELF_DAMAGE_MULTIPLIER }}` | The self damage multiplier of a grenade when hitting the player. |
 | SOLDIER_SWORD_DAMAGE | `{{ kits.soldier.data.SOLDIER_SWORD_DAMAGE }}` | The base damage of the sword. |
 | SOLDIER_SWORD_SPEED | `{{ kits.soldier.data.SOLDIER_SWORD_SPEED }}` | The base speed of the sword. |

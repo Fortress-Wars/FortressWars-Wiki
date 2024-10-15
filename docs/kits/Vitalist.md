@@ -82,7 +82,7 @@ The player receives `{{ kits.vitalist.data.VITALIST_CROSSBOW_AMMO_FINAL_BLOW_REW
 
 ![Vitalist - Ammo Final Blow](../assets/kits/vitalist/Vitalist%20-%20Ammo%20Final%20Blow.gif)
 
-Ally engineer dispensers dispense `{{ kits.vitalist.data.VITALIST_CROSSBOW_AMMO_DISPENSE_COUNT }}` ammo to the player if they are in range.
+Friendly engineer dispensers dispense `{{ kits.vitalist.data.VITALIST_CROSSBOW_AMMO_DISPENSE_COUNT }}` ammo to the player if they are in range.
 
 ![Vitalist - Ammo Dispenser](../assets/kits/vitalist/Vitalist%20-%20Ammo%20Dispenser.gif)
 
