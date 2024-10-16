@@ -19,7 +19,7 @@
     "MANA_POTION_AUTOPOT_HOTBAR_ONLY": "If autopot should only use mana potions in the hotbar.",
     "MANA_MAX": "The maxiumum mana the player has.",
     "MANA_REGENERATION_RATE": "The rate, in ticks, at which mana regenerates.",
-    "MANA_REGENERATION_AMOUNT": "The amount of mana restored uring each mana regeneration tick.",
+    "MANA_REGENERATION_AMOUNT": "The amount of mana restored during each mana regeneration tick.",
     "MANA_FINAL_BLOW_AMOUNT": "The amount of mana restored after earning a final blow.",
     "MANA_ASSIST_AMOUNT": "The amount of mana restored after earning an assist.",
     "MANA_DISPENSER_DISPENSE_AMOUNT": "The amount of mana restored from friendly engineer dispensers."
@@ -78,7 +78,6 @@
         "AQUARIUS_WATER_BEAM_MANA_COST": 10,
         "AQUARIUS_WATER_BEAM_CAST_COOLDOWN": 7,
         "AQUARIUS_WATER_BEAM_HEALING_POTENCY": 2,
-        "AQUARIUS_WATER_BEAM_HEALING_RADIUS": 0.75,
         "AQUARIUS_WATER_BEAM_POP_RADIUS": 2.5,
         "AQUARIUS_WATER_BEAM_WET_DURATION": 200,
         "AQUARIUS_WATER_BEAM_MAX_RANGE": 16,

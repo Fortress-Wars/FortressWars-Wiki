@@ -32,7 +32,7 @@
 <!-- tabs:start -->
 #### **Spell Wand**
 ## Spell Wand
-An item used to cast spells.
+A weapon that is used to cast spells. Casting spells costs mana and each spell has a cooldown.
 
 ### Casting
 - _Spell_1_ *(Left-Click)*
