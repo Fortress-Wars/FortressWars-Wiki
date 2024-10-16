@@ -53,7 +53,7 @@ Water bubbles will stun enemy engineer blocks for `{{ kits.aquarius.data.AQUARIU
 
 #### **Water Bomb**
 ## Water Bomb
-The spell costs `{{ kits.aquarius.data.AQUARIUS_WATER_BOMB_MANA_COST }}` mana. Casting will summon a water bomb projectile in the direction the player is looking. The water bomb will explode when it hits a block or hits an entity. When it explodes it will heal all allies and debuff all enemies in a `{{ kits.aquarius.data.AQUARIUS_WATER_BOMB_HIT_RADIUS }}` meter radius.
+The spell costs `{{ kits.aquarius.data.AQUARIUS_WATER_BOMB_MANA_COST }}` mana. Casting will summon a water bomb projectile in the direction the player is looking. The water bomb will explode when it hits a block or hits an entity. When it explodes it will heal all allies and debuff all enemies in a `{{ kits.aquarius.data.AQUARIUS_WATER_BOMB_EXPLOSION_RADIUS }}` meter radius.
 
 ![Aquarius - Water Bomb Cast](../assets/kits/aquarius/_image_1_.jpg_)
 
@@ -147,7 +147,7 @@ Friendly engineer dispensers restore `{{ kits.aquarius.data.MANA_DISPENSER_DISPE
 | AQUARIUS_WATER_BEAM_SPEED | `{{ kits.aquarius.data.AQUARIUS_WATER_BEAM_SPEED }}` | The speed at which the water bubble travels. |
 | AQUARIUS_WATER_BOMB_CAST_COOLDOWN | `{{ kits.aquarius.data.AQUARIUS_WATER_BOMB_CAST_COOLDOWN }}` | The water bomb spell cooldown in ticks. |
 | AQUARIUS_WATER_BOMB_MANA_COST | `{{ kits.aquarius.data.AQUARIUS_WATER_BOMB_MANA_COST }}` | The cost of mana in order to cast the water bomb spell. |
-| AQUARIUS_WATER_BOMB_HIT_RADIUS | `{{ kits.aquarius.data.AQUARIUS_WATER_BOMB_HIT_RADIUS }}` | The radius, in meters, of the water bomb explosion. |
+| AQUARIUS_WATER_BOMB_EXPLOSION_RADIUS | `{{ kits.aquarius.data.AQUARIUS_WATER_BOMB_EXPLOSION_RADIUS }}` | The radius, in meters, of the water bomb explosion. |
 | AQUARIUS_WATER_BOMB_HEALING_TICKS | `{{ kits.aquarius.data.AQUARIUS_WATER_BOMB_HEALING_TICKS }}` | The amount of water bomb healing ticks. |
 | AQUARIUS_WATER_BOMB_HEALING_TICK_RATE | `{{ kits.aquarius.data.AQUARIUS_WATER_BOMB_HEALING_TICK_RATE }}` | The duration, in ticks, of one water bomb healing tick. |
 | AQUARIUS_WATER_BOMB_HEALING_TICK_POTENCY | `{{ kits.aquarius.data.AQUARIUS_WATER_BOMB_HEALING_TICK_POTENCY }}` | The amount of health to restore in one water bomb healing tick. |
