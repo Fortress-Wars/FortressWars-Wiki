@@ -59,7 +59,7 @@ The player will be rewarded `{{ kits.pyrotechnic.data.PYROTECHNIC_AMMO_FINAL_BLO
 
 ![Pyrotechnic - Rockets Final Blow](../assets/kits/pyrotechnic/Pyrotechnic%20-%20Rockets%20Final%20Blow.gif)
 
-Ally engineer dispensers will dispense `{{ kits.pyrotechnic.data.PYROTECHNIC_AMMO_DISPENSER_DISPENSE_AMOUNT }}` rockets to the player if they are in range.
+Friendly engineer dispensers will dispense `{{ kits.pyrotechnic.data.PYROTECHNIC_AMMO_DISPENSER_DISPENSE_AMOUNT }}` rockets to the player if they are in range.
 
 ![Pyrotechnic - Rockets Engineer Dispenser](../assets/kits/pyrotechnic/Pyrotechnic%20-%20Rockets%20Engineer%20Dispenser.gif)
 

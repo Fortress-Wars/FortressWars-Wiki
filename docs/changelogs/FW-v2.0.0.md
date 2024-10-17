@@ -9,7 +9,7 @@ _Release Date: TBD_
 - Bug Fixes
 
 ### Health Bars
-Health bars appear above ally player models. They show the player's Kit, Name, Health Bar, Numeric Health Value, and number of potions. Absorption and other status effects will also be reflected in the health bar. Enemies only see the player's name and nothing else!
+Health bars appear above allies. They show the player's Kit, Name, Health Bar, Numeric Health Value, and number of potions. Absorption and other status effects will also be reflected in the health bar. Enemies only see the player's name and nothing else!
 
 ### Discord Integration
 A new channel has been created that will show game events and player deaths messages.
@@ -23,6 +23,13 @@ Aquaman
 - Base trident melee damage reduced from **7** to **4**
 - Base trident throw damage reduced from **6** to **5**
 - Water synergy damage bonus now also applies to melee trident attacks
+
+Aquarius
+- Changed how the Water Beam spell heals the caster: Only the water beam pop heals the player.
+- Water Beam and Water Bomb Spells no longer destroy jumper translocators.
+- Removed the regeneration given when casting water beam
+- Added a new passive "Soothing Water". The caster slowly regenerates health when casting "Water Beam" and "Water Sphere" spells.
+- The "Water Bomb" and "Soothing Water" healing effects now count towards the healing stats.
 
 Bomber
 - Increased bomber knockback multiplier from **1.25** to **0.75**

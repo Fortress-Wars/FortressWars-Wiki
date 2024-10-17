@@ -73,7 +73,7 @@ Players will receive `{{ kits.musketeer.data.MUSKETEER_AMMO_FINAL_BLOW_REWARD }}
 
 ![Musketeer - Elimination](../assets/kits/musketeer/Musketeer%20-%20Elimination.gif)
 
-Ally engineer dispensers will dispense `{{ kits.musketeer.data.MUSKETEER_AMMO_DISPENSER_DISPENSE_AMOUNT }}` ammo to the player if they are in range.
+Friendly engineer dispensers will dispense `{{ kits.musketeer.data.MUSKETEER_AMMO_DISPENSER_DISPENSE_AMOUNT }}` ammo to the player if they are in range.
 
 ![Musketeer - Dispenser Ammo](../assets/kits/musketeer/Musketeer%20-%20Dispenser%20Ammo.gif)
 
