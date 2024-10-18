@@ -71,6 +71,9 @@ Fish
 - OP fish now keeps the fish ability.
 - Fish throw is now faster in OP fish mode.
 
+Golem
+- Earth wall is now made out of mud.
+
 Hitman:
 - Bow now has infinity, but the max tags a hitman can have at once is still 6.
 - Replaced chainmail leggings with black leather leggings.
@@ -237,3 +240,4 @@ Vitalist
 - Fixed bug where damage achievements' progress would display when damaging self even though self damage doesn't count towards the statistic/achievement.
 - Fixed bug where the classic overtime sudden death scoreboard would not update properly if for the player that died.
 - Fixed The Engineer "Doc Holiday" achievement including enemies.
+- Fixed issue where Earth Walls could regenerater from the "Demolish" ability and would linger permanently.
