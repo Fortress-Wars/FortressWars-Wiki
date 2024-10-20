@@ -73,6 +73,8 @@ Fish
 
 Golem
 - Earth wall is now made out of mud.
+- Earth Shatter has been reworked. It now summons a shockwave in the direction ther player is looking and spreads out as it travels.
+- Increased earth shatter radius from **8** meters to **12** meters.
 
 Hitman:
 - Bow now has infinity, but the max tags a hitman can have at once is still 6.

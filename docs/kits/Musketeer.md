@@ -138,5 +138,6 @@ Friendly engineer dispensers will dispense `{{ kits.musketeer.data.MUSKETEER_AMM
 | MUSKETEER_RIFLE_BURST_MODE_BULLET_IGNORE_I_FRAMES | `{{ kits.musketeer.data.MUSKETEER_RIFLE_BURST_MODE_BULLET_IGNORE_I_FRAMES }}` | If burst bullets should ignore no damage ticks. |
 | MUSKETEER_RIFLE_BURST_MODE_DELAY_BETWEEN_SHOTS | `{{ kits.musketeer.data.MUSKETEER_RIFLE_BURST_MODE_DELAY_BETWEEN_SHOTS }}` | The delay, in ticks, between burst shots. |
 | MUSKETEER_RIFLE_BURST_MODE_NUMBER_OF_SHOTS | `{{ kits.musketeer.data.MUSKETEER_RIFLE_BURST_MODE_NUMBER_OF_SHOTS }}` | The number of bullets in a burst shot. |
+| MUSKETEER_RIFLE_HEAVY_BULLET | `{{ kits.musketeer.data.MUSKETEER_RIFLE_HEAVY_BULLET }}` | Makes the bullet heavy. |
 | MUSKETEER_RIFLE_DO_GLOWING_ON_BULLET_HIT | `{{ kits.musketeer.data.MUSKETEER_RIFLE_DO_GLOWING_ON_BULLET_HIT }}` | If the bullets should affect enemies with glowing. |
 | MUSKETEER_RIFLE_BULLET_GLOWING_DURATION | `{{ kits.musketeer.data.MUSKETEER_RIFLE_BULLET_GLOWING_DURATION }}` | The duration, in ticks, of the glowing effect. |
