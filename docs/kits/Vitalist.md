@@ -124,7 +124,7 @@ Friendly engineer dispensers dispense `{{ kits.vitalist.data.VITALIST_CROSSBOW_A
 | VITALIST_CROSSBOW_MAGAZINE_SIZE | `{{ kits.vitalist.data.VITALIST_CROSSBOW_MAGAZINE_SIZE }}` | The size of the crossbow's magazine. |
 | VITALIST_CROSSBOW_SHOOT_COOLDOWN | `{{ kits.vitalist.data.VITALIST_CROSSBOW_SHOOT_COOLDOWN }}` | The cooldown, in ticks, after firing a projectile from the crossbow. |
 | VITALIST_CROSSBOW_RELOAD_DURATION_PER_1_AMMO | `{{ kits.vitalist.data.VITALIST_CROSSBOW_RELOAD_DURATION_PER_1_AMMO }}` | The duration, in ticks, to reload one ammo into the crossbow's magazine. |
-| VITALIST_CROSSBOW_PROJECTILE_SPEED | `{{ kits.vitalist.data.VITALIST_CROSSBOW_PROJECTILE_SPEED }}` | The speed of crossbow projectiles. |
+| VITALIST_CROSSBOW_PROJECTILE_SPEED | `{{ kits.vitalist.data.VITALIST_CROSSBOW_PROJECTILE_SPEED }}` | The speed of crossbow projectiles. (0 = no travel time) |
 | VITALIST_CROSSBOW_PROJECTILE_SIZE | `{{ kits.vitalist.data.VITALIST_CROSSBOW_PROJECTILE_SIZE }}` | The size of crossbow projectiles. |
 | VITALIST_CROSSBOW_PROJECTILE_MAX_DISTANCE | `{{ kits.vitalist.data.VITALIST_CROSSBOW_PROJECTILE_MAX_DISTANCE }}` | The maxiumum distance of crossbow projectiles. |
 | VITALIST_CROSSBOW_PIERCING_LEVEL | `{{ kits.vitalist.data.VITALIST_CROSSBOW_PIERCING_LEVEL }}` | The number of allies and enemies that crossbow projectiles pierce. |

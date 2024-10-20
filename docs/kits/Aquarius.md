@@ -144,7 +144,7 @@ Friendly engineer dispensers restore `{{ kits.aquarius.data.MANA_DISPENSER_DISPE
 | AQUARIUS_WATER_BEAM_WET_DURATION | `{{ kits.aquarius.data.AQUARIUS_WATER_BEAM_WET_DURATION }}` | The duration, in ticks, of the water bubble's wet status. (Used for stunning engineer blocks) |
 | AQUARIUS_WATER_BEAM_MAX_RANGE | `{{ kits.aquarius.data.AQUARIUS_WATER_BEAM_MAX_RANGE }}` | The maximum distance, in meters, that the water bubble will travel before popping. |
 | AQUARIUS_WATER_BEAM_SIZE | `{{ kits.aquarius.data.AQUARIUS_WATER_BEAM_SIZE }}` | The size of the water bubble hitbox. |
-| AQUARIUS_WATER_BEAM_SPEED | `{{ kits.aquarius.data.AQUARIUS_WATER_BEAM_SPEED }}` | The speed at which the water bubble travels. |
+| AQUARIUS_WATER_BEAM_SPEED | `{{ kits.aquarius.data.AQUARIUS_WATER_BEAM_SPEED }}` | The speed at which the water bubble travels. (0 = no travel time) |
 | AQUARIUS_WATER_BOMB_CAST_COOLDOWN | `{{ kits.aquarius.data.AQUARIUS_WATER_BOMB_CAST_COOLDOWN }}` | The water bomb spell cooldown in ticks. |
 | AQUARIUS_WATER_BOMB_MANA_COST | `{{ kits.aquarius.data.AQUARIUS_WATER_BOMB_MANA_COST }}` | The cost of mana in order to cast the water bomb spell. |
 | AQUARIUS_WATER_BOMB_EXPLOSION_RADIUS | `{{ kits.aquarius.data.AQUARIUS_WATER_BOMB_EXPLOSION_RADIUS }}` | The radius, in meters, of the water bomb explosion. |
