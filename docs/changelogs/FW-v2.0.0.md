@@ -74,7 +74,11 @@ Fish
 Golem
 - Earth wall is now made out of mud.
 - Earth Shatter has been reworked. It now summons a shockwave in the direction ther player is looking and spreads out as it travels.
-- Increased earth shatter radius from **8** meters to **12** meters.
+- Increased Earth Shatter radius from **8** meters to **12** meters.
+- Decreased Earth Shatter mana cost from **60** mana to **55** mana.
+- Entities affected by Earth Shatter will be affected with the "Rooting" effect. Player are unable to move and take increased fire damage.
+- The "Rooting" effect lasts for **60** ticks.
+- Earth Shatter no longer damages the caster.
 
 Hitman:
 - Bow now has infinity, but the max tags a hitman can have at once is still 6.
@@ -226,6 +230,7 @@ Vitalist
 - When a liquid is replaced from player's building and the block they placed is detroyed, the liquid will be restored.
 
 ## Other Changes
+- Minions can now use sponge launchers.
 - Regeneration rate for potions while **in** combat reduced from **420** ticks to **200** ticks.
 - Regeneration rate for potions while **out of** combat reduced from **140** ticks to **100** ticks.
 - Tanks now have a **50%** knockback resistance when blocking.
