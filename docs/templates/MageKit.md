@@ -22,7 +22,7 @@
 - Stone Sword
 - Spell Wand
 - {{ kits._kit_.data.MAX_MANA_POTIONS }} Mana Potions
-- {{ kits._kit_.data.MANA_MAX }} Mana
+- {{ kits._shared.data.MANA_MAX }} Mana
 
 <br />  
 
@@ -89,17 +89,17 @@ Mana is a resource used to cast spells.
 
 ![_kit_ - Mana](../assets/kits/aquarius/_image_1_.jpg_)
 
-The player's maximum mana is `{{ kits._kit_.data.MANA_MAX }}` and it will regenerate slowly overtime.
+The player's maximum mana is `{{ kits._shared.data.MANA_MAX }}` and it will regenerate slowly over time.
 
 ![_kit_ - Mana Regenerate](../assets/kits/aquarius/_image_1_.jpg_)
 
-After the player earns a final blow, they will restore `{{ kits._kit_.data.MANA_FINAL_BLOW_AMOUNT }}` mana and `{{ kits._kit_.data.MANA_ASSIST_AMOUNT }}` mana after earning an assist.
+After the player earns a final blow, they will restore `{{ kits._shared.data.MANA_FINAL_BLOW_AMOUNT }}` mana and `{{ kits._shared.data.MANA_ASSIST_AMOUNT }}` mana after earning an assist.
 
 ![_kit_ - Mana Final Blow](../assets/kits/aquarius/_image_1_.jpg_)
 
 ![_kit_ - Mana Assist](../assets/kits/aquarius/_image_1_.jpg_)
 
-Friendly engineer dispensers restore `{{ kits._kit_.data.MANA_DISPENSER_DISPENSE_AMOUNT }}` mana.
+Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPENSE_AMOUNT }}` mana.
 
 ![_kit_ - Mana Dispenser](../assets/kits/aquarius/_image_1_.jpg_)
 
@@ -136,12 +136,12 @@ Friendly engineer dispensers restore `{{ kits._kit_.data.MANA_DISPENSER_DISPENSE
 | MANA_POTION_AUTOPOT_POTENCY | `{{ kits._shared.data.MANA_POTION_AUTOPOT_POTENCY }}` | {{ kitDataSharedDescriptions.MANA_POTION_AUTOPOT_POTENCY }} |
 | MANA_POTION_AUTOPOT_THRESHOLD | `{{ kits._shared.data.MANA_POTION_AUTOPOT_THRESHOLD }}` | {{ kitDataSharedDescriptions.MANA_POTION_AUTOPOT_THRESHOLD }} |
 | MANA_POTION_AUTOPOT_HOTBAR_ONLY | `{{ kits._shared.data.MANA_POTION_AUTOPOT_HOTBAR_ONLY }}` | {{ kitDataSharedDescriptions.MANA_POTION_AUTOPOT_HOTBAR_ONLY }} |
-| MANA_MAX | `{{ kits._kit_.data.MANA_MAX }}` | {{ kitDataSharedDescriptions.MANA_MAX }} |
-| MANA_REGENERATION_RATE | `{{ kits._kit_.data.MANA_REGENERATION_RATE }}` | {{ kitDataSharedDescriptions.MANA_REGENERATION_RATE }} |
-| MANA_REGENERATION_AMOUNT | `{{ kits._kit_.data.MANA_REGENERATION_AMOUNT }}` | {{ kitDataSharedDescriptions.MANA_REGENERATION_AMOUNT }} |
-| MANA_FINAL_BLOW_AMOUNT | `{{ kits._kit_.data.MANA_FINAL_BLOW_AMOUNT }}` | {{ kitDataSharedDescriptions.MANA_FINAL_BLOW_AMOUNT }} |
-| MANA_ASSIST_AMOUNT | `{{ kits._kit_.data.MANA_ASSIST_AMOUNT }}` | {{ kitDataSharedDescriptions.MANA_ASSIST_AMOUNT }} |
-| MANA_DISPENSER_DISPENSE_AMOUNT | `{{ kits._kit_.data.MANA_DISPENSER_DISPENSE_AMOUNT }}` | {{ kitDataSharedDescriptions.MANA_DISPENSER_DISPENSE_AMOUNT }} |
+| MANA_MAX | `{{ kits._shared.data.MANA_MAX }}` | {{ kitDataSharedDescriptions.MANA_MAX }} |
+| MANA_REGENERATION_RATE | `{{ kits._shared.data.MANA_REGENERATION_RATE }}` | {{ kitDataSharedDescriptions.MANA_REGENERATION_RATE }} |
+| MANA_REGENERATION_AMOUNT | `{{ kits._shared.data.MANA_REGENERATION_AMOUNT }}` | {{ kitDataSharedDescriptions.MANA_REGENERATION_AMOUNT }} |
+| MANA_FINAL_BLOW_AMOUNT | `{{ kits._shared.data.MANA_FINAL_BLOW_AMOUNT }}` | {{ kitDataSharedDescriptions.MANA_FINAL_BLOW_AMOUNT }} |
+| MANA_ASSIST_AMOUNT | `{{ kits._shared.data.MANA_ASSIST_AMOUNT }}` | {{ kitDataSharedDescriptions.MANA_ASSIST_AMOUNT }} |
+| MANA_DISPENSER_DISPENSE_AMOUNT | `{{ kits._shared.data.MANA_DISPENSER_DISPENSE_AMOUNT }}` | {{ kitDataSharedDescriptions.MANA_DISPENSER_DISPENSE_AMOUNT }} |
 <!-- | TANK_ROLE_KNOCKBACK_PERCENTAGE | `{{ kits._shared.data.TANK_ROLE_KNOCKBACK_PERCENTAGE }}` | {{ kitDataSharedDescriptions.TANK_ROLE_KNOCKBACK_PERCENTAGE }} |
 | SHIELD_REGENERATION_DELAY | `{{ kits._shared.data.SHIELD_REGENERATION_DELAY }}` | {{ kitDataSharedDescriptions.SHIELD_REGENERATION_DELAY }} |
 | SHIELD_REGENERATION_RATE | `{{ kits._shared.data.SHIELD_REGENERATION_RATE }}` | {{ kitDataSharedDescriptions.SHIELD_REGENERATION_RATE }} |

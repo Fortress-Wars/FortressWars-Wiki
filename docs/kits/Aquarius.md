@@ -21,7 +21,7 @@
 - Stone Sword
 - Spell Wand
 - {{ kits.aquarius.data.MAX_MANA_POTIONS }} Mana Potions
-- {{ kits.aquarius.data.MANA_MAX }} Mana
+- {{ kits._shared.data.MANA_MAX }} Mana
 
 <br />  
 
@@ -90,17 +90,17 @@ Mana is a resource used to cast spells.
 
 ![Aquarius - Mana](../assets/kits/aquarius/_image_1_.jpg_)
 
-The player's maximum mana is `{{ kits.aquarius.data.MANA_MAX }}` and it will regenerate slowly over time.
+The player's maximum mana is `{{ kits._shared.data.MANA_MAX }}` and it will regenerate slowly over time.
 
 ![Aquarius - Mana Regenerate](../assets/kits/aquarius/_image_1_.jpg_)
 
-After the player earns a final blow, they will restore `{{ kits.aquarius.data.MANA_FINAL_BLOW_AMOUNT }}` mana and `{{ kits.aquarius.data.MANA_ASSIST_AMOUNT }}` mana after earning an assist.
+After the player earns a final blow, they will restore `{{ kits._shared.data.MANA_FINAL_BLOW_AMOUNT }}` mana and `{{ kits._shared.data.MANA_ASSIST_AMOUNT }}` mana after earning an assist.
 
 ![Aquarius - Mana Final Blow](../assets/kits/aquarius/_image_1_.jpg_)
 
 ![Aquarius - Mana Assist](../assets/kits/aquarius/_image_1_.jpg_)
 
-Friendly engineer dispensers restore `{{ kits.aquarius.data.MANA_DISPENSER_DISPENSE_AMOUNT }}` mana.
+Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPENSE_AMOUNT }}` mana.
 
 ![Aquarius - Mana Dispenser](../assets/kits/aquarius/_image_1_.jpg_)
 
@@ -128,12 +128,12 @@ Friendly engineer dispensers restore `{{ kits.aquarius.data.MANA_DISPENSER_DISPE
 | MANA_POTION_AUTOPOT_POTENCY | `{{ kits._shared.data.MANA_POTION_AUTOPOT_POTENCY }}` | {{ kitDataSharedDescriptions.MANA_POTION_AUTOPOT_POTENCY }} |
 | MANA_POTION_AUTOPOT_THRESHOLD | `{{ kits._shared.data.MANA_POTION_AUTOPOT_THRESHOLD }}` | {{ kitDataSharedDescriptions.MANA_POTION_AUTOPOT_THRESHOLD }} |
 | MANA_POTION_AUTOPOT_HOTBAR_ONLY | `{{ kits._shared.data.MANA_POTION_AUTOPOT_HOTBAR_ONLY }}` | {{ kitDataSharedDescriptions.MANA_POTION_AUTOPOT_HOTBAR_ONLY }} |
-| MANA_MAX | `{{ kits.aquarius.data.MANA_MAX }}` | {{ kitDataSharedDescriptions.MANA_MAX }} |
-| MANA_REGENERATION_RATE | `{{ kits.aquarius.data.MANA_REGENERATION_RATE }}` | {{ kitDataSharedDescriptions.MANA_REGENERATION_RATE }} |
-| MANA_REGENERATION_AMOUNT | `{{ kits.aquarius.data.MANA_REGENERATION_AMOUNT }}` | {{ kitDataSharedDescriptions.MANA_REGENERATION_AMOUNT }} |
-| MANA_FINAL_BLOW_AMOUNT | `{{ kits.aquarius.data.MANA_FINAL_BLOW_AMOUNT }}` | {{ kitDataSharedDescriptions.MANA_FINAL_BLOW_AMOUNT }} |
-| MANA_ASSIST_AMOUNT | `{{ kits.aquarius.data.MANA_ASSIST_AMOUNT }}` | {{ kitDataSharedDescriptions.MANA_ASSIST_AMOUNT }} |
-| MANA_DISPENSER_DISPENSE_AMOUNT | `{{ kits.aquarius.data.MANA_DISPENSER_DISPENSE_AMOUNT }}` | {{ kitDataSharedDescriptions.MANA_DISPENSER_DISPENSE_AMOUNT }} |
+| MANA_MAX | `{{ kits._shared.data.MANA_MAX }}` | {{ kitDataSharedDescriptions.MANA_MAX }} |
+| MANA_REGENERATION_RATE | `{{ kits._shared.data.MANA_REGENERATION_RATE }}` | {{ kitDataSharedDescriptions.MANA_REGENERATION_RATE }} |
+| MANA_REGENERATION_AMOUNT | `{{ kits._shared.data.MANA_REGENERATION_AMOUNT }}` | {{ kitDataSharedDescriptions.MANA_REGENERATION_AMOUNT }} |
+| MANA_FINAL_BLOW_AMOUNT | `{{ kits._shared.data.MANA_FINAL_BLOW_AMOUNT }}` | {{ kitDataSharedDescriptions.MANA_FINAL_BLOW_AMOUNT }} |
+| MANA_ASSIST_AMOUNT | `{{ kits._shared.data.MANA_ASSIST_AMOUNT }}` | {{ kitDataSharedDescriptions.MANA_ASSIST_AMOUNT }} |
+| MANA_DISPENSER_DISPENSE_AMOUNT | `{{ kits._shared.data.MANA_DISPENSER_DISPENSE_AMOUNT }}` | {{ kitDataSharedDescriptions.MANA_DISPENSER_DISPENSE_AMOUNT }} |
 | AQUARIUS_SWORD_DAMAGE | `{{ kits.aquarius.data.AQUARIUS_SWORD_DAMAGE }}` | The base damage of the sword. |
 | AQUARIUS_SWORD_SPEED | `{{ kits.aquarius.data.AQUARIUS_SWORD_SPEED }}` | The base speed of the sword. |
 | AQUARIUS_WAND_KNOCKBACK_LEVEL | `{{ kits.aquarius.data.AQUARIUS_WAND_KNOCKBACK_LEVEL }}` | The level of the knockback enchantment on the spell wand. |
