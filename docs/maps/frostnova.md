@@ -38,5 +38,5 @@
 
 | Property | Value | Description |
 | ----------- | ----------- | ------ |
-| buildRadius |`{{ maps.frostnova.data.buildRadius }}`| {{ mapPropertyDescriptions.buildRadius.classic }} |
-| buildHeight |`{{ maps.frostnova.data.buildHeight }}`| {{ mapPropertyDescriptions.buildHeight.classic }} |
+| buildRadius |`{{ maps.map_frostnova.data.buildRadius }}`| {{ mapPropertyDescriptions.buildRadius.classic }} |
+| buildHeight |`{{ maps.map_frostnova.data.buildHeight }}`| {{ mapPropertyDescriptions.buildHeight.classic }} |

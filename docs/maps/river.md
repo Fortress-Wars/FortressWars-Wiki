@@ -37,5 +37,5 @@
 
 | Property | Value | Description |
 | ----------- | ----------- | ------ |
-| buildRadius |`{{ maps.river.data.buildRadius }}`| {{ mapPropertyDescriptions.buildRadius.classic }} |
-| buildHeight |`{{ maps.river.data.buildHeight }}`| {{ mapPropertyDescriptions.buildHeight.classic }} |
+| buildRadius |`{{ maps.map_river.data.buildRadius }}`| {{ mapPropertyDescriptions.buildRadius.classic }} |
+| buildHeight |`{{ maps.map_river.data.buildHeight }}`| {{ mapPropertyDescriptions.buildHeight.classic }} |

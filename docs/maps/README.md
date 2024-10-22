@@ -197,7 +197,7 @@
 > - **Type**: Non-Build
 > - **Introduced**: v1.7.0
 > - **Contributors**: inbystander000
-> # ![twocastlesicon](../assets/maps/2castles/twocastles-icon.jpg)
+> # ![twocastlesicon](../assets/maps/twocastles/twocastles-icon.jpg)
 
 > ## [Underworld](Underworld)
 > - **Gamemode**: Classic

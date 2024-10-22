@@ -35,5 +35,5 @@
 
 | Property | Value | Description |
 | ----------- | ----------- | ------ |
-| buildRadius |`{{ maps.voidKOTH.data.buildRadius }}`| {{ mapPropertyDescriptions.buildRadius.koth }} |
-| buildHeight |`{{ maps.voidKOTH.data.buildHeight }}`| {{ mapPropertyDescriptions.buildHeight.koth }} |
+| buildRadius |`{{ maps.map_void_KOTH.data.buildRadius }}`| {{ mapPropertyDescriptions.buildRadius.koth }} |
+| buildHeight |`{{ maps.map_void_KOTH.data.buildHeight }}`| {{ mapPropertyDescriptions.buildHeight.koth }} |

@@ -37,5 +37,5 @@
 
 | Property | Value | Description |
 | ----------- | ----------- | ------ |
-| buildRadius |`{{ maps.iceAD.data.buildRadius }}`| {{ mapPropertyDescriptions.buildRadius.classic }} |
-| buildHeight |`{{ maps.iceAD.data.buildHeight }}`| {{ mapPropertyDescriptions.buildHeight.classic }} |
+| buildRadius |`{{ maps.map_ice_AD.data.buildRadius }}`| {{ mapPropertyDescriptions.buildRadius.classic }} |
+| buildHeight |`{{ maps.map_ice_AD.data.buildHeight }}`| {{ mapPropertyDescriptions.buildHeight.classic }} |

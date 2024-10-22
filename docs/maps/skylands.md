@@ -37,5 +37,5 @@
 
 | Property | Value | Description |
 | ----------- | ----------- | ------ |
-| buildRadius |`{{ maps.skylands.data.buildRadius }}`| {{ mapPropertyDescriptions.buildRadius.classic }} |
-| buildHeight |`{{ maps.skylands.data.buildHeight }}`| {{ mapPropertyDescriptions.buildHeight.classic }} |
+| buildRadius |`{{ maps.map_skylands.data.buildRadius }}`| {{ mapPropertyDescriptions.buildRadius.classic }} |
+| buildHeight |`{{ maps.map_skylands.data.buildHeight }}`| {{ mapPropertyDescriptions.buildHeight.classic }} |

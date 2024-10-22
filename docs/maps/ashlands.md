@@ -36,5 +36,5 @@
 
 | Property | Value | Description |
 | ----------- | ----------- | ------ |
-| buildRadius |`{{ maps.ashlands.data.buildRadius }}`| {{ mapPropertyDescriptions.buildRadius.koth }} |
-| buildHeight |`{{ maps.ashlands.data.buildHeight }}`| {{ mapPropertyDescriptions.buildHeight.koth }} |
+| buildRadius |`{{ maps.map_ashlands.data.buildRadius }}`| {{ mapPropertyDescriptions.buildRadius.koth }} |
+| buildHeight |`{{ maps.map_ashlands.data.buildHeight }}`| {{ mapPropertyDescriptions.buildHeight.koth }} |

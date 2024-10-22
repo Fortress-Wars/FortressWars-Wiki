@@ -36,5 +36,5 @@
 
 | Property | Value | Description |
 | ----------- | ----------- | ------ |
-| buildRadius |`{{ maps.oasiscity.data.buildRadius }}`| {{ mapPropertyDescriptions.buildRadius.koth }} |
-| buildHeight |`{{ maps.oasiscity.data.buildHeight }}`| {{ mapPropertyDescriptions.buildHeight.koth }} |
+| buildRadius |`{{ maps.map_oasiscity.data.buildRadius }}`| {{ mapPropertyDescriptions.buildRadius.koth }} |
+| buildHeight |`{{ maps.map_oasiscity.data.buildHeight }}`| {{ mapPropertyDescriptions.buildHeight.koth }} |

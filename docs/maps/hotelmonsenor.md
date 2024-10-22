@@ -38,5 +38,5 @@
 
 | Property | Value | Description |
 | ----------- | ----------- | ------ |
-| buildRadius |`{{ maps.hotelmonsenor.data.buildRadius }}`| {{ mapPropertyDescriptions.buildRadius.koth }} |
-| buildHeight |`{{ maps.hotelmonsenor.data.buildHeight }}`| {{ mapPropertyDescriptions.buildHeight.koth }} |
+| buildRadius |`{{ maps.map_hotelmonsenor.data.buildRadius }}`| {{ mapPropertyDescriptions.buildRadius.koth }} |
+| buildHeight |`{{ maps.map_hotelmonsenor.data.buildHeight }}`| {{ mapPropertyDescriptions.buildHeight.koth }} |

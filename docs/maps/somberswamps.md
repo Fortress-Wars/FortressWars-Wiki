@@ -37,5 +37,5 @@
 
 | Property | Value | Description |
 | ----------- | ----------- | ------ |
-| buildRadius |`{{ maps.somberswamps.data.buildRadius }}`| {{ mapPropertyDescriptions.buildRadius.koth }} |
-| buildHeight |`{{ maps.somberswamps.data.buildHeight }}`| {{ mapPropertyDescriptions.buildHeight.koth }} |
+| buildRadius |`{{ maps.map_somberswamps.data.buildRadius }}`| {{ mapPropertyDescriptions.buildRadius.koth }} |
+| buildHeight |`{{ maps.map_somberswamps.data.buildHeight }}`| {{ mapPropertyDescriptions.buildHeight.koth }} |

@@ -13,214 +13,214 @@
 
     },
     "maps":{
-        "2castles":{
+        "map_two_castles":{
             "data":{
                 "buildRadius":-1,
                 "buildHeight":15
             }
         },
-        "ashlands":{
+        "map_ashlands":{
             "data": {
              "buildRadius": 7,
              "buildHeight": 25
             }
         },
-        "biohazard":{
+        "map_biohazard":{
             "data":{
                 "buildRadius": -1,
                 "buildHeight": 30
             }
         },
-        "bootcamp":{
+        "map_bootcamp":{
             "data":{
                 "buildRadius":-1,
                 "buildHeight":15
             }
         },
-        "candyland":{
+        "map_candyland":{
             "data":{
                 "buildRadius":35,
                 "buildHeight":25
             }
         },
-        "caverns":{
+        "map_caverns":{
             "data":{
                 "buildRadius":30,
                 "buildHeight":35
             }
         },
-        "clay":{
+        "map_clay":{
             "data":{
                 "buildRadius":30,
                 "buildHeight":30
             }
         },
-        "clayNB":{
+        "map_clay_NB":{
             "data":{
                 "buildRadius":30,
                 "buildHeight":30
             }
         },
-        "cliffs":{
+        "map_cliffs":{
             "data":{
                 "buildRadius":28,
                 "buildHeight":20
             }
         },
-        "coast":{
+        "map_coast":{
             "data":{
                 "buildRadius":36,
                 "buildHeight":25
             }
         },
-        "coastKOTH":{
+        "map_coast_KOTH":{
             "data":{
                 "buildRadius":7,
                 "buildHeight":25
             }
         },
-        "colliery":{
+        "map_colliery":{
             "data":{
                 "buildRadius":30,
                 "buildHeight":25
             }
         },
-        "forest":{
+        "map_forest":{
             "data":{
                 "buildRadius":45,
                 "buildHeight":40
             }
         },
-        "frostnova":{
+        "map_frostnova":{
             "data":{
                 "buildRadius":40,
                 "buildHeight":50
             }
         },
-        "hotelmonsenor":{
-            "data":{
-                "buildRadius":7,
-                "buildHeight":25
-            }
-        },
-        "ice":{
-            "data":{
-                "buildRadius":45,
-                "buildHeight":30
-            }
-        },
-        "iceAD":{
-            "data":{
-                "buildRadius":45,
-                "buildHeight":30
-            }
-        },
-        "iceNB":{
-            "data":{
-                "buildRadius":45,
-                "buildHeight":30
-            }
-        },
-        "lazarus":{
-            "data":{
-                "buildRadius":8,
-                "buildHeight":25
-            }
-        },
-        "leafycanyon":{
-            "data":{
-                "buildRadius":7,
-                "buildHeight":45
-            }
-        },
-        "mountain":{
-            "data":{
-                "buildRadius":35,
-                "buildHeight":50
-            }
-        },
-        "oasiscity":{
-            "data":{
-                "buildRadius":7,
-                "buildHeight":45
-            }
-        },
-        "overgrown":{
-            "data":{
-                "buildRadius":45,
-                "buildHeight":30
-            }
-        },
-        "ravine":{
+        "map_greatwall":{
             "data":{
                 "buildRadius":35,
                 "buildHeight":40
             }
         },
-        "river":{
+        "map_hotelmonsenor":{
+            "data":{
+                "buildRadius":7,
+                "buildHeight":25
+            }
+        },
+        "map_ice":{
+            "data":{
+                "buildRadius":45,
+                "buildHeight":30
+            }
+        },
+        "map_ice_AD":{
+            "data":{
+                "buildRadius":45,
+                "buildHeight":30
+            }
+        },
+        "map_ice_NB":{
+            "data":{
+                "buildRadius":45,
+                "buildHeight":30
+            }
+        },
+        "map_lazarus":{
+            "data":{
+                "buildRadius":8,
+                "buildHeight":25
+            }
+        },
+        "map_leafycanyon":{
+            "data":{
+                "buildRadius":7,
+                "buildHeight":45
+            }
+        },
+        "map_mountain":{
+            "data":{
+                "buildRadius":35,
+                "buildHeight":50
+            }
+        },
+        "map_oasiscity":{
+            "data":{
+                "buildRadius":7,
+                "buildHeight":45
+            }
+        },
+        "map_overgrown":{
+            "data":{
+                "buildRadius":45,
+                "buildHeight":30
+            }
+        },
+        "map_ravine":{
+            "data":{
+                "buildRadius":35,
+                "buildHeight":40
+            }
+        },
+        "map_river":{
             "data":{
                 "buildRadius":50,
                 "buildHeight":50
             }
         },
-        "ships":{
+        "map_ships":{
             "data":{
                 "buildRadius":-1,
                 "buildHeight":30
             }
         },
-        "skylands":{
+        "map_skylands":{
             "data":{
                 "buildRadius":35,
                 "buildHeight":20
             }
         },
-        "somberswamps":{
+        "map_somberswamps":{
             "data":{
                 "buildRadius":8,
                 "buildHeight":25
             }
         },
-        "underworld":{
+        "map_underworld":{
             "data":{
                 "buildRadius":45,
                 "buildHeight":50
             }
         },
-        "urban":{
+        "map_urban":{
             "data":{
                 "buildRadius":30,
                 "buildHeight":50
             }
         },
-        "valley":{
+        "map_valley":{
             "data":{
                 "buildRadius":45,
                 "buildHeight":50
             }
         },
-        "valleyNB":{
+        "map_valley_NB":{
             "data":{
                 "buildRadius":45,
                 "buildHeight":40
             }
         },
-        "void":{
+        "map_void":{
             "data":{
                 "buildRadius":40,
                 "buildHeight":50
             }
         },
-        "voidKOTH":{
+        "map_void_KOTH":{
             "data":{
                 "buildRadius":7,
                 "buildHeight":10
-            }
-        },
-        "greatwall":{
-            "data":{
-                "buildRadius":35,
-                "buildHeight":40
             }
         }
         

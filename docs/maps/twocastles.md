@@ -4,7 +4,7 @@
 
 ***
 
-#### ![twocastlesicon](../assets/maps/2castles/twocastles-icon.jpg)
+#### ![twocastlesicon](../assets/maps/twocastles/twocastles-icon.jpg)
 
 # Overview
 ***
@@ -18,11 +18,11 @@
 <br />  
 
 # Map Galley
-![Two Castles - Overview](../assets/maps/2castles/twocastles-overview.jpg '')
-![Two Castles - Beacon](../assets/maps/2castles/twocastles-base.jpg '')
-![Two Castles - Beacon](../assets/maps/2castles/twocastles-beacon.jpg '')
-![Two Castles - Beacon](../assets/maps/2castles/twocastles-spawn.jpg '')
-![Two Castles - Beacon](../assets/maps/2castles/twocastles-sponges.jpg '')
+![Two Castles - Overview](../assets/maps/twocastles/twocastles-overview.jpg '')
+![Two Castles - Beacon](../assets/maps/twocastles/twocastles-base.jpg '')
+![Two Castles - Beacon](../assets/maps/twocastles/twocastles-beacon.jpg '')
+![Two Castles - Beacon](../assets/maps/twocastles/twocastles-spawn.jpg '')
+![Two Castles - Beacon](../assets/maps/twocastles/twocastles-sponges.jpg '')
 
 # Achievements
 ***
@@ -38,5 +38,5 @@
 
 | Property | Value | Description |
 | ----------- | ----------- | ------ |
-| buildRadius |`{{ maps.2castles.data.buildRadius }}`| {{ mapPropertyDescriptions.buildRadius.classic }} |
-| buildHeight |`{{ maps.2castles.data.buildHeight }}`| {{ mapPropertyDescriptions.buildHeight.classic }} |
+| buildRadius |`{{ maps.map_twocastles.data.buildRadius }}`| {{ mapPropertyDescriptions.buildRadius.classic }} |
+| buildHeight |`{{ maps.map_twocastles.data.buildHeight }}`| {{ mapPropertyDescriptions.buildHeight.classic }} |
