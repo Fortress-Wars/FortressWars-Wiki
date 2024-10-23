@@ -166,6 +166,11 @@ Porcupine
 Potion Master
 - Increased slowness level from **1** to **2**
 
+Priest
+- Release healing increased from **0.14** to **0.34** health per sun power stack.
+- Moved the burning effect of the release spell from level **5** to level **2**.
+- Moved the knockback effect of the realese spell from level **5** to level **4**.
+
 Pyrotechnic
 - Added knockback to the rockets.
 - When the barrage ability is activated and the crossbow is already loaded, the crossbow will instantly load the additional barrage rockets.
