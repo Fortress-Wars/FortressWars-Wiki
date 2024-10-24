@@ -2,4 +2,5 @@
 
 * [Home](/)
 * [Changelogs](/changelogs/)
+* [Maps](/maps/)
 * [Kits](/kits/)
