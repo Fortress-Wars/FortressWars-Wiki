@@ -11,7 +11,7 @@
 - **Introduced:** v1.7.0
 - **Description:** A prebuilt base on the map [Clay](Clay)
 - **Gamemode:** Classic
-- **Map Type:** Build and Break (BAB)
+- **Map Type:** Non-Build and Break (NBAB)
 - **Size:** Medium
 - **Contributors:** flameproofsocks & LinkFD
 

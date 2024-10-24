@@ -11,7 +11,7 @@
 - **Introduced:** v1.7.0
 - **Description:** A land full of sugar and delcious foods.
 - **Gamemode:** Attack and Defend
-- **Map Type:** Build
+- **Map Type:** Build (B)
 - **Size:** Small
 - **Contributors:** LinkFD & TheLordStan
 
@@ -22,8 +22,6 @@
 ![Candyland - Middle](../assets/maps/candyland/candyland-mid.jpg '')
 ![Candyland - Beacon](../assets/maps/candyland/candyland-beacon.jpg '')
 ![Candyland - Attacking Spawn](../assets/maps/candyland/candyland-spawnroom.jpg '')
-
-
 
 # Achievements
 ***

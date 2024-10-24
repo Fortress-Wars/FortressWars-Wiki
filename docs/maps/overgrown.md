@@ -11,7 +11,7 @@
 - **Introduced:** v1.7.0
 - **Description:** A open valley surrounded by a crowded jungle.
 - **Gamemode:** Attack and Defend
-- **Map Type:** Build
+- **Map Type:** Build (B)
 - **Size:** Medium
 - **Contributors:** LinkFD, TheLordStan & liamtheliam29
 
@@ -22,7 +22,6 @@
 ![Overgrown - Beacon](../assets/maps/overgrown/overgrown-beacon.jpg '')
 ![Overgrown - Attacker Spawn](../assets/maps/overgrown/overgrown-spawn.jpg '')
 ![Overgrown - Inside Attacker Spawn](../assets/maps/overgrown/overgrown-spawn1.jpg '')
-
 
 # Achievements
 ***

@@ -11,7 +11,7 @@
 - **Introduced:** v1.7.0
 - **Description:** A reformated version of the map [Icefields](icefields)
 - **Gamemode:** Attack and Defend
-- **Map Type:** Build
+- **Map Type:** Build and Break (BAB)
 - **Size:** Large
 - **Contributors:** Lucky_Lew & alfredodan
 
@@ -21,7 +21,6 @@
 ![Ice - Overview](../assets/maps/iceAD/icead-overview.jpg '')
 ![Ice - Beacon](../assets/maps/iceAD/icead-beacon '')
 ![Ice - Attacker Spawn](../assets/maps/iceAD/icead-attackerspawn.jpg '')
-
 
 # Achievements
 ***

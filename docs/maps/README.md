@@ -124,14 +124,14 @@
 
 > ## [Lazarus](Lazarus)
 > - **Gamemode**: King of the Hill
-> - **Type**: Non-Build and Break
+> - **Type**: Non-Build
 > - **Introduced**: v1.8.0
 > - **Contributors**: alfredodan
 > # ![Lazarusicon](../assets/maps/Lazarus/Lazarus-icon.jpg)
 
 > ## [Leafy Canyon](LeafyCanyon)
 > - **Gamemode**: King of the Hill
-> - **Type**: Non-Build and Break
+> - **Type**: Non-Build
 > - **Introduced**: v1.7.0
 > - **Contributors**: LinkFD & TheLordStan
 > # ![Leafycanyonicon](../assets/maps/leafycanyon/leafycanyon-icon.jpg)
@@ -152,7 +152,7 @@
 
 > ## [Overgrown](Overgrown)
 > - **Gamemode**: Classic
-> - **Type**: Build and Break
+> - **Type**: Build
 > - **Introduced**: v1.7.0
 > - **Contributors**: LinkFD, TheLordStan & liamtheliam29
 > # ![Overgrownicon](../assets/maps/Overgrown/Overgrown-icon.jpg)
@@ -213,14 +213,12 @@
 > - **Contributors**: Demodwarfz & LittleChaos98
 > # ![Urbanicon](../assets/maps/Urban/Urban-icon.jpg)
 
-
 > ## [Valley](Valley)
 > - **Gamemode**: Classic
 > - **Type**: Build and Break
 > - **Introduced**: v1.7.0
 > - **Contributors**: Lucky_Lew
 > # ![Valleyicon](../assets/maps/valley/valley-icon.jpg)
-
 
 > ## [Valley (NB)](ValleyNB)
 > - **Gamemode**: Classic
@@ -230,16 +228,15 @@
 > # ![valleynbicon](../assets/maps/valleynb/valleynb-icon.jpg)
 
 > ## [Void](Void)
-> - **Gamemode**: Non-Build
-> - **Type**: Classic
+> - **Gamemode**: Classic
+> - **Type**: Non-Build
 > - **Introduced**: v1.7.0
 > - **Contributors**: St3vanAU
 > # ![voidicon](../assets/maps/void/void-icon.jpg)
 
-
 > ## [Void (KOTH)](VoidKOTH)
-> - **Gamemode**: King of the Hill
-> - **Type**: Non-Build
+> - **Gamemode**: Non-Build
+> - **Type**: King of the Hill
 > - **Introduced**: v1.7.0
 > - **Contributors**: LinkFD
 > # ![voidkothicon](../assets/maps/voidKOTH/voidKOTH-icon.jpg)
