@@ -43,25 +43,25 @@ A weapon that is used to cast spells. Casting spells costs mana and each spell h
 ## Earth Shatter
 The spell costs `{{ kits.golem.data.GOLEM_EARTH_SHATTER_MANA_COST }}` mana. Casting will summon a shockwave on the ground that ripples out. The shockwave deals `{{ kits.golem.data.GOLEM_EARTH_SHATTER_DAMAGE }}` damage and applies the [rooting](#rooting) effect to enemies. The rooting effect lasts `{{ kits.golem.data.GOLEM_EARTH_SHATTER_ROOTING_DURATION }}` ticks.
 
-![Golem - Earth Shatter 1](../assets/kits/aquarius/_image_1_.jpg_)
+![Golem - Earth Shatter 1](../assets/kits/golem/Golem%20-%20Earth%20Shatter%201.gif)
 
-![Golem - Earth Shatter 2](../assets/kits/aquarius/_image_1_.jpg_)
+![Golem - Earth Shatter 2](../assets/kits/golem/Golem%20-%20Earth%20Shatter%202.gif)
 
 Earth shatter will damage enemy engineer blocks.
 
-![Golem - Earth Shatter Damage Engineer Blocks](../assets/kits/aquarius/_image_1_.jpg_)
+![Golem - Earth Shatter Damage Engineer Blocks](../assets/kits/golem/Golem%20-%20Earth%20Shatter%20Damage%20Engineer%20Blocks.gif)
 
 #### **Earth Wall**
 ## Earth Wall
 The spell costs `{{ kits.golem.data.GOLEM_EARTH_WALL_MANA_COST }}` mana. Casting will summon a wall of mud in front of the player. Earth Walls can be created horizontally and vertically.
 
-![Golem - Earth Wall Horizontal](../assets/kits/aquarius/_image_1_.jpg_)
+![Golem - Earth Wall Horizontal](../assets/kits/golem/Golem%20-%20Earth%20Wall%20Horizontal.gif)
 
-![Golem - Earth Wall Vertical](../assets/kits/aquarius/_image_1_.jpg_)
+![Golem - Earth Wall Vertical](../assets/kits/golem/Golem%20-%20Earth%20Wall%20Vertical.gif)
 
 Earth Walls can be broken by tools.
 
-![Golem - Earth Wall Break With Tools](../assets/kits/aquarius/_image_1_.jpg_)
+![Golem - Earth Wall Break With Tools](../assets/kits/golem/Golem%20-%20Earth%20Wall%20Break%20With%20Tools.gif)
 
 <!-- tabs:end -->
 <!-- tabs:end -->
@@ -71,11 +71,11 @@ Earth Walls can be broken by tools.
 #### **Rooting**
 ## Rooting
 
-Entities that affected by the rooting effect will not be able to move and they will take increased [Fire Damage](/systems/Damage#damage-types). Fire damage is increased by `+(level * 2)`.
+Entities that are affected by the rooting effect will not be able to move and they will take increased [Fire Damage](/systems/Damage#damage-types). Fire damage is increased by `+2` damage per level.
 
-![Golem - Rooting Movement](../assets/kits/aquarius/_image_1_.jpg_)
+![Golem - Rooting Movement](../assets/kits/golem/Golem%20-%20Rooting%20Movement.gif)
 
-![Golem - Rooting Increase Fire Damage](../assets/kits/aquarius/_image_1_.jpg_)
+![Golem - Rooting Increase Fire Damage](../assets/kits/golem/Golem%20-%20Rooting%20Increase%20Fire%20Damage.gif)
 
 <!-- tabs:end -->
 
@@ -85,21 +85,19 @@ Entities that affected by the rooting effect will not be able to move and they w
 ## Mana
 Mana is a resource used to cast spells.
 
-![Golem - Mana](../assets/kits/aquarius/_image_1_.jpg_)
+![Golem - Mana](../assets/kits/golem/Golem%20-%20Mana.png)
 
 The player's maximum mana is `{{ kits._shared.data.MANA_MAX }}` and it will regenerate slowly over time.
 
-![Golem - Mana Regenerate](../assets/kits/aquarius/_image_1_.jpg_)
+![Golem - Mana Regenerate](../assets/kits/golem/Golem%20-%20Mana%20Regenerate.gif)
 
-After the player earns a final blow, they will restore `{{ kits._shared.data.MANA_FINAL_BLOW_AMOUNT }}` mana and `{{ kits._shared.data.MANA_ASSIST_AMOUNT }}` mana after earning an assist.
+After the player earns a final blow, they will restore `{{ kits._shared.data.MANA_FINAL_BLOW_AMOUNT }}` mana. After earning an assist, they will restore `{{ kits._shared.data.MANA_ASSIST_AMOUNT }}` mana.
 
-![Golem - Mana Final Blow](../assets/kits/aquarius/_image_1_.jpg_)
-
-![Golem - Mana Assist](../assets/kits/aquarius/_image_1_.jpg_)
+![Golem - Mana Final Blow](../assets/kits/golem/Golem%20-%20Mana%20Final%20Blow.gif)
 
 Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPENSE_AMOUNT }}` mana.
 
-![Golem - Mana Dispenser](../assets/kits/aquarius/_image_1_.jpg_)
+![Golem - Mana Dispenser](../assets/kits/golem/Golem%20-%20Mana%20Dispenser.gif)
 
 <!-- tabs:end -->
 <br />
