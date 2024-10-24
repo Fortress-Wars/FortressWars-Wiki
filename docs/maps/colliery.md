@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** A mine that has dug a deep hole.
+- **Description:** An extensive coal mine with a quarry and mineshaft.
 - **Gamemode:** Attack and Defend
 - **Map Type:** Build (B)
 - **Size:** Large

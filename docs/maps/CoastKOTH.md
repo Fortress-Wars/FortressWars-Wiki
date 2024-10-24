@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** A reformated version of the map [Coast](CoastCLASSIC)
+- **Description:** A relic ruins that was built on a beach. Reformated version of the map [Coast](CoastCLASSIC).
 - **Gamemode:** King of the Hill
 - **Map Type:** Non-Build (NB)
 - **Size:** Large

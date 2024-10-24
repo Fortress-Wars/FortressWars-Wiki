@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** A prebuilt base on the map [Valley](Valley)
+- **Description:** A flat plain with mountainous range surrounding it. Has A prebuilt base from the map [Valley](Valley).
 - **Gamemode:** Classic
 - **Map Type:** Non-Build and Break (BAB)
 - **Size:** Medium

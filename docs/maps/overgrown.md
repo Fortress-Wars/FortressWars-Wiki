@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** A open valley surrounded by a crowded jungle.
+- **Description:** An open valley surrounded by a dense jungle.
 - **Gamemode:** Attack and Defend
 - **Map Type:** Build (B)
 - **Size:** Medium

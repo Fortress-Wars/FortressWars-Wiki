@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** Two castles that mirror themselves in a spruce valley.
+- **Description:** Two castles in a spruce valley.
 - **Gamemode:** Classic
 - **Map Type:** Non-Build (NB)
 - **Size:** Medium

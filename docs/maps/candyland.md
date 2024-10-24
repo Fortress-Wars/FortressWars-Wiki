@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** A land full of sugar and delcious foods.
+- **Description:** A land full of sugar and delicious foods.
 - **Gamemode:** Attack and Defend
 - **Map Type:** Build (B)
 - **Size:** Small

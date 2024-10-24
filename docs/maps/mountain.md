@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** A base that is split by a mountain.
+- **Description:** A battlefield that has a mountain carved out in the center.
 - **Gamemode:** Classic
 - **Map Type:** Build (B)
 - **Size:** Medium

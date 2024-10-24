@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** A small valley with old unknown ruins in the middle.
+- **Description:** A small valley with ruins in the middle.
 - **Gamemode:** Classic
 - **Map Type:** Build (B)
 - **Size:** Extra Small

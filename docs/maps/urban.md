@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** A fort built in a metropolis
+- **Description:** A city that has become a battlefield.
 - **Gamemode:** Classic
 - **Map Type:** Build (B)
 - **Size:** Medium

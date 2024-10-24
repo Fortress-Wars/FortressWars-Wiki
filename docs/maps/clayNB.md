@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** A prebuilt base on the map [Clay](Clay)
+- **Description:** A valley in the midst of the badlands. Has A prebuilt base from the map [Clay](Clay).
 - **Gamemode:** Classic
 - **Map Type:** Non-Build and Break (NBAB)
 - **Size:** Medium

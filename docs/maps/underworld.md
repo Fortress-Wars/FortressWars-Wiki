@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** A nether waste plains.
+- **Description:** A firey hellish land where one goes to face eternal punishment.
 - **Gamemode:** Classic
 - **Map Type:** Build (B)
 - **Size:** Large

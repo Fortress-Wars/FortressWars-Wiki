@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** A forest with leaves made of some magical glass.
+- **Description:** A forest with leaves made of magical glass.
 - **Gamemode:** Classic
 - **Map Type:** Build (B)
 - **Size:** Large

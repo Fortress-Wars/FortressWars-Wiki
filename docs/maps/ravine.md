@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** A chasm that seperates two bases apart.
+- **Description:** A battlefield with a large chasm dividing the land.
 - **Gamemode:** Classic
 - **Map Type:** Build (B)
 - **Size:** Medium

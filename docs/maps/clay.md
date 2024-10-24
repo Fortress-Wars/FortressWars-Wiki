@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** A valley made in a badlands inspired theme.
+- **Description:** A valley in the midst of the badlands.
 - **Gamemode:** Classic
 - **Map Type:** Build and Break (BAB)
 - **Size:** Medium

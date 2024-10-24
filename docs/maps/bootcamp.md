@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** A basic camp for a branch of milltary. 
+- **Description:** A basic camp for a branch of military. 
 - **Gamemode:** Classic
 - **Map Type:** Non-Build (NB)
 - **Size:** Medium

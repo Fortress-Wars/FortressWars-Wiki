@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** Fortress built on floating islands.
+- **Description:** Floating islands from the world that was once below it.
 - **Gamemode:** Classic
 - **Map Type:** Build (B)
 - **Size:** Medium

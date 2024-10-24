@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** A hilly icey forest.
+- **Description:** A hilly icy forest.
 - **Gamemode:** Classic
 - **Map Type:** Build and Break (BAB)
 - **Size:** Large

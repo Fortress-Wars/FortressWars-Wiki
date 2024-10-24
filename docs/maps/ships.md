@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** A battle between two boats over a lighthouse.
+- **Description:** A battle between pirates with ships on the shore.
 - **Gamemode:** Classic
 - **Map Type:** Non-Build (NB)
 - **Size:** Large

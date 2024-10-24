@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** A relic ruins that was built near a beach.
+- **Description:** A relic ruins that was built on a beach.
 - **Gamemode:** Classic
 - **Map Type:** Build (B)
 - **Size:** Large

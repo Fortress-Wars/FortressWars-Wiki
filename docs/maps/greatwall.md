@@ -9,7 +9,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** A symmetrical map divided by a Wall
+- **Description:** A battlefield map divided by a Wall
 - **Gamemode:** Classic
 - **Map Type:** Build (B)
 - **Size:** Large
