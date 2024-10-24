@@ -1,5 +1,3 @@
-<!-- replace _map_ with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Valley (NB)
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![Valley NB - Overview](../assets/maps/valleyNB/valleyNB-overview.jpg '')
 ![Valley NB - Red Base](../assets/maps/valleyNB/valleyNB_redbase.jpg '')
 ![Valley NB - Blue Base](../assets/maps/valleyNB/valleyNB-bluebase.jpg '')

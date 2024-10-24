@@ -1,5 +1,3 @@
-<!-- replace _map_ with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Valley
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![Valley - Beacon](../assets/maps/valley/valley-overview.jpg '')
 ![Valley - Red Base](../assets/maps/valley/valley-redbase.jpg '')
 ![Valley - Blue Base](../assets/maps/valley/valley-bluebase.jpg '')

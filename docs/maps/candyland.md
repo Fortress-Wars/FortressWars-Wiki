@@ -1,5 +1,3 @@
-<!-- replace candyland with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Candyland
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![Candyland - Beacon](../assets/maps/candyland/candyland-overview.jpg '')
 ![Candyland - Middle](../assets/maps/candyland/candyland-mid.jpg '')
 ![Candyland - Beacon](../assets/maps/candyland/candyland-beacon.jpg '')

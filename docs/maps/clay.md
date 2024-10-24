@@ -1,5 +1,3 @@
-<!-- replace _map_ with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Clay
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![Clay - Middle](../assets/maps/clay/clay-middle.jpg '')
 ![Clay - Beacon](../assets/maps/clay/clay-beacon.jpg '')
 ![Clay - Tower](../assets/maps/clay/clay-tower.jpg '')

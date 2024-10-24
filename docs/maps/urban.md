@@ -1,5 +1,3 @@
-<!-- replace _map_ with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Urban
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![Urban - Overview](../assets/maps/urban/urban-overview.jpg '')
 ![Urban - Beacon](../assets/maps/urban/urban-beacon.jpg '')
 ![Urban - Rooftops](../assets/maps/urban/urban-rooftops.jpg '')
@@ -27,7 +25,7 @@
 
 | Achievement | Description | Reward |
 | ----- | ----- | ------ |
-| Not a place for rural activities! | Win a game on the map Urban. | 20 Credits |
+| Not a place for rural activities! | Win a game on the map Urban. | 20 Credits |s
 
 
 

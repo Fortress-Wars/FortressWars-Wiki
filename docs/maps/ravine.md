@@ -1,5 +1,3 @@
-<!-- replace _map_ with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Ravine
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![Ravine - Overview](../assets/maps/ravine/ravine-overview.jpg '')
 ![Ravine - Beacon](../assets/maps/ravine/ravine-beacon.jpg '')
 ![Ravine - Sponges](../assets/maps/ravine/ravine-sponges.jpg '')

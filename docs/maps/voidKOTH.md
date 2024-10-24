@@ -1,5 +1,3 @@
-<!-- replace _map_ with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Void (KOTH)
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![Void KOTH - Overview](../assets/maps/voidKOTH/voidKOTH-overview.jpg '')
 ![Void KOTH - Spawn](../assets/maps/voidKOTH/voidKOTH-spawn.jpg '')
 

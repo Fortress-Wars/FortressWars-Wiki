@@ -1,5 +1,3 @@
-<!-- replace _map_ with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Hotel Monseñor
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![HotelMonsenor - Overview](../assets/maps/hotelmonsenor/hotelmonsenor-overview.jpg '')
 ![HotelMonsenor - Beacon](../assets/maps/hotelmonsenor/hotelmonsenor-beacon.jpg '')
 ![HotelMonsenor - UnderBeacon](../assets/maps/hotelmonsenor/hotelmonsenor-underbeacon.jpg '')

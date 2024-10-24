@@ -1,5 +1,3 @@
-<!-- replace _map_ with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Icefields
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![Ice - Overview](../assets/maps/ice/ice-overview.jpg '')
 ![Ice - Beacon](../assets/maps/ice/ice-beacon.jpg '')
 ![Ice - Middle](../assets/maps/ice/ice-middle.jpg '')

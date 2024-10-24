@@ -1,5 +1,3 @@
-<!-- replace _map_ with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Two Castles
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![Two Castles - Overview](../assets/maps/twocastles/twocastles-overview.jpg '')
 ![Two Castles - Beacon](../assets/maps/twocastles/twocastles-base.jpg '')
 ![Two Castles - Beacon](../assets/maps/twocastles/twocastles-beacon.jpg '')

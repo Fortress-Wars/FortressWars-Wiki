@@ -1,5 +1,3 @@
-<!-- replace _map_ with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Ashlands
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![Ashlands - Beacon](../assets/maps/ashlands/ashlands-beacon.jpg '')
 ![Ashlands - Flank](../assets/maps/ashlands/ashlands-flank.jpg '')
 ![Ashlands - Spawn](../assets/maps/ashlands/ashlands-spawn.jpg '')

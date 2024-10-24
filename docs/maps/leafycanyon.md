@@ -1,5 +1,3 @@
-<!-- replace _map_ with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Leafy Canyon
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![Leafy Canyon - Overview](../assets/maps/leafycanyon/leafycanyon-overview.jpg '')
 ![Leafy Canyon - Overview](../assets/maps/leafycanyon/leafycanyon-spawn.jpg '')
 ![Leafy Canyon - Overview](../assets/maps/leafycanyon/leafycanyon-beacon.jpg '')

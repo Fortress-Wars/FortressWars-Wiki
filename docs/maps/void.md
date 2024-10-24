@@ -1,5 +1,3 @@
-<!-- replace _map_ with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Void
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![Void - Overview](../assets/maps/void/void-overview.jpg '')
 ![Void - Beacon](../assets/maps/void/void-beacon.jpg '')
 

@@ -1,5 +1,3 @@
-<!-- replace _map_ with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Skylands
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![Skylands - Overview](../assets/maps/skylands/skylands-overview.jpg '')
 ![Skylands - Beacon](../assets/maps/skylands/skylands-beacon.jpg '')
 ![Skylands - Middle](../assets/maps/skylands/skylands-middle.jpg '')

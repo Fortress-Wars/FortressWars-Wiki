@@ -1,5 +1,3 @@
-<!-- replace _map_ with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # River
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![River - Overview](../assets/maps/river/river-overview.jpg '')
 ![River - Beacon1](../assets/maps/river/river-beacon.jpg '')
 ![River - Beacon2](../assets/maps/river/river-back_beacon.jpg '')

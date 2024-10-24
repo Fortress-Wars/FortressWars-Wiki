@@ -1,5 +1,3 @@
-<!-- replace icefieldsAD with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Icefields (AD)
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![Ice - Overview](../assets/maps/iceAD/icead-overview.jpg '')
 ![Ice - Beacon](../assets/maps/iceAD/icead-beacon '')
 ![Ice - Attacker Spawn](../assets/maps/iceAD/icead-attackerspawn.jpg '')

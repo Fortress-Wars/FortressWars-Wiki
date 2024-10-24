@@ -1,5 +1,3 @@
-<!-- replace _map_ with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Clay (NB)
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![clayNB - Middle](../assets/maps/clayNB/claynb-middle.jpg '')
 ![clayNB - Base](../assets/maps/clayNB/claynb-base.jpg '')
 ![clayNB - Tower](../assets/maps/clayNB/claynb-tower.jpg '')

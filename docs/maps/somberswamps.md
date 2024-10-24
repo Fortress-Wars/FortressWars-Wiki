@@ -1,5 +1,3 @@
-<!-- replace _map_ with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Somber Swamps
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![Somber Swamps - Beacon](../assets/maps/somberswamps/somber_swamps-overview.jpg '')
 ![Somber Swamps - Spawn](../assets/maps/somberswamps/somber_swamps-spawn.jpg)
 ![Somber Swamps - Beacon](../assets/maps/somberswamps/somber_swamps-beacon.jpg )

@@ -1,5 +1,3 @@
-<!-- replace _map_ with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Mountain
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![Mountain - Overview](../assets/maps/mountain/mountain-overview.jpg '')
 ![Mountain - Beacon](../assets/maps/mountain/mountain-beacon.jpg '')
 ![Mountain - Middle](../assets/maps/mountain/mountain-middle.jpg '')

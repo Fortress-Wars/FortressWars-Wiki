@@ -1,5 +1,3 @@
-<!-- replace _map_ with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Glass Forest
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+v
 ![glassforest - Overview](../assets/maps/glassforest/glassforest-overview.jpg '')
 ![glassforest - Beacon](../assets/maps/glassforest/glassforest-beacon.jpg '')
 ![glassforest - Sponge](../assets/maps/glassforest/glassforest-sponge.jpg '')

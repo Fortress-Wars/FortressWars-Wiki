@@ -1,5 +1,3 @@
-<!-- replace _map_ with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Coast
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![Coast - Overview](../assets/maps/coast/coast-overview.jpg '')
 ![Coast - Middle](../assets/maps/coast/coast-middle.jpg '')
 ![Coast - Beacon](../assets/maps/coast/coast-beacon.jpg '')

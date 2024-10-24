@@ -1,5 +1,3 @@
-<!-- replace _map_ with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Underworld
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![Underworld - Overview](../assets/maps/underworld/underworld-overview.jpg '')
 ![Underworld - Beacon](../assets/maps/underworld/underworld-beacon.jpg '')
 ![Underworld - Extra](../assets/maps/underworld/underworld-extra.jpg '')

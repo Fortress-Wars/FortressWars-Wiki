@@ -1,5 +1,3 @@
-<!-- replace _map_ with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Bootcamp
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![Bootcamp - Beacon](../assets/maps/bootcamp/bootcamp-beacon.jpg '')
 ![Bootcamp - Base](../assets/maps/bootcamp/bootcamp-base.jpg '')
 ![Bootcamp - Middle](../assets/maps/bootcamp/bootcamp-middle.jpg '')

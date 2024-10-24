@@ -1,5 +1,3 @@
-<!-- replace _map_ with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Frostnova
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![Frostnova - Overview](../assets/maps/frostnova/frostnova-overview.jpg '')
 ![Frostnova - Beacon](../assets/maps/frostnova/frostnova-beacon.jpg '')
 ![Frostnova - Sponge](../assets/maps/frostnova/frostnova-sponge.jpg '')

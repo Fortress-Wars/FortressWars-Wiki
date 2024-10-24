@@ -1,5 +1,3 @@
-<!-- replace _map_ with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Coast (KOTH)
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![Coast - Overview](../assets/maps/coastKOTH/coast_koth-overview.jpg '')
 ![Coast - Middle](../assets/maps/coastKOTH/coast_koth-middle.jpg '')
 ![Coast - Beacon](../assets/maps/coastKOTH/coast_koth-spawn.jpg '')

@@ -1,5 +1,3 @@
-<!-- replace colliery with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Colliery
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![Colliery - Overview](../assets/maps/colliery/colliery-overview.jpg)
 ![Colliery - Beacon](../assets/maps/colliery/colliery-beacon.jpg)
 ![Colliery - Ataccker Spawn](../assets/maps/colliery/colliery-attacker_spawn.jpg)

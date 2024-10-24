@@ -1,5 +1,3 @@
-<!-- replace _map_ with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Cliffs
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![cliffs - Overview](../assets/maps/cliffs/cliffs-overview.jpg '')
 ![cliffs - Beacon](../assets/maps/cliffs/cliffs-beacon.jpg '')
 ![cliffs - Flank](../assets/maps/cliffs/cliffs-flank.jpg '')

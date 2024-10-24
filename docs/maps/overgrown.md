@@ -1,5 +1,3 @@
-<!-- replace overgrown with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Overgrown
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![Overgrown - Overview](../assets/maps/overgrown/overgrown-overview.jpg '')
 ![Overgrown - Beacon](../assets/maps/overgrown/overgrown-beacon.jpg '')
 ![Overgrown - Attacker Spawn](../assets/maps/overgrown/overgrown-spawn.jpg '')

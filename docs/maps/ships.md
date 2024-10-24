@@ -1,5 +1,3 @@
-<!-- replace _map_ with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Ships
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![Ships - Overview](../assets/maps/ships/ships-overview.jpg '')
 ![Ships - Middle](../assets/maps/ships/ships-middle.jpg '')
 ![Ships - Blue Boat](../assets/maps/ships/ships-blueboat.jpg '')

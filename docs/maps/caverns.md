@@ -1,5 +1,3 @@
-<!-- replace _map_ with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Caverns
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![Caverns - Beacon](../assets/maps/caverns/caverns-middle.jpg '')
 ![Caverns - Middle](../assets/maps/caverns/caverns-beacon.jpg '')
 ![Caverns - Flank](../assets/maps/caverns/caverns-flank.jpg '')

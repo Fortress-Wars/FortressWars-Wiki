@@ -1,5 +1,3 @@
-<!-- replace _map_ with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Biohazard
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![Biohazard - Beacon](../assets/maps/biohazard/biohazard-beacon.jpg '')
 ![Biohazard - Spawn](../assets/maps/biohazard/biohazard-spawn.jpg '')
 ![Biohazard - Middle](../assets/maps/biohazard/biohazard-overview.jpg '')

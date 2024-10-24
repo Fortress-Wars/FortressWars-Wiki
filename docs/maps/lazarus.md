@@ -1,5 +1,3 @@
-<!-- replace _map_ with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Lazarus
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![Lazarus - Overview](../assets/maps/lazarus/lazarus-overview.jpg '')
 ![Lazarus - Spawn](../assets/maps/lazarus/lazarus-spawn.jpg '')
 ![Lazarus - Beacon](../assets/maps/lazarus/lazarus-beacon.jpg '')

@@ -1,5 +1,3 @@
-<!-- replace _map_ with the actual map name -->
-<!-- change gamemode type for the Map data description  -->
 # Great Wall
 
 ***
@@ -17,7 +15,7 @@
 
 <br />  
 
-# Map Galley
+# Image Gallery
 ![Great Wall - Overview](../assets/maps/greatwall/greatwall-overview.jpg '')
 ![Great Wall - Beacon](../assets/maps/greatwall/greatwall-beacon.jpg '')
 ![Great Wall - Middle](../assets/maps/greatwall/greatwall-mid.jpg '')
