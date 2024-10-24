@@ -2,7 +2,7 @@
 
 ***
 
-#### ![clayicon](../assets/maps/clay/clay-icon.jpg)
+#### ![clayicon](../assets/icons/clay-icon.jpg)
 
 # Overview
 ***

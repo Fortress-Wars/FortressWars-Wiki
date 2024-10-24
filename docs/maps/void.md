@@ -2,7 +2,7 @@
 
 ***
 
-#### ![voidicon](../assets/maps/void/void-icon.jpg)
+#### ![voidicon](../assets/icons/void-icon.jpg)
 
 # Overview
 ***

@@ -2,7 +2,7 @@
 
 ***
 
-#### ![valleyicon](../assets/maps/valley/valley-icon.jpg)
+#### ![valleyicon](../assets/icons/valley-icon.jpg)
 
 # Overview
 ***

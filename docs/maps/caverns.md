@@ -2,7 +2,7 @@
 
 ***
 
-#### ![cavernsicon](../assets/maps/caverns/caverns-icon.jpg)
+#### ![cavernsicon](../assets/icons/caverns-icon.jpg)
 
 # Overview
 ***

@@ -2,7 +2,7 @@
 
 ***
 
-#### ![collieryicon](../assets/maps/colliery/colliery-icon.jpg)
+#### ![collieryicon](../assets/icons/colliery-icon.jpg)
 
 # Overview
 ***

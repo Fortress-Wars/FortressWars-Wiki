@@ -2,7 +2,7 @@
 
 ***
 
-#### ![clayNBicon](../assets/maps/clayNB/clayNB-icon.jpg)
+#### ![clayNBicon](../assets/icons/clayNB-icon.jpg)
 
 # Overview
 ***

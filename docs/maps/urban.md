@@ -2,7 +2,7 @@
 
 ***
 
-#### ![urbanicon](../assets/maps/urban/urban-icon.jpg)
+#### ![urbanicon](../assets/icons/urban-icon.jpg)
 
 # Overview
 ***

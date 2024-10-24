@@ -2,7 +2,7 @@
 
 ***
 
-#### ![valleyNBicon](../assets/maps/valleyNB/valleyNB-icon.jpg)
+#### ![valleyNBicon](../assets/icons/valleyNB-icon.jpg)
 
 # Overview
 ***

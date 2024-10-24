@@ -2,7 +2,7 @@
 
 ***
 
-#### ![hotelmonsenoricon](../assets/maps/hotelmonsenor/hotelmonsenor-icon.jpg)
+#### ![hotelmonsenoricon](../assets/icons/hotelmonsenor-icon.jpg)
 
 # Overview
 ***

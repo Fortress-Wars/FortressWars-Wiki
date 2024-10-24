@@ -2,7 +2,7 @@
 
 ***
 
-#### ![lazarusicon](../assets/maps/lazarus/lazarus-icon.jpg)
+#### ![lazarusicon](../assets/icons/lazarus-icon.jpg)
 
 # Overview
 ***
