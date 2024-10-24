@@ -1,7 +1,5 @@
 {
-  "kitDataSharedDescriptions": {
-    "MAX_HEALING_POTIONS": "Maximum number of healing potions the player can carry.",
-    "MAX_MANA_POTIONS": "Maximum number of mana potions the player can carry.",
+  "kitDataSharedDescriptions": {   
     "TANK_ROLE_KNOCKBACK_PERCENTAGE": "How much the player's knockback will be reduced while blocking.",
     "SHIELD_REGENERATION_DELAY": "The delay, in ticks, before the shield starts regenerating health.",
     "SHIELD_REGENERATION_RATE": "The shield's regeneration rate in ticks",
@@ -9,14 +7,22 @@
     "SHIELD_BREAK_COOLDOWN": "The cooldown, in ticks, after the shield breaks before it is usable again.",
     "POTION_IN_COMBAT_REGENERATION_RATE": "The rate, in ticks, at which potions regenerate while in combat.",
     "POTION_OUT_OF_COMBAT_REGENERATION_RATE": "The rate, in ticks, at which potions regenerate while out of combat.",
+    "MAX_HEALING_POTIONS": "Maximum number of healing potions the player can carry.",
     "HEALING_POTION_CLICK_POTENCY": "The amount of health restored when using a healing potion by clicking.",
     "HEALING_POTION_AUTOPOT_POTENCY": "The amount of health restored when using a healing potion though autopot.",
     "HEALING_POTION_AUTOPOT_THRESHOLD": "The threshold of health at which autopot should trigger.",
     "HEALING_POTION_AUTOPOT_HOTBAR_ONLY": "If autopot should only use healing potions in the hotbar.",
+    "MAX_MANA_POTIONS": "Maximum number of mana potions the player can carry.",
     "MANA_POTION_CLICK_POTENCY": "The amount of mana restored when using a mana potion by clicking.",
     "MANA_POTION_AUTOPOT_POTENCY": "The amount of mana restored when using a mana potion though autopot.",
     "MANA_POTION_AUTOPOT_THRESHOLD": "The threshold of mana at which when autopot should trigger.",
-    "MANA_POTION_AUTOPOT_HOTBAR_ONLY": "If autopot should only use mana potions in the hotbar."
+    "MANA_POTION_AUTOPOT_HOTBAR_ONLY": "If autopot should only use mana potions in the hotbar.",
+    "MANA_MAX": "The maxiumum mana the player has.",
+    "MANA_REGENERATION_RATE": "The rate, in ticks, at which mana regenerates.",
+    "MANA_REGENERATION_AMOUNT": "The amount of mana restored during each mana regeneration tick.",
+    "MANA_FINAL_BLOW_AMOUNT": "The amount of mana restored after earning a final blow.",
+    "MANA_ASSIST_AMOUNT": "The amount of mana restored after earning an assist.",
+    "MANA_DISPENSER_DISPENSE_AMOUNT": "The amount of mana restored from friendly engineer dispensers."
   },
   "kits": {
     "_shared": {
@@ -35,7 +41,13 @@
         "MANA_POTION_CLICK_POTENCY": 50,
         "MANA_POTION_AUTOPOT_POTENCY": 40,
         "MANA_POTION_AUTOPOT_THRESHOLD": 50,
-        "MANA_POTION_AUTOPOT_HOTBAR_ONLY": true
+        "MANA_POTION_AUTOPOT_HOTBAR_ONLY": true,
+        "MANA_MAX": 100,
+        "MANA_REGENERATION_RATE": 15,
+        "MANA_REGENERATION_AMOUNT": 1,
+        "MANA_FINAL_BLOW_AMOUNT": 25,
+        "MANA_ASSIST_AMOUNT": 20,
+        "MANA_DISPENSER_DISPENSE_AMOUNT": 10
       }
     },
     "aquaman": {
@@ -59,7 +71,33 @@
     },
     "aquarius": {
       "data": {
-        
+        "MAX_MANA_POTIONS": 7,
+        "AQUARIUS_SWORD_DAMAGE": 5,
+        "AQUARIUS_SWORD_SPEED": 4,
+        "AQUARIUS_WAND_KNOCKBACK_LEVEL": 1,
+        "AQUARIUS_WATER_BEAM_MANA_COST": 10,
+        "AQUARIUS_WATER_BEAM_CAST_COOLDOWN": 7,
+        "AQUARIUS_WATER_BEAM_HEALING_POTENCY": 2,
+        "AQUARIUS_WATER_BEAM_POP_RADIUS": 2.5,
+        "AQUARIUS_WATER_BEAM_WET_DURATION": 200,
+        "AQUARIUS_WATER_BEAM_MAX_RANGE": 16,
+        "AQUARIUS_WATER_BEAM_SIZE": 0.1,
+        "AQUARIUS_WATER_BEAM_SPEED": 4,
+        "AQUARIUS_WATER_BOMB_CAST_COOLDOWN": 2,
+        "AQUARIUS_WATER_BOMB_MANA_COST": 100,
+        "AQUARIUS_WATER_BOMB_EXPLOSION_RADIUS": 5,
+        "AQUARIUS_WATER_BOMB_HEALING_TICKS": 20,
+        "AQUARIUS_WATER_BOMB_HEALING_TICK_RATE": 2,
+        "AQUARIUS_WATER_BOMB_HEALING_TICK_POTENCY": 1,
+        "AQUARIUS_WATER_BOMB_POISON_DURATION": 160,
+        "AQUARIUS_WATER_BOMB_POISON_LEVEL": 2,
+        "AQUARIUS_WATER_BOMB_NAUSEA_DURATION": 160,
+        "AQUARIUS_WATER_BOMB_NAUSEA_LEVEL": 4,
+        "AQUARIUS_WATER_BOMB_WET_DURATION": 200,
+        "AQUARIUS_WATER_BOMB_VELOCITY_MULTIPLIER": 1,
+        "AQUARIUS_SOOTHING_WATER_HEALING_TICKS": 8,
+        "AQUARIUS_SOOTHING_WATER_HEALING_TICK_RATE": 25,
+        "AQUARIUS_SOOTHING_WATER_HEALING_POTENCY": 1
       }
     },
     "bomber": {
@@ -165,7 +203,6 @@
         "CRUSHER_ANVIL_STUN_RADIUS": 1.5,
         "CRUSHER_ANVIL_STUN_DURATION": 60,
         "CRUSHER_ANVIL_COOLDOWN": 140,
-        "CRUSHER_ANVIL_SUMMON_ATTEMPTS": 3,
         "CRUSHER_ANVIL_SUMMON_POINT_RADIUS": 2,
         "CRUSHER_ANVIL_SELF_DAMAGE_MULTIPLIER": 0.5,
         "CRUSHER_ANVIL_IGNORE_DAMAGE_TICKS": true,
@@ -273,6 +310,30 @@
         "FISH_MELEE_DAMAGE": 5,
         "FISH_MELEE_SPEED": 4,
         "FISH_MELEE_SHARPNESS_LEVEL": 1
+      }
+    },
+    "golem": {
+      "data": {
+        "MAX_HEALING_POTIONS": 5,
+        "MAX_MANA_POTIONS": 5,
+        "GOLEM_SWORD_DAMAGE": 5,
+        "GOLEM_SWORD_SPEED": 4,
+        "GOLEM_WAND_KNOCKBACK_LEVEL": 1,
+        "GOLEM_EARTH_WALL_MANA_COST": 15,
+        "GOLEM_EARTH_WALL_CAST_COOLDOWN": 20,
+        "GOLEM_EARTH_WALL_DURATION": 200,
+        "GOLEM_EARTH_WALL_MAX_RANGE": 16,
+        "GOLEM_EARTH_SHATTER_MANA_COST": 55,
+        "GOLEM_EARTH_SHATTER_CAST_COOLDOWN": 40,
+        "GOLEM_EARTH_SHATTER_ANGLE": 70,
+        "GOLEM_EARTH_SHATTER_SPEED": 2,
+        "GOLEM_EARTH_SHATTER_DAMAGE": 6,
+        "GOLEM_EARTH_SHATTER_RANGE": 12,
+        "GOLEM_EARTH_SHATTER_HEIGHT": 2,
+        "GOLEM_EARTH_SHATTER_FALL_HEIGHT": 2.5,
+        "GOLEM_EARTH_SHATTER_MUST_CAST_ON_GROUND": true,
+        "GOLEM_EARTH_SHATTER_ROOTING_DURATION": 60,
+        "GOLEM_EARTH_SHATTER_ROOTING_LEVEL": 1
       }
     },
     "gunner": {
@@ -518,6 +579,7 @@
         "MUSKETEER_RIFLE_BURST_MODE_BULLET_IGNORE_I_FRAMES": true,
         "MUSKETEER_RIFLE_BURST_MODE_DELAY_BETWEEN_SHOTS": 4,
         "MUSKETEER_RIFLE_BURST_MODE_NUMBER_OF_SHOTS": 3,
+        "MUSKETEER_RIFLE_HEAVY_BULLET": false,
         "MUSKETEER_RIFLE_DO_GLOWING_ON_BULLET_HIT": false,
         "MUSKETEER_RIFLE_BULLET_GLOWING_DURATION": 100
       }
@@ -677,6 +739,7 @@
         "SOLDIER_GRENADE_RADIUS": 3,
         "SOLDIER_GRENADE_COOLDOWN": 120,
         "SOLDIER_GRENADE_DAMAGE": 7,
+        "SOLDIER_GRENADE_VELOCITY_MULTIPLIER": 1,
         "SOLDIER_GRENADE_KNOCKBACK_MULTIPLIER": 0.5,
         "SOLDIER_GRENADE_SELF_DAMAGE_MULTIPLIER": 0.5,
         "SOLDIER_SWORD_DAMAGE": 6,
