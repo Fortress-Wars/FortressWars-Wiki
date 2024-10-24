@@ -44,22 +44,22 @@ A weapon that is used to cast spells. Casting spells costs mana and each spell h
 #### **Spell 1**
 ## Spell 1
 
-![_image_1_](../assets/kits/aquarius/_image_1_.jpg_)
+![_image_1_](../assets/kits/_kit_/_image_1_.jpg_)
 
 #### **Spell 2**
 ## Spell 2
 
-![_image_1_](../assets/kits/aquarius/_image_1_.jpg_)
+![_image_1_](../assets/kits/_kit_/_image_1_.jpg_)
 
 #### **Spell 3**
 ## Spell 3
 
-![_image_1_](../assets/kits/aquarius/_image_1_.jpg_)
+![_image_1_](../assets/kits/_kit_/_image_1_.jpg_)
 
 #### **Spell 4**
 ## Spell 4
 
-![_image_1_](../assets/kits/aquarius/_image_1_.jpg_)
+![_image_1_](../assets/kits/_kit_/_image_1_.jpg_)
 
 <!-- tabs:end -->
 
@@ -87,21 +87,19 @@ _description_2_
 ## Mana
 Mana is a resource used to cast spells.
 
-![_kit_ - Mana](../assets/kits/aquarius/_image_1_.jpg_)
+![_kit_ - Mana](../assets/kits/_kit_/_image_1_.jpg_)
 
 The player's maximum mana is `{{ kits._shared.data.MANA_MAX }}` and it will regenerate slowly over time.
 
-![_kit_ - Mana Regenerate](../assets/kits/aquarius/_image_1_.jpg_)
+![_kit_ - Mana Regenerate](../assets/kits/_kit_/_image_1_.jpg_)
 
-After the player earns a final blow, they will restore `{{ kits._shared.data.MANA_FINAL_BLOW_AMOUNT }}` mana and `{{ kits._shared.data.MANA_ASSIST_AMOUNT }}` mana after earning an assist.
+After the player earns a final blow, they will restore `{{ kits._shared.data.MANA_FINAL_BLOW_AMOUNT }}` mana. After earning an assist, they will restore `{{ kits._shared.data.MANA_ASSIST_AMOUNT }}` mana.
 
-![_kit_ - Mana Final Blow](../assets/kits/aquarius/_image_1_.jpg_)
-
-![_kit_ - Mana Assist](../assets/kits/aquarius/_image_1_.jpg_)
+![_kit_ - Mana Final Blow](../assets/kits/_kit_/_image_1_.jpg_)
 
 Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPENSE_AMOUNT }}` mana.
 
-![_kit_ - Mana Dispenser](../assets/kits/aquarius/_image_1_.jpg_)
+![_kit_ - Mana Dispenser](../assets/kits/_kit_/_image_1_.jpg_)
 
 <!-- tabs:end -->
 <br />
