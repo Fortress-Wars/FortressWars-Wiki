@@ -76,7 +76,7 @@ Water bombs will stun enemy engineer blocks for `{{ kits.aquarius.data.AQUARIUS_
 <!-- tabs:start -->
 #### **Soothing Water**
 ## Soothing Water
-When the player casts a spell, they will receive the "Soothing Water" effect. The "Soothing Water" effect restores `{{ kits.aquarius.data.AQUARIUS_SOOTHING_WATER_HEALING_POTENCY }}` health every `{{ kits.aquarius.data.AQUARIUS_SOOTHING_WATER_HEALING_TICK_RATE }}` ticks `{{ kits.aquarius.data.AQUARIUS_SOOTHING_WATER_HEALING_TICKS }}` times.
+When the player casts a water spell, they will receive the "Soothing Water" effect. The "Soothing Water" effect restores `{{ kits.aquarius.data.AQUARIUS_SOOTHING_WATER_HEALING_POTENCY }}` health every `{{ kits.aquarius.data.AQUARIUS_SOOTHING_WATER_HEALING_TICK_RATE }}` ticks `{{ kits.aquarius.data.AQUARIUS_SOOTHING_WATER_HEALING_TICKS }}` times.
 
 ![Aquarius - Soothing Water](../assets/kits/aquarius/Aquarius%20-%20Soothing%20Water.gif)
 

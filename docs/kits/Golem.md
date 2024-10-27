@@ -41,7 +41,7 @@ A weapon that is used to cast spells. Casting spells costs mana and each spell h
 <!-- tabs:start -->
 #### **Earth Shatter**
 ## Earth Shatter
-The spell costs `{{ kits.golem.data.GOLEM_EARTH_SHATTER_MANA_COST }}` mana. Casting will summon a shockwave on the ground that ripples out. The shockwave deals `{{ kits.golem.data.GOLEM_EARTH_SHATTER_DAMAGE }}` damage and applies the [rooting](#rooting) effect to enemies. The rooting effect lasts `{{ kits.golem.data.GOLEM_EARTH_SHATTER_ROOTING_DURATION }}` ticks.
+The spell costs `{{ kits.golem.data.GOLEM_EARTH_SHATTER_MANA_COST }}` mana. Casting will summon a shockwave on the ground that ripples out. The shockwave deals `{{ kits.golem.data.GOLEM_EARTH_SHATTER_DAMAGE }}` damage and applies the [rooting](#effects) effect to enemies. The rooting effect lasts `{{ kits.golem.data.GOLEM_EARTH_SHATTER_ROOTING_DURATION }}` ticks.
 
 ![Golem - Earth Shatter 1](../assets/kits/golem/Golem%20-%20Earth%20Shatter%201.gif)
 
