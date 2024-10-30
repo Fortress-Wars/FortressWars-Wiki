@@ -157,4 +157,4 @@ Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPEN
 | AQUARIUS_WATER_BOMB_VELOCITY_MULTIPLIER | `{{ kits.aquarius.data.AQUARIUS_WATER_BOMB_VELOCITY_MULTIPLIER }}` | The velocity multiplier of the water bomb when it is summoned and launched. |
 | AQUARIUS_SOOTHING_WATER_HEALING_TICKS | `{{ kits.aquarius.data.AQUARIUS_SOOTHING_WATER_HEALING_TICKS }}` | The amount of soothing water healing ticks. |
 | AQUARIUS_SOOTHING_WATER_HEALING_TICK_RATE | `{{ kits.aquarius.data.AQUARIUS_SOOTHING_WATER_HEALING_TICK_RATE }}` | The duration, in ticks, of one soothing water healing tick. |
-| AQUARIUS_SOOTHING_WATER_HEALING_POTENCY | `{{ kits.aquarius.data.AQUARIUS_SOOTHING_WATER_HEALING_POTENCY }}` | The amount of health to restore in one soothing weater healing tick. |
+| AQUARIUS_SOOTHING_WATER_HEALING_POTENCY | `{{ kits.aquarius.data.AQUARIUS_SOOTHING_WATER_HEALING_POTENCY }}` | The amount of health to restore during one soothing water healing tick. |
