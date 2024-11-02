@@ -175,6 +175,9 @@ Priest
 - The release spell now unhacks allies and ally engineer bblocks at level **5**.
 - The regeneration potion effect after casting spells replaced with "Soothing Light" which is a custom regeneration effect.
 
+Prometheus
+- The flame spell no longer travels through full blocks of water.
+
 Pyrotechnic
 - Added knockback to the rockets.
 - When the barrage ability is activated and the crossbow is already loaded, the crossbow will instantly load the additional barrage rockets.
