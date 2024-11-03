@@ -97,7 +97,6 @@ When the player is close to a friendly [Bomber](./Bomber.md), and the friendly B
 | SHIELD_BREAK_COOLDOWN | `{{ kits._shared.data.SHIELD_BREAK_COOLDOWN }}` | {{ kitDataSharedDescriptions.SHIELD_BREAK_COOLDOWN }} |
 | DEMOLITIONIST_SWORD_DAMAGE | `{{ kits.demolitionist.data.DEMOLITIONIST_SWORD_DAMAGE }}` | The base damage of the sword. |
 | DEMOLITIONIST_SWORD_SPEED | `{{ kits.demolitionist.data.DEMOLITIONIST_SWORD_SPEED }}` | The base speed of the sword. |
-| DEMOLITIONIST_DEMOLISH_YIELD | `{{ kits.demolitionist.data.DEMOLITIONIST_DEMOLISH_YIELD }}` | The minecraft bomb yield value. (this isn't measured in meters/blocks) |
 | DEMOLITIONIST_DEMOLISH_DAMAGE | `{{ kits.demolitionist.data.DEMOLITIONIST_DEMOLISH_DAMAGE }}` | The base damage of a Demolitionist Bomb. |
 | DEMOLITIONIST_DEMOLISH_BOMB_FUSE_TICKS | `{{ kits.demolitionist.data.DEMOLITIONIST_DEMOLISH_BOMB_FUSE_TICKS }}` | The time, in ticks, it takes for a Demolitionist Bomb to explode. |
 | DEMOLITIONIST_DEMOLISH_BLOCKS_BROKEN_DURATION | `{{ kits.demolitionist.data.DEMOLITIONIST_DEMOLISH_BLOCKS_BROKEN_DURATION }}` | The duration, in ticks, of broken blocks from the Demolition Ability before reappearing. |

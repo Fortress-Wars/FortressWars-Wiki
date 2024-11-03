@@ -177,6 +177,11 @@ Priest
 
 Prometheus
 - The flame spell no longer travels through full blocks of water.
+- Fireball will no longer knockback allies.
+- Fireball can now damage and ignite the caster.
+- Fireball will now deal **4** damage on impact.
+- Fireball now ignores invulnerability frames.
+- Fireball explosion damage reduced from **12** to **10**
 
 Pyrotechnic
 - Added knockback to the rockets.
