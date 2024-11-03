@@ -186,7 +186,7 @@ Prometheus
 Pyrotechnic
 - Added knockback to the rockets.
 - When the barrage ability is activated and the crossbow is already loaded, the crossbow will instantly load the additional barrage rockets.
-- Player can now use the rocket launcher top rocket jump.
+- Player can now use the rocket launcher to rocket jump.
 - Added recoil the the rocket launcher.
 
 Slime
