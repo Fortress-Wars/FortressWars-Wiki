@@ -89,11 +89,11 @@ Mana is a resource used to cast spells.
 
 ![_kit_ - Mana](../assets/kits/_kit_/_image_1_.jpg_)
 
-The player's maximum mana is `{{ kits._shared.data.MANA_MAX }}` and it will regenerate slowly over time.
+The player's maximum mana is `{{ kits._shared.data.MANA_MAX }}` and it regenerates slowly over time.
 
 ![_kit_ - Mana Regenerate](../assets/kits/_kit_/_image_1_.jpg_)
 
-After the player earns a final blow, they will restore `{{ kits._shared.data.MANA_FINAL_BLOW_AMOUNT }}` mana. After earning an assist, they will restore `{{ kits._shared.data.MANA_ASSIST_AMOUNT }}` mana.
+After the player earns a final blow, they restore `{{ kits._shared.data.MANA_FINAL_BLOW_AMOUNT }}` mana. After earning an assist, they restore `{{ kits._shared.data.MANA_ASSIST_AMOUNT }}` mana.
 
 ![_kit_ - Mana Final Blow](../assets/kits/_kit_/_image_1_.jpg_)
 

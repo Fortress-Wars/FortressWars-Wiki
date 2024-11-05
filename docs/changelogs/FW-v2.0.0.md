@@ -265,3 +265,4 @@ Vitalist
 - Fixed bug where the classic overtime sudden death scoreboard would not update properly if for the player that died.
 - Fixed The Engineer "Doc Holiday" achievement including enemies.
 - Fixed issue where Earth Walls could regenerater from the "Demolish" ability and would linger permanently.
+- Fixed bug where super vanish would break if the a vanished player logged back in after being deoped while offline.

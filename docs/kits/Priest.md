@@ -40,7 +40,7 @@ A weapon that is used to cast spells. Casting spells costs mana and each spell h
 <!-- tabs:start -->
 #### **Light Beam**
 ## Light Beam
-The spell requires `{{ kits.priest.data.PRIEST_LIGHT_BEAM_MANA_COST }}` mana to cast. Casting will summon a beam of light in the direction the player is looking. When the beam passes through an ally, it will give them absorption `{{ kits.priest.data.PRIEST_LIGHT_BEAM_ABSORPTION_LEVEL }}` for `{{ kits.priest.data.PRIEST_LIGHT_BEAM_ABSORPTION_DURATION }}` ticks and increase [sun power](#sun-power) by `{{ kits.priest.data.PRIEST_SUN_POWER_PER_LIGHT_BEAM_HIT }}`. When the beam passes through an enemy, it will affect them with glowing for `{{ kits.priest.data.PRIEST_LIGHT_BEAM_GLOWING_DURATION }}` ticks. 
+The spell requires `{{ kits.priest.data.PRIEST_LIGHT_BEAM_MANA_COST }}` mana to cast. Casting summons a beam of light in the direction the player is looking. When the beam passes through an ally, it gives them absorption `{{ kits.priest.data.PRIEST_LIGHT_BEAM_ABSORPTION_LEVEL }}` for `{{ kits.priest.data.PRIEST_LIGHT_BEAM_ABSORPTION_DURATION }}` ticks and increases [sun power](#sun-power) by `{{ kits.priest.data.PRIEST_SUN_POWER_PER_LIGHT_BEAM_HIT }}`. When the beam passes through an enemy, it affects them with glowing for `{{ kits.priest.data.PRIEST_LIGHT_BEAM_GLOWING_DURATION }}` ticks. 
 
 ![Priest - Light Beam Ally](../assets/kits/priest/_image_1_.jpg_)
 
@@ -48,7 +48,7 @@ The spell requires `{{ kits.priest.data.PRIEST_LIGHT_BEAM_MANA_COST }}` mana to 
 
 #### **Light Release**
 ## Light Release
-The spell requires `{{ kits.priest.data.PRIEST_RELEASE_MANA_COST }}` mana and `1` sun power to cast. Casting will consume all sun power to heal allies in a `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_0_RADIUS }}` meter radius. The spell has additional effects when more sun power is consumed.
+The spell requires `{{ kits.priest.data.PRIEST_RELEASE_MANA_COST }}` mana and `1` sun power to cast. Casting consumes all sun power to heal allies in a `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_0_RADIUS }}` meter radius. The spell has additional effects when more sun power is consumed.
 
 ![Priest - Light Release Cast](../assets/kits/priest/_image_1_.jpg_)
 
@@ -59,7 +59,7 @@ When at least `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_1_SUN_POWER }}` sun powe
 
 #### Igniting Enemies
 
-When at least `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_2_SUN_POWER }}` sun power is released, the spell targets and ignites enemies for `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_2_BURN_DURATION }}` ticks. Additinally the spell's radius increases to `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_2_RADIUS }}` meters.
+When at least `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_2_SUN_POWER }}` sun power is released, the spell targets and ignites enemies for `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_2_BURN_DURATION }}` ticks. Additionally, the spell's radius increases to `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_2_RADIUS }}` meters.
 
 ![Priest - Light Release Ignite Enemies](../assets/kits/priest/_image_1_.jpg_)
 
@@ -75,7 +75,7 @@ The spell also removes the stun effect from allies and friendly engineer blocks.
 
 #### Enemy Knockback
 
-When at least `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_4_SUN_POWER }}` sun power is released, the spell knocks enemies back. Additinally the spell's radius increases to `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_4_RADIUS }}` meters.
+When at least `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_4_SUN_POWER }}` sun power is released, the spell knocks enemies back. Additionally, the spell's radius increases to `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_4_RADIUS }}` meters.
 
 ![Priest - Light Release Knock Enemies Back](../assets/kits/priest/_image_1_.jpg_)
 
@@ -110,11 +110,11 @@ Mana is a resource used to cast spells.
 
 ![Priest - Mana](../assets/kits/priest/_image_1_.jpg_)
 
-The player's maximum mana is `{{ kits._shared.data.MANA_MAX }}` and it will regenerate slowly over time.
+The player's maximum mana is `{{ kits._shared.data.MANA_MAX }}` and it regenerates slowly over time.
 
 ![Priest - Mana Regenerate](../assets/kits/priest/_image_1_.jpg_)
 
-After the player earns a final blow, they will restore `{{ kits._shared.data.MANA_FINAL_BLOW_AMOUNT }}` mana. After earning an assist, they will restore `{{ kits._shared.data.MANA_ASSIST_AMOUNT }}` mana.
+After the player earns a final blow, they restore `{{ kits._shared.data.MANA_FINAL_BLOW_AMOUNT }}` mana. After earning an assist, they restore `{{ kits._shared.data.MANA_ASSIST_AMOUNT }}` mana.
 
 ![Priest - Mana Final Blow](../assets/kits/priest/_image_1_.jpg_)
 
@@ -182,7 +182,7 @@ Sun power increases by `{{ kits.priest.data.PRIEST_SUN_POWER_FINAL_BLOW_REWARD }
 | PRIEST_RELEASE_MANA_COST | `{{ kits.priest.data.PRIEST_RELEASE_MANA_COST }}` | The cost of mana in order to cast the light release spell. |
 | PRIEST_RELEASE_CAST_COOLDOWN | `{{ kits.priest.data.PRIEST_RELEASE_CAST_COOLDOWN }}` | The light release spell cooldown in ticks. |
 | PRIEST_RELEASE_HEALING_MIN | `{{ kits.priest.data.PRIEST_RELEASE_HEALING_MIN }}` | The minimum health that light releases restores. |
-| PRIEST_RELEASE_HEALING_PER_SUN_POWER | `{{ kits.priest.data.PRIEST_RELEASE_HEALING_PER_SUN_POWER }}` | The light release healing increase per sun power. |
+| PRIEST_RELEASE_HEALING_PER_SUN_POWER | `{{ kits.priest.data.PRIEST_RELEASE_HEALING_PER_SUN_POWER }}` | The increase in light release healing per sun power. |
 | PRIEST_RELEASE_LEVEL_1_SUN_POWER | `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_1_SUN_POWER }}` | The sun power required to cast a level 1 light release spell. |
 | PRIEST_RELEASE_LEVEL_2_SUN_POWER | `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_2_SUN_POWER }}` | The sun power required to cast a level 2 light release spell. |
 | PRIEST_RELEASE_LEVEL_3_SUN_POWER | `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_3_SUN_POWER }}` | The sun power required to cast a level 3 light release spell. |
@@ -196,6 +196,6 @@ Sun power increases by `{{ kits.priest.data.PRIEST_SUN_POWER_FINAL_BLOW_REWARD }
 | PRIEST_RELEASE_LEVEL_5_ABSORPTION_LEVEL | `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_5_ABSORPTION_LEVEL }}` | The level of the absorption effect from level 5 light release spells. |
 | PRIEST_RELEASE_LEVEL_5_ABSORPTION_DURATION | `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_5_ABSORPTION_DURATION }}` | The duration, ticks, of the absorption effect from level 5 light release spells. |
 | PRIEST_SUN_POWER_MAX | `{{ kits.priest.data.PRIEST_SUN_POWER_MAX }}` | The player's maximum sun power. |
-| PRIEST_SUN_POWER_FINAL_BLOW_REWARD | `{{ kits.priest.data.PRIEST_SUN_POWER_FINAL_BLOW_REWARD }}` | The sun power increase after earning a final blow. |
-| PRIEST_SUN_POWER_ASSIST_REWARD | `{{ kits.priest.data.PRIEST_SUN_POWER_ASSIST_REWARD }}` | The sun power increase after earning an assist. |
-| PRIEST_SUN_POWER_PER_LIGHT_BEAM_HIT | `{{ kits.priest.data.PRIEST_SUN_POWER_PER_LIGHT_BEAM_HIT }}` | The sun power increase after a light beam passes through an ally. |
+| PRIEST_SUN_POWER_FINAL_BLOW_REWARD | `{{ kits.priest.data.PRIEST_SUN_POWER_FINAL_BLOW_REWARD }}` | The increase in sun power after earning a final blow. |
+| PRIEST_SUN_POWER_ASSIST_REWARD | `{{ kits.priest.data.PRIEST_SUN_POWER_ASSIST_REWARD }}` | The increase in sun power after earning an assist. |
+| PRIEST_SUN_POWER_PER_LIGHT_BEAM_HIT | `{{ kits.priest.data.PRIEST_SUN_POWER_PER_LIGHT_BEAM_HIT }}` | The increase in sun power after a light beam passes through an ally. |
