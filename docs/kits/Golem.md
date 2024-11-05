@@ -146,11 +146,11 @@ Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPEN
 | GOLEM_SWORD_SPEED | `{{ kits.golem.data.GOLEM_SWORD_SPEED }}` | The base speed of the sword. |
 | GOLEM_WAND_KNOCKBACK_LEVEL | `{{ kits.golem.data.GOLEM_WAND_KNOCKBACK_LEVEL }}` | The level of the knockback enchantment on the spell wand. |
 | GOLEM_EARTH_WALL_MANA_COST | `{{ kits.golem.data.GOLEM_EARTH_WALL_MANA_COST }}` | The cost of mana in order to cast the earth wall spell. |
-| GOLEM_EARTH_WALL_CAST_COOLDOWN | `{{ kits.golem.data.GOLEM_EARTH_WALL_CAST_COOLDOWN }}` | The earth wall spell cooldown in ticks. |
+| GOLEM_EARTH_WALL_CAST_COOLDOWN | `{{ kits.golem.data.GOLEM_EARTH_WALL_CAST_COOLDOWN }}` | The earth wall spell's cooldown in ticks. |
 | GOLEM_EARTH_WALL_DURATION | `{{ kits.golem.data.GOLEM_EARTH_WALL_DURATION }}` | The duration, in ticks, of summoned earth walls. |
 | GOLEM_EARTH_WALL_MAX_RANGE | `{{ kits.golem.data.GOLEM_EARTH_WALL_MAX_RANGE }}` | The maximum distance, in meters, from the player that earth walls can be summoned. |
 | GOLEM_EARTH_SHATTER_MANA_COST | `{{ kits.golem.data.GOLEM_EARTH_SHATTER_MANA_COST }}` | The cost of mana in order to cast the earth shatter spell. |
-| GOLEM_EARTH_SHATTER_CAST_COOLDOWN | `{{ kits.golem.data.GOLEM_EARTH_SHATTER_CAST_COOLDOWN }}` | The earth shatter spell cooldown in ticks. |
+| GOLEM_EARTH_SHATTER_CAST_COOLDOWN | `{{ kits.golem.data.GOLEM_EARTH_SHATTER_CAST_COOLDOWN }}` | The earth shatter spell's cooldown in ticks. |
 | GOLEM_EARTH_SHATTER_ANGLE | `{{ kits.golem.data.GOLEM_EARTH_SHATTER_ANGLE }}` | The angle, in degrees, of the earth shatter shockwave. |
 | GOLEM_EARTH_SHATTER_SPEED | `{{ kits.golem.data.GOLEM_EARTH_SHATTER_SPEED }}` | The speed of the earth shatter shockwave. |
 | GOLEM_EARTH_SHATTER_DAMAGE | `{{ kits.golem.data.GOLEM_EARTH_SHATTER_DAMAGE }}` | The amount of damage the earth shatter shockwave deals to enemies. |

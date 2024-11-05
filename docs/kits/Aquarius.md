@@ -136,14 +136,14 @@ Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPEN
 | AQUARIUS_SWORD_SPEED | `{{ kits.aquarius.data.AQUARIUS_SWORD_SPEED }}` | The base speed of the sword. |
 | AQUARIUS_WAND_KNOCKBACK_LEVEL | `{{ kits.aquarius.data.AQUARIUS_WAND_KNOCKBACK_LEVEL }}` | The level of the knockback enchantment on the spell wand. |
 | AQUARIUS_WATER_BEAM_MANA_COST | `{{ kits.aquarius.data.AQUARIUS_WATER_BEAM_MANA_COST }}` | The cost of mana in order to cast the water beam spell. |
-| AQUARIUS_WATER_BEAM_CAST_COOLDOWN | `{{ kits.aquarius.data.AQUARIUS_WATER_BEAM_CAST_COOLDOWN }}` | The water beam spell cooldown in ticks. |
+| AQUARIUS_WATER_BEAM_CAST_COOLDOWN | `{{ kits.aquarius.data.AQUARIUS_WATER_BEAM_CAST_COOLDOWN }}` | The water beam spell's cooldown in ticks. |
 | AQUARIUS_WATER_BEAM_HEALING_POTENCY | `{{ kits.aquarius.data.AQUARIUS_WATER_BEAM_HEALING_POTENCY }}` | The amount of healing that the water beam spell restores. |
 | AQUARIUS_WATER_BEAM_POP_RADIUS | `{{ kits.aquarius.data.AQUARIUS_WATER_BEAM_POP_RADIUS }}` | The radius, in meters, of the water bubble pops. |
 | AQUARIUS_WATER_BEAM_WET_DURATION | `{{ kits.aquarius.data.AQUARIUS_WATER_BEAM_WET_DURATION }}` | The duration, in ticks, of the water bubble's wet status. (Used for stunning engineer blocks) |
 | AQUARIUS_WATER_BEAM_MAX_RANGE | `{{ kits.aquarius.data.AQUARIUS_WATER_BEAM_MAX_RANGE }}` | The maximum distance, in meters, that the water bubble travels before popping. |
 | AQUARIUS_WATER_BEAM_SIZE | `{{ kits.aquarius.data.AQUARIUS_WATER_BEAM_SIZE }}` | The size of the water bubble hitbox. |
 | AQUARIUS_WATER_BEAM_SPEED | `{{ kits.aquarius.data.AQUARIUS_WATER_BEAM_SPEED }}` | The speed at which the water bubble travels. (0 = no travel time) |
-| AQUARIUS_WATER_BOMB_CAST_COOLDOWN | `{{ kits.aquarius.data.AQUARIUS_WATER_BOMB_CAST_COOLDOWN }}` | The water bomb spell cooldown in ticks. |
+| AQUARIUS_WATER_BOMB_CAST_COOLDOWN | `{{ kits.aquarius.data.AQUARIUS_WATER_BOMB_CAST_COOLDOWN }}` | The water bomb spell's cooldown in ticks. |
 | AQUARIUS_WATER_BOMB_MANA_COST | `{{ kits.aquarius.data.AQUARIUS_WATER_BOMB_MANA_COST }}` | The cost of mana in order to cast the water bomb spell. |
 | AQUARIUS_WATER_BOMB_EXPLOSION_RADIUS | `{{ kits.aquarius.data.AQUARIUS_WATER_BOMB_EXPLOSION_RADIUS }}` | The radius, in meters, of the water bomb explosion. |
 | AQUARIUS_WATER_BOMB_HEALING_TICKS | `{{ kits.aquarius.data.AQUARIUS_WATER_BOMB_HEALING_TICKS }}` | The amount of water bomb healing ticks. |
