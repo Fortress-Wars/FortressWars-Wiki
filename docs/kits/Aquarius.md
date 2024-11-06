@@ -1,20 +1,24 @@
 # Aquarius
 
-***
+---
 
 #### ![aquarius-icon](../assets/icons/aquarius-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A support kit that uses the water element to heal allies.
 - **Role:** Support
 - **How to Unlock:** Purchase for 500 Credits.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Chainmail Chestplate
 - Leather Leggings (Blue)
 - Chainmail Boots
@@ -23,24 +27,35 @@
 - {{ kits.aquarius.data.MAX_MANA_POTIONS }} Mana Potions
 - {{ kits._shared.data.MANA_MAX }} Mana
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Spell Wand**
+
 ## Spell Wand
+
 A weapon that is used to cast spells. Casting spells costs mana and each spell has a cooldown.
 
 ### Casting
-- Water Beam *(Left-Click)*
-- Water Bomb *(Right-Click)*
+
+- Water Beam _(Left-Click)_
+- Water Bomb _(Right-Click)_
 
 ### Spells
+
 <!-- tabs:start -->
+
 #### **Water Beam**
+
 ## Water Beam
+
 The spell costs `{{ kits.aquarius.data.AQUARIUS_WATER_BEAM_MANA_COST }}` mana. Casting summons a water bubble projectile in the direction the player is looking. The water bubble restores `{{ kits.aquarius.data.AQUARIUS_WATER_BEAM_HEALING_POTENCY }}` health to allies it passes through. The bubble pops when it hits a block or reaches the maximum range of `{{ kits.aquarius.data.AQUARIUS_WATER_BEAM_MAX_RANGE }}` meters. When it pops, it heals all allies (including the player) in a `{{ kits.aquarius.data.AQUARIUS_WATER_BEAM_POP_RADIUS }}` meter radius.
 
 ![Aquarius - Water Beam Travel](../assets/kits/aquarius/Aquarius%20-%20Water%20Beam%20Travel.gif)
@@ -52,7 +67,9 @@ Water bubbles stun enemy engineer blocks for `{{ kits.aquarius.data.AQUARIUS_WAT
 ![Aquarius - Water Beam Stun Engineer Blocks](../assets/kits/aquarius/Aquarius%20-%20Water%20Beam%20Stun%20Engineer%20Blocks.gif)
 
 #### **Water Bomb**
+
 ## Water Bomb
+
 The spell costs `{{ kits.aquarius.data.AQUARIUS_WATER_BOMB_MANA_COST }}` mana. Casting summons a water bomb projectile in the direction the player is looking. The water bomb explodes when it hits a block or hits an entity. When it explodes it heals all allies and debuffs all enemies in a `{{ kits.aquarius.data.AQUARIUS_WATER_BOMB_EXPLOSION_RADIUS }}` meter radius.
 
 ![Aquarius - Water Bomb Cast](../assets/kits/aquarius/Aquarius%20-%20Water%20Bomb%20Cast.gif)
@@ -73,9 +90,13 @@ Water bombs stun enemy engineer blocks for `{{ kits.aquarius.data.AQUARIUS_WATER
 <!-- tabs:end -->
 
 ### Passives
+
 <!-- tabs:start -->
+
 #### **Soothing Water**
+
 ## Soothing Water
+
 When the player casts a water spell, they receive the "Soothing Water" effect. The "Soothing Water" effect restores `{{ kits.aquarius.data.AQUARIUS_SOOTHING_WATER_HEALING_POTENCY }}` health every `{{ kits.aquarius.data.AQUARIUS_SOOTHING_WATER_HEALING_TICK_RATE }}` ticks `{{ kits.aquarius.data.AQUARIUS_SOOTHING_WATER_HEALING_TICKS }}` times.
 
 ![Aquarius - Soothing Water](../assets/kits/aquarius/Aquarius%20-%20Soothing%20Water.gif)
@@ -83,9 +104,13 @@ When the player casts a water spell, they receive the "Soothing Water" effect. T
 <!-- tabs:end -->
 
 ### Resources
+
 <!-- tabs:start -->
+
 #### **Mana**
+
 ## Mana
+
 Mana is a resource used to cast spells.
 
 ![Aquarius - Mana](../assets/kits/aquarius/Aquarius%20-%20Mana.png)
@@ -106,7 +131,8 @@ Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPEN
 <br />
 
 # Achievements
-***
+
+---
 
 <!-- prettier-ignore -->
 | Achievement | Description | Reward |
@@ -115,10 +141,11 @@ Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPEN
 | Fun at the water park! | Affect 10 Entities at once with your water bomb spell. | 50 Credits |
 | Soothing Water | Heal a total of 100,000 with your water beam spell. | 250 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
+
+---
 
 <!-- prettier-ignore -->
 | Property | Value | Description |

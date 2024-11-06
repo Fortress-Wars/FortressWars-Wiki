@@ -1,20 +1,24 @@
 # Gunner
 
-***
+---
 
 #### ![gunner-icon](../assets/icons/gunner-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A damage kit that uses a machine gun to damage enemies.
 - **Role:** Damage
 - **How to Unlock:** Purchase for 500 Credits.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Chainmail Chestplate
 - Chainmail Leggings
 - Chainmail Boots
@@ -22,15 +26,20 @@
 - Machine Gun
 - {{ kits.gunner.data.MAX_HEALING_POTIONS }} Healing Potions
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
 
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Machine Gun**
+
 ## Machine Gun
+
 Right click to shoot bullets. Each time the player shoots, the heat meter percentage will increase. (The player must rev up before shooting)
 
 ![Machine Gun - Shoot](../assets/kits/gunner/Gunner%20-%20Shoot.gif)
@@ -40,13 +49,17 @@ If the hit enemy is blocking, they will still take damage, but will take `x{{ ki
 ![Machine Gun - Shoot Shield](../assets/kits/gunner/Gunner%20-%20Shoot%20Shield.gif)
 
 #### **Rev Up**
+
 ## Rev Up
+
 Left click to rev up.
 
 ![Rev Up](../assets/kits/gunner/Gunner%20-%20Rev%20Up.gif)
 
 #### **Rev Down**
+
 ## Rev Down
+
 Left click to rev down.
 
 ![Rev Down](../assets/kits/gunner/Gunner%20-%20Rev%20Down.gif)
@@ -62,9 +75,13 @@ The player will rev down automatcially if they are stunned or hacked.
 <!-- tabs:end -->
 
 ### Resources
+
 <!-- tabs:start -->
+
 #### **Heat Meter**
+
 ## Heat Meter
+
 The heat meter indicates how close the machine gun is to overheating.
 
 ![Heat Meter](../assets/kits/gunner/Heat_Meter.png)
@@ -73,7 +90,8 @@ The heat meter indicates how close the machine gun is to overheating.
 <br />
 
 # Achievements
-***
+
+---
 
 <!-- prettier-ignore -->
 | Achievement | Description | Reward |
@@ -83,10 +101,11 @@ The heat meter indicates how close the machine gun is to overheating.
 | Weeeeeeeeh! Waaaaaaaahh! | Gun down an enemy from 50 blocks away. | 50 Credits |
 | Ooohhhh, run, run, I'm coming for you! | Get 1,000 machine gun kills. | 250 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
+
+---
 
 <!-- prettier-ignore -->
 | Property | Value | Description |

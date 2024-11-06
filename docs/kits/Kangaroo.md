@@ -1,20 +1,24 @@
 # Kangaroo
 
-***
+---
 
 #### ![kangaroo-icon](../assets/icons/kangaroo-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A melee damage kit that likes to jump.
 - **Role:** Damage
 - **How to Unlock:** Purchase for 500 Credits.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Chainmail Chestplate
 - Chainmail Leggings
 - Chainmail Boots
@@ -22,14 +26,20 @@
 - Stomp
 - {{ kits.kangaroo.data.MAX_HEALING_POTIONS }} Healing Potions
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Stomp**
+
 ## Stomp
+
 Right click to gain jump boost for `{{ kits.kangaroo.data.KANGAROO_STOMP_DURATION }}` ticks. When the player lands, they will deal damage in a `{{ kits.kangaroo.data.KANGAROO_STOMP_RADIUS }}` meter radius. The damage is based the player's fall distance. The damage does a minimum damage of `{{ kits.kangaroo.data.KANGAROO_STOMP_MIN_DAMAGE }}`. The damage begins to ramp at a fall distance of `{{ kits.kangaroo.data.KANGAROO_STOMP_RAMP_UP_START }}m`. The damage stops ramping up at `{{ kits.kangaroo.data.KANGAROO_STOMP_RAMP_UP_END }}m` and will deal `{{ kits.kangaroo.data.KANGAROO_STOMP_MAX_DAMAGE }}` damage.
 
 ![Stomp](../assets/kits/kangaroo/Kangaroo%20-%20Stomp.gif)
@@ -41,9 +51,13 @@ The kangaroo will damage [Engineer Blocks](Engineer#sentries).
 <!-- tabs:end -->
 
 ### Passives
+
 <!-- tabs:start -->
+
 #### **Strong Legs**
+
 ## Strong Legs
+
 The player is immune to fall damage.
 
 ![Strong Legs](../assets/kits/kangaroo/Kangaaroo%20-%20Strong%20Legs.gif)
@@ -52,7 +66,8 @@ The player is immune to fall damage.
 <br />
 
 # Achievements
-***
+
+---
 
 <!-- prettier-ignore -->
 | Achievement | Description | Reward |
@@ -61,10 +76,11 @@ The player is immune to fall damage.
 | Mega Stomp | Stomp on an enemy after falling for 50 blocks. | 50 Credits |
 | Stomptopia | Get 1,000 stomp kills. | 250 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
+
+---
 
 <!-- prettier-ignore -->
 | Property | Value | Description |

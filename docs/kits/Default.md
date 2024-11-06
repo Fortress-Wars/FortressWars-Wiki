@@ -1,21 +1,24 @@
-
 # Default
 
-***
+---
 
 #### ![default-icon](../assets/icons/default-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A kit with standard armor and standard weapons.
 - **Role:** Damage
 - **How to Unlock:** Unlocked by Default.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Chainmail Chestplate
 - Chainmail Leggings
 - Chainmail Boots
@@ -23,36 +26,46 @@
 - Bow
 - {{ kits.default.data.MAX_HEALING_POTIONS }} Healing Potions
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Sword**
+
 ## Sword
+
 Use your sword to deal damage to enemies.
 
 ![Sword](../assets/kits/default/Default%20-%20Sword.gif)
 
 #### **Bow**
+
 ## Bow
+
 Use your bow to deal damage to enemies from a distance.
 
 ![Bow](../assets/kits/default/Default%20-%20Bow.gif)
 
 <!-- tabs:end -->
-<br /> 
+<br />
 
 # Achievements
-***
+
+---
 
 None
 
-<br />  
+<br />
 
 # Kit Data
-***
+
+---
 
 <!-- prettier-ignore -->
 | Property | Value | Description |

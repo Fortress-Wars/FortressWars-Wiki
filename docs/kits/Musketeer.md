@@ -1,20 +1,24 @@
 # Musketeer
 
-***
+---
 
 #### ![musketeer-icon](../assets/icons/musketeer-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A damage kit that uses a rifle and excels in ranged damage.
 - **Role:** Damage
 - **How to Unlock:** Purchase for 500 Credits.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Leather Chestplate (Yellow)
 - Chainmail Leggings
 - Leather Boots (Light Brown)
@@ -23,33 +27,46 @@
 - {{ kits.musketeer.data.MUSKETEER_MAX_AMMO }} Reserve Ammo
 - {{ kits.musketeer.data.MAX_HEALING_POTIONS }} Healing Potions
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Rifle**
+
 ## Rifle
+
 The rifle is the player's primary source of damage. There are two modes: "Sniper Mode" and "Burst Mode". "Sniper Mode" deals more damage from a far distance and "Burst Mode" deals more damage at close range. The player can sneak and left-click to switch between modes.
 
 ![Musketeer - Switch Between Rifle Modes](../assets/kits/musketeer/Musketeer%20-%20Switch%20Between%20Rifle%20Modes.gif)
 
 <!-- tabs:start -->
+
 #### **Sniper Mode**
+
 ## Sniper Mode
+
 Scope-in and unsneak to shoot. The rifle will consume `{{ kits.musketeer.data.MUSKETEER_RIFLE_SNIPER_MODE_AMMO_CONSUMPTION_PER_SHOT }}` ammo and shoot 1 bullet **without** travel time. The bullet will deal `{{ kits.musketeer.data.MUSKETEER_RIFLE_SNIPER_MODE_BULLET_DAMAGE }}` damage. The bullet's damage will begin to fall off at `{{ kits.musketeer.data.MUSKETEER_RIFLE_SNIPER_MODE_BULLET_FALLOFF_DISTANCE_START }}` meters. Sniper Mode bullets will also pierce enemies `{{ kits.musketeer.data.MUSKETEER_RIFLE_SNIPER_MODE_BULLET_PIERCING_LEVEL }}` times.
 
 ![Musketeer - Sniper Mode Shoot](../assets/kits/musketeer/Musketeer%20-%20Sniper%20Mode%20Shoot.gif)
 
 #### **Burst Mode**
+
 ## Burst Mode
+
 Press right-click to shoot or scope-in and unsneak to shoot. The rifle will fire `{{ kits.musketeer.data.MUSKETEER_RIFLE_BURST_MODE_NUMBER_OF_SHOTS }}` times and each time it will consume `{{ kits.musketeer.data.MUSKETEER_RIFLE_BURST_MODE_AMMO_CONSUMPTION_PER_SHOT }}` ammo and shoot 1 bullet **with** travel time. Each bullet will deal `{{ kits.musketeer.data.MUSKETEER_RIFLE_BURST_MODE_BULLET_DAMAGE }}` damage. Each bullet's damage will begin to fall off at `{{ kits.musketeer.data.MUSKETEER_RIFLE_BURST_MODE_BULLET_FALLOFF_DISTANCE_START }}` meters. Burst Mode bullets ignore no damage ticks.
 
 ![Musketeer - Burst Mode Shoot](../assets/kits/musketeer/Musketeer%20-%20Burst%20Mode%20Shoot.gif)
 
 #### **Reloading**
+
 ## Reloading
+
 The player can reload the rifle manually by left-clicking the rifle. Reloading will reload the rifle using reserve ammo. The player can also cancel reloading if the rifle magazine is **not** empty.
 
 ![Musketeer - Rifle Reload](../assets/kits/musketeer/Musketeer%20-%20Rifle%20Reload.gif)
@@ -57,14 +74,19 @@ The player can reload the rifle manually by left-clicking the rifle. Reloading w
 After the player shoots, if there is no ammo left in rifle's magazine, the rifle will auto-reload.
 
 ![Musketeer - Rifle Auto Reload](../assets/kits/musketeer/Musketeer%20-%20Rifle%20Auto%20Reload.gif)
+
 <!-- tabs:end -->
 
 <!-- tabs:end -->
 
 ### Resources
+
 <!-- tabs:start -->
+
 #### **Ammo**
+
 ## Ammo
+
 Ammo is a resource that is used by the [Rifle](#rifle) ability to fire bullets. The maximum reserve ammo is `{{ kits.musketeer.data.MUSKETEER_MAX_AMMO }}`.
 
 ![Musketeer - Ammo](../assets/kits/musketeer/Musketeer%20-%20Ammo.png)
@@ -81,7 +103,8 @@ Friendly engineer dispensers will dispense `{{ kits.musketeer.data.MUSKETEER_AMM
 <br />
 
 # Achievements
-***
+
+---
 
 <!-- prettier-ignore -->
 | Achievement | Description | Reward |
@@ -93,10 +116,11 @@ Friendly engineer dispensers will dispense `{{ kits.musketeer.data.MUSKETEER_AMM
 | Gun needs a break, eh? | Kill an enemy musketeer while they are reloading. | 20 Credits |
 | American Revolution | Get 1,000 rifle kills. | 250 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
+
+---
 
 <!-- prettier-ignore -->
 | Property | Value | Description |

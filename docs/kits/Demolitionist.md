@@ -1,20 +1,24 @@
 # Demolitionist
 
-***
+---
 
 #### ![demolitionist-icon](../assets/icons/demolitionist-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A tank kit that can use TNT to temporarily destroy player placed blocks.
 - **Role:** Tank
 - **How to Unlock:** Purchase for 500 Credits.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Netherite Chestplate
 - Iron Leggings
 - Iron Boots
@@ -23,14 +27,20 @@
 - Demolish
 - {{ kits.demolitionist.data.MAX_HEALING_POTIONS }} Healing Potions
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Demolition**
+
 ## Demolition
+
 Right click a block to create a demolitionist bomb. When the bomb explodes will deal `{{ kits.demolitionist.data.DEMOLITIONIST_DEMOLISH_DAMAGE }}` damage and temporaily destroy all blocks placed by players for `{{ kits.demolitionist.data.DEMOLITIONIST_DEMOLISH_BLOCKS_BROKEN_DURATION }}` ticks in a `{{ kits.demolitionist.data.DEMOLITIONIST_DEMOLISH_RADIUS }}` block radius.
 
 ![Demolition 1](../assets/kits/demolitionist/Demolitionist%20-%20Demolish%201.gif)
@@ -38,13 +48,17 @@ Right click a block to create a demolitionist bomb. When the bomb explodes will 
 ![Demolition 2](../assets/kits/demolitionist/Demolitionist%20-%20Demolish%202.gif)
 
 #### **Instant Demolition**
+
 ## Instant Demolition
+
 Igniting an bomber bomb will cause it to detonate instantly and explode as a demolitionist bomb. A demolitionist bomb created this way will not destroy blocks.
 
 ![Instant Demolition](../assets/kits/demolitionist/Demolitionist%20-%20Instant%20Demolition.gif)
 
 #### **Forced Demolition**
+
 ## Forced Demolition
+
 The player can ignite creepers.
 
 ![Forced Demolition](../assets/kits/demolitionist/Demolitionist%20-%20Forced%20Demolition.gif)
@@ -52,9 +66,13 @@ The player can ignite creepers.
 <!-- tabs:end -->
 
 ### Passives
+
 <!-- tabs:start -->
+
 #### **Bomb Recycling**
+
 ## Bomb Recycling
+
 When the player is close to a friendly [Bomber](./Bomber.md), and the friendly Bomber break their bombs, they will receive their bomber bombs back instantly.
 
 ![Bomb Recycling](../assets/kits/demolitionist/Demolitionist%20-%20Bomb%20Recycling.gif)
@@ -63,7 +81,8 @@ When the player is close to a friendly [Bomber](./Bomber.md), and the friendly B
 <br />
 
 # Achievements
-***
+
+---
 
 <!-- prettier-ignore -->
 | Achievement | Description | Reward |
@@ -77,10 +96,11 @@ When the player is close to a friendly [Bomber](./Bomber.md), and the friendly B
 | Base Breaker | Destroy 100,000 blocks with your bomb. | 250 Credits |
 | Ultimate Demolisher | Get 1000 bomb kills as a demolitionist. | 250 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
+
+---
 
 <!-- prettier-ignore -->
 | Property | Value | Description |

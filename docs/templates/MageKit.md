@@ -1,21 +1,26 @@
 <!-- replace _kit_ with the actual kit name -->
+
 # _Kit_
 
-***
+---
 
 #### ![_kit_-icon](../assets/icons/_kit_-icon.jpg)
 
 # Overview
-***
-- **Introduced:** ___
-- **Description:** ___
-- **Role:** ___
-- **How to Unlock:** Purchase for ___
 
-<br />  
+---
+
+- **Introduced:** _version_
+- **Description:** _description_
+- **Role:** _role_
+- **How to Unlock:** Purchase for _credits_ Credits.
+
+<br />
 
 # Gear
-***
+
+---
+
 -
 -
 -
@@ -24,39 +29,51 @@
 - {{ kits._kit_.data.MAX_MANA_POTIONS }} Mana Potions
 - {{ kits._shared.data.MANA_MAX }} Mana
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Spell Wand**
+
 ## Spell Wand
+
 A weapon that is used to cast spells. Casting spells costs mana and each spell has a cooldown.
 
 ### Casting
-- _Spell_1_ *(Left-Click)*
-- _Spell_2_ *(Right-Click)*
-- _Spell_3_ *(Sneak + Left-Click)*
-- _Spell_4_ *(Sneak + Right-Click)*
+
+- _Spell_1_ _(Left-Click)_
+- _Spell_2_ _(Right-Click)_
+- _Spell_3_ _(Sneak + Left-Click)_
+- _Spell_4_ _(Sneak + Right-Click)_
 
 <!-- tabs:start -->
+
 #### **Spell 1**
+
 ## Spell 1
 
 ![_image_1_](../assets/kits/_kit_/_image_1_.jpg_)
 
 #### **Spell 2**
+
 ## Spell 2
 
 ![_image_1_](../assets/kits/_kit_/_image_1_.jpg_)
 
 #### **Spell 3**
+
 ## Spell 3
 
 ![_image_1_](../assets/kits/_kit_/_image_1_.jpg_)
 
 #### **Spell 4**
+
 ## Spell 4
 
 ![_image_1_](../assets/kits/_kit_/_image_1_.jpg_)
@@ -66,15 +83,21 @@ A weapon that is used to cast spells. Casting spells costs mana and each spell h
 <!-- tabs:end -->
 
 ### Passives
+
 <!-- tabs:start -->
+
 #### **Ability_1**
+
 ## Ability_1
+
 _description_1_
 
 ![_image_1_](../assets/kits/_kit_/_image_1_.jpg_)
 
 #### **Ability_2**
+
 ## Ability_2
+
 _description_2_
 
 ![_image_2_](../assets/kits/_kit_/_image_2_.jpg_)
@@ -82,9 +105,13 @@ _description_2_
 <!-- tabs:end -->
 
 ### Resources
+
 <!-- tabs:start -->
+
 #### **Mana**
+
 ## Mana
+
 Mana is a resource used to cast spells.
 
 ![_kit_ - Mana](../assets/kits/_kit_/_image_1_.jpg_)
@@ -105,7 +132,8 @@ Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPEN
 <br />
 
 # Achievements
-***
+
+---
 
 <!-- prettier-ignore -->
 | Achievement | Description | Reward |
@@ -116,10 +144,11 @@ Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPEN
 | | | |
 | | | |
 
-<br />  
+<br />
 
 # Kit Data
-***
+
+---
 
 <!-- prettier-ignore -->
 | Property | Value | Description |

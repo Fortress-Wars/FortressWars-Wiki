@@ -1,20 +1,24 @@
 # Hitman
 
-***
+---
 
 #### ![hitman-icon](../assets/icons/hitman-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A utility kit that shoots darts which can apply debuffs to enemies.
 - **Role:** Utility
 - **How to Unlock:** Purchase for 500 Credits.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Leather Chestplate
 - Leather Leggings
 - Leather Boots
@@ -23,14 +27,20 @@
 - Select Potion
 - {{ kits.hitman.data.MAX_HEALING_POTIONS }} Healing Potions
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Dart Shooter**
+
 ## Dart Shooter
+
 Shoot enemies with your Dark Shooter to deal damage. When enemies take damage from hitman darts, they will be tagged. Tags are used to trigger debuffs.
 
 ![Dart Shooter - Tag](../assets/kits/hitman/Hitman%20-%20Dart%20Shooter.gif)
@@ -40,37 +50,49 @@ Left click your Dart Shooter to trigger a debuff. The debuff applied is determin
 ![Dart Shooter - Trigger](../assets/kits/hitman/Hitman%20-%20Dart%20Shooter%20Activate.gif)
 
 #### **Select Debuff**
+
 ## Select Debuff
-Right click or left click to cycle between debuffs. 
+
+Right click or left click to cycle between debuffs.
 
 ![Select Debuff](../assets/kits/hitman/Hitman%20-%20Select%20Debuff.gif)
 
-The debuffs are as follows: 
+The debuffs are as follows:
 
 <!-- tabs:start -->
+
 #### **Darkness**
+
 ## Darkness
+
 Gives the darkness effect for `{{ kits.hitman.data.HITMAN_DARKNESS_DURATION }}` ticks.
 
 ![Darkness](../assets/kits/hitman/Hitman%20-%20Darkness.gif)
 
 #### **Glowing**
+
 ## Glowing
+
 Gives the glowing effect for `{{ kits.hitman.data.HITMAN_GLOWING_DURATION }}` ticks and stuns enemies for `{{ kits.hitman.data.HITMAN_STUN_DURATION }}` ticks.
 
 ![Glowing](../assets/kits/hitman/Hitman%20-%20Glowing.gif)
 
 #### **Weakness**
+
 ## Weakness
+
 Gives the weakness effect for `{{ kits.hitman.data.HITMAN_WEAKNESS_DURATION }}` ticks.
 
 ![Weakness](../assets/kits/hitman/Hitman%20-%20Weakness.gif)
 
 #### **Harming**
+
 ## Harming
+
 Damages the enemy for `{{ kits.hitman.data.HITMAN_INSTANT_DAMAGE_DAMAGE }}` HP.
 
 ![Harming](../assets/kits/hitman/Hitman%20-%20Harming.gif)
+
 <!-- tabs:end -->
 
 <!-- tabs:end -->
@@ -78,7 +100,8 @@ Damages the enemy for `{{ kits.hitman.data.HITMAN_INSTANT_DAMAGE_DAMAGE }}` HP.
 <br />
 
 # Achievements
-***
+
+---
 
 <!-- prettier-ignore -->
 | Achievement | Description | Reward |
@@ -88,10 +111,11 @@ Damages the enemy for `{{ kits.hitman.data.HITMAN_INSTANT_DAMAGE_DAMAGE }}` HP.
 | Agent 47's hair-loss program | Affect a spy with glowing as they are invisible. | 20 Credits |
 | One Day, I Will Think Of This As Just Another Job | Get 1,000 damage dart kills. | 250 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
+
+---
 
 <!-- prettier-ignore -->
 | Property | Value | Description |

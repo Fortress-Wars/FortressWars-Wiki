@@ -1,20 +1,24 @@
 # Sniper
 
-***
+---
 
 #### ![sniper-icon](../assets/icons/sniper-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A kit with two bows that deal significant ranged damage.
 - **Role:** Damage
 - **How to Unlock:** Purchase for 500 Credits.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Chainmail Chestplate
 - Leather Leggings (Black)
 - Chainmail Boots
@@ -24,14 +28,20 @@
 - {{ kits.sniper.data.SNIPER_ARROWS_MAX }} Arrows
 - {{ kits.sniper.data.MAX_HEALING_POTIONS }} Healing Potions
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Infinity Bow**
+
 ## Infinity Bow
+
 The Infinity Bow that does not consume arrows and deals extra damage when hitting headshots. Headshots increase the damage dealt by `+{{ kits.sniper.data.SNIPER_INFINITY_BOW_HEADSHOT_PERCENTAGE_INCREASE }}%`.
 
 ![Sniper - Infinity Bow Shoot](../assets/kits/sniper/Sniper%20-%20Infinity%20Bow%20Shoot.gif)
@@ -39,8 +49,10 @@ The Infinity Bow that does not consume arrows and deals extra damage when hittin
 ![Sniper - Infinity Bow Headshot](../assets/kits/sniper/Sniper%20-%20Infinity%20Bow%20Headshot.gif)
 
 #### **Power Bow**
+
 ## Power Bow
-The Power Bow is a bow that does increased base damage and has knockback on arrows. Shooting consumes arrows. The bow will deal `+{{ kits.sniper.data.SNIPER_POWER_BOW_DAMAGE_PERCENTAGE_INCREASE }}%` more damage compared to a normal bow. 
+
+The Power Bow is a bow that does increased base damage and has knockback on arrows. Shooting consumes arrows. The bow will deal `+{{ kits.sniper.data.SNIPER_POWER_BOW_DAMAGE_PERCENTAGE_INCREASE }}%` more damage compared to a normal bow.
 
 ![Sniper - Power Bow Shoot](../assets/kits/sniper/Sniper%20-%20Power%20Bow%20Shoot.gif)
 
@@ -51,9 +63,13 @@ If the player shoots an enemy in the knees, the enemy will be slowed for `{{ kit
 <!-- tabs:end -->
 
 ### Resources
+
 <!-- tabs:start -->
+
 #### **Arrows**
+
 ## Arrows
+
 Arrows are used by the `Infinity Bow` and `Power Bow`. The player can carry a maximum of `{{ kits.sniper.data.SNIPER_ARROWS_MAX }}` arrows.
 
 ![Sniper - Arrows](../assets/kits/sniper/Sniper%20-%20Arrows.png)
@@ -70,7 +86,8 @@ Players will earn `{{ kits.sniper.data.SNIPER_ARROWS_FINAL_BLOW_REWARD }}` arrow
 <br />
 
 # Achievements
-***
+
+---
 
 <!-- prettier-ignore -->
 | Achievement | Description | Reward |
@@ -81,10 +98,11 @@ Players will earn `{{ kits.sniper.data.SNIPER_ARROWS_FINAL_BLOW_REWARD }}` arrow
 | Head Humiliator | Get 1,000 headshot kills. | 250 Credits |
 | Knee Knocker | Get 1,000 kneeshot kills. | 250 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
+
+---
 
 <!-- prettier-ignore -->
 | Property | Value | Description |

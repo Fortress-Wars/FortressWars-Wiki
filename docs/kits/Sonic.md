@@ -1,20 +1,24 @@
 # Sonic
 
-***
+---
 
 #### ![sonic-icon](../assets/icons/sonic-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A damage kit with incredible speed.
 - **Role:** Damage
 - **How to Unlock:** Purchase for 500 Credits.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Chainmail Chestplate
 - Chainmail Chestplate
 - Chainmail Leggings
@@ -22,20 +26,28 @@
 - Sonic Speed
 - {{ kits.sonic.data.MAX_HEALING_POTIONS }} Healing Potions
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Sonic Speed**
+
 ## Sonic Speed
+
 Right click to gain speed. The player's speed level is level `{{ kits.sonic.data.SONIC_SPEED_LEVEL }}` and the duration lasts for `{{ kits.sonic.data.SONIC_SPEED_DURATION }}` ticks or until a `Sonic Boom` occurs.
 
 ![Sonic - Sonic Speed Activate](../assets/kits/sonic/Sonic%20-%20Sonic%20Speed%20Activate.gif)
 
 #### **Sonic Boom**
+
 ## Sonic Boom
+
 Colliding with an enemy while `Sonic Speed` is active will trigger a `Sonic Boom`. A Sonic Boom will deal `{{ kits.sonic.data.SONIC_BOOM_DAMAGE }}` damage to all hit enemies and unleash a shockwave.
 
 ![Sonic - Sonic Boom](../assets/kits/sonic/Sonic%20-%20Sonic%20Boom.gif)
@@ -50,7 +62,8 @@ The shockwave will stun all nearby enemies and engineer blocks within `{{ kits.s
 <br />
 
 # Achievements
-***
+
+---
 
 <!-- prettier-ignore -->
 | Achievement | Description | Reward |
@@ -61,10 +74,11 @@ The shockwave will stun all nearby enemies and engineer blocks within `{{ kits.s
 | Escape From The City | Use your sonic speed to travel over 186,000 blocks. | 250 Credits |
 | Through the Sound Barrier | Get 1,000 sonic boom kills. | 250 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
+
+---
 
 <!-- prettier-ignore -->
 | Property | Value | Description |

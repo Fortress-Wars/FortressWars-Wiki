@@ -1,20 +1,24 @@
 # Vitalist
 
-***
+---
 
 #### ![vitalist-icon](../assets/icons/vitalist-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A kit that uses a crossbow to heal allies and damage enemies.
 - **Role:** Support
 - **How to Unlock:** Purchase for 500 Credits.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Leather Chestplate (Purple)
 - Leather Leggings (Purple)
 - Leather Boots (Purple)
@@ -23,25 +27,33 @@
 - {{ kits.vitalist.data.VITALIST_MAX_AMMO }} Reserve Ammo
 - {{ kits.vitalist.data.MAX_HEALING_POTIONS }} Healing Potions
 
-
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Crusader's Crossbow**
+
 ## Crusader's Crossbow
+
 A crossbow that shoots projectiles that heal allies and damage enemies.
 
 <!-- tabs:start -->
+
 #### **Shooting**
+
 ## Shooting
+
 The player can shoot by right-clicking. The crossbow must be loaded in order to fire a projectile.
 
 ![Vitalist - Crossbow Shoot](../assets/kits/vitalist/Vitalist%20-%20Crossbow%20Shoot.gif)
 
-When a crossbow projectile hits an ally, it heals them over time. The projectile has `{{ kits.vitalist.data.VITALIST_CROSSBOW_HEALING_TICKS }}` healing ticks. One healing tick is equivalent to `{{ kits.vitalist.data.VITALIST_CROSSBOW_HEALING_TICK_RATE }}` ticks and restores `{{ kits.vitalist.data.VITALIST_CROSSBOW_HEALING_TICK_POTENCY }}` health. 
+When a crossbow projectile hits an ally, it heals them over time. The projectile has `{{ kits.vitalist.data.VITALIST_CROSSBOW_HEALING_TICKS }}` healing ticks. One healing tick is equivalent to `{{ kits.vitalist.data.VITALIST_CROSSBOW_HEALING_TICK_RATE }}` ticks and restores `{{ kits.vitalist.data.VITALIST_CROSSBOW_HEALING_TICK_POTENCY }}` health.
 
 ![Vitalist - Crossbow Projectile Hit Ally](../assets/kits/vitalist/Vitalist%20-%20Crossbow%20Projectile%20Hit%20Ally.gif)
 
@@ -54,12 +66,14 @@ Crossbow projectiles pierce up to `{{ kits.vitalist.data.VITALIST_CROSSBOW_PIERC
 ![Vitalist - Crossbow Projectile Piercing](../assets/kits/vitalist/Vitalist%20-%20Crossbow%20Projectile%20Piercing.gif)
 
 #### **Reloading**
+
 ## Reloading
+
 The player can reload by left-clicking. The reload duration depends on how empty the crossbow's magazine is. It takes `{{ kits.vitalist.data.VITALIST_CROSSBOW_RELOAD_DURATION_PER_1_AMMO }}` ticks to reload `1` ammo..
 
 ![Vitalist - Crossbow Reload](../assets/kits/vitalist/Vitalist%20-%20Crossbow%20Reload.gif)
 
-If the crossbow's magazine is empty and the player has reserve ammo, the crossbow reloads automatically. 
+If the crossbow's magazine is empty and the player has reserve ammo, the crossbow reloads automatically.
 
 ![Vitalist - Crossbow Auto Reload](../assets/kits/vitalist/Vitalist%20-%20Crossbow%20Auto%20Reload.gif)
 
@@ -67,9 +81,13 @@ If the crossbow's magazine is empty and the player has reserve ammo, the crossbo
 <!-- tabs:end -->
 
 ### Resources
+
 <!-- tabs:start -->
+
 #### **Ammo**
+
 ## Ammo
+
 Ammo is a resource that is used by the [Crusader's Crossbow](#crusaders-crossbow). The maximum amount of reserve ammo the player can hold is `{{ kits.vitalist.data.VITALIST_MAX_AMMO }}`.
 
 ![Vitalist - Ammo](../assets/kits/vitalist/Vitalist%20-%20Ammo.png)
@@ -90,7 +108,8 @@ Friendly engineer dispensers dispense `{{ kits.vitalist.data.VITALIST_CROSSBOW_A
 <br />
 
 # Achievements
-***
+
+---
 
 <!-- prettier-ignore -->
 | Achievement | Description | Reward |
@@ -100,10 +119,11 @@ Friendly engineer dispensers dispense `{{ kits.vitalist.data.VITALIST_CROSSBOW_A
 | Blessed Rebuttal | Get 1,000 kills with the crossbow | 250 Credits |
 | Unbending Support | Heal 100,000 health with crossbow shots | 250 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
+
+---
 
 <!-- prettier-ignore -->
 | Property | Value | Description |

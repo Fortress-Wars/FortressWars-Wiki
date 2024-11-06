@@ -1,20 +1,24 @@
 # Prometheus
 
-***
+---
 
 #### ![prometheus-icon](../assets/icons/prometheus-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.8.0
 - **Description:** A kit that uses the element of fire to deal damage.
 - **Role:** Damage
 - **How to Unlock:** Purchase for 500 Credits.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Chainmail Chestplate
 - Leather Leggings (Orange)
 - Chainmail Boots
@@ -23,24 +27,34 @@
 - {{ kits.prometheus.data.MAX_MANA_POTIONS }} Mana Potions
 - {{ kits._shared.data.MANA_MAX }} Mana
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Spell Wand**
+
 ## Spell Wand
+
 A weapon that is used to cast spells. Casting spells costs mana and each spell has a cooldown.
 
 ### Casting
-- Fireball *(Left-Click)*
-- Flame *(Right-Click)*
-- Imbue *(Sneak + Right-Click)*
+
+- Fireball _(Left-Click)_
+- Flame _(Right-Click)_
+- Imbue _(Sneak + Right-Click)_
 
 <!-- tabs:start -->
+
 #### **Fireball**
+
 ## Fireball
+
 The spell costs `{{ kits.prometheus.data.PROMETHEUS_FIREBALL_MANA_COST }}` mana. Casting summons a fireball in the direction the player is looking. The fireball deals `{{ kits.prometheus.data.PROMETHEUS_FIREBALL_HIT_DAMAGE }}` damage on impact and explodes to deal and an additional `{{ kits.prometheus.data.PROMETHEUS_FIREBALL_EXPLOSION_DAMAGE }}` damage. The fireball ignites enemies for `{{ kits.prometheus.data.PROMETHEUS_FIREBALL_EXPLOSION_FIRE_DURATION }}` ticks and deals knockback. The caster is also affected by the fireball if caught in the explosion.
 
 ![Prometheus - Fireball Cast](../assets/kits/prometheus/_image_1_.jpg_)
@@ -54,7 +68,9 @@ Fireballs damage engineer blocks.
 ![Prometheus - Fireball Engineer Blocks](../assets/kits/prometheus/_image_1_.jpg_)
 
 #### **Flame**
+
 ## Flame
+
 The spell costs `{{ kits.prometheus.data.PROMETHEUS_FLAME_MANA_COST }}` mana. Casting summons flames that travel forward in front of the player. Enemies that are caught in the are ignited for `{{ kits.prometheus.data.PROMETHEUS_FLAME_BURN_DURATION }}` ticks.
 
 ![Prometheus - Flame Cast](../assets/kits/prometheus/_image_1_.jpg_)
@@ -64,6 +80,7 @@ The flame spell burns cobwebs.
 ![Prometheus - Flame Burn Cobwebs](../assets/kits/prometheus/_image_1_.jpg_)
 
 #### **Imbue**
+
 ## Imbue
 
 The spell costs `{{ kits.prometheus.data.PROMETHEUS_IMBUE_MANA_COST }}` mana. Casting imbues the player's sword with flames. The player also receives the fire resistance potion effect.
@@ -83,9 +100,13 @@ If the spell is casted again while the effects are active, then the player incin
 <!-- tabs:end -->
 
 ### Resources
+
 <!-- tabs:start -->
+
 #### **Mana**
+
 ## Mana
+
 Mana is a resource used to cast spells.
 
 ![Prometheus - Mana](../assets/kits/prometheus/_image_1_.jpg_)
@@ -106,7 +127,8 @@ Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPEN
 <br />
 
 # Achievements
-***
+
+---
 
 <!-- prettier-ignore -->
 | Achievement | Description | Reward |
@@ -121,10 +143,11 @@ Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPEN
 | In the Hall of Flame. | Get 1,000 fireball kills. | 250 Credits |
 | It’s lit! | Ignite 10,000 enemies. | 250 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
+
+---
 
 <!-- prettier-ignore -->
 | Property | Value | Description |

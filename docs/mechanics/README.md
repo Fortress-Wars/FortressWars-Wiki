@@ -1,5 +1,6 @@
 # Mechanics
-* [Potions](#Potions)
-* [Overtime](#Overtime)
-* [Respawn](#Respawn)
-* [Sponges](#Sponges)
+
+- [Potions](#Potions)
+- [Overtime](#Overtime)
+- [Respawn](#Respawn)
+- [Sponges](#Sponges)

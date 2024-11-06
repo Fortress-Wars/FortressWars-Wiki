@@ -1,20 +1,24 @@
 # Master
 
-***
+---
 
 #### ![master-icon](../assets/icons/master-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A damage kit that spawns creeper minions to fight along side the player.
 - **Role:** Damage
 - **How to Unlock:** Purchase for 500 credits.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Chainmail Chestplate
 - Chainmail Leggings
 - Chainmail Boots
@@ -22,14 +26,20 @@
 - Creeper Minion Egg
 - {{ kits.master.data.MAX_HEALING_POTIONS }} Healing Potions
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Creeper Minion Egg**
+
 ## Creeper Minion Egg
+
 Right click a block to spawn a creeper minion. Creepers minons can be spawned every `{{ kits.master.data.MASTER_MINIONS_SPAWN_CREEPER_COOLDOWN }}` ticks.
 
 ![Master - Creeper Spawn](../assets/kits/master/Master%20-%20Creeper%20Spawn.gif)
@@ -39,7 +49,9 @@ The player can have a maximum of `{{ kits.master.data.MASTER_MINIONS_MAX_CREEPER
 ![Master - Creeper Spawn at Max](../assets/kits/master/Master%20-%20Creeper%20Spawn%20at%20Max.gif)
 
 #### **Creeper Minion**
+
 ## Creeper Minion
+
 Creepers have `{{ kits.master.data.MASTER_MINIONS_CREEPER_MAX_HEALTH }}` health and will deal `{{ kits.master.data.MASTER_MINIONS_CREEPER_DAMAGE }}` damage when they explode. The explosion radius is `{{ kits.master.data.MASTER_MINIONS_CREEPER_EXPLOSION_RADIUS}}` meters.
 
 ![Master - Creeper Targeting & Explode](../assets/kits/master/Master%20-%20Creeper%20Targeting%20&%20Explode.gif)
@@ -66,7 +78,8 @@ If a creeper has a potion effect and it explodes, the potion effects will linger
 <br />
 
 # Achievements
-***
+
+---
 
 <!-- prettier-ignore -->
 | Achievement | Description | Reward |
@@ -76,10 +89,11 @@ If a creeper has a potion effect and it explodes, the potion effects will linger
 | Head Dropper | Get a super creeper kill. | 20 Credits |
 | Creeper Army! | Get 1,000 creeper kills. | 250 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
+
+---
 
 <!-- prettier-ignore -->
 | Property | Value | Description |

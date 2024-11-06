@@ -1,20 +1,24 @@
 # Porcupine
 
-***
+---
 
 #### ![porcupine-icon](../assets/icons/porcupine-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A damage kit that summons a sphere of quills to deal damage to enemies.
 - **Role:** Damage
 - **How to Unlock:** Purchase for 500 Credits.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Chainmail Chestplate
 - Chainmail Leggings
 - Chainmail Boots
@@ -25,11 +29,17 @@
 <br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Quills**
+
 ## Quills
+
 Right-click to summon a sphere of quills. When a quill hits an enemy, it will deal `{{ kits.porcupine.data.PORCUPINE_QUILL_DAMAGE }}`. Quills will stun enemies for `{{ kits.porcupine.data.PORCUPINE_QUILL_STUN_DURATION }}` ticks and apply poison and slowness potion effects. Using the quills ability will also activate the [Thorns](#thorns) passive ability.
 
 ![Porcupine - Quills 1](../assets/kits/porcupine/Porcupine%20-%20Quills%201.gif)
@@ -38,9 +48,13 @@ Right-click to summon a sphere of quills. When a quill hits an enemy, it will de
 <!-- tabs:end -->
 
 ### Passives
+
 <!-- tabs:start -->
+
 #### **Thorns**
+
 ## Thorns
+
 After using the quills ability, the player will receive the thorns effect for `{{ kits.porcupine.data.PORCUPINE_THORNS_DURATION }}` ticks. When thorns is active and an enemy attacks the player, there is a `{{ kits.porcupine.data.PORCUPINE_THORNS_HIT_CHANCE_PERCENTAGE }}%` chance for for the player to deal `{{ kits.porcupine.data.PORCUPINE_THORNS_DAMAGE_PERCENTAGE }}%` damage back to the enemy. Thorns will only trigger if the enemy is within `{{ kits.porcupine.data.PORCUPINE_THORNS_HIT_RADIUS }}` meters.
 
 ![Porcupine - Thorns](../assets/kits/porcupine/Porcupine%20-%20Thorns.gif)
@@ -49,7 +63,8 @@ After using the quills ability, the player will receive the thorns effect for `{
 <br />
 
 # Achievements
-***
+
+---
 
 <!-- prettier-ignore -->
 | Achievement | Description | Reward |
@@ -59,10 +74,11 @@ After using the quills ability, the player will receive the thorns effect for `{
 | Did that hurt? | Get a kill with your thorns. | 20 Credits |
 | Spiny | Get 1,000 quill kills. | 250 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
+
+---
 
 <!-- prettier-ignore -->
 | Property | Value | Description |

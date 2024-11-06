@@ -1,21 +1,24 @@
-
 # Miner
 
-***
+---
 
 #### ![miner-icon](../assets/icons/miner-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A utility kit with better mining tools.
 - **Role:** Utility
 - **How to Unlock:** Unlocked by Default.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Chainmail Chestplate
 - Chainmail Leggings
 - Chainmail Boots
@@ -24,14 +27,20 @@
 - Diamond Shovel
 - {{ kits.miner.data.MAX_HEALING_POTIONS }} Healing Potions
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Miner's Fervor**
+
 ## Miner's Fervor
+
 Right click a tool to activate. Activating will upgrade the player's tools to netherite and give the player haste.
 
 ![Miner's Fervor 1](../assets/kits/miner/Miner%20-%20Miners%20Fervor%20Blocks.gif)
@@ -43,24 +52,31 @@ The upgraded axe can instantly break shields.
 <!-- tabs:end -->
 
 ### Passives
+
 <!-- tabs:start -->
+
 #### **Beacon Breaker**
+
 ## Beacon Breaker
+
 Deal `+{{ kits.miner.data.BEACON_BREAKER_DAMAGE_ADDITIVE }}` damage to beacons.
 
 ![Beacon Breaker](../assets/kits/miner/Miner%20-%20Beacon%20Breaker.gif)
 
 #### **Engineer Breaker**
+
 ## Engineer Breaker
+
 Deal `+{{ kits.miner.data.MINER_ENGINEER_BLOCK_DAMAGE_ADDITIVE }}` damage to engineer blocks when using tools.
 
 ![Beacon Breaker](../assets/kits/miner/Miner%20-%20Engineer%20Breaker.gif)
 
 <!-- tabs:end -->
-<br />  
+<br />
 
 # Achievements
-***
+
+---
 
 <!-- prettier-ignore -->
 | Achievement | Description | Reward |
@@ -70,10 +86,11 @@ Deal `+{{ kits.miner.data.MINER_ENGINEER_BLOCK_DAMAGE_ADDITIVE }}` damage to eng
 | Shield Smasher | Break an enemy shield while using Miner's fervor. | 20 Credits |
 | Mole Rat | Break 100,000 blocks as miner. | 250 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
+
+---
 
 <!-- prettier-ignore -->
 | Property | Value | Description |

@@ -1,20 +1,24 @@
 # Mercy
 
-***
+---
 
 #### ![mercy-icon](../assets/icons/mercy-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A support kit that heals allies, damages enemies, increases ally damage, and decreases enemy damage.
 - **Role:** Support
 - **How to Unlock:** Purchase for 500 Credits.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Leather Chestplate (Magenta)
 - Chainmail Leggings
 - Chainmail Boots
@@ -22,14 +26,20 @@
 - Switch Mode
 - {{ kits.mercy.data.MAX_HEALING_POTIONS }} Healing Potions
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Staff**
+
 ## Staff
+
 The staff ability is used to heal allies, increase ally damage, damage enemies, and decrease enemy damage. When the player right-clicks, a beam will shoot out `{{ kits.mercy.data.MERCY_STAFF_BEAM_RANGE }}` meters in front of the player. If the beam hits an ally or enemy, it will conenct to them.
 
 ![Mercy - Attach Beam](../assets/kits/mercy/Mercy%20-%20Attach%20Beam.gif)
@@ -47,8 +57,11 @@ If the player is out of range or out of line of sight for too long, the beam wil
 ![Mercy - Beam Disconnect 2](../assets/kits/mercy/Mercy%20-%20Beam%20Disconnect%202.gif)
 
 <!-- tabs:start -->
+
 #### **Health Mode**
+
 ## Health Mode
+
 While in `Health Mode`, if the beam is connected to an ally, it will restore `{{ kits.mercy.data.MERCY_STAFF_HEAL_POTENCY }}` health every `{{ kits.mercy.data.MERCY_STAFF_HEAL_RATE }}` ticks. If the beam is conencted to an enemy, it will deal `{{ kits.mercy.data.MERCY_STAFF_DAMAGING_AMOUNT }}` damage every `{{ kits.mercy.data.MERCY_STAFF_DAMAGING_RATE }}` ticks.
 
 ![Mercy - Staff Heal Allies](../assets/kits/mercy/Mercy%20-%20Staff%20Heal%20Allies.gif)
@@ -56,7 +69,9 @@ While in `Health Mode`, if the beam is connected to an ally, it will restore `{{
 ![Mercy - Staff Damage Enemies](../assets/kits/mercy/Mercy%20-%20Staff%20Damage%20Enemies.gif)
 
 #### **Damage Boost Mode**
+
 ## Damage Boost Mode
+
 While in `Damage Boost Mode`, if the beam is connected to an ally, the connected ally will deal `{{ kits.mercy.data.MERCY_STAFF_DAMAGE_BUFF_PERCENTAGE }}%` more damage. If the beam is connected to an enemy, the connected enemy will deal `{{ kits.mercy.data.MERCY_STAFF_DAMAGE_NERF_PERCENTAGE }}%` less damage.
 
 ![Mercy - Staff Increase Ally Damage](../assets/kits/mercy/Mercy%20-%20Staff%20Increase%20Ally%20Damage.gif)
@@ -66,7 +81,9 @@ While in `Damage Boost Mode`, if the beam is connected to an ally, the connected
 <!-- tabs:end -->
 
 #### **Switch Mode**
+
 ## Switch Mode
+
 Right-click or left-click to cycle the `Staff` between `Health Mode` and `Damage Boost Mode`.
 
 ![Mercy - Switch Staff Mode](../assets/kits/mercy/Mercy%20-%20Switch%20Staff%20Mode.gif)
@@ -76,7 +93,8 @@ Right-click or left-click to cycle the `Staff` between `Health Mode` and `Damage
 <br />
 
 # Achievements
-***
+
+---
 
 <!-- prettier-ignore -->
 | Achievement | Description | Reward |
@@ -86,10 +104,11 @@ Right-click or left-click to cycle the `Staff` between `Health Mode` and `Damage
 | Midwife Crisis | As mercy, heal an Engineer as he repairs his sentry gun. | 20 Credits |
 | Battle Mercy | Get 1,000 kills as Mercy. | 250 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
+
+---
 
 <!-- prettier-ignore -->
 | Property | Value | Description |

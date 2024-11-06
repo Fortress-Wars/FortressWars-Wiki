@@ -1,33 +1,41 @@
 # FEATURE
+
 _Introduced: vVERSION_
-***
+
+---
 
 ### Overview
 
 #### ![FEATURE - Overview](../assets/features/)
 
-<br /> 
+<br />
 
 ### SECTION
+
 section_description
 
 #### ![FEATURE - IMAGE](../assets/features/)
 
-<br />  
+<br />
 
 ### SECTION
+
 section_description
 
 #### ![FEATURE - IMAGE](../assets/features/)
 
-<br /> 
+<br />
 
 ### SECTION
+
 section_description
 
 <!-- tabs:start -->
+
 #### **Sub_Section**
+
 ## Sub_Section
+
 subsection_description
 
 #### ![FEATURE - IMAGE](../assets/features/)
@@ -35,15 +43,18 @@ subsection_description
 #### ![FEATURE - IMAGE](../assets/features/)
 
 #### **Sub_Section**
+
 ## Sub_Section
+
 subsection_description
 
 #### ![FEATURE - IMAGE](../assets/features/)
 
 #### ![FEATURE - IMAGE](../assets/features/)
+
 <!-- tabs:end -->
 
-<br /> 
+<br />
 
 ### Gameplay
 
@@ -53,12 +64,13 @@ subsection_description
 
 #### ![FEATURE - IMAGE](../assets/features/)
 
-<br /> 
+<br />
 
 ### Configuration
+
 configuration_description
 
-``` yaml
+```yaml
 some:
   configuration:
     property: true

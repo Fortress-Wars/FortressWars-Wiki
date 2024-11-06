@@ -1,21 +1,24 @@
-
 # Fish
 
-***
+---
 
 #### ![fish-icon](../assets/icons/fish-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A damage kit that uses fish to attack.
 - **Role:** Damage
 - **How to Unlock:** Completing the "Fishy Business!" achievement.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Chainmail Chestplate
 - Chainmail Leggings
 - Chainmail Boots
@@ -23,23 +26,30 @@
 - Fish Bow
 - {{ kits.fish.data.MAX_HEALING_POTIONS }} Healing Potions
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Fish**
+
 ## Fish
+
 A powerful fishy melee weapon. Left click to use [Fish Throw](#fish-throw). Right click to use [Fishplosion](#fishplosion). If `FISH_CAN_ACTIVATE_OP_FISH` is set to `true`, then the player can eat the fish to activate [OP Fish mode](#op-fish-mode).
 
 ![Fish - Fish Melee](../assets/kits/fish/Fish%20-%20Fish%20Melee.gif)
 
 #### **Fish Throw**
+
 ## Fish Throw
 
 Left click to use. Summon a fish and throw it.
-        
+
 ![Fish - Fish Throw](../assets/kits/fish/Fish%20-%20Fish%20Throw.gif)
 
 All fish from the player can be blocked by a shield.
@@ -47,6 +57,7 @@ All fish from the player can be blocked by a shield.
 ![Fish - Fish Block](../assets/kits/fish/Fish%20-%20Fish%20Block.gif)
 
 #### **Fishplosion**
+
 ## Fishplosion
 
 Right click to use. Summon an explosion of fish.
@@ -54,6 +65,7 @@ Right click to use. Summon an explosion of fish.
 ![Fish - Fishplosion](../assets/kits/fish/Fish%20-%20Fishplosion.gif)
 
 #### **Fish Bow**
+
 ## Fish Bow
 
 Shoot fish at enemies. The fish can ricochet off blocks.
@@ -61,7 +73,9 @@ Shoot fish at enemies. The fish can ricochet off blocks.
 ![Fish - Fish Bow](../assets/kits/fish/Fish%20-%20Fish%20Bow.gif)
 
 #### **OP Fish Mode**
+
 ## OP Fish Mode
+
 Turn into an overpowered fish! OP fish mode **enables** the following abilities: [Suffocate](#suffocate), [Beacon Breaker](#beacon-breaker), and [Fish Trail](#fish-trail). Activating OP fish mode will trigger [Fishplosion](#fishplosion). When the player dies, it will also trigger Fishplosion. In addition, the Fish Throw ability's internal cooldown decreases from `{{ kits.fish.data.FISH_THROW_ICD }}` ticks to `{{ kits.fish.data.FISH_THROW_OP_ICD }}` ticks and the Fish Bow shoots `{{ kits.fish.data.FISH_BOW_OP_FISH_PER_SHOT }}` fish instead of `{{ kits.fish.data.FISH_BOW_FISH_PER_SHOT }}` fish.
 
 ![Fish - OP Fish Mode](../assets/kits/fish/Fish%20-%20OP%20Fish%20Mode.gif)
@@ -69,46 +83,63 @@ Turn into an overpowered fish! OP fish mode **enables** the following abilities:
 <!-- tabs:end -->
 
 ### Passives
+
 <!-- tabs:start -->
+
 #### **Bountiful Fish**
+
 ## Bountiful Fish
+
 When a fish is summoned, it will be one of `6` fish: Cod, Cooked Cod, Salmon, Cooked Salmon, Tropical Fish, or Pufferfish. Each fish has a different effect and different chance of spawning.
 
 <!-- tabs:start -->
+
 #### **Cod**
+
 ### Cod
-Deals `{{ kits.fish.data.FISH_COD_DAMAGE }}` damage to the enemy. *(Summon weight: `{{ kits.fish.data.FISH_COD_WEIGHT }}`*)
+
+Deals `{{ kits.fish.data.FISH_COD_DAMAGE }}` damage to the enemy. _(Summon weight: `{{ kits.fish.data.FISH_COD_WEIGHT }}`_)
 
 ![Cod](../assets/kits/fish/Fish%20-%20Cod.gif)
 
 #### **Cooked Cod**
+
 ### Cooked Cod
-Deals `{{ kits.fish.data.FISH_COOKED_COD_DAMAGE }}` damage to the enemy. *(Summon weight: `{{ kits.fish.data.FISH_COOKED_COD_WEIGHT }}`*)
+
+Deals `{{ kits.fish.data.FISH_COOKED_COD_DAMAGE }}` damage to the enemy. _(Summon weight: `{{ kits.fish.data.FISH_COOKED_COD_WEIGHT }}`_)
 
 ![Cooked Cod](../assets/kits/fish/Fish%20-%20Cooked%20Cod.gif)
 
 #### **Salmon**
+
 ### Salmon
-Gives the blindness effect for `{{ kits.fish.data.FISH_SALMON_BLINDNESS_DURATION_TICKS }}` ticks to the enemy. *(Summon weight: `{{ kits.fish.data.FISH_SALMON_WEIGHT }}`*)
+
+Gives the blindness effect for `{{ kits.fish.data.FISH_SALMON_BLINDNESS_DURATION_TICKS }}` ticks to the enemy. _(Summon weight: `{{ kits.fish.data.FISH_SALMON_WEIGHT }}`_)
 
 ![Salmon](../assets/kits/fish/Fish%20-%20Salmon.gif)
 
 #### **Cooked Salmon**
+
 ### Cooked Salmon
-Gives the blindness effect for `{{ kits.fish.data.FISH_COOKED_SALMON_BLINDNESS_DURATION_TICKS }}` ticks to the enemy. *(Summon weight: `{{ kits.fish.data.FISH_COOKED_SALMON_WEIGHT }}`*)
+
+Gives the blindness effect for `{{ kits.fish.data.FISH_COOKED_SALMON_BLINDNESS_DURATION_TICKS }}` ticks to the enemy. _(Summon weight: `{{ kits.fish.data.FISH_COOKED_SALMON_WEIGHT }}`_)
 
 ![Cooked Salmon](../assets/kits/fish/Fish%20-%20Cooked%20Salmon.gif)
 
 #### **Tropical Fish**
+
 ### Tropical Fish
-Heals `{{ kits.fish.data.FISH_TROPICAL_FISH_HEALING }}` HP to the player. *(Summon weight: `{{ kits.fish.data.FISH_TROPICAL_FISH_WEIGHT }}`*)
+
+Heals `{{ kits.fish.data.FISH_TROPICAL_FISH_HEALING }}` HP to the player. _(Summon weight: `{{ kits.fish.data.FISH_TROPICAL_FISH_WEIGHT }}`_)
 
 ![Tropcial Fish](../assets/kits/fish/Fish%20-%20Tropical%20Fish.gif)
 
 #### **Pufferfish**
+
 ### Pufferfish
-*(OP Fish Mode)*
-Deals `{{ kits.fish.data.FISH_PUFFERFISH_DAMAGE }}` damage to the enemy. *(Summon weight: `{{ kits.fish.data.FISH_PUFFERFISH_WEIGHT }}`*)
+
+_(OP Fish Mode)_
+Deals `{{ kits.fish.data.FISH_PUFFERFISH_DAMAGE }}` damage to the enemy. _(Summon weight: `{{ kits.fish.data.FISH_PUFFERFISH_WEIGHT }}`_)
 
 ![Pufferfish](../assets/kits/fish/Fish%20-%20Pufferfish.gif)
 
@@ -117,15 +148,19 @@ Deals `{{ kits.fish.data.FISH_PUFFERFISH_DAMAGE }}` damage to the enemy. *(Summo
 <!-- tabs:end -->
 
 #### **Suffocate**
+
 ## Suffocate
-*(OP Fish Mode)*
+
+_(OP Fish Mode)_
 Take `{{ kits.fish.data.FISH_OP_FISH_OUT_OF_WATER_DAMAGE }}` damage every `{{ kits.fish.data.FISH_OP_FISH_OUT_OF_WATER_DAMAGE_RATE }}` ticks while out of water.
 
 ![Fish - Suffocate](../assets/kits/fish/Fish%20-%20Suffocate.gif)
 
 #### **Fish Trail**
+
 # Fish Trail
-*(OP Fish Mode)*
+
+_(OP Fish Mode)_
 Summons fish at the player's feet every `{{ kits.fish.data.FISH_TRAIL_INTERVAL }}` ticks.
 
 ![Fish - Fish Trail](../assets/kits/fish/Fish%20-%20Fish%20Trail.gif)
@@ -135,17 +170,20 @@ The player also receives the following potion effects: Haste, Speed, and Water B
 ![Fish - Fish Trail Effects](../assets/kits/fish/Fish%20-%20Fish%20Trail%20Effects.gif)
 
 #### **Beacon Breaker**
+
 # Beacon Breaker
-*(OP Fish Mode)*
+
+_(OP Fish Mode)_
 Deal `+{{ kits.fish.data.BEACON_BREAKER_DAMAGE_ADDITIVE }}` damage to beacons.
 
 ![Fish - Beacon Breaker](../assets/kits/fish/Fish%20-%20Beacon%20Breaker.gif)
 
 <!-- tabs:end -->
-<br /> 
+<br />
 
 # Achievements
-***
+
+---
 
 <!-- prettier-ignore -->
 | Achievement | Description | Reward |
@@ -155,10 +193,11 @@ Deal `+{{ kits.fish.data.BEACON_BREAKER_DAMAGE_ADDITIVE }}` damage to beacons.
 | I PRAY TO RNG | Get a pufferfish kill.  | 20 credits |
 | Anchovies! | Get 1,000 fish kills. | 250 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
+
+---
 
 <!-- prettier-ignore -->
 | Property | Value | Description |

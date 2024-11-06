@@ -1,20 +1,24 @@
 # Spy
 
-***
+---
 
 #### ![spy-icon](../assets/icons/spy-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A damage kit that can go invisible to sneak up and deal damage to enemies.
 - **Role:** Damage
 - **How to Unlock:** Purchase for 500 Credits.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Leather Chestplate (Brown)
 - Chain Leggings
 - Chain Boots
@@ -23,15 +27,21 @@
 - Cloak
 - {{ kits.spy.data.MAX_HEALING_POTIONS }} Healing Potions
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Cloak**
+
 ## Cloak
-Right-click to become completely invisible for `{{ kits.spy.data.SPY_CLOAK_DURATION }}` ticks. 
+
+Right-click to become completely invisible for `{{ kits.spy.data.SPY_CLOAK_DURATION }}` ticks.
 
 ![Spy - Cloak Activate](../assets/kits/spy/Spy%20-%20Cloak%20Activate.gif)
 
@@ -46,7 +56,9 @@ Earning a final blow while invisible will reduce the cloak's cooldown by `{{ kit
 ![Spy - Clock Sneak Attack Final Blow](../assets/kits/spy/Spy%20-%20Clock%20Sneak%20Attack%20Final%20Blow.gif)
 
 #### **Sneak Attack Sword**
+
 ## Sneak Attack Sword
+
 A sword with a base damage of `{{ kits.spy.data.SPY_SNEAK_ATTACK_SWORD_DAMAGE }}`. The player equips this sword when they use the cloak ability.
 
 ![Spy - Sneak Attack Sword](../assets/kits/spy/Spy%20-%20Sneak%20Attack%20Sword.gif)
@@ -54,9 +66,13 @@ A sword with a base damage of `{{ kits.spy.data.SPY_SNEAK_ATTACK_SWORD_DAMAGE }}
 <!-- tabs:end -->
 
 ### Passives
+
 <!-- tabs:start -->
+
 #### **Electro Sapper**
+
 ## Electro Sapper
+
 Enemy engineer sentries will not target the player.
 
 ![Spy - Electro Sapper Sentry](../assets/kits/spy/Spy%20-%20Electro%20Sapper%20Sentry.gif)
@@ -73,7 +89,8 @@ Enemy engineer dispensers will dispense to the player.
 <br />
 
 # Achievements
-***
+
+---
 
 <!-- prettier-ignore -->
 | Achievement | Description | Reward |
@@ -84,10 +101,11 @@ Enemy engineer dispensers will dispense to the player.
 | You got blood on my suit! | Earn a sneak attack kill as spy! | 20 Credits |
 | Oh dear, I've made quite a mess. | Get 1,000 sneak attack kills. | 250 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
+
+---
 
 <!-- prettier-ignore -->
 | Property | Value | Description |

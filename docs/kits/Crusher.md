@@ -1,21 +1,24 @@
-
 # Crusher
 
-***
+---
 
 #### ![crusher-icon](../assets/icons/crusher-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.8.0
 - **Description:** A damage kit that summons anvils to crush your enemies.
 - **Role:** Damage
 - **How to Unlock:** Purchase for 500 Credits.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Chainmail Chestplate
 - Chainmail Leggings
 - Chainmail Boots
@@ -23,15 +26,21 @@
 - Crusher
 - {{ kits.crusher.data.MAX_HEALING_POTIONS }} Healing Potions
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Crusher**
+
 ## Crusher
-Right click to use. Upon using, the ability will target a block in the player's line of sight. If `CRUSHER_ANVIL_TARGET_ENEMIES` is set to `true`, then the crusher ability will prioritize targeting players. An anvil will spawn `{{ kits.crusher.data.CRUSHER_ANVIL_SUMMON_HEIGHT }}` meters above the target. The anvil deals damage when it lands. It deals more damage to targets closer to the point of impact. 
+
+Right click to use. Upon using, the ability will target a block in the player's line of sight. If `CRUSHER_ANVIL_TARGET_ENEMIES` is set to `true`, then the crusher ability will prioritize targeting players. An anvil will spawn `{{ kits.crusher.data.CRUSHER_ANVIL_SUMMON_HEIGHT }}` meters above the target. The anvil deals damage when it lands. It deals more damage to targets closer to the point of impact.
 
 ![Crusher 1](../assets/kits/crusher/Crusher%20-%20Crush%201.gif)
 
@@ -46,10 +55,11 @@ Anvils will damage engineer blocks.
 ![Crusher 4](../assets/kits/crusher/Crusher%20-%20Crush%20Engineer%20Blocks.gif)
 
 <!-- tabs:end -->
-<br />  
+<br />
 
 # Achievements
-***
+
+---
 
 <!-- prettier-ignore -->
 | Achievement | Description | Reward |
@@ -63,10 +73,11 @@ Anvils will damage engineer blocks.
 | Blacksmith's Graveyard | Get a triple anvil kill! | 50 Credits |
 | “Kilogramme o' steel” | Get 1000 anvil kills! | 250 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
+
+---
 
 <!-- prettier-ignore -->
 | Property | Value | Description |

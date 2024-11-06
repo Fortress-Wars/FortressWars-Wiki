@@ -1,21 +1,24 @@
-
 # Crusader
 
-***
+---
 
 #### ![crusader-icon](../assets/icons/crusader-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A tanky kit that has higher mobility and a shield bashing ability.
 - **Role:** Tank
 - **How to Unlock:** Unlocked by Default.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Iron Chestplate
 - Iron Leggings
 - Iron Boots
@@ -24,14 +27,20 @@
 - Shield Bash
 - {{ kits.crusader.data.MAX_HEALING_POTIONS }} Healing Potions
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Shield**
+
 ## Shield
+
 Use your shield to block damage.
 
 ![Shield 1](../assets/kits/crusader/Crusader%20-%20Shield%20Block%201.gif)
@@ -43,7 +52,9 @@ The shield will automatically regenerate HP if it is damaged and not being used.
 ![Shield 3](../assets/kits/crusader/Crusader%20-%20Shield%20Repair.gif)
 
 #### **Shield Bash**
+
 ## Shield Bash
+
 Right click and hold to perform a shield bash. This will launch the player forward into a shield bashing state. While in this state, colliding into enemies deals deal damage and knockback. If the player stops blocking or they slows down too much, then they will exit the shield bashing state.
 
 ![Shield Bash 1](../assets/kits/crusader/Crusader%20-%20Shield%20Bash%20Mobility.gif)
@@ -53,18 +64,23 @@ Right click and hold to perform a shield bash. This will launch the player forwa
 <!-- tabs:end -->
 
 ### Passives
+
 <!-- tabs:start -->
+
 #### **Ironclad**
+
 ## Ironclad
+
 Hitting an enemy with shield bash will trigger Ironclad. Ironclad will provide damage resistance to the player.
 
 ![Ironclad](../assets/kits/crusader/Crusader%20-%20Ironclad.gif)
 
 <!-- tabs:end -->
-<br />  
+<br />
 
 # Achievements
-***
+
+---
 
 <!-- prettier-ignore -->
 | Achievement | Description | Reward |
@@ -74,10 +90,11 @@ Hitting an enemy with shield bash will trigger Ironclad. Ironclad will provide d
 | Stronk Shield! | Get a double shield bash kill. | 100 Credits |
 | The Flattener! | Get a triple shield bash kill. | 250 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
+
+---
 
 <!-- prettier-ignore -->
 | Property | Value | Description |
