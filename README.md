@@ -3,10 +3,10 @@ Welcome to the Fortress Wars Wiki!
 # Instructions
 
 ## First Setup
-run `npm i docsify-cli -g`
+run `npm ci`
 
 ## Run Locally
-run `docsify serve  ./docs`
+run `npm run dev`
 
 ## Asset Creation
 - Kit Icons: 48x48 jpg
