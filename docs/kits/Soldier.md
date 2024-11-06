@@ -63,6 +63,7 @@ Use your grenade to launch yourself up.
 # Achievements
 ***
 
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Block this! | Disable an enemy shield with your grenade. | 20 Credits |
@@ -77,6 +78,7 @@ Use your grenade to launch yourself up.
 # Kit Data
 ***
 
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.spy.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

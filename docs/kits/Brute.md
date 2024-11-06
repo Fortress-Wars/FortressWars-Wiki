@@ -63,6 +63,7 @@ Additionally, dealing melee damage with the axe will instantly break shields.
 # Achievements
 ***
 
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | A clean cut | Get a double axe swirl kill. | 50 Credits |
@@ -75,6 +76,7 @@ Additionally, dealing melee damage with the axe will instantly break shields.
 # Kit Data
 ***
 
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.brute.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

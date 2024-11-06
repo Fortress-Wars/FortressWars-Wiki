@@ -92,6 +92,7 @@ Friendly engineer dispensers dispense `{{ kits.vitalist.data.VITALIST_CROSSBOW_A
 # Achievements
 ***
 
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Crusader² | Heal a Crusader | 20 Credits |
@@ -104,6 +105,7 @@ Friendly engineer dispensers dispense `{{ kits.vitalist.data.VITALIST_CROSSBOW_A
 # Kit Data
 ***
 
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.vitalist.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

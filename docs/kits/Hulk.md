@@ -56,6 +56,7 @@ While the player is in rage mode, every elimination extends the duration of rage
 # Achievements
 ***
 
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Quit yapping! | Kill an enemy with your hulk bow. | 20 Credits |
@@ -67,6 +68,7 @@ While the player is in rage mode, every elimination extends the duration of rage
 # Kit Data
 ***
 
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.hulk.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

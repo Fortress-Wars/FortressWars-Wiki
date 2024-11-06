@@ -62,6 +62,7 @@ Electrolytes are used by the [Healing Stone](#healing-stone) ability to heal all
 # Achievements
 ***
 
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Get zem. Raus, Raus! | Heal 4 allies at once. | 20 Credits |
@@ -72,6 +73,7 @@ Electrolytes are used by the [Healing Stone](#healing-stone) ability to heal all
 # Kit Data
 ***
 
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.medic.data.MAX_HEALING_POTIONS }}` | Maximum number of medic healing potions the player can carry. |

@@ -66,6 +66,7 @@ While `Fortify` is active and the player is blocking, when enemies are within `{
 # Achievements
 ***
 
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Royal Shield! | Absorb a decent amount of damage with the royal guard passive. | 20 Credits |
@@ -78,6 +79,7 @@ While `Fortify` is active and the player is blocking, when enemies are within `{
 # Kit Data
 ***
 
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.knight.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

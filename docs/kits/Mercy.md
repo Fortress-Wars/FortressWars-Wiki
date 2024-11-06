@@ -78,6 +78,7 @@ Right-click or left-click to cycle the `Staff` between `Health Mode` and `Damage
 # Achievements
 ***
 
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Fine, I'll do it myself... | Attach a mercy beam to yourself as mercy. | 20 Credits |
@@ -90,6 +91,7 @@ Right-click or left-click to cycle the `Staff` between `Health Mode` and `Damage
 # Kit Data
 ***
 
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.mercy.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

@@ -147,6 +147,7 @@ Deal `+{{ kits.fish.data.BEACON_BREAKER_DAMAGE_ADDITIVE }}` damage to beacons.
 # Achievements
 ***
 
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Fishy Business! | Fish up and eat a cod! | Kit Fish |
@@ -159,6 +160,7 @@ Deal `+{{ kits.fish.data.BEACON_BREAKER_DAMAGE_ADDITIVE }}` damage to beacons.
 # Kit Data
 ***
 
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.fish.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

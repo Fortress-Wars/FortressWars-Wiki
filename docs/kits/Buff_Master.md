@@ -76,6 +76,7 @@ Gives the resistance effect *(level: `{{ kits.buff_master.data.BUFF_MASTER_RESIS
 # Achievements
 ***
 
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Family Practice | Buff 4 teammates with one activation. | 20 Credits |
@@ -87,6 +88,7 @@ Gives the resistance effect *(level: `{{ kits.buff_master.data.BUFF_MASTER_RESIS
 # Kit Data
 ***
 
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.buff_master.data.MAX_HEALING_POTIONS }}`  | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

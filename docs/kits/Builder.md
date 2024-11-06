@@ -67,6 +67,7 @@ Receive bricks and ladders from engineer dispensers.
 # Achievements
 ***
 
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | BUILDAH KILL! | Eliminate an enemy with your bricks. | 20 Credits |
@@ -80,6 +81,7 @@ Receive bricks and ladders from engineer dispensers.
 # Kit Data
 ***
 
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.builder.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

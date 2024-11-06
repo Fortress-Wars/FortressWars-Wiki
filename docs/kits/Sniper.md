@@ -72,6 +72,7 @@ Players will earn `{{ kits.sniper.data.SNIPER_ARROWS_FINAL_BLOW_REWARD }}` arrow
 # Achievements
 ***
 
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | I used to be an adventurer like you... | Shoot an enemy in the knees as sniper. | 20 Credits |
@@ -85,6 +86,7 @@ Players will earn `{{ kits.sniper.data.SNIPER_ARROWS_FINAL_BLOW_REWARD }}` arrow
 # Kit Data
 ***
 
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.sniper.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

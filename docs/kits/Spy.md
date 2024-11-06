@@ -75,6 +75,7 @@ Enemy engineer dispensers will dispense to the player.
 # Achievements
 ***
 
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Didn't see you there | Kill an invisible spy. | 20 Credits |
@@ -88,6 +89,7 @@ Enemy engineer dispensers will dispense to the player.
 # Kit Data
 ***
 
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.spy.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

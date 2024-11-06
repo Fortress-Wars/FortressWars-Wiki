@@ -52,6 +52,7 @@ The shockwave will stun all nearby enemies and engineer blocks within `{{ kits.s
 # Achievements
 ***
 
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Goomba Stomp | Goomba stomp on someone to activate your sonic boom. | 20 Credits |
@@ -65,6 +66,7 @@ The shockwave will stun all nearby enemies and engineer blocks within `{{ kits.s
 # Kit Data
 ***
 
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.sonic.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

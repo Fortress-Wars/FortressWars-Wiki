@@ -68,6 +68,7 @@ If a creeper has a potion effect and it explodes, the potion effects will linger
 # Achievements
 ***
 
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Come on kiddies, have some ice cream. | Get a double creeper kill. | 20 Credits |
@@ -80,6 +81,7 @@ If a creeper has a potion effect and it explodes, the potion effects will linger
 # Kit Data
 ***
 
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.master.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

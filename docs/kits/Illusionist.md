@@ -70,6 +70,7 @@ If the player damages an enemy to uncloak, they will also hack them for `{{ kits
 # Achievements
 ***
 
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Haha...your plan Z failed! | Kill an illusionist while they are invisible. | 20 Credits |
@@ -83,6 +84,7 @@ If the player damages an enemy to uncloak, they will also hack them for `{{ kits
 # Kit Data
 ***
 
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.illusionist.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

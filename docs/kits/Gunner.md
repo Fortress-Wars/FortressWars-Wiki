@@ -75,6 +75,7 @@ The heat meter indicates how close the machine gun is to overheating.
 # Achievements
 ***
 
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Go ahead! Build your tiny gun, then run! | Destroy a sentry with your machine gun. | 20 Credits. |
@@ -87,6 +88,7 @@ The heat meter indicates how close the machine gun is to overheating.
 # Kit Data
 ***
 
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.gunner.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

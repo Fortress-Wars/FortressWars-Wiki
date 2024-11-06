@@ -51,6 +51,7 @@ After using the quills ability, the player will receive the thorns effect for `{
 # Achievements
 ***
 
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Effective Quills | Get a double quill kill. | 20 Credits |
@@ -63,6 +64,7 @@ After using the quills ability, the player will receive the thorns effect for `{
 # Kit Data
 ***
 
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.porcupine.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

@@ -83,6 +83,7 @@ Friendly engineer dispensers will dispense `{{ kits.musketeer.data.MUSKETEER_AMM
 # Achievements
 ***
 
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | ahh mustard... | Eliminate an enemy musketeer from a far distance as they eliminate you. | 20 Credits |
@@ -97,6 +98,7 @@ Friendly engineer dispensers will dispense `{{ kits.musketeer.data.MUSKETEER_AMM
 # Kit Data
 ***
 
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.musketeer.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

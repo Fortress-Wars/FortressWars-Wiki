@@ -143,6 +143,7 @@ When the player dies, they will drop `{{ kits.necromancer.data.NECROMANCER_ESSEN
 # Achievements
 ***
 
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Wither Roses are black, Creepers are green | Have your wither skeleton minion kill an enemy creeper. | 20 Credits |
@@ -154,6 +155,7 @@ When the player dies, they will drop `{{ kits.necromancer.data.NECROMANCER_ESSEN
 # Kit Data
 ***
 
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.necromancer.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

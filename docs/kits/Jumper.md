@@ -53,6 +53,7 @@ Enemies can break translocators by picking them up or using certain abilities to
 # Achievements
 ***
 
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Oh how convenient? | Teleport into an enemy beacon room from outside the base. | 20 Credits |
@@ -65,6 +66,7 @@ Enemies can break translocators by picking them up or using certain abilities to
 # Kit Data
 ***
 
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.jumper.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

@@ -121,6 +121,7 @@ Available Debuffs:
 # Achievements
 ***
 
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Algebruh moment | Pay the ultimate price for incorrectly answering a practice problem. | 20 Credits |
@@ -135,6 +136,7 @@ Available Debuffs:
 # Kit Data
 ***
 
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.mathematician.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

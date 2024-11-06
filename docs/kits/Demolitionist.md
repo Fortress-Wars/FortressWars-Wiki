@@ -65,6 +65,7 @@ When the player is close to a friendly [Bomber](./Bomber.md), and the friendly B
 # Achievements
 ***
 
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Bomb Recycler | Help a bomber recycle their bomb. | 20 Credits |
@@ -81,6 +82,7 @@ When the player is close to a friendly [Bomber](./Bomber.md), and the friendly B
 # Kit Data
 ***
 
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.demolitionist.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

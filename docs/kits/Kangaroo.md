@@ -54,6 +54,7 @@ The player is immune to fall damage.
 # Achievements
 ***
 
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Crippled Turret | Destroy a sentry with your stomp ability. | 20 Credits |
@@ -65,6 +66,7 @@ The player is immune to fall damage.
 # Kit Data
 ***
 
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.kangaroo.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

@@ -69,6 +69,7 @@ The player is immune to the poison potion effect.
 # Achievements
 ***
 
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Sticky circumstance | Trap an invisible spy with a web trap. | 20 Credits |
@@ -79,6 +80,7 @@ The player is immune to the poison potion effect.
 # Kit Data
 ***
 
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.spider.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

@@ -51,6 +51,7 @@ Anvils will damage engineer blocks.
 # Achievements
 ***
 
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Bird Squ-”watcher” | Summon an anvil mid-air above a raven to bring them down and crush them. | 20 Credits |
@@ -67,6 +68,7 @@ Anvils will damage engineer blocks.
 # Kit Data
 ***
 
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.crusher.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

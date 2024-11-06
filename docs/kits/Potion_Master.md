@@ -69,6 +69,7 @@ Affects enemies with Weakness (Level: `{{ kits.potion_master.data.POTION_MASTER_
 # Achievements
 ***
 
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Damage? What Damage? | Kill a brute while they are in berserk and have weakness applied. | 20 Credits |
@@ -81,6 +82,7 @@ Affects enemies with Weakness (Level: `{{ kits.potion_master.data.POTION_MASTER_
 # Kit Data
 ***
 
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.potion_master.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

@@ -66,6 +66,7 @@ When a slime minion dies and the player is within `{{ kits.slime.data.SLIME_MINI
 # Achievements
 ***
 
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | A touch of jello. | Have your slime give you absorption. | 20 Credits |
@@ -80,6 +81,7 @@ When a slime minion dies and the player is within `{{ kits.slime.data.SLIME_MINI
 # Kit Data
 ***
 
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.slime.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

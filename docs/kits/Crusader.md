@@ -66,6 +66,7 @@ Hitting an enemy with shield bash will trigger Ironclad. Ironclad will provide d
 # Achievements
 ***
 
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Get out of my way! | Hit 4 enemies with one shield bash! | 20 Credits |
@@ -78,6 +79,7 @@ Hitting an enemy with shield bash will trigger Ironclad. Ironclad will provide d
 # Kit Data
 ***
 
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.crusader.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

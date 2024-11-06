@@ -58,6 +58,7 @@ Bombs will disable shields if the bomb hits a player that is blocking.
 # Achievements
 ***
 
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Aye, what just happened? | Blow up an enemy from far away. | 20 Credits |
@@ -72,6 +73,7 @@ Bombs will disable shields if the bomb hits a player that is blocking.
 # Kit Data
 ***
 
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.bomber.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

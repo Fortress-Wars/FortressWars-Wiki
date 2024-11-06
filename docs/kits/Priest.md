@@ -138,6 +138,7 @@ Sun power increases by `{{ kits.priest.data.PRIEST_SUN_POWER_FINAL_BLOW_REWARD }
 # Achievements
 ***
 
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Bask in the Sunlight! | Cast a level 5 Release spell. | 20 Credits |
@@ -151,6 +152,7 @@ Sun power increases by `{{ kits.priest.data.PRIEST_SUN_POWER_FINAL_BLOW_REWARD }
 # Kit Data
 ***
 
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_MANA_POTIONS | `{{ kits.priest.data.MAX_MANA_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_MANA_POTIONS }} |

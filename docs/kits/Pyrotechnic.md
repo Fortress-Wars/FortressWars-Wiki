@@ -69,6 +69,7 @@ Friendly engineer dispensers will dispense `{{ kits.pyrotechnic.data.PYROTECHNIC
 # Achievements
 ***
 
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Keep calm and sparkle on. | Get a double rocket kill. | 20 Credits |
@@ -81,6 +82,7 @@ Friendly engineer dispensers will dispense `{{ kits.pyrotechnic.data.PYROTECHNIC
 # Kit Data
 ***
 
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.pyrotechnic.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |
