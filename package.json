@@ -8,7 +8,8 @@
   },
   "scripts": {
     "dev": "docsify serve  ./docs",
-    "lint": "npx prettier . --write && eslint . --fix",
+    "pretty": "npx prettier . --write",
+    "lint": "eslint . --fix",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky"
   },
