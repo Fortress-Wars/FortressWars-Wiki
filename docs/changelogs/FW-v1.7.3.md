@@ -66,8 +66,7 @@ Spy
 - Fixed spy not uncloaking when attacking a shield
 - Fixed bug where brute’s axe swirl ability wouldn’t break shields and instead would just damage them
 
-Other Changes:
-=============================================
+# Other Changes:
 
 - All kits now cost 500 credits. Kits that were not 500 credits were Demolitionist (1000), Master (1000), Necromancer (1000), Priest (750) and Vitalist (750). Players that have purchased these kits prior to this release have been refunded the difference
 - Deaths from self-damaging abilities now count towards suicides.
