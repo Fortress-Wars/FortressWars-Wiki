@@ -65,7 +65,7 @@ After the player shoots, if there is no ammo left in rifle's magazine, the rifle
 <!-- tabs:start -->
 #### **Ammo**
 ## Ammo
-Ammo is a resource that is used by the [Rifle](#rifle) ability to fire bullets. The maximum  reserve ammo is `{{ kits.musketeer.data.MUSKETEER_MAX_AMMO }}`.
+Ammo is a resource that is used by the [Rifle](#rifle) ability to fire bullets. The maximum reserve ammo is `{{ kits.musketeer.data.MUSKETEER_MAX_AMMO }}`.
 
 ![Musketeer - Ammo](../assets/kits/musketeer/Musketeer%20-%20Ammo.png)
 
