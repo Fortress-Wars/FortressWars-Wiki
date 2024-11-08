@@ -43,40 +43,38 @@ A weapon that is used to cast spells. Casting spells costs mana and each spell h
 ## Fireball
 The spell costs `{{ kits.prometheus.data.PROMETHEUS_FIREBALL_MANA_COST }}` mana. Casting summons a fireball in the direction the player is looking. The fireball deals `{{ kits.prometheus.data.PROMETHEUS_FIREBALL_HIT_DAMAGE }}` damage on impact and explodes to deal and an additional `{{ kits.prometheus.data.PROMETHEUS_FIREBALL_EXPLOSION_DAMAGE }}` damage. The fireball ignites enemies for `{{ kits.prometheus.data.PROMETHEUS_FIREBALL_EXPLOSION_FIRE_DURATION }}` ticks and deals knockback. The caster is also affected by the fireball if caught in the explosion.
 
-![Prometheus - Fireball Cast](../assets/kits/prometheus/_image_1_.jpg_)
+![Prometheus - Fireball Cast](../assets/kits/prometheus/Prometheus%20-%20Fireball%20Cast.gif)
 
 Fireballs destroy builder bricks.
 
-![Prometheus - Fireball Bricks](../assets/kits/prometheus/_image_1_.jpg_)
+![Prometheus - Fireball Bricks](../assets/kits/prometheus/Prometheus%20-%20Fireball%20Bricks.gif)
 
 Fireballs damage engineer blocks.
 
-![Prometheus - Fireball Engineer Blocks](../assets/kits/prometheus/_image_1_.jpg_)
+![Prometheus - Fireball Engineer Blocks](../assets/kits/prometheus/Prometheus%20-%20Fireball%20Engineer%20Blocks.gif)
 
 #### **Flame**
 ## Flame
-The spell costs `{{ kits.prometheus.data.PROMETHEUS_FLAME_MANA_COST }}` mana. Casting summons flames that travel forward in front of the player. Enemies that are caught in the are ignited for `{{ kits.prometheus.data.PROMETHEUS_FLAME_BURN_DURATION }}` ticks.
+The spell costs `{{ kits.prometheus.data.PROMETHEUS_FLAME_MANA_COST }}` mana. Casting summons flames that travel forward in front of the player. Enemies that are caught in the flames are ignited for `{{ kits.prometheus.data.PROMETHEUS_FLAME_BURN_DURATION }}` ticks.
 
-![Prometheus - Flame Cast](../assets/kits/prometheus/_image_1_.jpg_)
-
+![Prometheus - Flame Cast](../assets/kits/prometheus/Prometheus%20-%20Flame%20Cast.gif)
 The flame spell burns cobwebs.
 
-![Prometheus - Flame Burn Cobwebs](../assets/kits/prometheus/_image_1_.jpg_)
-
+![Prometheus - Flame Burn Cobwebs](../assets/kits/prometheus/Prometheus%20-%20Flame%20Burn%20Cobwebs.gif)
 #### **Imbue**
 ## Imbue
 
 The spell costs `{{ kits.prometheus.data.PROMETHEUS_IMBUE_MANA_COST }}` mana. Casting imbues the player's sword with flames. The player also receives the fire resistance potion effect.
 
-![Prometheus - Imbue Cast](../assets/kits/prometheus/_image_1_.jpg_)
+![Prometheus - Imbue Cast](../assets/kits/prometheus/Prometheus%20-%20Imbue%20Cast.gif)
 
-![Prometheus - Imbue Sword Hit](../assets/kits/prometheus/_image_1_.jpg_)
+![Prometheus - Imbue Sword Hit](../assets/kits/prometheus/Prometheus%20-%20Imbue%20Sword%20Hit.gif)
 
-![Prometheus - Imbue Fire Resistance](../assets/kits/prometheus/_image_1_.jpg_)
+![Prometheus - Imbue Fire Resistance](../assets/kits/prometheus/Prometheus%20-%20Imbue%20Fire%20Resistance.gif)
 
 If the spell is casted again while the effects are active, then the player incinerates.
 
-![Prometheus - Imbue Incinerate](../assets/kits/prometheus/_image_1_.jpg_)
+![Prometheus - Imbue Incinerate](../assets/kits/prometheus/Prometheus%20-%20Imbue%20Incinerate.gif)
 
 <!-- tabs:end -->
 
@@ -88,19 +86,18 @@ If the spell is casted again while the effects are active, then the player incin
 ## Mana
 Mana is a resource used to cast spells.
 
-![Prometheus - Mana](../assets/kits/prometheus/_image_1_.jpg_)
+![Prometheus - Mana](../assets/kits/prometheus/Prometheus%20-%20Mana.png)
 
 The player's maximum mana is `{{ kits._shared.data.MANA_MAX }}` and it regenerates slowly over time.
 
-![Prometheus - Mana Regenerate](../assets/kits/prometheus/_image_1_.jpg_)
+![Prometheus - Mana Regenerate](../assets/kits/prometheus/Prometheus%20-%20Mana%20Regenerate.gif)
 
 After the player earns a final blow, they restore `{{ kits._shared.data.MANA_FINAL_BLOW_AMOUNT }}` mana. After earning an assist, they restore `{{ kits._shared.data.MANA_ASSIST_AMOUNT }}` mana.
 
-![Prometheus - Mana Final Blow](../assets/kits/prometheus/_image_1_.jpg_)
-
+![Prometheus - Mana Final Blow](../assets/kits/prometheus/Prometheus%20-%20Mana%20Final%20Blow.gif)
 Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPENSE_AMOUNT }}` mana.
 
-![Prometheus - Mana Dispenser](../assets/kits/prometheus/_image_1_.jpg_)
+![Prometheus - Mana Dispenser](../assets/kits/prometheus/Prometheus%20-%20Mana%20Dispenser.gif)
 
 <!-- tabs:end -->
 <br />
