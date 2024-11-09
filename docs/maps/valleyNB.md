@@ -34,5 +34,5 @@
 
 | Property | Value | Description |
 | ----------- | ----------- | ------ |
-| buildRadius |`{{ maps.map_valley_NB.data.buildRadius }}`| {{ mapPropertyDescriptions.buildRadius.classic }} |
-| buildHeight |`{{ maps.map_valley_NB.data.buildHeight }}`| {{ mapPropertyDescriptions.buildHeight.classic }} |w
+| buildRadius |`{{ maps.map_valley_nb.data.buildRadius }}`| {{ mapPropertyDescriptions.buildRadius.classic }} |
+| buildHeight |`{{ maps.map_valley_nb.data.buildHeight }}`| {{ mapPropertyDescriptions.buildHeight.classic }} |w

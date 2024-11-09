@@ -55,7 +55,7 @@
                 "buildHeight":30
             }
         },
-        "map_clay_NB":{
+        "map_clay_nb":{
             "data":{
                 "buildRadius":30,
                 "buildHeight":30
@@ -73,7 +73,7 @@
                 "buildHeight":25
             }
         },
-        "map_coast_KOTH":{
+        "map_coast_koth":{
             "data":{
                 "buildRadius":7,
                 "buildHeight":25
@@ -115,13 +115,13 @@
                 "buildHeight":30
             }
         },
-        "map_ice_AD":{
+        "map_ice_ad":{
             "data":{
                 "buildRadius":45,
                 "buildHeight":30
             }
         },
-        "map_ice_NB":{
+        "map_ice_nb":{
             "data":{
                 "buildRadius":45,
                 "buildHeight":30
@@ -205,7 +205,7 @@
                 "buildHeight":50
             }
         },
-        "map_valley_NB":{
+        "map_valley_nb":{
             "data":{
                 "buildRadius":45,
                 "buildHeight":40
@@ -217,7 +217,7 @@
                 "buildHeight":50
             }
         },
-        "map_void_KOTH":{
+        "map_void_koth":{
             "data":{
                 "buildRadius":7,
                 "buildHeight":10
