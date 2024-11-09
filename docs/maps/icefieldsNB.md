@@ -7,7 +7,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** A hilly icy forest. Has A prebuilt base from the map [Icefields](icefields).
+- **Description:** A hilly icy forest. Has a prebuilt base from the map [Icefields](icefields).
 - **Gamemode:** Classic
 - **Map Type:** Non-Build and Break (NBAB)
 - **Size:** Large

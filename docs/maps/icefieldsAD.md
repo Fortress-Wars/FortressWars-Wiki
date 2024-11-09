@@ -7,7 +7,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** A hilly icy forest. Reformated version of the map [Icefields](icefields).
+- **Description:** A hilly icy forest. Has a prebuilt base from the map [Icefields](icefields).
 - **Gamemode:** Attack and Defend
 - **Map Type:** Build and Break (BAB)
 - **Size:** Large
