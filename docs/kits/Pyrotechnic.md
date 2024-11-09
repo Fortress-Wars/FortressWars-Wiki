@@ -103,8 +103,7 @@ Friendly engineer dispensers will dispense `{{ kits.pyrotechnic.data.PYROTECHNIC
 | PYROTECHNIC_ROCKET_DAMAGE | `{{ kits.pyrotechnic.data.PYROTECHNIC_ROCKET_DAMAGE }}` | The rocket exploision damage dealt to enemies. |
 | PYROTECHNIC_ROCKET_SELF_DAMAGE_MULTIPLIER | `{{ kits.pyrotechnic.data.PYROTECHNIC_ROCKET_SELF_DAMAGE_MULTIPLIER }}` | The mutliplier for the rocket exploision damage dealt to the player. |
 | PYROTECHNIC_ROCKET_RADIUS | `{{ kits.pyrotechnic.data.PYROTECHNIC_ROCKET_RADIUS }}` | The radius of rocket explosions. |
-| PYROTECHNIC_ROCKET_KNOCKBACK_MULTIPLIER | `{{ kits.pyrotechnic.data.PYROTECHNIC_ROCKET_KNOCKBACK_MULTIPLIER }}` | The knockback multiplier of a rocket exploisions that hit enemies. |
-| PYROTECHNIC_ROCKET_SELF_KNOCKBACK_MULTIPLIER | `{{ kits.pyrotechnic.data.PYROTECHNIC_ROCKET_SELF_KNOCKBACK_MULTIPLIER }}` | The knockback multiplier of a rocket exploisions that hit the player. |
+| PYROTECHNIC_ROCKET_KNOCKBACK_MULTIPLIER | `{{ kits.pyrotechnic.data.PYROTECHNIC_ROCKET_KNOCKBACK_MULTIPLIER }}` | The knockback multiplier of a rocket exploisions. |
 | PYROTECHNIC_ROCKET_RECOIL_MULTIPLIER | `{{ kits.pyrotechnic.data.PYROTECHNIC_ROCKET_RECOIL_MULTIPLIER }}` | The recoil when shooting rockets. (This scales on the number of rockets shot) |
 | PYROTECHNIC_BARRAGE_LOAD_ROCKETS_WHEN_ACTIVATING | `{{ kits.pyrotechnic.data.PYROTECHNIC_BARRAGE_LOAD_ROCKETS_WHEN_ACTIVATING }}` | If the additional Barrage rockets should instantly be loaded into the rocket launcher when activating the Barrage ability.  |
 | PYROTECHNIC_BARRAGE_COOLDOWN | `{{ kits.pyrotechnic.data.PYROTECHNIC_BARRAGE_COOLDOWN }}` | The cooldown, in ticks, of the Barrage ability. |

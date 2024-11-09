@@ -89,7 +89,6 @@ Bombs will disable shields if the bomb hits a player that is blocking.
 | BOMBER_BOMB_DAMAGE | `{{ kits.bomber.data.BOMBER_BOMB_DAMAGE }}` | The damage that a single bomb does. |
 | BOMBER_BOMB_SELF_DAMAGE_MULTIPLIER | `{{ kits.bomber.data.BOMBER_BOMB_SELF_DAMAGE_MULTIPLIER }}` | The damage multiplier of bomb damage from the player's own bombs.|
 | BOMBER_BOMB_RADIUS | `{{ kits.bomber.data.BOMBER_BOMB_RADIUS }}` | The radius of the explosion effect. |
-| BOMBER_BOMB_YIELD | `{{ kits.bomber.data.BOMBER_BOMB_YIELD }}` | The minecraft bomb yield value. (this isn't measured in meters/blocks) |
 | BOMBER_BOMB_KNOCKBACK_MULTIPLIER | `{{ kits.bomber.data.BOMBER_BOMB_KNOCKBACK_MULTIPLIER }}` | The multiplier of the knockback that is applied to entities after a bomb explosion. |
 | BOMBER_BOMB_REGENERATION_TICKS | `{{ kits.bomber.data.BOMBER_BOMB_REGENERATION_TICKS }}` | The interval, in ticks, for regenerating bombs. |
 | BOMBER_BOMB_DISPENSER_NUM | `{{ kits.bomber.data.BOMBER_BOMB_DISPENSER_NUM }}` | The amount of bombs to receive from each engineer dispenser tick. |

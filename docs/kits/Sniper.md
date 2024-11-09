@@ -32,7 +32,7 @@
 <!-- tabs:start -->
 #### **Infinity Bow**
 ## Infinity Bow
-The Infinity Bow that does not consume arrows and deals extra damage when hitting headshots. Headshots increase the damage dealt by `x{{ kits.sniper.data.SNIPER_INFINITY_BOW_HEADSHOT_MULTIPLIER }}`.
+The Infinity Bow that does not consume arrows and deals extra damage when hitting headshots. Headshots increase the damage dealt by `+{{ kits.sniper.data.SNIPER_INFINITY_BOW_HEADSHOT_PERCENTAGE_INCREASE }}%`.
 
 ![Sniper - Infinity Bow Shoot](../assets/kits/sniper/Sniper%20-%20Infinity%20Bow%20Shoot.gif)
 
@@ -40,7 +40,7 @@ The Infinity Bow that does not consume arrows and deals extra damage when hittin
 
 #### **Power Bow**
 ## Power Bow
-The Power Bow is a bow that does increased base damage and has knockback on arrows. Shooting consumes arrows. The bow will deal `x{{ kits.sniper.data.SNIPER_POWER_BOW_DAMAGE_MULTIPLIER }}` more damage compared to a normal bow. 
+The Power Bow is a bow that does increased base damage and has knockback on arrows. Shooting consumes arrows. The bow will deal `+{{ kits.sniper.data.SNIPER_POWER_BOW_DAMAGE_PERCENTAGE_INCREASE }}%` more damage compared to a normal bow. 
 
 ![Sniper - Power Bow Shoot](../assets/kits/sniper/Sniper%20-%20Power%20Bow%20Shoot.gif)
 
@@ -101,8 +101,8 @@ Players will earn `{{ kits.sniper.data.SNIPER_ARROWS_FINAL_BLOW_REWARD }}` arrow
 | SNIPER_ARROWS_DISPENSER_DISPENSE_COUNT | `{{ kits.sniper.data.SNIPER_ARROWS_DISPENSER_DISPENSE_COUNT }}` | The amount of arrows that engineer dispensers dispense. |
 | SNIPER_ARROWS_FINAL_BLOW_REWARD | `{{ kits.sniper.data.SNIPER_ARROWS_FINAL_BLOW_REWARD }}` | The amount of arrows received after earning a final blow. |
 | SNIPER_ARROWS_ASSIST_REWARD | `{{ kits.sniper.data.SNIPER_ARROWS_ASSIST_REWARD }}` | The amount of arrows received after earning an assist. |
-| SNIPER_INFINITY_BOW_HEADSHOT_MULTIPLIER | `{{ kits.sniper.data.SNIPER_INFINITY_BOW_HEADSHOT_MULTIPLIER }}` | The damage multiplier when hitting headshots with the Infinity Bow. |
-| SNIPER_POWER_BOW_DAMAGE_MULTIPLIER | `{{ kits.sniper.data.SNIPER_POWER_BOW_DAMAGE_MULTIPLIER }}` | The damage multiplier when hitting shots with the Power Bow. |
+| SNIPER_INFINITY_BOW_HEADSHOT_PERCENTAGE_INCREASE | `{{ kits.sniper.data.SNIPER_INFINITY_BOW_HEADSHOT_PERCENTAGE_INCREASE }}` | The damage percentage increase when hitting headshots with the Infinity Bow. |
+| SNIPER_POWER_BOW_DAMAGE_PERCENTAGE_INCREASE | `{{ kits.sniper.data.SNIPER_POWER_BOW_DAMAGE_PERCENTAGE_INCREASE }}` | The damage percentage increase when hitting shots with the Power Bow. |
 | SNIPER_POWER_BOW_PUNCH_LEVEL | `{{ kits.sniper.data.SNIPER_POWER_BOW_PUNCH_LEVEL }}` | The punch level of the Power Bow. |
 | SNIPER_POWER_BOW_KNEE_SHOT_SLOWNESS_LEVEL | `{{ kits.sniper.data.SNIPER_POWER_BOW_KNEE_SHOT_SLOWNESS_LEVEL }}` | The level of the kneeshot slowness effect. |
 | SNIPER_POWER_BOW_KNEE_SHOT_SLOWNESS_DURATION | `{{ kits.sniper.data.SNIPER_POWER_BOW_KNEE_SHOT_SLOWNESS_DURATION }}` | The duration, in ticks, of the kneeshot slowness effect. |

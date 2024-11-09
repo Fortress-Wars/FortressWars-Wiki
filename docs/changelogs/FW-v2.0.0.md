@@ -166,10 +166,27 @@ Porcupine
 Potion Master
 - Increased slowness level from **1** to **2**
 
+Priest
+- Release healing increased from **0.14** to **0.34** health per sun power stack.
+- Moved the burning effect of the release spell from level **5** to level **2**.
+- Moved the knockback effect of the realese spell from level **5** to level **4**.
+- The release spell knockback multiplier increased from **0.5** to **1**.
+- Level **3** release spells will unstun allies.
+- The release spell now unhacks allies and ally engineer blocks at level **5**.
+- The regeneration potion effect after casting spells was replaced with "Soothing Light" which is a custom regeneration effect.
+
+Prometheus
+- The flame spell no longer travels through full blocks of water.
+- Fireball will no longer knockback allies.
+- Fireball can now damage and ignite the caster.
+- Fireball will now deal **4** damage on impact.
+- Fireball now ignores invulnerability frames.
+- Fireball explosion damage reduced from **12** to **10**
+
 Pyrotechnic
 - Added knockback to the rockets.
 - When the barrage ability is activated and the crossbow is already loaded, the crossbow will instantly load the additional barrage rockets.
-- Player can now use the rocket launcher top rocket jump.
+- Player can now use the rocket launcher to rocket jump.
 - Added recoil the the rocket launcher.
 
 Slime
@@ -248,3 +265,4 @@ Vitalist
 - Fixed bug where the classic overtime sudden death scoreboard would not update properly if for the player that died.
 - Fixed The Engineer "Doc Holiday" achievement including enemies.
 - Fixed issue where Earth Walls could regenerater from the "Demolish" ability and would linger permanently.
+- Fixed bug where super vanish would break if the a vanished player logged back in after being deoped while offline.

@@ -91,6 +91,9 @@
 - `Demolitionist Bomb Instant`
     - Shield Damage Type: *Break*
     - Damage Types: *Blast*, *Physical*
+- `Earth Shatter`
+    - Shield Damage Type: *Break*
+    - Damage Types: *Earth*, *Elemental*, *Impact*, *Magic*, *Physical*
 - `Environmental`
     - Shield Damage Type: *Ignore*
     - Damage Types: *Physical*
@@ -136,6 +139,9 @@
 - `Melee`
     - Shield Damage Type: *Damage*
     - Damage Types: *Physical*, *Slashing*
+- `Melee`
+    - Shield Damage Type: *Ignore*
+    - Damage Types: *Magic*
 - `Musketeer Burst Shot`
     - Shield Damage Type: *Pierce*
     - Damage Types: *Physical*, *Piercing*
@@ -162,10 +168,16 @@
     - Damage Types: *Physical*, *Piercing*
 - `Prometheus Fireball`
     - Shield Damage Type: *Break*
-    - Damage Types: *Elemental*, *Fire*, *Magic*
+    - Damage Types: *Blast*, *Elemental*, *Fire*, *Impact*, *Magic* *Phycical*
+- `Prometheus Fireball Impact`
+    - Shield Damage Type: *DAMAGE*
+    - Damage Types: *Elemental*, *Fire*, *Impact*, *Magic*, *Phycical*
 - `Prometheus Imbue`
     - Shield Damage Type: *Ignore*
     - Damage Types: *Elemental*, *Fire*, *Magic*
+- `Pufferfish`
+    - Shield Damage Type: *Respect*
+    - Damage Types: *Impact*, *Physical*
 - `Pyrotechnic Rocket`
     - Shield Damage Type: *Damage*
     - Damage Types: *Blast*, *Impact*, *Physical*
@@ -183,17 +195,23 @@
     - Damage Types: *Physical*, *Piercing*
 - `Slime Minion`
     - Shield Damage Type: *Damage*
-    - Damage Types: *Blast*, *Elemental*, *Fire*, *Impact*, *Magic*, *Physical*
+    - Damage Types: *Impact*, *Physical*
 - `Sneak Attack`
     - Shield Damage Type: *Damage*
     - Damage Types: *Physical*, *Stabbing*
+- `Sniper Headshot`
+    - Shield Damage Type: *Damage*
+    - Damage Types: *Physical*, *Piercing*
+- `Sniper Kneeshot`
+    - Shield Damage Type: *Damage*
+    - Damage Types: *Physical*, *Piercing*
 - `Snowball`
     - Shield Damage Type: *Damage*
     - Damage Types: *Elemental*, *Ice*, *Magic*
 - `Soldier Grenade`
     - Shield Damage Type: *Break*
     - Damage Types: *Blast*, *Physical*
-- `Sonic Impact`
+- `Sonic Boom`
     - Shield Damage Type: *Break*
     - Damage Types: *Blast*, *Impact*, *Physical*
 - `Super Creeper Minion`
