@@ -170,10 +170,10 @@ Priest
 - Release healing increased from **0.14** to **0.34** health per sun power stack.
 - Moved the burning effect of the release spell from level **5** to level **2**.
 - Moved the knockback effect of the realese spell from level **5** to level **4**.
-- The release spell knockback multilier increased from **0.5** to **1**.
+- The release spell knockback multiplier increased from **0.5** to **1**.
 - Level **3** release spells will unstun allies.
-- The release spell now unhacks allies and ally engineer bblocks at level **5**.
-- The regeneration potion effect after casting spells replaced with "Soothing Light" which is a custom regeneration effect.
+- The release spell now unhacks allies and ally engineer blocks at level **5**.
+- The regeneration potion effect after casting spells was replaced with "Soothing Light" which is a custom regeneration effect.
 
 Prometheus
 - The flame spell no longer travels through full blocks of water.
