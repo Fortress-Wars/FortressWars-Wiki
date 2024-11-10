@@ -7,7 +7,7 @@
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** A mountain range surrounding a flat plains
+- **Description:** A mountain range surrounding a flat plains.
 - **Gamemode:** Classic
 - **Map Type:** Build and Break (BAB)
 - **Size:** Medium
