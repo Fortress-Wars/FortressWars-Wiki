@@ -2,12 +2,12 @@
 
 ***
 
-#### ![valleyNBicon](../assets/icons/valleyNB-icon.jpg)
+#### ![valleyNBicon](../assets/icons/valley-nb-icon.jpg)
 
 # Overview
 ***
 - **Introduced:** v1.7.0
-- **Description:** A flat plain with mountainous range surrounding it. Has a prebuilt base from the map [Valley](Valley).
+- **Description:** A mountain range surrounding a flat plains with a prebuilt base.
 - **Gamemode:** Classic
 - **Map Type:** Non-Build and Break (BAB)
 - **Size:** Medium

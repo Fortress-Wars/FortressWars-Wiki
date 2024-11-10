@@ -2,7 +2,7 @@
 
 ***
 
-#### ![glassforesticon](../assets/icons/glassforest-icon.jpg)
+#### ![glassforesticon](../assets/icons/glass-forest-icon.jpg)
 
 # Overview
 ***

@@ -2,7 +2,7 @@
 
 ***
 
-#### ![voidKOTHicon](../assets/icons/voidKOTH-icon.jpg)
+#### ![voidKOTHicon](../assets/icons/void-koth-icon.jpg)
 
 # Overview
 ***

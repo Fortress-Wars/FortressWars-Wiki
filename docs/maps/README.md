@@ -45,26 +45,26 @@
 > - **Contributors**: flameproofsocks
 > # ![clayicon](../assets/icons/clay-icon.jpg)
 
-> ## [Clay (NB)](ClayNB)
+> ## [Clay (NB)](Clay_NB)
 > - **Gamemode**: Classic
 > - **Type**: Build and Break
 > - **Introduced**: v1.7.0
 > - **Contributors**: flameproofsocks & LinkFD
-> # ![claynbicon](../assets/icons/claynb-icon.jpg)
+> # ![claynbicon](../assets/icons/clay-nb-icon.jpg)
 
-> ## [Coast](CoastClassic)
+> ## [Coast](Coast)
 > - **Gamemode**: Classic
 > - **Type**: Build
 > - **Introduced**: v1.7.0
 > - **Contributors**: LinkFD & TheLordStan
 > # ![coasticon](../assets/icons/coast-icon.jpg)
 
-> ## [Coast (KOTH)](CoastKOTH)
+> ## [Coast (KOTH)](Coast_KOTH)
 > - **Gamemode**: Classic
 > - **Type**: Non-Build
 > - **Introduced**: v1.7.0
 > - **Contributors**: LinkFD & TheLordStan
-> # ![coastKOTHicon](../assets/icons/coastKOTH-icon.jpg)
+> # ![coastKOTHicon](../assets/icons/coast-koth-icon.jpg)
 
 > ## [Colliery](Colliery)
 > - **Gamemode**: Attack and Defend
@@ -80,26 +80,26 @@
 > - **Contributors**: xzyle
 > # ![Frostnovaicon](../assets/icons/Frostnova-icon.jpg)
 
-> ## [GlassForest](GlassForest)
+> ## [Glass Forest](Glass_Forest)
 > - **Gamemode**: Classic
 > - **Type**: Build
 > - **Introduced**: v1.7.0
 > - **Contributors**: Lucky_Lew
-> # ![GlassForesticon](../assets/icons/GlassForest-icon.jpg)
+> # ![GlassForesticon](../assets/icons/Glass-Forest-icon.jpg)
 
-> ## [GreatWall](GreatWall)
+> ## [Great Wall](Great_Wall)
 > - **Gamemode**: Classic
 > - **Type**: Build
 > - **Introduced**: v1.7.0
 > - **Contributors**: Lucky_Lew
-> # ![GreatWallicon](../assets/icons/GreatWall-icon.jpg)
+> # ![GreatWallicon](../assets/icons/Great-Wall-icon.jpg)
 
-> ## [Hotel Monseñor](HotelMonsenor)
+> ## [Hotel Monseñor](Hotel_Monsenor)
 > - **Gamemode**: King of the Hill
 > - **Type**: Non-Build
 > - **Introduced**: v1.7.0
 > - **Contributors**: alfredodan
-> # ![HotelMonsenoricon](../assets/icons/HotelMonsenor-icon.jpg)
+> # ![HotelMonsenoricon](../assets/icons/Hotel-Monsenor-icon.jpg)
 
 > ## [Icefields](Icefields)
 > - **Gamemode**: Classic
@@ -108,19 +108,19 @@
 > - **Contributors**: Lucky_Lew
 > # ![Iceicon](../assets/icons/Ice-icon.jpg)
 
-> ## [Icefields (AD)](IcefieldsAD)
+> ## [Icefields (AD)](Icefields_AD)
 > - **Gamemode**: Classic
 > - **Type**: Build and Break
 > - **Introduced**: v1.7.0
 > - **Contributors**: LuckyLew & alfredodan
-> # ![IceADicon](../assets/icons/IceAD-icon.jpg)
+> # ![IceADicon](../assets/icons/Ice-AD-icon.jpg)
 
-> ## [Icefields (NB)](IcefieldsNB)
+> ## [Icefields (NB)](Icefields_NB)
 > - **Gamemode**: Classic
 > - **Type**: Non-Build and Break
 > - **Introduced**: v1.7.0
 > - **Contributors**: LuckyLew & R3dThunderr
-> # ![IceNBicon](../assets/icons/IceNB-icon.jpg)
+> # ![IceNBicon](../assets/icons/Ice-NB-icon.jpg)
 
 > ## [Lazarus](Lazarus)
 > - **Gamemode**: King of the Hill
@@ -129,12 +129,12 @@
 > - **Contributors**: alfredodan
 > # ![Lazarusicon](../assets/icons/Lazarus-icon.jpg)
 
-> ## [Leafy Canyon](LeafyCanyon)
+> ## [Leafy Canyon](Leafy_Canyon)
 > - **Gamemode**: King of the Hill
 > - **Type**: Non-Build
 > - **Introduced**: v1.7.0
 > - **Contributors**: LinkFD & TheLordStan
-> # ![Leafycanyonicon](../assets/icons/leafycanyon-icon.jpg)
+> # ![Leafycanyonicon](../assets/icons/leafy-canyon-icon.jpg)
 
 > ## [Mountain](Mountain)
 > - **Gamemode**: Classic
@@ -143,12 +143,12 @@
 > - **Contributors**: Cloud123
 > # ![Mountainicon](../assets/icons/Mountain-icon.jpg)
 
-> ## [Oasis City](Oasiscity)
+> ## [Oasis City](Oasis_City)
 > - **Gamemode**: King of the Hill
 > - **Type**: Non-Build
 > - **Introduced**: v1.7.0
 > - **Contributors**: LinkFD & TheLordStan
-> # ![Oasiscityicon](../assets/icons/oasiscity-icon.jpg)
+> # ![Oasiscityicon](../assets/icons/oasis-city-icon.jpg)
 
 > ## [Overgrown](Overgrown)
 > - **Gamemode**: Classic
@@ -178,26 +178,26 @@
 > - **Contributors**: Lucky_Lew
 > # ![shipsicon](../assets/icons/ships-icon.jpg)
 
-> ## [Skylands](skylands)
+> ## [Skylands](Skylands)
 > - **Gamemode**: Classic
 > - **Type**: Build
 > - **Introduced**: v1.7.0
 > - **Contributors**: Lucky_Lew
 > # ![skylandsicon](../assets/icons/skylands-icon.jpg)
 
-> ## [Somber Swamps](SomberSwamps)
+> ## [Somber Swamps](Somber_Swamps)
 > - **Gamemode**: King of the Hill
 > - **Type**: Non-Build
 > - **Introduced**: v2.0.0
 > - **Contributors**: alfredodan
-> # ![SomberSwampsicon](../assets/icons/somber_swamps-icon.jpg)
+> # ![SomberSwampsicon](../assets/icons/somber-swamps-icon.jpg)
 
-> ## [Two Castles](TwoCastles)
+> ## [Two Castles](Two_Castles)
 > - **Gamemode**: Classic
 > - **Type**: Non-Build
 > - **Introduced**: v1.7.0
 > - **Contributors**: inbystander000
-> # ![twocastlesicon](../assets/icons/twocastles-icon.jpg)
+> # ![twocastlesicon](../assets/icons/two-castles-icon.jpg)
 
 > ## [Underworld](Underworld)
 > - **Gamemode**: Classic
@@ -220,12 +220,12 @@
 > - **Contributors**: Lucky_Lew
 > # ![Valleyicon](../assets/icons/valley-icon.jpg)
 
-> ## [Valley (NB)](ValleyNB)
+> ## [Valley (NB)](Valley_NB)
 > - **Gamemode**: Classic
 > - **Type**: Non-Build and Break
 > - **Introduced**: v1.7.0
 > - **Contributors**: Lucky_Lew & R3dthunderr
-> # ![valleynbicon](../assets/icons/valleynb-icon.jpg)
+> # ![valleynbicon](../assets/icons/valley-nb-icon.jpg)
 
 > ## [Void](Void)
 > - **Gamemode**: Classic
@@ -234,9 +234,9 @@
 > - **Contributors**: St3vanAU
 > # ![voidicon](../assets/icons/void-icon.jpg)
 
-> ## [Void (KOTH)](VoidKOTH)
+> ## [Void (KOTH)](Void_KOTH)
 > - **Gamemode**: Non-Build
 > - **Type**: King of the Hill
 > - **Introduced**: v1.7.0
 > - **Contributors**: LinkFD
-> # ![voidkothicon](../assets/icons/voidKOTH-icon.jpg)
+> # ![voidkothicon](../assets/icons/void-KOTH-icon.jpg)
