@@ -193,7 +193,7 @@ Raven
 - The flight spell is now cancelled from:
   - being stunned
   - being hacked
-  - Taking "Piercing", "Impaling", "Electric", "Fire", "Ice" damage
+  - Taking "Piercing", "Impact", "Impaling", "Electric", "Fire", "Ice" damage
 - Removed the stunning requirement from the Bird `Squ-”watcher”` achievement.
 
 

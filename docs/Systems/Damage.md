@@ -210,7 +210,7 @@
     - Damage Types: *Elemental*, *Ice*, *Magic*
 - `Soldier Grenade`
     - Shield Damage Type: *Break*
-    - Damage Types: *Blast*, *Physical*
+    - Damage Types: *Blast*, *Impact*, *Physical*
 - `Sonic Boom`
     - Shield Damage Type: *Break*
     - Damage Types: *Blast*, *Impact*, *Physical*
