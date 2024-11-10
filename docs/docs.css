@@ -6,6 +6,13 @@ img {
   width: 100%;
 }
 
+.img-caption {
+  margin-top: -0.5rem;
+  padding-bottom: 0.5rem;
+  color: #34495e !important;
+  font-size: 0.9rem !important;
+}
+
 /* Large devices (laptops/desktops, 992px and up) & Smaller */
 @media only screen and (min-width: 992px) {
   p {

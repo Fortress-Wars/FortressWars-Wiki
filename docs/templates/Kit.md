@@ -107,11 +107,6 @@ _description_2_
 <!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
 
 <br />
 
