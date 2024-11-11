@@ -1,20 +1,24 @@
 # Illusionist
 
-***
+---
 
 #### ![illusionist-icon](../assets/icons/illusionist-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A damage kit that uses abilities to fool enemies.
 - **Role:** Damage
 - **How to Unlock:** Purchase for 500 Credits.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Chain Chestplate
 - Chain Leggings
 - Chain Boots
@@ -22,14 +26,20 @@
 - Divination Star
 - {{ kits.illusionist.data.MAX_HEALING_POTIONS }} Healing Potions
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Divination Star**
+
 ## Divination Star
+
 Right click to throw a star. When it hits an enemy, it will tag them with [Future Sight](#future-sight). If `ILLUSIONIST_DIVINATION_STAR_DO_DISORIENTATION` is set to `true`, then tagging an enemy will also make them look in a random direction.
 
 ![Divination Star - Tag](../assets/kits/illusionist/Illusionist%20-%20Divination%20Star%20Tag.gif)
@@ -43,15 +53,21 @@ Divination stars will hack [Engineer Blocks](Engineer#sentries) for `{{ kits.ill
 <!-- tabs:end -->
 
 ### Passives
+
 <!-- tabs:start -->
+
 #### **Future Sight**
+
 ## Future Sight
+
 An enemy tagged with futue sight will take `x{{ kits.illusionist.data.ILLUSIONIST_DIVINATION_STAR_DAMAGE_MULTIPLIER_ADDITIVE }}` more damage if the damage source is from the player that tagged them. When future sight expires, it will also deal `{{ kits.illusionist.data.ILLUSIONIST_FUTURE_SIGHT_DAMAGE }}` damage.
 
 ![Future Sight](../assets/kits/illusionist/Illusionist%20-%20Future%20Sight.gif)
 
 #### **Fake Death**
+
 ## Fake Death
+
 When the player takes a fatal attack from the enemy tagged with [Future Sight](#future-sight), they will fake their death. When the player fakes their death, they will heal `{{ kits.illusionist.data.ILLUSIONIST_FAKE_DEATH_HEALING }}` HP, cloak and turn invisible for `{{ kits.illusionist.data.ILLUSIONIST_FAKE_DEATH_INVISIBILITY_DURATION }}` ticks, be pushed back, and lose all of their healing potions. A death message will also appear in the chat.
 
 ![Fake Death](../assets/kits/illusionist/Illusionist%20-%20Fake%20Death.gif)
@@ -68,8 +84,10 @@ If the player damages an enemy to uncloak, they will also hack them for `{{ kits
 <br />
 
 # Achievements
-***
 
+---
+
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Haha...your plan Z failed! | Kill an illusionist while they are invisible. | 20 Credits |
@@ -78,11 +96,13 @@ If the player damages an enemy to uncloak, they will also hack them for `{{ kits
 | Plan Z, I love ya! | Fake your death as illusionist. | 20 Credits |
 | Pure Divination | Get 1,000 future sight kills. | 250 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
 
+---
+
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.illusionist.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

@@ -1,36 +1,44 @@
-
 # Brute
 
-***
+---
 
 #### ![brute-icon](../assets/icons/brute-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** An aggressive kit with an axe.
 - **Role:** Damage
 - **How to Unlock:** Purchase for 500 Credits.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Chainmail Chestplate
 - Chainmail Leggings
 - Chainmail Boots
 - Iron Axe
 - {{ kits.brute.data.MAX_HEALING_POTIONS }} Healing Potions
 
-
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Axe Swirl**
+
 ## Axe Swirl
+
 Right click the iron axe to unleash an attack in a `{{ kits.brute.data.BRUTE_AXE_SWIRL_RADIUS }}` meter radius. This ability will deal `{{ kits.brute.data.BRUTE_AXE_SWIRL_DAMAGE }}` damage all enemies in range. If `BRUTE_AXE_SWIRL_IGNORE_I_FRAMES` is set to `true`, then the attack will ignore invulnerability frames.
 
 ![Axe Swirl 1](../assets/kits/brute/Brute%20-%20Axe%20Swirl%201.gif)
@@ -46,9 +54,13 @@ Axe swirl will disable shields and damage enemy engineer blocks.
 <!-- tabs:end -->
 
 ### Passives
+
 <!-- tabs:start -->
+
 #### **Berserk**
+
 ## Berserk
+
 When the player's health drops to or below `{{ kits.brute.data.BRUTE_BERSERK_ACTIVATION_THRESHOLD }}` HP, they will receive a berserk stack and activate berserk. While berserk is active, the player will gain speed that scales with the number of berserk stacks. The player can have up to `{{ kits.brute.data.BRUTE_BERSERK_MAX_STACKS }}` berserk stacks.
 
 ![Berserk 1](../assets/kits/brute/Brute%20-%20Berserk%20Speed.gif)
@@ -58,11 +70,13 @@ Additionally, dealing melee damage with the axe will instantly break shields.
 ![Berserk 2](../assets/kits/brute/Brute%20-%20Berserk%20Break%20Shield.gif)
 
 <!-- tabs:end -->
-<br />  
+<br />
 
 # Achievements
-***
 
+---
+
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | A clean cut | Get a double axe swirl kill. | 50 Credits |
@@ -70,11 +84,13 @@ Additionally, dealing melee damage with the axe will instantly break shields.
 | Passive Aggressive Negotiator | Activate the berserk passive 1,000 times. | 100 Credits|
 | Head Collector | Get 1,000 axe swirl kills. | 250 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
 
+---
+
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.brute.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

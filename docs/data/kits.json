@@ -1,5 +1,5 @@
 {
-  "kitDataSharedDescriptions": {   
+  "kitDataSharedDescriptions": {
     "TANK_ROLE_KNOCKBACK_PERCENTAGE": "How much the player's knockback will be reduced while blocking.",
     "SHIELD_REGENERATION_DELAY": "The delay, in ticks, before the shield starts regenerating health.",
     "SHIELD_REGENERATION_RATE": "The shield's regeneration rate in ticks",
@@ -572,7 +572,7 @@
         "MUSKETEER_RIFLE_BURST_MODE_BULLET_SPEED": 25,
         "MUSKETEER_RIFLE_BURST_MODE_BULLET_SIZE": 0.1,
         "MUSKETEER_RIFLE_BURST_MODE_BULLET_PIERCING_LEVEL": 0,
-        "MUSKETEER_RIFLE_BURST_MODE_BULLET_BLOCK_MULTIPLIER":0.5,
+        "MUSKETEER_RIFLE_BURST_MODE_BULLET_BLOCK_MULTIPLIER": 0.5,
         "MUSKETEER_RIFLE_BURST_MODE_AMMO_CONSUMPTION_PER_SHOT": 1,
         "MUSKETEER_RIFLE_BURST_MODE_BULLET_IGNORE_I_FRAMES": true,
         "MUSKETEER_RIFLE_BURST_MODE_DELAY_BETWEEN_SHOTS": 4,

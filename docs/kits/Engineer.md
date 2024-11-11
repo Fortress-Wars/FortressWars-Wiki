@@ -1,20 +1,24 @@
 # Engineer
 
-***
+---
 
 #### ![engineer-icon](../assets/icons/engineer-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A utility kit that provides damage with sentries, mobility with teleporters, and consumables with dispensers.
 - **Role:** Utility
 - **How to Unlock:** Purchase for 500 Credits.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Chainmail Chestplate
 - Chainmail Leggings
 - Chainmail Boots
@@ -26,22 +30,32 @@
 - {{ kits.engineer.data.ENGINEER_SATCHEL_MAX_METAL }} Metal
 - {{ kits.engineer.data.MAX_HEALING_POTIONS }} Healing Potions
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Resources
+
 <!-- tabs:start -->
+
 #### **Metal**
+
 ## Metal
+
 Metal is a resource used to repair and place sentries, dispensers, and teleporters. The player can see how munch metal they have by holding their [Wrench](#wrench) or looking at their expeirence bar.
 
 ![Metal](../assets/kits/engineer/Metal.png)
 
 <!-- tabs:end -->
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Wrench**
+
 ## Wrench
 
 Players can use their Wrench to repair any friendly sentries, dispensers, entrance teleporters, and exit teleporters by `{{ kits.engineer.data.ENGINEER_WRENCH_REPAIR_AMOUNT }}` HP. This will cost `{{ kits.engineer.data.ENGINEER_WRENCH_REPAIR_METAL_AMOUNT }}` metal.
@@ -53,7 +67,9 @@ Player's can pick up their sentries, dispensers, entrance teleporters, and exit 
 ![Wrench - Pickup](../assets/kits/engineer/Engineer%20-%20Wrench%20Pickup.gif)
 
 #### **Sentries**
+
 ## Sentries
+
 Sentries are `Engineer Blocks` that will fire projectiles at enemies. Placing a sentry costs `{{ kits.engineer.data.ENGINEER_SENTRY_METAL_COST }}` metal and will take `{{ kits.engineer.data.ENGINEER_SENTRY_WARMUP }}` ticks to warmup. Players can cannot place sentries within `{{ kits.engineer.data.ENGINEER_SENTRY_LIMIT_RADIUS }}` meters of other friendly Sentires. Sentries will target `{{ kits.engineer.data.ENGINEER_SENTRY_TARGETS_PER_SHOT }}` enemy in a `{{ kits.engineer.data.ENGINEER_SENTRY_FIRE_RADIUS }}` meter radius and fire every `{{ kits.engineer.data.ENGINEER_SENTRY_FIRE_RATE }}` ticks. Sentries deal `{{ kits.engineer.data.ENGINEER_SENTRY_PROJECTILE_DAMAGE }}` damage.
 
 ![Sentry](../assets/kits/engineer/Engineer%20-%20Sentry.gif)
@@ -70,9 +86,10 @@ Sentries will shoot at allies if they are hacked.
 
 ![Sentry - Hack](../assets/kits/engineer/Engineer%20-%20Sentry%20Hack.gif)
 
-
 #### **Dispensers**
+
 ## Dispensers
+
 Dispensers are `Engineer Blocks` that will give consumables to allies. Placing a dispenser costs `{{ kits.engineer.data.ENGINEER_DISPENSER_METAL_COST }}` metal. Players cannot place dispensers within `{{ kits.engineer.data.ENGINEER_DISPENSER_LIMIT_RADIUS }}` meters of friendly Dispensers. Dispensers will dispense potions and other consumables every `{{ kits.engineer.data.ENGINEER_DISPENSER_DISPENSE_RATE }}` ticks to all allies within a `{{ kits.engineer.data.ENGINEER_DISPENSER_DISPENSE_RADIUS }}` meter radius. In addition, when Dispensers dispense, they will refresh all ability cooldowns by `{{ kits.engineer.data.ENGINEER_DISPENSE_COOLDOWN_REFRESH_PERCENT }}%`.
 
 ![Dispenser](../assets/kits/engineer/Engineer%20-%20Dispenser.gif)
@@ -89,19 +106,25 @@ Dispensers will dispense to enemies when they are hacked.
 ![Dispenser - Hack](../assets/kits/engineer/Engineer%20-%20Dispenser%20Hack.gif)
 
 #### **Teleporters**
+
 ## Teleporters
+
 Teleporters are `Engineer Blocks` that teleport players. Entrance and Exit teleporters must be placed within `{{ kits.engineer.data.ENGINEER_ENTRANCE_EXIT_MAX_DISTANCE }}` meters.
 
 <!-- tabs:start -->
+
 #### **Entrance Teleporter**
+
 ## Entrance Teleporter
+
 Placing a entrance teleporter costs `{{ kits.engineer.data.ENGINEER_ENTRANCE_TELEPORTER_METAL_COST }}` metal. The players can use entrance teleporters by walking over them.
 
 ![Entrance Teleporter](../assets/kits/engineer/Engineer%20-%20Teleporter%20Entrance.gif)
 
-
 #### **Exit Teleporter**
+
 ## Exit Teleporter
+
 Placing an exit teleporter costs `{{ kits.engineer.data.ENGINEER_EXIT_TELEPORTER_METAL_COST }}` metal. After a player uses the corresponding teleporter entrance, they will teleport to the exit teleporter.
 
 ![Exit Teleporter](../assets/kits/engineer/Engineer%20-%20Teleporter%20Exit.gif)
@@ -123,9 +146,13 @@ Enemies can use teleporter entrances when they are hacked.
 <!-- tabs:end -->
 
 ### Passives
+
 <!-- tabs:start -->
+
 #### **Metal Scrapper**
+
 ## Metal Scrapper
+
 Obtain `{{ kits.engineer.data.ENGINEER_KILL_ELIMINATION_REWARD }}` metal after an elimination.
 
 ![Metal Scrapper](../assets/kits/engineer/Engineer%20-%20Metal%20Scrapper.gif)
@@ -134,8 +161,10 @@ Obtain `{{ kits.engineer.data.ENGINEER_KILL_ELIMINATION_REWARD }}` metal after a
 <br />
 
 # Achievements
-***
 
+---
+
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Doc Holiday! | Have a dispenser dispense to three teammates at the same time. | 20 Credits |
@@ -145,11 +174,13 @@ Obtain `{{ kits.engineer.data.ENGINEER_KILL_ELIMINATION_REWARD }}` metal after a
 | Drugstore Cowboy | Dispense a combined amount of over 10,000 health pots. | 250 Credits |
 | Best Little Slaughterhouse in Texas | Rack up over 5,000 kills with your sentry gun. | 1,000 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
 
+---
+
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.engineer.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

@@ -1,21 +1,24 @@
-
 # Soldier
 
-***
+---
 
 #### ![soldier-icon](../assets/icons/soldier-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A kit with a throwable grenade and standard armor and weapons.
 - **Role:** Damage
 - **How to Unlock:** Unlocked by Default.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Chainmail Chestplate
 - Chainmail Chestplate
 - Chainmail Leggings
@@ -23,14 +26,20 @@
 - Grenade
 - {{ kits.soldier.data.MAX_HEALING_POTIONS }} Healing Potions
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Grenade**
+
 ## Grenade
+
 Right click to launch a grenade forward. When the grenade explodes, it will deal `{{ kits.soldier.data.SOLDIER_GRENADE_DAMAGE }}` damage and also deal knockback.
 
 ![Grenade 1](../assets/kits/soldier/Soldier%20-%20Grenade%20Enemy.gif)
@@ -52,17 +61,21 @@ Grenades disable enemy player shields.
 ![Grenade 5](../assets/kits/soldier/Soldier%20-%20Grenade%20Shield.gif)
 
 #### **Grenade Jump**
+
 ## Grenade Jump
+
 Use your grenade to launch yourself up.
 
 ![Grenade Jump](../assets/kits/soldier/Soldier%20-%20Grenade%20Jump.gif)
 
 <!-- tabs:end -->
-<br /> 
+<br />
 
 # Achievements
-***
 
+---
+
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Block this! | Disable an enemy shield with your grenade. | 20 Credits |
@@ -72,11 +85,13 @@ Use your grenade to launch yourself up.
 | That's where books get you, professor! | Destroy an engineer sentry with soldier's grenade." | 20 Credits |
 | Take your lumps like a man, Private Twinkletoes. | Get 1,000 grenade kills. | 250 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
 
+---
+
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.spy.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

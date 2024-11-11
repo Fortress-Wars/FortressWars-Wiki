@@ -1,21 +1,24 @@
-
 # Builder
 
-***
+---
 
 #### ![builder-icon](../assets/icons/builder-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A utility kit that can place bricks and ladders around the map.
 - **Role:** Utility
 - **How to Unlock:** Unlocked by Default.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Chainmail Chestplate
 - Chainmail Leggings
 - Chainmail Boots
@@ -23,26 +26,36 @@
 - {{ kits.builder.data.BUILDER_LADDERS_COUNT }} Builder Ladders
 - {{ kits.builder.data.MAX_HEALING_POTIONS }} Healing Potions
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Bricks**
+
 ## Bricks
+
 Place bricks in most places around the map.
 
 ![Bricks](../assets/kits/builder/Builder%20-%20Place%201.gif)
 
 #### **Brick Melee**
+
 ## Brick Melee
+
 Use your bricks to melee and deal massive knockback. Damaging an enemy with your bricks will consume `{{ kits.builder.data.BUILDER_BRICKS_REMOVE_COUNT_ON_MELEE }}` bricks.
 
 ![Brick Melee](../assets/kits/builder/Builder%20-%20Melee.gif)
 
 #### **Ladders**
+
 ## Ladders
+
 Place ladders in most places around the map.
 
 ![Ladders](../assets/kits/builder/Builder%20-%20Place%202.gif)
@@ -50,9 +63,13 @@ Place ladders in most places around the map.
 <!-- tabs:end -->
 
 ### Passives
+
 <!-- tabs:start -->
+
 #### **Builders Toolbox**
+
 ## Builders Toolbox
+
 Regenerate 1 bricks every `{{ kits.builder.data.BUILDER_BRICKS_REGENERATION_TICK_INTERVAL }}` ticks and 1 ladder every `{{ kits.builder.data.BUILDER_LADDERS_REGENERATION_TICK_INTERVAL }}` ticks.
 
 ![Builders Toolbox 1](../assets/kits/builder/Builder%20-%20Builders%20Tool%20Box.gif)
@@ -62,11 +79,13 @@ Receive bricks and ladders from engineer dispensers.
 ![Builders Toolbox 2](../assets/kits/builder/Builder%20-%20Dispenser.gif)
 
 <!-- tabs:end -->
-<br />  
+<br />
 
 # Achievements
-***
 
+---
+
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | BUILDAH KILL! | Eliminate an enemy with your bricks. | 20 Credits |
@@ -75,11 +94,13 @@ Receive bricks and ladders from engineer dispensers.
 | Ladder to heaven! | Place 25,000 ladders. | 1,000 Credits |
 | Sturdy fortress! | Place 100,000 bricks. | 1,000 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
 
+---
+
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.builder.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

@@ -1,20 +1,24 @@
 # Knight
 
-***
+---
 
 #### ![knight-icon](../assets/icons/knight-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A tank kit that uses their shield to mitigate damage for allies.
 - **Role:** Tank
 - **How to Unlock:** Purchase for 500 Credits.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Iron Chestplate
 - Chainmail Leggings
 - Iron Boots
@@ -23,17 +27,23 @@
 - Fortify
 - {{ kits.knight.data.MAX_HEALING_POTIONS }} Healing Potions
 
-<br />  
+<br />
 
 # Abilities
-***
-### Actives
-<!-- tabs:start -->
-#### **Fortify**
-## Fortify
-When the ability is used, the player's shield becomes stronger. The shield will take `{{ kits.knight.data.KNIGHT_FORTIFY_SHIELD_DAMAGE_PERCENTAGE }}%` of the incoming damage and all damage types that would normally break or ignore the shield, will damage the shield instead. 
 
-![Knight - Fortify Block](../assets/kits/knight/Knight%20-%20Fortify%20Block.gif) 
+---
+
+### Actives
+
+<!-- tabs:start -->
+
+#### **Fortify**
+
+## Fortify
+
+When the ability is used, the player's shield becomes stronger. The shield will take `{{ kits.knight.data.KNIGHT_FORTIFY_SHIELD_DAMAGE_PERCENTAGE }}%` of the incoming damage and all damage types that would normally break or ignore the shield, will damage the shield instead.
+
+![Knight - Fortify Block](../assets/kits/knight/Knight%20-%20Fortify%20Block.gif)
 
 If `KNIGHT_FORTIFY_RESET_SHIELD_DURABILITY` is set to `true`, then the player's shield durability will reset upon activating this ability.
 
@@ -46,15 +56,21 @@ When the player's shield breaks, fortify will wear off.
 <!-- tabs:end -->
 
 ### Passives
+
 <!-- tabs:start -->
+
 #### **Royal Guard**
+
 ## Royal Guard
+
 While `Fortify` is active and the player is blocking, the player will take `{{ kits.knight.data.KNIGHT_ROYAL_GUARD_REDIRECTED_DAMAGE_PERCENTAGE }}%` of the damage from nearby allies in a `{{ kits.knight.data.KNIGHT_FORTIFY_RADIUS }}` meter radius.
 
 ![Knight - Royal Guard](../assets/kits/knight/Knight%20-%20Royal%20Guard.gif)
 
 #### **Damage Deflection**
+
 ## Damage Deflection
+
 While `Fortify` is active and the player is blocking, when enemies are within `{{ kits.knight.data.KNIGHT_FORTIFY_RADIUS }}` meters of the player and they damage the player's shield, `{{ kits.knight.data.KNIGHT_DAMAGE_DEFLECTION_PERCENTAGE }}%` of the incoming damage will be deflected at them.
 
 ![Knight - Damage Deflection](../assets/kits//knight/Knight%20-%20Damage%20Deflection.gif)
@@ -64,8 +80,10 @@ While `Fortify` is active and the player is blocking, when enemies are within `{
 <br />
 
 # Achievements
-***
 
+---
+
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Royal Shield! | Absorb a decent amount of damage with the royal guard passive. | 20 Credits |
@@ -73,11 +91,13 @@ While `Fortify` is active and the player is blocking, when enemies are within `{
 | Thorns 1,000 | Get 1,000 deflect kills. | 250 Credits |
 <!-- | Where do you think you're going? | Pull an enemy kangaroo while they are using their stomp ability. | 20 Credits -->
 
-<br />  
+<br />
 
 # Kit Data
-***
 
+---
+
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.knight.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |
