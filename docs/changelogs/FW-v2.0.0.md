@@ -1,6 +1,7 @@
 _Release Date: TBD_
 
 # v2.0.0
+
 - Health Bars
 - Discord Integration
 - Kit Changes
@@ -9,15 +10,19 @@ _Release Date: TBD_
 - Bug Fixes
 
 ### Health Bars
+
 Health bars appear above allies. They show the player's Kit, Name, Health Bar, Numeric Health Value, and number of potions. Absorption and other status effects will also be reflected in the health bar. Enemies only see the player's name and nothing else!
 
 ### Discord Integration
+
 A new channel has been created that will show game events and player deaths messages.
+
 - Configured via "killfeed" and "game" channels in the DiscordSRV config.
 
 ### Kit Changes
 
 Aquaman
+
 - Added new death message for trident melee kills in water
 - Melee trident kills now count towards the trident kills stat
 - Base trident melee damage reduced from **7** to **4**
@@ -25,6 +30,7 @@ Aquaman
 - Water synergy damage bonus now also applies to melee trident attacks
 
 Aquarius
+
 - Changed how the Water Beam spell heals the caster: Only the water beam pop heals the player.
 - Water Beam and Water Bomb Spells no longer destroy jumper translocators.
 - Removed the regeneration given when casting water beam
@@ -32,30 +38,37 @@ Aquarius
 - The "Water Bomb" and "Soothing Water" healing effects now count towards the healing stats.
 
 Bomber
+
 - Increased bomber knockback multiplier from **1.25** to **0.75**
 - Bombs now consider line of sight when damaging enemies.
 
 Brute
+
 - Berserk passive now stacks. Each time the health drops to or below **10.0**, **1** stack will be gained (max **2** stacks) the speed level is determined by the number of berserk stacks
 - Axe damage increased from **5.3** to **6**
 - Axe swirl ability now considers line of sight when damaging enemies.
 
 Buff Master
+
 - Speed effect duration increased from **160** ticks to **320** ticks.
 - Max cooldown for buff ability is now **300** ticks.
 
 Builder
+
 - Increased bricks and ladders final blow and assist reward counts.
 
 Crusher
+
 - Anvil ability now considers line of sight when damaging enemies.
 - Getting hit by an anvil will stun targets for **60** ticks.
 
 Demolitionist
+
 - Demolition Bombs explode all blocks in the radius instead of using Minecraft's TNT block logic.
 - Bombs now consider line of sight when damaging enemies.
 
 Engineer
+
 - Added sentry fire sound
 - Updated repair sound
 - Pickup block metal refund is now based on the percentage of current hp.
@@ -66,12 +79,14 @@ Engineer
 - Dispenser no longer dispenses mana potions for Kit Priest and Kit Aquarius.
 
 Fish
+
 - Tropical Fish now heals only after hitting a target with it.
 - Fishplosion and Fish Bow now summon tropical fish.
 - OP fish now keeps the fish ability.
 - Fish throw is now faster in OP fish mode.
 
 Golem
+
 - Earth wall is now made out of mud.
 - Earth Shatter has been reworked. It now summons a shockwave in the direction ther player is looking and spreads out as it travels.
 - Increased Earth Shatter radius from **8** meters to **12** meters.
@@ -81,6 +96,7 @@ Golem
 - Earth Shatter no longer damages the caster.
 
 Hitman:
+
 - Bow now has infinity, but the max tags a hitman can have at once is still 6.
 - Replaced chainmail leggings with black leather leggings.
 - Replaced chainmail boots with black leather boots.
@@ -92,16 +108,19 @@ Hitman:
 - Harming effect ignores no damage ticks.
 
 Illusionist
+
 - Divination Star damage bonus multiplier now only triggers when the owner of the Divination Star is the source of the damage.
 - If the player attacks an enemy to uncloak from fake death, they will also hack them for **60** ticks.
 
 Jumper
+
 - Added ability to destroy the translocator manually with **left click**.
 - Cooldown for scenario above is **80** ticks.
 - Reduced cooldown of translocator after picking it up off the ground from **300** ticks to **40** ticks.
 - Life duration of translocator increased from **6000** ticks to **24000** ticks.
 
 Kangaroo
+
 - Stomp ability now considers line of sight when damaging enemies.
 - Increased stomp cooldown from **180** ticks to **210** ticks.
 - Decreased stomp impact radius from **5** meters to **3** meters.
@@ -109,12 +128,14 @@ Kangaroo
 - Properly implemented ramp up damage fro the stomp ability. It start at **5** meters (5 damage) and end at **50** meters (20 damage).
 
 Knight
+
 - Removed Pull ability
 - New Fortify Ability: Increases shield strength, refreshes shield durability, and converts all damage types that would normally break or ignore the shield to damage the shield.
 - Royal guard is now effective for all allies and only triggers when fortify is active and when the player is blocking.
 - "Damage Deflect" ability is now only active during Fortify's duration.
 
 Mathematician:
+
 - Changed wooden sword to stone sword.
 - Changed how math worksheets are distributed; The player now holds a max of **20** worksheets that regenerate **1** every **15** ticks. Worksheets can be dispensed by dispensers and rewarded for eliminations. Allies and enemies can hold a maximum of **15** worksheets. For every problem answered by the mathematician, one worksheet will be removed from all affected players.
 - Increased the duration that allies and enemies hold practice problems from **600** ticks to **12000** ticks.
@@ -122,20 +143,24 @@ Mathematician:
 - A random buff will now also be given after getting an elimination.
 
 Medic
+
 - Healing rate decreased from **5** ticks to **2** ticks.
 - Healing Stone Capacity resource renamed to Electrolytes and is now displayed on the player's action bar.
 - Medic's potions are now visually different from normal healing potions.
 
 Mercy
+
 - Mercy staff no longer casts a fishing line, instead it is now particle based.
 - Players can target themselves by sneaking.
 - Staff beam will now disconnect if out of line of sight for too long.
 - Removed left-click to attach the beam.
 
 Miner
+
 - Decreased Miner's Fervor ability cooldown from **400** ticks to **200** ticks
 
 Musketeer
+
 - Added a a second "Burst Mode" firing mode for the rifle.
 - Burst mode shoots **3** shots quickly that will ignore no damage ticks.
 - Burst mode bullets have a travel distance unlike "Sniper Mode" bullets.
@@ -144,6 +169,7 @@ Musketeer
 - "Sniper Mode" bullets now pierce up to **2** times
 
 Necromancer
+
 - Changed to a tank kit.
 - Now has a shield.
 - Changed iron sword to stone sword.
@@ -156,17 +182,20 @@ Necromancer
 - Right clicking the player's skeleton will restore **10** health. This will consume **1** essence.
 - Skeleton can not be picked up by right clicking it while sneaking. This will remember its current health and level.
 - The spawn skeleton item and shield will become enchanted to indicate that a skeleton is being held.
-- Essence now drops for every entity death (was previously only player deaths caused by another player). 
+- Essence now drops for every entity death (was previously only player deaths caused by another player).
 
 Porcupine
+
 - Increased quills spread from **0.1** to **0.2**.
 - Reduced quill damage from **11** to **9**.
 - Porcupine quills will stun enemies for **30** ticks upon damaging them.
 
 Potion Master
+
 - Increased slowness level from **1** to **2**
 
 Priest
+
 - Release healing increased from **0.14** to **0.34** health per sun power stack.
 - Moved the burning effect of the release spell from level **5** to level **2**.
 - Moved the knockback effect of the realese spell from level **5** to level **4**.
@@ -176,6 +205,7 @@ Priest
 - The regeneration potion effect after casting spells was replaced with "Soothing Light" which is a custom regeneration effect.
 
 Prometheus
+
 - The flame spell no longer travels through full blocks of water.
 - Fireball will no longer knockback allies.
 - Fireball can now damage and ignite the caster.
@@ -184,20 +214,22 @@ Prometheus
 - Fireball explosion damage reduced from **12** to **10**
 
 Pyrotechnic
+
 - Added knockback to the rockets.
 - When the barrage ability is activated and the crossbow is already loaded, the crossbow will instantly load the additional barrage rockets.
 - Player can now use the rocket launcher to rocket jump.
 - Added recoil the the rocket launcher.
 
 Raven
+
 - The flight spell is now cancelled from:
   - being stunned
   - being hacked
   - Taking "Piercing", "Impact", "Impaling", "Electric", "Fire", "Ice" damage
 - Removed the stunning requirement from the Bird `Squ-”watcher”` achievement.
 
-
 Slime
+
 - Slime armor no longer mitigates anvil damage.
 - Slime armor no mitigates piercing damage by **50%** (Arrows, Bullets, and Thorns).
 - Slime armor will no longer break if the fall damage is too high
@@ -205,31 +237,37 @@ Slime
 - Reduced slime minion spawn cooldown from **90** ticks to **75** ticks.
 
 Sniper
+
 - Increased headshot hitbox.
 - Decreased headshot damage from **x1.50** to **x1.25**.
 - Powerbow damage increase is now **x1.25** of the base bow damage.
 
 Soldier
-- Grenade radius increased from **2** to **3** 
+
+- Grenade radius increased from **2** to **3**
 - Grenades now consider line of sight when damaging enemies.
 
 Sonic
+
 - Reduced engineer block stun duration from **200** to **40** ticks
 - Sonic Boom now stuns nearby enemies for **40** ticks.
 - Sonic Boom collision knockback and collision recoil adds instead of setting the new velocity.
 
 Spider
+
 - If a cobweb trap is detroyed for whatever reason, we will now give a cooldown.
 - Deployed cobwebs no longer stack.
 - Cobweb cooldown now starts as soon as a the cobweb trap is triggered instead of when the duration ends.
 - Cobweb traps items now last **1200** ticks before despawning.
 
 Spy
+
 - Any melee attack during while the player is cloaked now is considered a "Sneak Attack" (Previously it was just if the player attacked with the sneak attack sword)
 - If the player gets a sneak attack kill while invisible, the cloak ability cooldown will be refreshed by **50%**.
 - Spy's "Didn't see you there" achievement now only requires the player to kill an enemy cloaked spy instead of also requireing the damage type to be a sneak attack.
 
 Vitalist
+
 - Reduced crossbow magazine size from **7** to **4**.
 - Reduced projectile size from **0.4** to **0.1**.
 - Reduced projecile speed from **32** from **16**.
@@ -241,6 +279,7 @@ Vitalist
 - Added spread to the crossbow projectile.
 
 ## Technical Changes
+
 - Reimplemented all kits
 - Players can now be hacked. Hacked players will not be able to use their abilities (active and passive) and any active abilities will be terminated.
 - Players can now be stunned. Stunned players will not be able to use their abilities.
@@ -255,6 +294,7 @@ Vitalist
 - When a liquid is replaced from player's building and the block they placed is detroyed, the liquid will be restored.
 
 ## Other Changes
+
 - Minions can now use sponge launchers.
 - Regeneration rate for potions while **in** combat reduced from **420** ticks to **200** ticks.
 - Regeneration rate for potions while **out of** combat reduced from **140** ticks to **100** ticks.
@@ -263,6 +303,7 @@ Vitalist
 - Players can now quick build over vegetation.
 
 ## Bug Fixes
+
 - Aquaman trident now returns to the item slot the user is on if it's empty.
 - Bomber no longer blocks redstone events.
 - Fixed issue where if an engineer died, the sentry would do more damage.

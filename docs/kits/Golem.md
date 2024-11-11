@@ -1,20 +1,24 @@
 # Golem
 
-***
+---
 
 #### ![golem-icon](../assets/icons/golem-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A kit that uses the earth element to hinder enemy movement.
 - **Role:** Tank
 - **How to Unlock:** Purchase for 500 Credits.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Netherite Chestplate
 - Leather Leggings (Brown)
 - Leather Boots (Brown)
@@ -23,24 +27,34 @@
 - {{ kits.golem.data.MAX_MANA_POTIONS }} Mana Potions
 - {{ kits._shared.data.MANA_MAX }} Mana
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Spell Wand**
+
 ## Spell Wand
+
 A weapon that is used to cast spells. Casting spells costs mana and each spell has a cooldown.
 
 ### Casting
-- Earth Shatter *(Left-Click)*
-- Earth Wall (Horizontal) *(Right-Click)*
-- Earth Wall (Vertical) *(Sneak + Right-Click)*
+
+- Earth Shatter _(Left-Click)_
+- Earth Wall (Horizontal) _(Right-Click)_
+- Earth Wall (Vertical) _(Sneak + Right-Click)_
 
 <!-- tabs:start -->
+
 #### **Earth Shatter**
+
 ## Earth Shatter
+
 The spell costs `{{ kits.golem.data.GOLEM_EARTH_SHATTER_MANA_COST }}` mana. Casting summons a shockwave on the ground that ripples out. The shockwave deals `{{ kits.golem.data.GOLEM_EARTH_SHATTER_DAMAGE }}` damage and applies the [rooting](#effects) effect to enemies. The rooting effect lasts `{{ kits.golem.data.GOLEM_EARTH_SHATTER_ROOTING_DURATION }}` ticks.
 
 ![Golem - Earth Shatter 1](../assets/kits/golem/Golem%20-%20Earth%20Shatter%201.gif)
@@ -52,7 +66,9 @@ Earth shatter damages enemy engineer blocks.
 ![Golem - Earth Shatter Damage Engineer Blocks](../assets/kits/golem/Golem%20-%20Earth%20Shatter%20Damage%20Engineer%20Blocks.gif)
 
 #### **Earth Wall**
+
 ## Earth Wall
+
 The spell costs `{{ kits.golem.data.GOLEM_EARTH_WALL_MANA_COST }}` mana. Casting summons a wall of mud in front of the player. Earth Walls can be created horizontally and vertically.
 
 ![Golem - Earth Wall Horizontal](../assets/kits/golem/Golem%20-%20Earth%20Wall%20Horizontal.gif)
@@ -67,8 +83,11 @@ Earth Walls can be broken by tools.
 <!-- tabs:end -->
 
 ### Effects
+
 <!-- tabs:start -->
+
 #### **Rooting**
+
 ## Rooting
 
 Entities that are affected by the rooting effect are not able to move and take increased [Fire Damage](/systems/Damage#damage-types). Fire damage is increased by `+2` damage per level.
@@ -80,9 +99,13 @@ Entities that are affected by the rooting effect are not able to move and take i
 <!-- tabs:end -->
 
 ### Resources
+
 <!-- tabs:start -->
+
 #### **Mana**
+
 ## Mana
+
 Mana is a resource used to cast spells.
 
 ![Golem - Mana](../assets/kits/golem/Golem%20-%20Mana.png)
@@ -103,8 +126,10 @@ Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPEN
 <br />
 
 # Achievements
-***
 
+---
+
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Even rocks move on | Get a double earth shatter kill. | 20 Credits |
@@ -112,11 +137,13 @@ Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPEN
 | Earth Power | Cast 10,000 earth walls. | 500 Credits |
 | Killer roots | Get 1,000 earth shatter kills. | 250 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
 
+---
+
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.golem.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

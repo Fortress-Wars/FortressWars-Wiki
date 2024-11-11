@@ -1,20 +1,24 @@
 # Spider
 
-***
+---
 
 #### ![spider-icon](../assets/icons/spider-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A kit that deploys cobwebs to trap enemies.
 - **Role:** Tank
 - **How to Unlock:** Purchase for 500 Credits.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Netherite Chestplate
 - Leather Leggings (Dark Gray)
 - Leather Boots (Dark Gray)
@@ -23,14 +27,20 @@
 - Cobweb Traps
 - {{ kits.spider.data.MAX_HEALING_POTIONS }} Healing Potions
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Cobweb Traps**
+
 ## Cobweb Traps
+
 Deploy cobwebs in order to trap enemies. Cobweb traps are activated when enemy players walk over them. When activated, deployed traps will turn into a blob of cobweb blocks. Activated traps last for `{{ kits.spider.data.SPIDER_COBWEB_TRAP_DURATION }}` ticks.
 
 ![Spider - Cobweb Trap Deploy](../assets/kits/spider/Spider%20-%20Cobweb%20Trap%20Deploy.gif)
@@ -48,7 +58,9 @@ Cobwebs can be destroyed by enemies and the environment.
 ![Spider - Cobweb Trap Environment Destroyed](../assets/kits/spider/Spider%20-%20Cobweb%20Trap%20Environment%20Destroyed.gif)
 
 #### **Spider Sword**
+
 ## Spider Sword
+
 A stone sword that applies poison level `{{ kits.spider.data.SPIDER_SWORD_POISON_LEVEL }}` when hitting enemies. The poison effect lasts for `{{ kits.spider.data.SPIDER_SWORD_POISON_DURATION }}` ticks.
 
 ![Spider - Spider Sword](../assets/kits/spider/Spider%20-%20Spider%20Sword.gif)
@@ -56,9 +68,13 @@ A stone sword that applies poison level `{{ kits.spider.data.SPIDER_SWORD_POISON
 <!-- tabs:end -->
 
 ### Passives
+
 <!-- tabs:start -->
+
 #### **Poison Immunity**
+
 ## Poison Immunity
+
 The player is immune to the poison potion effect.
 
 ![Spider - Poison Immunity](../assets/kits/spider/Spider%20-%20Poison%20Immunity.gif)
@@ -67,18 +83,22 @@ The player is immune to the poison potion effect.
 <br />
 
 # Achievements
-***
 
+---
+
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Sticky circumstance | Trap an invisible spy with a web trap. | 20 Credits |
 | Web Master | Activate 1,000 of your traps. | 250 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
 
+---
+
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.spider.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

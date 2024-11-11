@@ -1,20 +1,24 @@
 # Mathematician
 
-***
+---
 
 #### ![mathematician-icon](../assets/icons/mathematician-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A support kit that uses the power of math to heal and damage players.
 - **Role:** Support
 - **How to Unlock:** Completing the "Top-tier Pacifist" achievement.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Chainmail Chestplate
 - Leather Leggings
 - Leather Boots
@@ -22,20 +26,28 @@
 - Worksheets
 - {{ kits.mathematician.data.MAX_HEALING_POTIONS }} Healing Potions
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Distribute Worksheets**
+
 ## Distribute Worksheets
+
 Left click to distribute math worksheets. When players pick them up, it will increase their held worksheet count by `{{ kits.mathematician.data.MATHEMATICIAN_WORKSHEET_DISTRIBUTE_INCREMENT_AMOUNT }}`. Players can hold a maximum of `{{ kits.mathematician.data.MATHEMATICIAN_WORKSHEETS_PER_PLAYER }}` worksheets. In addition, worksheets will expire after `{{ kits.mathematician.data.MATHEMATICIAN_PRACTICE_PROBLEMS_DURATION }}` ticks. This duration resets whenever a new worksheet is picked up. Worksheets will be removed if they mathematician dies, the player holding them dies, the player that is holding them is cleansed, or until all worksheet problems are answered.
 
 ![Mathematician - Distribute Worksheets](../assets/kits/mathematician/Mathematician%20-%20Distribute%20Worksheets.gif)
 
 #### **Solve Practice Problems**
+
 ## Solve Practice Problems
+
 Right click to start solving problems. Practice problems can be Addition, Subtraction, Multiplication, or Division problems. Problems can include negative numbers. The initial problem arguments are created using a number between `-{{ kits.mathematician.data.MATHEMATICIAN_PRACTICE_PROBLEMS_MAX_ARGUMENT_MAGNITUDE }}` and `{{ kits.mathematician.data.MATHEMATICIAN_PRACTICE_PROBLEMS_MAX_ARGUMENT_MAGNITUDE }}`.
 
 ![Mathematician - Generate Practice Problem](../assets/kits/mathematician/Mathematician%20-%20Generate%20Practice%20Problem.gif)
@@ -43,8 +55,11 @@ Right click to start solving problems. Practice problems can be Addition, Subtra
 Players can generate a new problem every `{{ kits.mathematician.data.MATHEMATICIAN_PRACTICE_PROBLEMS_GENERATE_COOLDOWN }}` ticks.
 
 <!-- tabs:start -->
+
 #### **Answer Correctly**
+
 ## Answer Correctly
+
 When the player answers a problem correctly, they will receive a random [buff](#buffs). The player will also deal `{{ kits.mathematician.data.MATHEMATICIAN_PRACTICE_PROBLEMS_DAMAGE }}` damage to all enemies with worksheets and restore `{{ kits.mathematician.data.MATHEMATICIAN_PRACTICE_PROBLEMS_ALLY_HEALING }}` hp to allies with worksheets.
 
 ![Mathematician - Answer Correctly](../assets/kits/mathematician/Mathematician%20-%20Answer%20Correctly.gif)
@@ -54,7 +69,9 @@ When the player answers a problem correctly, they will receive a random [buff](#
 ![Mathematician - Heal Allies](../assets/kits/mathematician/Mathematician%20-%20Heal%20Allies.gif)
 
 #### **Answer Incorrectly**
+
 ## Answer Incorrectly
+
 When the player answers a problem incorrectly, they will receive a random [debuff](#debuffs). The player will also restore `{{ kits.mathematician.data.MATHEMATICIAN_PRACTICE_PROBLEMS_ENEMY_HEALING }}` hp to enemies with worksheets.
 
 ![Mathematician - Answer Incorrectly](../assets/kits/mathematician/Mathematician%20-%20Answer%20Incorrectly.gif)
@@ -74,9 +91,13 @@ Players will receive `{{ kits.mathematician.data.MATHEMATICIAN_WORKSHEET_DISPENS
 <!-- tabs:end -->
 
 ### Passives
+
 <!-- tabs:start -->
+
 #### **Math Tutor**
+
 ## Math Tutor
+
 When eliminating an enemy, the player will receive a random [buff](#buffs) and receive `{{ kits.mathematician.data.MATHEMATICIAN_WORKSHEET_ELIMINATION_REWARD }}` additional worksheets.
 
 ![Mathematician - Math Tutor](../assets/kits/mathematician/Mathematician%20-%20Math%20Tutor.gif)
@@ -84,10 +105,15 @@ When eliminating an enemy, the player will receive a random [buff](#buffs) and r
 <!-- tabs:end -->
 
 ### Resources
+
 <!-- tabs:start -->
+
 #### **Buffs**
+
 ## Buffs
+
 Available Buffs:
+
 - Absorption
 - Fire Resistance
 - Haste
@@ -101,8 +127,11 @@ Available Buffs:
 - Water Breathing
 
 #### **Debuffs**
+
 ## Debuffs
+
 Available Debuffs:
+
 - Blindness
 - Darkness
 - Glowing
@@ -119,8 +148,10 @@ Available Debuffs:
 <br />
 
 # Achievements
-***
 
+---
+
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Algebruh moment | Pay the ultimate price for incorrectly answering a practice problem. | 20 Credits |
@@ -130,11 +161,13 @@ Available Debuffs:
 | Math Wizard | Answer 10,000 math problems correctly. | 250 Credits |
 | Top-tier Pacifist | Win a game with the best EDR with no final blows. | Kit Mathematician |
 
-<br />  
+<br />
 
 # Kit Data
-***
 
+---
+
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.mathematician.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

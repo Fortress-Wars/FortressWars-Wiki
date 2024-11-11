@@ -1,11 +1,13 @@
 # Biohazard
 
-***
+---
 
 #### ![biohazardicon](../assets/icons/biohazard-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A toxic and dangerous chemical plant.
 - **Gamemode:** Classic
@@ -13,26 +15,27 @@
 - **Size:** Medium
 - **Contributors:** Naparizel
 
-<br />  
+<br />
 
 # Image Gallery
-![Biohazard - Beacon](../assets/maps/biohazard/biohazard-beacon.jpg '')
-![Biohazard - Spawn](../assets/maps/biohazard/biohazard-spawn.jpg '')
-![Biohazard - Middle](../assets/maps/biohazard/biohazard-overview.jpg '')
+
+![Biohazard - Beacon](../assets/maps/biohazard/biohazard-beacon.jpg)
+![Biohazard - Spawn](../assets/maps/biohazard/biohazard-spawn.jpg)
+![Biohazard - Middle](../assets/maps/biohazard/biohazard-overview.jpg)
 
 # Achievements
-***
 
-| Achievement | Description | Reward |
-| ----- | ----- | ------ |
+---
+
+| Achievement            | Description                      | Reward     |
+| ---------------------- | -------------------------------- | ---------- |
 | Acid's not so toxic... | Win a game on the map Biohazard. | 20 Credits |
 
-
-
 # Map Data
-***
 
-| Property | Value | Description |
-| ----------- | ----------- | ------ |
-| buildRadius |`{{ maps.map_biohazard.data.buildRadius }}`| {{ mapPropertyDescriptions.buildRadius.classic }} |
-| buildHeight |`{{ maps.map_biohazard.data.buildHeight }}`| {{ mapPropertyDescriptions.buildHeight.classic }} |
+---
+
+| Property    | Value                                       | Description                                       |
+| ----------- | ------------------------------------------- | ------------------------------------------------- |
+| buildRadius | `{{ maps.map_biohazard.data.buildRadius }}` | {{ mapPropertyDescriptions.buildRadius.classic }} |
+| buildHeight | `{{ maps.map_biohazard.data.buildHeight }}` | {{ mapPropertyDescriptions.buildHeight.classic }} |

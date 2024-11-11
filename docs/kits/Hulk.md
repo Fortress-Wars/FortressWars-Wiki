@@ -1,20 +1,24 @@
 # Hulk
 
-***
+---
 
 #### ![hulk-icon](../assets/icons/hulk-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A defensive damage kit with weaker armor that can rage and get much stronger.
 - **Role:** Damage
 - **How to Unlock:** Purchase for 500 Credits.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Leather Chestplate
 - Leather Leggings
 - Leather Boots
@@ -23,20 +27,28 @@
 - Rage/Relax
 - {{ kits.hulk.data.MAX_HEALING_POTIONS }} Potions
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Rage**
+
 ## Rage
+
 Right click to enter rage mode for `{{ kits.hulk.data.HULK_RAGE_FORM_DURATION }}` ticks. When entering rage mode, all armor will be replaced with diamond armor. The bow be replaced with a sword. The player will exit rage mode automatically when the duration ends.
 
 ![Rage](../assets/kits/hulk/Hulk%20-%20Rage.gif)
 
 #### **Relax**
+
 ## Relax
+
 Right click to enter relax mode. The diamond armor will be placed with leather armor and the sword will be replaced with a bow.
 
 ![Relax](../assets/kits/hulk/Hulk%20-%20Relax.gif)
@@ -44,29 +56,38 @@ Right click to enter relax mode. The diamond armor will be placed with leather a
 <!-- tabs:end -->
 
 ### Passives
+
 <!-- tabs:start -->
+
 #### **Kill Chain**
+
 ## Kill Chain
-While the player is in rage mode, every elimination extends the duration of rage. *(Final Blow: `{{ kits.hulk.data.HULK_RAGE_FORM_KILL_EXTENSION }}` ticks, Assist: `{{ kits.hulk.data.HULK_RAGE_FORM_ASSIST_EXTENSION }}` ticks)*
+
+While the player is in rage mode, every elimination extends the duration of rage. _(Final Blow: `{{ kits.hulk.data.HULK_RAGE_FORM_KILL_EXTENSION }}` ticks, Assist: `{{ kits.hulk.data.HULK_RAGE_FORM_ASSIST_EXTENSION }}` ticks)_
 
 ![Kill Chain](../assets/kits/hulk/Hulk%20-%20Kill%20Chain.gif)
+
 <!-- tabs:end -->
 <br />
 
 # Achievements
-***
 
+---
+
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Quit yapping! | Kill an enemy with your hulk bow. | 20 Credits |
 | Get 3 kills during one rage mode activation! | Get 3 kills during one rage mode activation! | 50 Credits |
 | HULK SMASH | Hulk out and destroy a sentry, bomb and a cobweb. | 250 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
 
+---
+
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.hulk.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

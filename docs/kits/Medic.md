@@ -1,20 +1,24 @@
 # Medic
 
-***
+---
 
 #### ![medic-icon](../assets/icons/medic-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A support kit that uses a healing stone and special healing potions to heal nearby allies.
 - **Role:** Support
 - **How to Unlock:** Unlocked by Default.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Leather Chestplate (Green)
 - Chainmail Leggings
 - Chainmail Boots
@@ -22,14 +26,20 @@
 - Healing Stone
 - {{ kits.medic.data.MAX_HEALING_POTIONS }} Medic Healing Potions
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Medic Healing Potions**
+
 ## Medic Healing Potions
+
 Left-click or right-click to use. Just like regular potions, medic healing potions will restore a certain amount of health to the player. In addition, when the player consumes a medic healing potion, they will also restore `{{ kits.medic.data.MEDIC_POTION_SHARE_POTENCY }}` health to all nearby allies in a `{{ kits.medic.data.MEDIC_POTION_SHARE_RADIUS }}` meter radius.
 
 ![Medic - Medic Healing Potion Use](../assets/kits/medic/Medic%20-%20Medic%20Healing%20Potion%20Use.gif)
@@ -37,7 +47,9 @@ Left-click or right-click to use. Just like regular potions, medic healing potio
 ![Medic - Medic Healing Potion Potion Share](../assets/kits/medic/Medic%20-%20Medic%20Healing%20Potion%20Potion%20Share.gif)
 
 #### **Healing Stone**
+
 ## Healing Stone
+
 Right click and hold to use. The healing stone is used to heal nearby allies in a `{{ kits.medic.data.MEDIC_HEALING_STONE_RADIUS }}` meter radius. Using the healing stone converts [Electrolytes](#electrolytes) to health at a 1:1 ratio. The maximum number of electrolytes that can be converted in a single instance of healing is `{{ kits.medic.data.MEDIC_HEALING_STONE_POTENCY }}`. The player can use the healing stone ability every `{{ kits.medic.data.MEDIC_HEALING_STONE_HEAL_RATE }}` ticks. However, the player can only heal themselves once every `{{ kits.medic.data.MEDIC_HEALING_STONE_SELF_HEAL_RATE }}` ticks.
 
 ![Medic - Healing Stone Allies](../assets/kits/medic/Medic%20-%20Healing%20Stone%20Allies.gif)
@@ -47,9 +59,13 @@ Right click and hold to use. The healing stone is used to heal nearby allies in 
 <!-- tabs:end -->
 
 ### Resources
+
 <!-- tabs:start -->
+
 #### **Electrolytes**
+
 ## Electrolytes
+
 Electrolytes are used by the [Healing Stone](#healing-stone) ability to heal allies. The maximum number of electrolytes that a player can have is `{{ kits.medic.data.MEDIC_MAX_ELECTROLYTES }}` and the player regenerates `{{ kits.medic.data.MEDIC_ELECTROLYTES_REGENERATION_AMOUNT }}` electrolytes every `{{ kits.medic.data.MEDIC_ELECTROLYTES_REGENERATION_RATE }}` ticks.
 
 ![Medic - Electrolytes Consume](../assets/kits/medic/Medic%20-%20Electrolytes%20Consume.gif)
@@ -60,18 +76,22 @@ Electrolytes are used by the [Healing Stone](#healing-stone) ability to heal all
 <br />
 
 # Achievements
-***
 
+---
+
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Get zem. Raus, Raus! | Heal 4 allies at once. | 20 Credits |
 | Ze healing is not as revarding as ze hurting! | Do a total of 100,000 healing as medic. | 250 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
 
+---
+
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.medic.data.MAX_HEALING_POTIONS }}` | Maximum number of medic healing potions the player can carry. |

@@ -1,19 +1,23 @@
 # Jumper
 
-***
+---
 
 #### ![jumper-icon](../assets/icons/jumper-icon.jpg)
 
 # Overview
-***
-- **Introduced:** v1.7.0    
+
+---
+
+- **Introduced:** v1.7.0
 - **Description:** A damage kit that can teleport.
 - **Role:** Damage
 - **How to Unlock:** Purchase for 500 Credits.
-<br />  
+  <br />
 
 # Gear
-***
+
+---
+
 - Chainmail Chestplate
 - Chainmail Leggings
 - Chainmail Boots
@@ -21,14 +25,20 @@
 - Translocator
 - {{ kits.jumper.data.MAX_HEALING_POTIONS }} Healing Potions
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Translocator**
+
 ## Translocator
+
 Right click to throw a translocator in the direction the player is looking. After `{{ kits.jumper.data.JUMPER_TRANSLOCATOR_AFTER_THROW_COOLDOWN }}` ticks, the player can right click again to teleport to it. The player must be within `{{ kits.jumper.data.JUMPER_TRANSLCOATOR_TELEPORT_DISTANCE }}` meters of the translocator to teleport to it. If `JUMPER_TRANSLOCATOR_SILENT_TELEPORT` is set to `true`, then the player will be silent when teleporting.
 
 ![Translocator - Teleport](../assets/kits/jumper/Jumper%20-%20Translocator%20Teleport.gif)
@@ -51,8 +61,10 @@ Enemies can break translocators by picking them up or using certain abilities to
 <br />
 
 # Achievements
-***
 
+---
+
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Oh how convenient? | Teleport into an enemy beacon room from outside the base. | 20 Credits |
@@ -60,11 +72,13 @@ Enemies can break translocators by picking them up or using certain abilities to
 | Run That Back | Teleport back to your base while in combat. | 20 Credits  |
 | What am I, an Enderman? | Teleport a total distance of 100,000 blocks. | 250 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
 
+---
+
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.jumper.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

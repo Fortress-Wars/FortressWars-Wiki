@@ -1,4 +1,4 @@
-* Maps
+- Maps
   - [Ashlands](Ashlands)
   - [Biohazard](Biohazard)
   - [Bootcamp](Bootcamp)

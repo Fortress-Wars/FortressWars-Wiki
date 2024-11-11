@@ -1,20 +1,24 @@
 # Potion Master
 
-***
+---
 
 #### ![potion-master-icon](../assets/icons/potion-master-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A damage kit that uses various potions to debuff enemies.
 - **Role:** Damage
 - **How to Unlock:** Purchase for 500 Credits.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Chainmail Chestplate
 - Chainmail Leggings
 - Chainmail Boots
@@ -22,18 +26,26 @@
 - Throwable Potion
 - {{ kits.potion_master.data.MAX_HEALING_POTIONS }} Healing Potions
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Throwable Potion**
+
 ## Throwable Potion
+
 Right-click to throw the potion. If the potion hits an enemy, it will affect them with its current potion effect. There are `4` different effects: Harming, Slowness, Poison, and Weakness. The ability will only cycle to the next potion effect after affecting an enemy with the current effect. The ability has a cooldown of `{{ kits.potion_master.data.POTION_MASTER_THROWABLE_POTION_COOLDOWN }}` ticks.
 
 <!-- tabs:start -->
+
 #### **Harming**
+
 ## Harming
 
 Affects enemies with Instant Damage (Level: `{{ kits.potion_master.data.POTION_MASTER_THROWABLE_POTION_HARMING_LEVEL }}`)
@@ -41,6 +53,7 @@ Affects enemies with Instant Damage (Level: `{{ kits.potion_master.data.POTION_M
 ![Potion Master - Harming](../assets/kits/potion_master/Potion%20Master%20-%20Harming.gif)
 
 #### **Slowness**
+
 ## Slowness
 
 Affects enemies with Slowness (Level: `{{ kits.potion_master.data.POTION_MASTER_THROWABLE_POTION_SLOWNESS_LEVEL }}` for `{{ kits.potion_master.data.POTION_MASTER_THROWABLE_POTION_SLOWNESS_DURATION }}` ticks)
@@ -48,6 +61,7 @@ Affects enemies with Slowness (Level: `{{ kits.potion_master.data.POTION_MASTER_
 ![Potion Master - Slowness](../assets/kits/potion_master/Potion%20Master%20-%20Slowness.gif)
 
 #### **Poison**
+
 ## Poison
 
 Affects enemies with Poison (Level: `{{ kits.potion_master.data.POTION_MASTER_THROWABLE_POTION_POISON_LEVEL }}` for `{{ kits.potion_master.data.POTION_MASTER_THROWABLE_POTION_POISON_DURATION }}` ticks)
@@ -55,6 +69,7 @@ Affects enemies with Poison (Level: `{{ kits.potion_master.data.POTION_MASTER_TH
 ![Potion Master - Poison](../assets/kits/potion_master/Potion%20Master%20-%20Poison.gif)
 
 #### **Weakness**
+
 ## Weakness
 
 Affects enemies with Weakness (Level: `{{ kits.potion_master.data.POTION_MASTER_THROWABLE_POTION_WEAKNESS_LEVEL }}` for `{{ kits.potion_master.data.POTION_MASTER_THROWABLE_POTION_WEAKNESS_DURATION }}` ticks)
@@ -67,8 +82,10 @@ Affects enemies with Weakness (Level: `{{ kits.potion_master.data.POTION_MASTER_
 <br />
 
 # Achievements
-***
 
+---
+
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Damage? What Damage? | Kill a brute while they are in berserk and have weakness applied. | 20 Credits |
@@ -76,11 +93,13 @@ Affects enemies with Weakness (Level: `{{ kits.potion_master.data.POTION_MASTER_
 | Two to go please! | Get a double potion kill. | 20 Credits |
 | Superb Cocktail | Get 1,000 potion kills. | 250 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
 
+---
+
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.potion_master.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

@@ -1,21 +1,24 @@
-
 # Aquaman
 
-***
+---
 
 #### ![aquaman-icon](../assets/icons/aquaman-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A melee and ranged damage kit that excels in water environments.
 - **Role:** Damage
 - **How to Unlock:** Purchase for 500 Credits.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Chainmail Chestplate
 - Chainmail Leggings
 - Chainmail Boots
@@ -23,30 +26,40 @@
 - Water Bucket
 - {{ kits.aquaman.data.MAX_HEALING_POTIONS }} Healing Potions
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Trident**
+
 ## Trident
+
 Use your trident to deal melee damage or use it as a ranged weapon.
 
 ![Aquaman - Trident Throw Pickup](../assets/kits/aquaman/Aquaman%20-%20Trident%20Throw%20&%20Pickup.gif)
 
-The trident deals `{{ kits.aquaman.data.AQUAMAN_TRIDENT_FAR_MULTIPLIER }}x` more damage if the target is hit from  `{{ kits.aquaman.data.AQUAMAN_TRIDENT_FAR_DISTANCE }}m` away.
+The trident deals `{{ kits.aquaman.data.AQUAMAN_TRIDENT_FAR_MULTIPLIER }}x` more damage if the target is hit from `{{ kits.aquaman.data.AQUAMAN_TRIDENT_FAR_DISTANCE }}m` away.
 
 ![Aquaman - Trident Throw Far](../assets/kits/aquaman/Aquaman%20-%20Trident%20Throw%20Far.gif)
 
 #### **Loyalty**
+
 ## Loyalty
+
 Left click your fist after your trident lands to retrieve it quicker. You can also pick up the trident by walking over it. The trident will also automatically return after a certain amount of time.
 
 ![Aquaman - Loyalty](../assets/kits/aquaman/Aquaman%20-%20Loyalty.gif)
 
 #### **Water Sphere**
+
 ## Water Sphere
+
 Right click your water bucket to deploy a sphere of water. The water is stationary and will automatically disappear after a certain amount of time.
 
 ![Aquaman - Water Sphere](../assets/kits/aquaman/Aquaman%20-%20Water%20Sphere.gif)
@@ -54,25 +67,33 @@ Right click your water bucket to deploy a sphere of water. The water is stationa
 <!-- tabs:end -->
 
 ### Passives
+
 <!-- tabs:start -->
+
 #### **One With The Sea**
+
 ## One With The Sea
+
 Gain water breathing and regeneration while in water.
 
 ![Aquaman - One with the Sea](../assets/kits/aquaman/Aquaman%20-%20One%20with%20the%20Sea.gif)
 
 #### **Water Synergy**
+
 ## Water Synergy
+
 While in water, deal `+{{ kits.aquaman.data.AQUAMAN_TRIDENT_WATER_SYNERGY_DAMAGE_BONUS }}` trident damage.
 
 ![Aquaman - Water Synergy](../assets/kits/aquaman/Aquaman%20-%20Water%20Synergy.gif)
 
 <!-- tabs:end -->
-<br />  
+<br />
 
 # Achievements
-***
 
+---
+
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Ask the sea for mercy! | Kill an enemy in water. | 20 Credits |
@@ -80,11 +101,13 @@ While in water, deal `+{{ kits.aquaman.data.AQUAMAN_TRIDENT_WATER_SYNERGY_DAMAGE
 | It was up to me and I let them die. | Kill an enemy with your trident from a far distance. | 40 Credits |
 | Where I come from...The sea carries our tears away. | Get 1,000 trident kills. | 250 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
 
+---
+
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.aquaman.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

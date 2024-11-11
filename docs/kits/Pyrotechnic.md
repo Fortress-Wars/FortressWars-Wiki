@@ -1,20 +1,24 @@
 # Pyrotechnic
 
-***
+---
 
 #### ![pyrotechnic-icon](../assets/icons/pyrotechnic-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A ranged kit that shoots firework rockets with a crossbow.
 - **Role:** Damage
 - **How to Unlock:** Purchase for 500 Credits.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Chainmail Chestplate
 - Chainmail Leggings
 - Chainmail Boots
@@ -23,20 +27,28 @@
 - {{ kits.pyrotechnic.data.PYROTECHNIC_MAX_AMMO }} Reserve Rockets
 - {{ kits.pyrotechnic.data.MAX_HEALING_POTIONS }} Healing Potions
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Rocket Launcher**
+
 ## Rocket Launcher
+
 The rocket launcher is a weapon that is used to shoot fireworks rockets at enemies. It will shoot `1` rocket at a time. When a rocket explodes, it will deal `{{ kits.pyrotechnic.data.PYROTECHNIC_ROCKET_DAMAGE }}` damage to enemies in a `{{ kits.pyrotechnic.data.PYROTECHNIC_ROCKET_RADIUS }}` meter radius. After shooting, the rocket will automatically reload after `{{ kits.pyrotechnic.data.PYROTECHNIC_ROCKET_SHOOT_COOLDOWN }}` ticks.
 
 ![Pyrotechnic - Rocket Launcher Shoot](../assets/kits/pyrotechnic/Pyrotechnic%20-%20Rocket%20Launcher%20Shoot.gif)
 
 #### **Barrage**
+
 ## Barrage
+
 Left-click the rocket launcher to activate Barrage. While Barrage is active, the rocket launcher will shoot `{{ kits.pyrotechnic.data.PYROTECHNIC_BARRAGE_ROCKETS_PER_SHOT }}` rockets at a time. The reload time is also decreased to `{{ kits.pyrotechnic.data.PYROTECHNIC_BARRAGE_ROCKET_SHOOT_COOLDOWN }}` ticks.
 
 ![Pyrotechnic - Barrage Activate](../assets/kits/pyrotechnic/Pyrotechnic%20-%20Barrage%20Activate.gif)
@@ -46,9 +58,13 @@ Left-click the rocket launcher to activate Barrage. While Barrage is active, the
 <!-- tabs:end -->
 
 ### Resources
+
 <!-- tabs:start -->
+
 #### **Rockets**
+
 ## Rockets
+
 Rockets are used as ammo for the rocket launcher. Rockets will be taken from the reserve ammo after the rocket launcher finishes reloading. The player can hold a maxiumum of `{{ kits.pyrotechnic.data.PYROTECHNIC_MAX_AMMO }}` rockets and rockets automatically regenerate every `{{ kits.pyrotechnic.data.PYROTECHNIC_AMMO_REGENERATION_RATE }}` ticks.
 
 ![Pyrotechnic - Rockets Consume](../assets/kits/pyrotechnic/Pyrotechnic%20-%20Rockets%20Consume.gif)
@@ -67,8 +83,10 @@ Friendly engineer dispensers will dispense `{{ kits.pyrotechnic.data.PYROTECHNIC
 <br />
 
 # Achievements
-***
 
+---
+
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Keep calm and sparkle on. | Get a double rocket kill. | 20 Credits |
@@ -76,11 +94,13 @@ Friendly engineer dispensers will dispense `{{ kits.pyrotechnic.data.PYROTECHNIC
 | When birds fry | Knock an air mage our of flight using rockets. | 20 Credits |
 | Snap, Crackle, Pop | Get 1,000 rocket kills. | 250 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
 
+---
+
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_HEALING_POTIONS | `{{ kits.pyrotechnic.data.MAX_HEALING_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_HEALING_POTIONS }} |

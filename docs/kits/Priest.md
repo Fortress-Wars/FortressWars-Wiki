@@ -1,20 +1,24 @@
 # Priest
 
-***
+---
 
 #### ![priest-icon](../assets/icons/priest-icon.jpg)
 
 # Overview
-***
+
+---
+
 - **Introduced:** v1.7.0
 - **Description:** A kit that uses the light element to heal and cleanse allies.
 - **Role:** Support
 - **How to Unlock:** Purchase for 500 Credits.
 
-<br />  
+<br />
 
 # Gear
-***
+
+---
+
 - Chainmail Chestplate
 - Leather Leggings (Yellow)
 - Chainmail Boots
@@ -23,36 +27,49 @@
 - {{ kits.priest.data.MAX_MANA_POTIONS }} Mana Potions
 - {{ kits._shared.data.MANA_MAX }} Mana
 
-<br />  
+<br />
 
 # Abilities
-***
+
+---
+
 ### Actives
+
 <!-- tabs:start -->
+
 #### **Spell Wand**
+
 ## Spell Wand
+
 A weapon that is used to cast spells. Casting spells costs mana and each spell has a cooldown.
 
 ### Casting
-- Light Beam *(Left-Click)*
-- Light Release *(Right-Click)*
+
+- Light Beam _(Left-Click)_
+- Light Release _(Right-Click)_
 
 <!-- tabs:start -->
+
 #### **Light Beam**
+
 ## Light Beam
-The spell requires `{{ kits.priest.data.PRIEST_LIGHT_BEAM_MANA_COST }}` mana to cast. Casting summons a beam of light in the direction the player is looking. When the beam passes through an ally, it gives them absorption `{{ kits.priest.data.PRIEST_LIGHT_BEAM_ABSORPTION_LEVEL }}` for `{{ kits.priest.data.PRIEST_LIGHT_BEAM_ABSORPTION_DURATION }}` ticks and increases [sun power](#sun-power) by `{{ kits.priest.data.PRIEST_SUN_POWER_PER_LIGHT_BEAM_HIT }}`. When the beam passes through an enemy, it affects them with glowing for `{{ kits.priest.data.PRIEST_LIGHT_BEAM_GLOWING_DURATION }}` ticks. 
+
+The spell requires `{{ kits.priest.data.PRIEST_LIGHT_BEAM_MANA_COST }}` mana to cast. Casting summons a beam of light in the direction the player is looking. When the beam passes through an ally, it gives them absorption `{{ kits.priest.data.PRIEST_LIGHT_BEAM_ABSORPTION_LEVEL }}` for `{{ kits.priest.data.PRIEST_LIGHT_BEAM_ABSORPTION_DURATION }}` ticks and increases [sun power](#sun-power) by `{{ kits.priest.data.PRIEST_SUN_POWER_PER_LIGHT_BEAM_HIT }}`. When the beam passes through an enemy, it affects them with glowing for `{{ kits.priest.data.PRIEST_LIGHT_BEAM_GLOWING_DURATION }}` ticks.
 
 ![Priest - Light Beam Ally](../assets/kits/priest/Priest%20-%20Light%20Beam%20Ally.gif)
 
 ![Priest - Light Beam Enemy](../assets/kits/priest/Priest%20-%20Light%20Beam%20Enemy.gif)
 
 #### **Light Release**
+
 ## Light Release
+
 The spell requires `{{ kits.priest.data.PRIEST_RELEASE_MANA_COST }}` mana and `1` sun power to cast. Casting consumes all sun power to heal allies in a `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_0_RADIUS }}` meter radius. The spell has additional effects when more sun power is consumed.
 
 ![Priest - Light Release Cast](../assets/kits/priest/Priest%20-%20Light%20Release%20Cast.gif)
 
-#### Cleansing Effects 
+#### Cleansing Effects
+
 When at least `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_1_SUN_POWER }}` sun power is released, the spell removes potion, status, burning, and freezing effects that negatively affect allies.
 
 ![Priest - Light Release Cleanse Effects](../assets/kits/priest/Priest%20-%20Light%20Release%20Cleanse%20Effects.gif)
@@ -93,9 +110,13 @@ The spell also removes the hack effect from allies and friendly engineer blocks.
 <!-- tabs:end -->
 
 ### Passives
+
 <!-- tabs:start -->
+
 #### **Soothing Light**
+
 ## Soothing Light
+
 When the player casts a light spell, they receive the "Soothing Light" effect. The "Soothing Light" effect restores `{{ kits.priest.data.PRIEST_SOOTHING_LIGHT_HEALING_POTENCY }}` health every `{{ kits.priest.data.PRIEST_SOOTHING_LIGHT_HEALING_TICK_RATE }}` ticks `{{ kits.priest.data.PRIEST_SOOTHING_LIGHT_HEALING_TICKS }}` times.
 
 ![Priest - Soothing Light](../assets/kits/priest/Priest%20-%20Soothing%20Light.gif)
@@ -103,9 +124,13 @@ When the player casts a light spell, they receive the "Soothing Light" effect. T
 <!-- tabs:end -->
 
 ### Resources
+
 <!-- tabs:start -->
+
 #### **Mana**
+
 ## Mana
+
 Mana is a resource used to cast spells.
 
 ![Priest - Mana](../assets/kits/priest/Priest%20-%20Mana.png)
@@ -123,7 +148,9 @@ Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPEN
 ![Priest - Mana Dispenser](../assets/kits/priest/Priest%20-%20Mana%20Dispenser.gif)
 
 #### **Sun Power**
+
 ## Sun Power
+
 Sun power is a resource used to cast the "Light Release" spell. The maximum sun power is `{{ kits.priest.data.PRIEST_SUN_POWER_MAX }}`.
 
 ![Priest - Sun Power](../assets/kits/priest/Priest%20-%20Sun%20Power.png)
@@ -136,8 +163,10 @@ Sun power increases by `{{ kits.priest.data.PRIEST_SUN_POWER_FINAL_BLOW_REWARD }
 <br />
 
 # Achievements
-***
 
+---
+
+<!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Bask in the Sunlight! | Cast a level 5 Release spell. | 20 Credits |
@@ -146,11 +175,13 @@ Sun power increases by `{{ kits.priest.data.PRIEST_SUN_POWER_FINAL_BLOW_REWARD }
 | The Sun God! | Gain 10,000 Sun Power. | 100 Credits |
 | The True Sun God! | Cast 1,000 Level 5 Release spells. | 500 Credits |
 
-<br />  
+<br />
 
 # Kit Data
-***
 
+---
+
+<!-- prettier-ignore -->
 | Property | Value | Description |
 |----------|-------|-------------|
 | MAX_MANA_POTIONS | `{{ kits.priest.data.MAX_MANA_POTIONS }}` | {{ kitDataSharedDescriptions.MAX_MANA_POTIONS }} |

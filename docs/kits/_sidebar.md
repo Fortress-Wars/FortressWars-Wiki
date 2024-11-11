@@ -1,4 +1,4 @@
-* Kits
+- Kits
   - [Aquaman](Aquaman)
   - [Aquarius](Aquarius)
   - [Bomber](Bomber)
