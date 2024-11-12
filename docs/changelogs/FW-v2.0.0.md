@@ -222,7 +222,7 @@ Pyrotechnic
 
 Raven
 
-- The flight spell is now cancelled from:
+- The flight spell is now canceled from:
   - being stunned
   - being hacked
   - Taking "Piercing", "Impact", "Impaling", "Electric", "Fire", "Ice" damage

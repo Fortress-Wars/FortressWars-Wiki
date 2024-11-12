@@ -27,21 +27,29 @@
 ### Shield Damage Types
 
 - `Break`
-  - Damages the shield if the target is blocking & damages the target if they are not.
+  - Blocking: _Break the shield and no damage to the target._
+  - Not Blocking: _Damage to the target._
 - `Damage`
-  - Damages the shield if the target is blocking & damages the target if they are not.
+  - Blocking: _Damage to the shield and no damage to the target._
+  - Not Blocking: _Damage to the target_.
 - `Ignore`
-  - Deal damage to the target regarless if they are blocking or not. (Does not damage shields)
+  - Blocking: _No damage to the shield and damage to the target_.
+  - Not Blocking: _Damage to the target_.
 - `Immune`
-  - Does no damage to the target and no damage to shields.
+  - Blocking: _No damage to the shield or the target_.
+  - Not Blocking: _No damage to the target_.
 - `Respect`
-  - Does no shield damage and will not damage target if they are blocking.
+  - Blocking: _No damage to the shield or the target_.
+  - Not Blocking: _Damage to the target_.
 - `Only Break`
-  - Breaks shields if the target is blocking, will not damage the target if they are not.
+  - Blocking: _Break the shield and no damage to the target_.
+  - Not Blocking: _No damage to the target_.
 - `Only Damage`
-  - Damages shields if the target is blocking, will not damage the target if they are not.
+  - Blocking: _Damage to the shield and no damage to the target_.
+  - Not Blocking: _No damage to the target_.
 - `Pierce`
-  - Damage the shield and damage the target regardless if they are blocking or not.
+  - Blocking: _Damage to the shield and damage to the target_.
+  - Not Blocking: _Damage to the target_.
 
 ### Damage Causes
 
