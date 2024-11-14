@@ -57,11 +57,11 @@ A weapon that is used to cast spells. Casting spells costs mana and each spell h
 
 The spell costs `{{ kits.raven.data.RAVEN_WIND_GUST_MANA_COST }}` mana. Casting summons a gust of wind that travels forward in the direction the player is looking. The wind gust carries enemies and deals `{{ kits.raven.data.RAVEN_WIND_GUST_DAMAGE }}` damage to them.
 
-![Raven - Wind Gust Enemies](../assets/kits/raven/_image_1_.jpg_)
+![Raven - Wind Gust Enemies](../assets/kits/raven/Raven%20-%20Wind%20Gust%20Enemies.gif)
 
 If the player is sneaking while casting, the wind gust also carries allies. This includes the player.
 
-![Raven - Wind Gust Allies](../assets/kits/raven/_image_1_.jpg_)
+![Raven - Wind Gust Allies](../assets/kits/raven/Raven%20-%20Wind%20Gust%20Allies.gif)
 
 #### **Flight**
 
@@ -69,11 +69,11 @@ If the player is sneaking while casting, the wind gust also carries allies. This
 
 Casting the spell activates flight for the player. While flight is active, the spell consumes `{{ kits.raven.data.RAVEN_FLIGHT_ACTIVE_MANA_COST }}` mana every `{{ kits.raven.data.RAVEN_FLIGHT_TICK_RATE }}` ticks. If the spell is casted again, flight deactivates.
 
-![Raven - Flight Use](../assets/kits/raven/_image_1_.jpg_)
+![Raven - Flight Use](../assets/kits/raven/Raven%20-%20Flight%20Use.gif)
 
 If the player runs out of mana while flight is active, then the player takes `{{ kits.raven.data.RAVEN_FLIGHT_DAMAGE }}` damage every `{{ kits.raven.data.RAVEN_FLIGHT_TICK_RATE }}` ticks until flight is deactivated or canceled.
 
-![Raven - Flight No Mana](../assets/kits/raven/_image_1_.jpg_)
+![Raven - Flight No Mana](../assets/kits/raven/Raven%20-%20Flight%20No%20Mana.gif)
 
 Flight is canceled if the player is stunned, hacked, or takes [damage](/systems/Damage#damage-types) of the following types:
 
@@ -84,11 +84,11 @@ Flight is canceled if the player is stunned, hacked, or takes [damage](/systems/
 - Fire
 - Ice
 
-![Raven - Flight Porcupine Quill](../assets/kits/raven/_image_1_.jpg_)
+![Raven - Flight Porcupine Quill](../assets/kits/raven/Raven%20-%20Flight%20Porcupine%20Quill.gif)
 
-![Raven - Flight Fire](../assets/kits/raven/_image_1_.jpg_)
+![Raven - Flight Fire](../assets/kits/raven/Raven%20-%20Flight%20Fire.gif)
 
-![Raven - Flight Grenade](../assets/kits/raven/_image_1_.jpg_)
+![Raven - Flight Grenade](../assets/kits/raven/Raven%20-%20Flight%20Grenade.gif)
 
 <!-- tabs:end -->
 
@@ -104,19 +104,19 @@ Flight is canceled if the player is stunned, hacked, or takes [damage](/systems/
 
 Mana is a resource used to cast spells.
 
-![Raven - Mana](../assets/kits/raven/_image_1_.jpg_)
+![Raven - Mana](../assets/kits/raven/Raven%20-%20Mana.png)
 
 The player's maximum mana is `{{ kits._shared.data.MANA_MAX }}` and it regenerates slowly over time.
 
-![Raven - Mana Regenerate](../assets/kits/raven/_image_1_.jpg_)
+![Raven - Mana Regenerate](../assets/kits/raven/Raven%20-%20Mana%20Regenerate.gif)
 
 After the player earns a final blow, they restore `{{ kits._shared.data.MANA_FINAL_BLOW_AMOUNT }}` mana. After earning an assist, they restore `{{ kits._shared.data.MANA_ASSIST_AMOUNT }}` mana.
 
-![Raven - Mana Final Blow](../assets/kits/raven/_image_1_.jpg_)
+![Raven - Mana Final Blow](../assets/kits/raven/Raven%20-%20Mana%20Final%20Blow.gif)
 
 Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPENSE_AMOUNT }}` mana.
 
-![Raven - Mana Dispenser](../assets/kits/raven/_image_1_.jpg_)
+![Raven - Mana Dispenser](../assets/kits/raven/Raven%20-%20Mana%20Dispenser.gif)
 
 <!-- tabs:end -->
 <br />
@@ -177,5 +177,3 @@ Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPEN
 | RAVEN_FLIGHT_SPEED | `{{ kits.raven.data.RAVEN_FLIGHT_SPEED }}` | The speed of the flight granted by the flight spell. |
 | RAVEN_FLIGHT_DAMAGE | `{{ kits.raven.data.RAVEN_FLIGHT_DAMAGE }}` | The amount of damage the player takes when they don't have enough mana to maintain the flight spell. |
 | RAVEN_FLIGHT_STUNNED_DURATION | `{{ kits.raven.data.RAVEN_FLIGHT_STUNNED_DURATION }}` | The duration, in ticks, after flight is canceled during which the player is unable to cast the flight spell. |
-
-### Changelog
