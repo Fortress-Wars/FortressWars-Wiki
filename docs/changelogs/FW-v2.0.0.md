@@ -226,7 +226,7 @@ Raven
   - being stunned
   - being hacked
   - Taking "Piercing", "Impact", "Impaling", "Electric", "Fire", "Ice" damage
-- The wind gust spell now deals damage to enemies.
+- The wind gust spell now deals **1** damage to enemies.
 - Removed the stunning requirement from the Bird `Squ-”watcher”` achievement.
 
 Slime
