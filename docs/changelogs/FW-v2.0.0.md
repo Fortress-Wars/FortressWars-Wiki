@@ -220,6 +220,15 @@ Pyrotechnic
 - Player can now use the rocket launcher to rocket jump.
 - Added recoil the the rocket launcher.
 
+Raven
+
+- The flight spell is now canceled from:
+  - being stunned
+  - being hacked
+  - Taking "Piercing", "Impact", "Impaling", "Electric", "Fire", "Ice" damage
+- The wind gust spell now deals **1** damage to enemies.
+- Removed the stunning requirement from the Bird `Squ-”watcher”` achievement.
+
 Slime
 
 - Slime armor no longer mitigates anvil damage.

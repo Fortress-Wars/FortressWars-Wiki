@@ -218,6 +218,6 @@ Obtain `{{ kits.engineer.data.ENGINEER_KILL_ELIMINATION_REWARD }}` metal after a
 | ENGINEER_ENTRANCE_TELEPORTER_HP | `{{ kits.engineer.data.ENGINEER_ENTRANCE_TELEPORTER_HP }}` | The HP of a entrance teleporter. |
 | ENGINEER_EXIT_TELEPORTER_METAL_COST | `{{ kits.engineer.data.ENGINEER_EXIT_TELEPORTER_METAL_COST }}` | The metal required to place an exit teleporter. |
 | ENGINEER_EXIT_TELEPORTER_HP | `{{ kits.engineer.data.ENGINEER_EXIT_TELEPORTER_HP }}` | The HP of a exit teleporter. |
-| ENGINEER_ENTRANCE_EXIT_MAX_DISTANCE | `{{ kits.engineer.data.ENGINEER_ENTRANCE_EXIT_MAX_DISTANCE }}` | The metal required to place an exit teleporter. |
+| ENGINEER_ENTRANCE_EXIT_MAX_DISTANCE | `{{ kits.engineer.data.ENGINEER_ENTRANCE_EXIT_MAX_DISTANCE }}` | The maximum allowed distance, in meters, between exit and entrance teleporters. |
 | ENGINEER_SATCHEL_MAX_METAL | `{{ kits.engineer.data.ENGINEER_SATCHEL_MAX_METAL }}` | The maximum amount of metal the player can hold. |
 | ENGINEER_KILL_ELIMINATION_REWARD | `{{ kits.engineer.data.ENGINEER_KILL_ELIMINATION_REWARD }}` | The amount of metal rewarded for an elimination. |

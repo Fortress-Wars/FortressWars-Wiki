@@ -22,7 +22,7 @@
 - Chainmail Chestplate
 - Leather Leggings (Orange)
 - Chainmail Boots
-- Stone Sword
+- Iron Sword
 - Spell Wand
 - {{ kits.prometheus.data.MAX_MANA_POTIONS }} Mana Potions
 - {{ kits._shared.data.MANA_MAX }} Mana

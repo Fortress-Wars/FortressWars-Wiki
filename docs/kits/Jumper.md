@@ -39,7 +39,7 @@
 
 ## Translocator
 
-Right click to throw a translocator in the direction the player is looking. After `{{ kits.jumper.data.JUMPER_TRANSLOCATOR_AFTER_THROW_COOLDOWN }}` ticks, the player can right click again to teleport to it. The player must be within `{{ kits.jumper.data.JUMPER_TRANSLCOATOR_TELEPORT_DISTANCE }}` meters of the translocator to teleport to it. If `JUMPER_TRANSLOCATOR_SILENT_TELEPORT` is set to `true`, then the player will be silent when teleporting.
+Right click to throw a translocator in the direction the player is looking. After `{{ kits.jumper.data.JUMPER_TRANSLOCATOR_AFTER_THROW_COOLDOWN }}` ticks, the player can right click again to teleport to it. The player must be within `{{ kits.jumper.data.JUMPER_TRANSLOCATOR_TELEPORT_DISTANCE }}` meters of the translocator to teleport to it. If `JUMPER_TRANSLOCATOR_SILENT_TELEPORT` is set to `true`, then the player will be silent when teleporting.
 
 ![Translocator - Teleport](../assets/kits/jumper/Jumper%20-%20Translocator%20Teleport.gif)
 
@@ -92,7 +92,7 @@ Enemies can break translocators by picking them up or using certain abilities to
 | JUMPER_SWORD_SPEED | `{{ kits.jumper.data.JUMPER_SWORD_SPEED }}` | The base speed of the sword. |
 | JUMPER_TRANSLOCATOR_PICKUP_DELAY | `{{ kits.jumper.data.JUMPER_TRANSLOCATOR_PICKUP_DELAY }}` | The delay, in ticks, for picking up the translocator. |
 | JUMPER_TRANSLOCATOR_THROW_MULTIPLIER | `{{ kits.jumper.data.JUMPER_TRANSLOCATOR_THROW_MULTIPLIER }}` | The multiplier when throwing the translocator. |
-| JUMPER_TRANSLCOATOR_TELEPORT_DISTANCE | `{{ kits.jumper.data.JUMPER_TRANSLCOATOR_TELEPORT_DISTANCE }}` | The maximum distance that the player is able to teleport to the translocator from. |
+| JUMPER_TRANSLOCATOR_TELEPORT_DISTANCE | `{{ kits.jumper.data.JUMPER_TRANSLOCATOR_TELEPORT_DISTANCE }}` | The maximum distance that the player is able to teleport to the translocator from. |
 | JUMPER_TRANSLOCATOR_LIFE_DURATION | `{{ kits.jumper.data.JUMPER_TRANSLOCATOR_LIFE_DURATION }}` | Determines how long, in ticks, the translocator item will live. |
 | JUMPER_TRANSLOCATOR_SILENT_TELEPORT | `{{ kits.jumper.data.JUMPER_TRANSLOCATOR_SILENT_TELEPORT }}` | Determines if player will be silent when teleporting to their translocator. |
 | JUMPER_TRANSLOCATOR_AFTER_THROW_COOLDOWN | `{{ kits.jumper.data.JUMPER_TRANSLOCATOR_AFTER_THROW_COOLDOWN }}` | The cooldown, in ticks, after throwing the translocator. |
