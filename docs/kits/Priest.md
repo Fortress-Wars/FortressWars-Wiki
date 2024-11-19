@@ -9,7 +9,7 @@
 ---
 
 - **Introduced:** v1.7.0
-- **Description:** A kit that uses the light element to heal and cleanse allies.
+- **Description:** A kit that uses the element of light to heal and cleanse allies.
 - **Role:** Support
 - **How to Unlock:** Purchase for 500 Credits.
 

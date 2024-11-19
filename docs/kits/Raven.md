@@ -24,6 +24,7 @@
 - Chainmail Boots
 - Diamond Sword
 - Spell Wand
+- {{ kits.raven.data.MAX_HEALING_POTIONS }} Healing Potions
 - {{ kits.raven.data.MAX_MANA_POTIONS }} Mana Potions
 - {{ kits._shared.data.MANA_MAX }} Mana
 
