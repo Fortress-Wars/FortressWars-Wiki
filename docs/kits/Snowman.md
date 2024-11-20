@@ -47,7 +47,7 @@ A weapon that is used to cast spells. Casting spells costs mana and each spell h
 ### Casting
 
 - Snowball _(Left-Click)_
-- Snow Storm _(Right-Click)_
+- Snowstorm _(Right-Click)_
 - Imbue _(Sneak + Right-Click)_
 
 <!-- tabs:start -->
@@ -62,19 +62,19 @@ The spell costs `{{ kits.snowman.data.SNOWMAN_SNOWBALL_MANA_COST }}` mana. Casti
 
 ![Snowman - Snowball Hit](../assets/kits/snowman/_image_1_.jpg_)
 
-#### **Snow Storm**
+#### **Snowstorm**
 
-## Snow Storm
+## Snowstorm
 
-The spell costs `{{ kits.snowman.data.SNOWMAN_SNOW_STORM_MANA_COST }}` mana. Casting summons a snow storm that has a radius of `{{ kits.snowman.data.SNOWMAN_SNOW_STORM_RADIUS }}` meters. The storm has `{{ kits.snowman.data.SNOWMAN_SNOW_STORM_TICKS }}` icy gusts that each occur `{{ kits.snowman.data.SNOWMAN_SNOW_STORM_TICK_RATE }}` ticks apart. Enemies in the snow storm during an icy gust receive the freezing effect for `{{ kits.snowman.data.SNOWMAN_SNOW_STORM_FROZEN_DURATION }}` ticks and slowness `{{ kits.snowman.data.SNOWMAN_SNOW_STORM_SLOWNESS_LEVEL }}` for `{{ kits.snowman.data.SNOWMAN_SNOW_STORM_SLOWNESS_DURATION }}` ticks.
+The spell costs `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_MANA_COST }}` mana. Casting summons a snowstorm that has a radius of `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_RADIUS }}` meters. The storm has `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_TICKS }}` icy gusts that each occur `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_TICK_RATE }}` ticks apart. Enemies in the snowstorm during an icy gust receive the freezing effect for `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_FROZEN_DURATION }}` ticks and slowness `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_SLOWNESS_LEVEL }}` for `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_SLOWNESS_DURATION }}` ticks.
 
-![Snowman - Snow Storm Cast](../assets/kits/snowman/_image_1_.jpg_)
+![Snowman - Snowstorm Cast](../assets/kits/snowman/_image_1_.jpg_)
 
-![Snowman - Snow Storm Slowness](../assets/kits/snowman/_image_1_.jpg_)
+![Snowman - Snowstorm Slowness](../assets/kits/snowman/_image_1_.jpg_)
 
-Enemy engineer blocks caught inside snow storms are stunned for `{{ kits.snowman.data.SNOWMAN_SNOW_STORM_FROZEN_DURATION }}` ticks.
+Enemy engineer blocks caught inside snowstorms are stunned for `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_FROZEN_DURATION }}` ticks.
 
-![Snowman - Snow Storm Stun Engineer Blocks](../assets/kits/snowman/_image_1_.jpg_)
+![Snowman - Snowstorm Stun Engineer Blocks](../assets/kits/snowman/_image_1_.jpg_)
 
 #### **Imbue**
 
@@ -167,15 +167,15 @@ Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPEN
 | SNOWMAN_SNOWBALL_CAST_COOLDOWN | `{{ kits.snowman.data.SNOWMAN_SNOWBALL_CAST_COOLDOWN }}` | The snowball spell's cooldown in ticks. |
 | SNOWMAN_SNOWBALL_FROZEN_DURATION | `{{ kits.snowman.data.SNOWMAN_SNOWBALL_FROZEN_DURATION }}` | The duration, in ticks, of the snowball's frozen effect. |
 | SNOWMAN_SNOWBALL_VELOCITY_MULTIPLIER | `{{ kits.snowman.data.SNOWMAN_SNOWBALL_VELOCITY_MULTIPLIER }}` | The velocity multiplier for the snowball projectile. |
-| SNOWMAN_SNOW_STORM_MANA_COST | `{{ kits.snowman.data.SNOWMAN_SNOW_STORM_MANA_COST }}` | The cost of mana in order to cast the snow storm spell. |
-| SNOWMAN_SNOW_STORM_CAST_COOLDOWN | `{{ kits.snowman.data.SNOWMAN_SNOW_STORM_CAST_COOLDOWN }}` | The snow storm spell's cooldown in ticks. |
-| SNOWMAN_SNOW_STORM_TICK_RATE | `{{ kits.snowman.data.SNOWMAN_SNOW_STORM_TICK_RATE }}` | The duration, in ticks, between each snow storm icy gust. |
-| SNOWMAN_SNOW_STORM_TICKS | `{{ kits.snowman.data.SNOWMAN_SNOW_STORM_TICKS }}` | The total number of snow storm icy gusts. |
-| SNOWMAN_SNOW_STORM_RADIUS | `{{ kits.snowman.data.SNOWMAN_SNOW_STORM_RADIUS }}` | The radius, in meters, of the snow storm spell. |
-| SNOWMAN_SNOW_STORM_REQUIRE_LINE_OF_SIGHT | `{{ kits.snowman.data.SNOWMAN_SNOW_STORM_REQUIRE_LINE_OF_SIGHT }}` | If the snow storm spell requires line of sight (from the origin) to affect enemies. |
-| SNOWMAN_SNOW_STORM_FROZEN_DURATION | `{{ kits.snowman.data.SNOWMAN_SNOW_STORM_FROZEN_DURATION }}` | The duration, in ticks, of the snow storm's freezing effect. |
-| SNOWMAN_SNOW_STORM_SLOWNESS_LEVEL | `{{ kits.snowman.data.SNOWMAN_SNOW_STORM_SLOWNESS_LEVEL }}` | The level of the snow storm's slowness effect. |
-| SNOWMAN_SNOW_STORM_SLOWNESS_DURATION | `{{ kits.snowman.data.SNOWMAN_SNOW_STORM_SLOWNESS_DURATION }}` | The duration, in ticks, of the snow storm's slowness effect. |
+| SNOWMAN_SNOWSTORM_MANA_COST | `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_MANA_COST }}` | The cost of mana in order to cast the snowstorm spell. |
+| SNOWMAN_SNOWSTORM_CAST_COOLDOWN | `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_CAST_COOLDOWN }}` | The snowstorm spell's cooldown in ticks. |
+| SNOWMAN_SNOWSTORM_TICK_RATE | `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_TICK_RATE }}` | The duration, in ticks, between each snowstorm icy gust. |
+| SNOWMAN_SNOWSTORM_TICKS | `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_TICKS }}` | The total number of snowstorm icy gusts. |
+| SNOWMAN_SNOWSTORM_RADIUS | `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_RADIUS }}` | The radius, in meters, of the snowstorm spell. |
+| SNOWMAN_SNOWSTORM_REQUIRE_LINE_OF_SIGHT | `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_REQUIRE_LINE_OF_SIGHT }}` | If the snowstorm spell requires line of sight (from the origin) to affect enemies. |
+| SNOWMAN_SNOWSTORM_FROZEN_DURATION | `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_FROZEN_DURATION }}` | The duration, in ticks, of the snowstorm's freezing effect. |
+| SNOWMAN_SNOWSTORM_SLOWNESS_LEVEL | `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_SLOWNESS_LEVEL }}` | The level of the snowstorm's slowness effect. |
+| SNOWMAN_SNOWSTORM_SLOWNESS_DURATION | `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_SLOWNESS_DURATION }}` | The duration, in ticks, of the snowstorm's slowness effect. |
 | SNOWMAN_IMBUE_MANA_COST | `{{ kits.snowman.data.SNOWMAN_IMBUE_MANA_COST }}` | The cost of mana in order to cast the imbue spell. |
 | SNOWMAN_IMBUE_CAST_COOLDOWN | `{{ kits.snowman.data.SNOWMAN_IMBUE_CAST_COOLDOWN }}` | The imbue spell's cooldown in ticks. |
 | SNOWMAN_IMBUE_DURATION | `{{ kits.snowman.data.SNOWMAN_IMBUE_DURATION }}` | The duration, in ticks, of the imbue spell. |

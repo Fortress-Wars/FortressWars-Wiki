@@ -246,7 +246,7 @@ Sniper
 Snowman
 
 - Added a third spell called "Imbue" which imbues the player's sword with ice.
-- Increased the number of snow storm ticks from **2** to **3**.
+- Increased the number of snowstorm ticks from **2** to **3**.
 - The snowball's "Frozen" effect is now canceled by fire damage.
 
 Soldier
