@@ -243,6 +243,12 @@ Sniper
 - Decreased headshot damage from **x1.50** to **x1.25**.
 - Powerbow damage increase is now **x1.25** of the base bow damage.
 
+Snowman
+
+- Added a third spell called "Imbue" which imbues the player's sword with ice.
+- Increased the number of snowstorm ticks from **2** to **3**.
+- The snowball's "Frozen" effect is now canceled by fire damage.
+
 Soldier
 
 - Grenade radius increased from **2** to **3**

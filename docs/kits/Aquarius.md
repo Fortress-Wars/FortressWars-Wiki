@@ -9,7 +9,7 @@
 ---
 
 - **Introduced:** v1.7.0
-- **Description:** A support kit that uses the water element to heal allies.
+- **Description:** A support kit that uses the element of water to heal allies.
 - **Role:** Support
 - **How to Unlock:** Purchase for 500 Credits.
 

@@ -24,6 +24,7 @@
 - Chainmail Boots
 - Iron Sword
 - Spell Wand
+- {{ kits.prometheus.data.MAX_HEALING_POTIONS }} Healing Potions
 - {{ kits.prometheus.data.MAX_MANA_POTIONS }} Mana Potions
 - {{ kits._shared.data.MANA_MAX }} Mana
 
@@ -82,7 +83,7 @@ The flame spell burns cobwebs.
 
 ## Imbue
 
-The spell costs `{{ kits.prometheus.data.PROMETHEUS_IMBUE_MANA_COST }}` mana. Casting imbues the player's sword with flames. The player also receives the fire resistance potion effect.
+The spell costs `{{ kits.prometheus.data.PROMETHEUS_IMBUE_MANA_COST }}` mana. Casting imbues the player's sword with flames. The player also receives the fire resistance potion effect. The imbued state lasts `{{ kits.prometheus.data.PROMETHEUS_IMBUE_DURATION }}` ticks.
 
 ![Prometheus - Imbue Cast](../assets/kits/prometheus/Prometheus%20-%20Imbue%20Cast.gif)
 

@@ -9,7 +9,7 @@
 ---
 
 - **Introduced:** v1.7.0
-- **Description:** A kit that uses the earth element to hinder enemy movement.
+- **Description:** A kit that uses the element of earth to hinder enemy movement.
 - **Role:** Tank
 - **How to Unlock:** Purchase for 500 Credits.
 
@@ -24,6 +24,7 @@
 - Leather Boots (Brown)
 - Stone Sword
 - Spell Wand
+- {{ kits.golem.data.MAX_HEALING_POTIONS }} Healing Potions
 - {{ kits.golem.data.MAX_MANA_POTIONS }} Mana Potions
 - {{ kits._shared.data.MANA_MAX }} Mana
 
