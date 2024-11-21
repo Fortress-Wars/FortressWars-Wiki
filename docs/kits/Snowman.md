@@ -58,9 +58,9 @@ A weapon that is used to cast spells. Casting spells costs mana and each spell h
 
 The spell costs `{{ kits.snowman.data.SNOWMAN_SNOWBALL_MANA_COST }}` mana. Casting summons a snowball and launches it in the direction the player is looking. When enemies are hit, they are completely frozen and unable to move for `{{ kits.snowman.data.SNOWMAN_SNOWBALL_FROZEN_DURATION }}` ticks. Snowballs can only hit players.
 
-![Snowman - Snowball Cast](../assets/kits/snowman/_image_1_.jpg_)
+![Snowman - Snowball Cast](../assets/kits/snowman/Snowman%20-%20Snowball%20Cast.gif)
 
-![Snowman - Snowball Hit](../assets/kits/snowman/_image_1_.jpg_)
+![Snowman - Snowball Hit](../assets/kits/snowman/Snowman%20-%20Snowball%20Hit.gif)
 
 #### **Snowstorm**
 
@@ -68,13 +68,13 @@ The spell costs `{{ kits.snowman.data.SNOWMAN_SNOWBALL_MANA_COST }}` mana. Casti
 
 The spell costs `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_MANA_COST }}` mana. Casting summons a snowstorm that has a radius of `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_RADIUS }}` meters. The storm has `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_TICKS }}` icy gusts that each occur `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_TICK_RATE }}` ticks apart. Enemies in the snowstorm during an icy gust receive the freezing effect for `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_FROZEN_DURATION }}` ticks and slowness `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_SLOWNESS_LEVEL }}` for `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_SLOWNESS_DURATION }}` ticks.
 
-![Snowman - Snowstorm Cast](../assets/kits/snowman/_image_1_.jpg_)
+![Snowman - Snowstorm Cast](../assets/kits/snowman/Snowman%20-%20Snowstorm%20Cast.gif)
 
-![Snowman - Snowstorm Slowness](../assets/kits/snowman/_image_1_.jpg_)
+![Snowman - Snowstorm Slowness](../assets/kits/snowman/Snowman%20-%20Snowstorm%20Slowness.gif)
 
 Enemy engineer blocks caught inside snowstorms are stunned for `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_FROZEN_DURATION }}` ticks.
 
-![Snowman - Snowstorm Stun Engineer Blocks](../assets/kits/snowman/_image_1_.jpg_)
+![Snowman - Snowstorm Stun Engineer Blocks](../assets/kits/snowman/Snowman%20-%20Snowstorm%20Stun%20Engineer%20Blocks.gif)
 
 #### **Imbue**
 
@@ -82,9 +82,9 @@ Enemy engineer blocks caught inside snowstorms are stunned for `{{ kits.snowman.
 
 The spell costs `{{ kits.snowman.data.SNOWMAN_IMBUE_MANA_COST }}` mana. Casting imbues the player's sword with ice. When the player deals melee damage with the sword, they also apply the freezing effect for `{{ kits.snowman.data.SNOWMAN_IMBUE_FREEZING_TICKS }}` ticks. The imbued state lasts `{{ kits.snowman.data.SNOWMAN_IMBUE_DURATION }}` ticks.
 
-![Snowman - Imbue Cast](../assets/kits/snowman/_image_1_.jpg_)
+![Snowman - Imbue Cast](../assets/kits/snowman/Snowman%20-%20Imbue%20Cast.gif)
 
-![Snowman - Imbue Hit](../assets/kits/snowman/_image_1_.jpg_)
+![Snowman - Imbue Hit](../assets/kits/snowman/Snowman%20-%20Imbue%20Hit.gif)
 
 <!-- tabs:end -->
 
@@ -100,19 +100,19 @@ The spell costs `{{ kits.snowman.data.SNOWMAN_IMBUE_MANA_COST }}` mana. Casting 
 
 Mana is a resource used to cast spells.
 
-![Snowman - Mana](../assets/kits/snowman/_image_1_.jpg_)
+![Snowman - Mana](../assets/kits/snowman/Snowman%20-%20Mana.png)
 
 The player's maximum mana is `{{ kits._shared.data.MANA_MAX }}` and it regenerates slowly over time.
 
-![Snowman - Mana Regenerate](../assets/kits/snowman/_image_1_.jpg_)
+![Snowman - Mana Regenerate](../assets/kits/snowman/Snowman%20-%20Mana%20Regenerate.gif)
 
 After the player earns a final blow, they restore `{{ kits._shared.data.MANA_FINAL_BLOW_AMOUNT }}` mana. After earning an assist, they restore `{{ kits._shared.data.MANA_ASSIST_AMOUNT }}` mana.
 
-![Snowman - Mana Final Blow](../assets/kits/snowman/_image_1_.jpg_)
+![Snowman - Mana Final Blow](../assets/kits/snowman/Snowman%20-%20Mana%20Final%20Blow.gif)
 
 Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPENSE_AMOUNT }}` mana.
 
-![Snowman - Mana Dispenser](../assets/kits/snowman/_image_1_.jpg_)
+![Snowman - Mana Dispenser](../assets/kits/snowman/Snowman%20-%20Mana%20Dispenser.gif)
 
 <!-- tabs:end -->
 <br />
@@ -124,7 +124,7 @@ Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPEN
 <!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
-| Heal Those Broken Wings | Freeze an air mage while they are flying. | 20 Credits |
+| Heal Those Broken Wings | Freeze a raven while they are flying. | 20 Credits |
 | Snowball Sniper | Freeze an enemy from 50 blocks away | 20 Credits |
 | Ice Nation | Freeze 1,000 enemies with your freeze spell. | 250 Credits |
 
