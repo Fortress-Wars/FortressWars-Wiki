@@ -134,7 +134,7 @@ Knight
 - Royal guard is now effective for all allies and only triggers when fortify is active and when the player is blocking.
 - "Damage Deflect" ability is now only active during Fortify's duration.
 
-Mathematician:
+Mathematician
 
 - Changed wooden sword to stone sword.
 - Changed how math worksheets are distributed; The player now holds a max of **20** worksheets that regenerate **1** every **15** ticks. Worksheets can be dispensed by dispensers and rewarded for eliminations. Allies and enemies can hold a maximum of **15** worksheets. For every problem answered by the mathematician, one worksheet will be removed from all affected players.
@@ -284,6 +284,13 @@ Vitalist
 - Increased healing tick rate from **4** to **10**
 - The crossbow projectile now has a max travel distance of **150** meters.
 - Added spread to the crossbow projectile.
+
+Wizard
+
+- Lightning Spell now stuns damaged targets for **20** ticks.
+- Lightning Spell now deals **x0.5** damage to the caster.
+- Lightning Spell stun duration decreased from **200** ticks to **40** ticks.
+- Zap Spell stun duration decreased from **200** ticks to **10** ticks.
 
 ## Technical Changes
 

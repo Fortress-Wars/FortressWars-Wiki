@@ -77,9 +77,6 @@
 - `Bomber Bomb`
   - Shield Damage Type: _Break_
   - Damage Types: _Blast_, _Physical_
-- `Chain Lightning`
-  - Shield Damage Type: _Ignore_
-  - Damage Types: _Electric_, _Elemental_, _Magic_
 - `Combat Log`
   - Shield Damage Type: _Ignore_
   - Damage Types: _System_
@@ -134,7 +131,7 @@
 - `Knight Damage Deflect`
   - Shield Damage Type: _Ignore_
   - Damage Types: _Impact_, _Physical_, _Redistribution_
-- `Lightning Strike`
+- `Lightning`
   - Shield Damage Type: _Ignore_
   - Damage Types: _Electric_, _Elemental_, _Impact_, _Magic_
 - `Math Worksheet`
@@ -236,3 +233,6 @@
 - `Wither Skeleton Minion`
   - Shield Damage Type: _Damage_
   - Damage Types: _Physical_, _Slashing_
+- `Zap`
+  - Shield Damage Type: _Ignore_
+  - Damage Types: _Electric_, _Elemental_, _Magic_
