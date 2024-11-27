@@ -291,6 +291,7 @@ Wizard
 - Lightning Spell now deals **x0.5** damage to the caster.
 - Lightning Spell stun duration decreased from **200** ticks to **40** ticks.
 - Zap Spell stun duration decreased from **200** ticks to **10** ticks.
+- Zap Spell's chain lightning now chains to jumper translocators.
 
 ## Technical Changes
 
