@@ -163,11 +163,11 @@ Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPEN
 | SNOWMAN_SWORD_DAMAGE | `{{ kits.snowman.data.SNOWMAN_SWORD_DAMAGE }}` | The base damage of the sword. |
 | SNOWMAN_SWORD_SPEED | `{{ kits.snowman.data.SNOWMAN_SWORD_SPEED }}` | The base speed of the sword. |
 | SNOWMAN_WAND_KNOCKBACK | `{{ kits.snowman.data.SNOWMAN_WAND_KNOCKBACK }}` | The level of the knockback enchantment on the spell wand. |
-| SNOWMAN_SNOWBALL_MANA_COST | `{{ kits.snowman.data.SNOWMAN_SNOWBALL_MANA_COST }}` | The cost of mana in order to cast the snowball spell. |
+| SNOWMAN_SNOWBALL_MANA_COST | `{{ kits.snowman.data.SNOWMAN_SNOWBALL_MANA_COST }}` | The cost of mana to cast the snowball spell. |
 | SNOWMAN_SNOWBALL_CAST_COOLDOWN | `{{ kits.snowman.data.SNOWMAN_SNOWBALL_CAST_COOLDOWN }}` | The snowball spell's cooldown in ticks. |
 | SNOWMAN_SNOWBALL_FROZEN_DURATION | `{{ kits.snowman.data.SNOWMAN_SNOWBALL_FROZEN_DURATION }}` | The duration, in ticks, of the snowball's frozen effect. |
 | SNOWMAN_SNOWBALL_VELOCITY_MULTIPLIER | `{{ kits.snowman.data.SNOWMAN_SNOWBALL_VELOCITY_MULTIPLIER }}` | The velocity multiplier for the snowball projectile. |
-| SNOWMAN_SNOWSTORM_MANA_COST | `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_MANA_COST }}` | The cost of mana in order to cast the snowstorm spell. |
+| SNOWMAN_SNOWSTORM_MANA_COST | `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_MANA_COST }}` | The cost of mana to cast the snowstorm spell. |
 | SNOWMAN_SNOWSTORM_CAST_COOLDOWN | `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_CAST_COOLDOWN }}` | The snowstorm spell's cooldown in ticks. |
 | SNOWMAN_SNOWSTORM_TICK_RATE | `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_TICK_RATE }}` | The duration, in ticks, between each snowstorm icy gust. |
 | SNOWMAN_SNOWSTORM_TICKS | `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_TICKS }}` | The total number of snowstorm icy gusts. |
@@ -176,7 +176,7 @@ Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPEN
 | SNOWMAN_SNOWSTORM_FROZEN_DURATION | `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_FROZEN_DURATION }}` | The duration, in ticks, of the snowstorm's freezing effect. |
 | SNOWMAN_SNOWSTORM_SLOWNESS_LEVEL | `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_SLOWNESS_LEVEL }}` | The level of the snowstorm's slowness effect. |
 | SNOWMAN_SNOWSTORM_SLOWNESS_DURATION | `{{ kits.snowman.data.SNOWMAN_SNOWSTORM_SLOWNESS_DURATION }}` | The duration, in ticks, of the snowstorm's slowness effect. |
-| SNOWMAN_IMBUE_MANA_COST | `{{ kits.snowman.data.SNOWMAN_IMBUE_MANA_COST }}` | The cost of mana in order to cast the imbue spell. |
+| SNOWMAN_IMBUE_MANA_COST | `{{ kits.snowman.data.SNOWMAN_IMBUE_MANA_COST }}` | The cost of mana to cast the imbue spell. |
 | SNOWMAN_IMBUE_CAST_COOLDOWN | `{{ kits.snowman.data.SNOWMAN_IMBUE_CAST_COOLDOWN }}` | The imbue spell's cooldown in ticks. |
 | SNOWMAN_IMBUE_DURATION | `{{ kits.snowman.data.SNOWMAN_IMBUE_DURATION }}` | The duration, in ticks, of the imbue spell. |
 | SNOWMAN_IMBUE_FREEZING_TICKS | `{{ kits.snowman.data.SNOWMAN_IMBUE_FREEZING_TICKS }}` | The duration, in ticks, of the freezing effect applied by the imbued sword. |

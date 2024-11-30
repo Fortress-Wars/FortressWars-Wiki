@@ -49,7 +49,7 @@ A crossbow that shoots projectiles that heal allies and damage enemies.
 
 ## Shooting
 
-The player can shoot by right-clicking. The crossbow must be loaded in order to fire a projectile.
+The player can shoot by right-clicking. The crossbow must be loaded to fire a projectile.
 
 ![Vitalist - Crossbow Shoot](../assets/kits/vitalist/Vitalist%20-%20Crossbow%20Shoot.gif)
 

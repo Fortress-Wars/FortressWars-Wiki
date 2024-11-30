@@ -163,7 +163,7 @@ Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPEN
 | RAVEN_SWORD_DAMAGE | `{{ kits.raven.data.RAVEN_SWORD_DAMAGE }}` | The base damage of the sword. |
 | RAVEN_SWORD_SPEED | `{{ kits.raven.data.RAVEN_SWORD_SPEED }}` | The base speed of the sword. |
 | RAVEN_WAND_KNOCKBACK | `{{ kits.raven.data.RAVEN_WAND_KNOCKBACK }}` | The level of the knockback enchantment on the spell wand. |
-| RAVEN_WIND_GUST_MANA_COST | `{{ kits.raven.data.RAVEN_WIND_GUST_MANA_COST }}` | The cost of mana in order to cast the wind gust spell. |
+| RAVEN_WIND_GUST_MANA_COST | `{{ kits.raven.data.RAVEN_WIND_GUST_MANA_COST }}` | The cost of mana to cast the wind gust spell. |
 | RAVEN_WIND_GUST_CAST_COOLDOWN | `{{ kits.raven.data.RAVEN_WIND_GUST_CAST_COOLDOWN }}` | The wind gust spell's cooldown in ticks. |
 | RAVEN_WIND_GUST_STRENGTH | `{{ kits.raven.data.RAVEN_WIND_GUST_STRENGTH }}` | The entity knockback strength of the wind gust spell. |
 | RAVEN_WIND_GUST_SPEED | `{{ kits.raven.data.RAVEN_WIND_GUST_SPEED }}` | The speed at which the wind gust spell travels. (0 = no travel time) |
@@ -171,9 +171,9 @@ Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPEN
 | RAVEN_WIND_GUST_DAMAGE | `{{ kits.raven.data.RAVEN_WIND_GUST_DAMAGE }}` | The damage dealt to enemies from the wind gust spell. |
 | RAVEN_WIND_GUST_BLOCK_HITBOX_SIZE | `{{ kits.raven.data.RAVEN_WIND_GUST_BLOCK_HITBOX_SIZE }}` | The hitbox size of the wind gust spell that is used to detect block collision. |
 | RAVEN_WIND_GUST_ENTITY_HITBOX_SIZE | `{{ kits.raven.data.RAVEN_WIND_GUST_ENTITY_HITBOX_SIZE }}` | The hitbox size of the wind gust spell that is used to detect entity collision. |
-| RAVEN_FLIGHT_MANA_CAST_COST | `{{ kits.raven.data.RAVEN_FLIGHT_MANA_CAST_COST }}` | The cost of mana in order to cast the flight spell. |
+| RAVEN_FLIGHT_MANA_CAST_COST | `{{ kits.raven.data.RAVEN_FLIGHT_MANA_CAST_COST }}` | The cost of mana to cast the flight spell. |
 | RAVEN_FLIGHT_CAST_COOLDOWN | `{{ kits.raven.data.RAVEN_FLIGHT_CAST_COOLDOWN }}` | The flight spell's cooldown in ticks. |
-| RAVEN_FLIGHT_ACTIVE_MANA_COST | `{{ kits.raven.data.RAVEN_FLIGHT_ACTIVE_MANA_COST }}` | The cost of mana in order to maintain flight. |
+| RAVEN_FLIGHT_ACTIVE_MANA_COST | `{{ kits.raven.data.RAVEN_FLIGHT_ACTIVE_MANA_COST }}` | The cost of mana to maintain flight. |
 | RAVEN_FLIGHT_TICK_RATE | `{{ kits.raven.data.RAVEN_FLIGHT_TICK_RATE }}` | The interval, in ticks, that the flight spell checks mana. |
 | RAVEN_FLIGHT_SPEED | `{{ kits.raven.data.RAVEN_FLIGHT_SPEED }}` | The speed of the flight granted by the flight spell. |
 | RAVEN_FLIGHT_DAMAGE | `{{ kits.raven.data.RAVEN_FLIGHT_DAMAGE }}` | The amount of damage the player takes when they don't have enough mana to maintain the flight spell. |

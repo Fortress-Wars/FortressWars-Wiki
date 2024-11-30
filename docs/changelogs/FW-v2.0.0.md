@@ -76,7 +76,6 @@ Engineer
 - Damage to engineer blocks (from abilities) now scale off of the **base** damage they would do to an enemy.
 - Dispenser refreshes cooldowns by **20%** per dispense.
 - Sentry now shoots from the center of the block. This means it can shoot an enemy from any direction.
-- Dispenser no longer dispenses mana potions for Kit Priest and Kit Aquarius.
 
 Fish
 
@@ -91,16 +90,16 @@ Golem
 - Earth Shatter has been reworked. It now summons a shockwave in the direction ther player is looking and spreads out as it travels.
 - Increased Earth Shatter radius from **8** meters to **12** meters.
 - Decreased Earth Shatter mana cost from **60** mana to **55** mana.
-- Entities affected by Earth Shatter will be affected with the "Rooting" effect. Player are unable to move and take increased fire damage.
+- Entities affected by Earth Shatter will be affected with the "Rooting" effect. Enemies are unable to move and take increased fire damage.
 - The "Rooting" effect lasts for **60** ticks.
 - Earth Shatter no longer damages the caster.
 
 Hitman:
 
-- Bow now has infinity, but the max tags a hitman can have at once is still 6.
+- Bow now has infinity.
 - Replaced chainmail leggings with black leather leggings.
 - Replaced chainmail boots with black leather boots.
-- Bow damage is now set to **5**.
+- Max bow damage is now set to **5**.
 - Decreased weakness effect duration from **200** ticks to **150** ticks.
 - Decreased glowing effect duration from **400** ticks to **300** ticks.
 - Decreased darkness effect duration from **400** ticks to **300** ticks.
@@ -114,8 +113,8 @@ Illusionist
 
 Jumper
 
-- Added ability to destroy the translocator manually with **left click**.
-- Cooldown for scenario above is **80** ticks.
+- Added the ability to recover the translocator manually with **left click**.
+- The cooldown for recovering the translocator is **80** ticks.
 - Reduced cooldown of translocator after picking it up off the ground from **300** ticks to **40** ticks.
 - Life duration of translocator increased from **6000** ticks to **24000** ticks.
 
@@ -145,7 +144,7 @@ Mathematician
 Medic
 
 - Healing rate decreased from **5** ticks to **2** ticks.
-- Healing Stone Capacity resource renamed to Electrolytes and is now displayed on the player's action bar.
+- Healing Stone capacity resource renamed to Electrolytes and is now displayed on the player's action bar.
 - Medic's potions are now visually different from normal healing potions.
 
 Mercy
@@ -177,10 +176,15 @@ Necromancer
 - Max Essence of the afterlife reduced from **30** to **15**.
 - Max number of skeletons reduced from **3** to **1**.
 - Essnece to spawn a skeleton reduced from **3** to **1**.
-- Skeleton can now be upgraded by right-clicking them. There are **5** levels: Level 1: 20 health, 10 armor points, stone sword, and extra speed. Level 2: More defense points (15 total). Level 3: 20 addition health (40 total). Level 4: More defense (20 total). Level 5: +75% knockback resistance.
+- Skeleton can now be upgraded by right-clicking them. There are **5** levels:
+  - Level 1: 20 health, 10 armor points, stone sword, and extra speed.
+  - Level 2: More defense points (15 total).
+  - Level 3: 20 addition health (40 total).
+  - Level 4: More defense (20 total).
+  - Level 5: +75% knockback resistance.
 - Cost to upgrade skeleton is **1** essence per level.
 - Right clicking the player's skeleton will restore **10** health. This will consume **1** essence.
-- Skeleton can not be picked up by right clicking it while sneaking. This will remember its current health and level.
+- Skeleton can now be picked up by right clicking it while sneaking. This will remember its current health and level.
 - The spawn skeleton item and shield will become enchanted to indicate that a skeleton is being held.
 - Essence now drops for every entity death (was previously only player deaths caused by another player).
 
@@ -201,7 +205,7 @@ Priest
 - Moved the knockback effect of the realese spell from level **5** to level **4**.
 - The release spell knockback multiplier increased from **0.5** to **1**.
 - Level **3** release spells will unstun allies.
-- The release spell now unhacks allies and ally engineer blocks at level **5**.
+- The release spell now unhacks allies and friendly engineer blocks at level **5**.
 - The regeneration potion effect after casting spells was replaced with "Soothing Light" which is a custom regeneration effect.
 
 Prometheus
@@ -232,7 +236,7 @@ Raven
 Slime
 
 - Slime armor no longer mitigates anvil damage.
-- Slime armor no mitigates piercing damage by **50%** (Arrows, Bullets, and Thorns).
+- Slime armor now mitigates piercing damage by **50%** (Arrows, Bullets, and Thorns).
 - Slime armor will no longer break if the fall damage is too high
 - Slime armor will now also break if the slime armor takes blast damage above a certain threshold.
 - Reduced slime minion spawn cooldown from **90** ticks to **75** ticks.
@@ -262,16 +266,16 @@ Sonic
 
 Spider
 
-- If a cobweb trap is detroyed for whatever reason, we will now give a cooldown.
+- If a cobweb trap item is detroyed for whatever reason, it will now give a cooldown.
 - Deployed cobwebs no longer stack.
 - Cobweb cooldown now starts as soon as a the cobweb trap is triggered instead of when the duration ends.
 - Cobweb traps items now last **1200** ticks before despawning.
 
 Spy
 
-- Any melee attack during while the player is cloaked now is considered a "Sneak Attack" (Previously it was just if the player attacked with the sneak attack sword)
+- Any melee attack while the player is cloaked now is considered a "Sneak Attack" (Previously it was just if the player attacked with the sneak attack sword)
 - If the player gets a sneak attack kill while invisible, the cloak ability cooldown will be refreshed by **50%**.
-- Spy's "Didn't see you there" achievement now only requires the player to kill an enemy cloaked spy instead of also requireing the damage type to be a sneak attack.
+- Spy's "Didn't see you there" achievement now only requires the player to kill an enemy cloaked spy instead of also requiring the damage type to be a sneak attack.
 
 Vitalist
 
@@ -300,8 +304,8 @@ Wizard
 - Players can now be stunned. Stunned players will not be able to use their abilities.
 - Added an interface to refresh ability cooldowns.
 - Normalized shields taking damage based on the incoming damage.
-- Added Line of sight checks for explosions and other AOE abilities.
-- Refactor healing and mana potions. (Auto-pot no triggers in the same game tick (faster))
+- Added Line of sight checks for explosions and other area of effect abilities.
+- Refactored healing and mana potions. (Auto-pot no triggers in the same game tick (faster))
 - Absorption hearts now count towards "Damage Dealt" stats and "Damage Taken" stats.
 - Shield block delay decreased from **5** ticks to **0** ticks.
 - Standardized all armor pieces to all have protection level **1**.
