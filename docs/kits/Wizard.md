@@ -9,7 +9,7 @@
 ---
 
 - **Introduced:** v1.7.0
-- **Description:** A damage kit that uses the element of electricity to damage and stun enemies.
+- **Description:** A damage kit that uses electricity to damage and stun enemies.
 - **Role:** Damage
 - **How to Unlock:** Purchase for 500 Credits.
 
@@ -55,7 +55,7 @@ A weapon that is used to cast spells. Casting spells costs mana and each spell h
 
 ## Zap
 
-The spell costs `25` mana. Casting summons zap of electricity in the direction the player is looking. When the zap hits a target, it deals `6` damage and stuns them for `10` ticks. After hitting one target, the zap chains to another target if they are in range and in line of sight. The zap can hit up to `4` targets. The max range of the spell is `15` meters.
+The spell costs `25` mana. Casting summons a zap of electricity in the direction the player is looking. When the zap hits a target, it deals `6` damage and stuns them for `10` ticks. After hitting one target, the zap chains to another target if they are in range and in line of sight. The zap can hit up to `4` targets. The max range of the spell is `15` meters.
 
 ![Wizard - Zap Cast](../assets/kits/wizard/_image_1_.jpg_)
 
@@ -73,11 +73,11 @@ The zap spell chains to enemy jumper translocators.
 
 ## Lightning
 
-The spell costs `75` mana. Casting summons a lightning bolt at the location where the player is looking. Lightning bolts deal `12` damage to enemies. The impact of the lightning bolt also stuns enemies for `40` ticks. The caster is also damaged and stunned if they caught within the lightning bolt's area of effect.
+The spell costs `75` mana. Casting summons a lightning bolt at the location where the player is looking. Lightning bolts deal `12` damage to enemies. The impact of the lightning bolt also stuns enemies for `40` ticks. The caster is also damaged and stunned if they are caught within the lightning bolt's area of effect.
 
 ![Wizard - Lightning Cast](../assets/kits/wizard/_image_1_.jpg_)
 
-The lightning spell deal damage to enemy engineer blocks.
+The lightning spell deals damage to enemy engineer blocks.
 
 ![Wizard - Lightning Cast Engineer Blocks](../assets/kits/wizard/_image_1_.jpg_)
 
@@ -173,7 +173,7 @@ Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPEN
 | WIZARD_LIGHTNING_CAST_COOLDOWN | `{{ kits.wizard.data.WIZARD_LIGHTNING_CAST_COOLDOWN }}` | The lightning spell's cooldown in ticks. |
 | WIZARD_LIGHTNING_DAMAGE | `{{ kits.wizard.data.WIZARD_LIGHTNING_DAMAGE }}` | The damage dealt by the lightning spell. |
 | WIZARD_LIGHTNING_IGNORE_I_FRAMES | `{{ kits.wizard.data.WIZARD_LIGHTNING_IGNORE_I_FRAMES }}` | If the lightning spell should ignore no damage ticks. |
-| WIZARD_LIGHTNING_REQUIRE_LINE_OF_SIGHT | `{{ kits.wizard.data.WIZARD_LIGHTNING_REQUIRE_LINE_OF_SIGHT }}` | If the lightning spell requires line of sight to affect enemies. |
+| WIZARD_LIGHTNING_REQUIRE_LINE_OF_SIGHT | `{{ kits.wizard.data.WIZARD_LIGHTNING_REQUIRE_LINE_OF_SIGHT }}` | If the lightning spell requires line of sight to damage and stun enemies. |
 | WIZARD_LIGHTNING_SELF_DAMAGE_MULTIPLIER | `{{ kits.wizard.data.WIZARD_LIGHTNING_SELF_DAMAGE_MULTIPLIER }}` | The damage multiplier of the lightning spell when dealing damage to the caster. |
 | WIZARD_LIGHTNING_MAX_RANGE | `{{ kits.wizard.data.WIZARD_LIGHTNING_MAX_RANGE }}` | The maximum distance, in meters, from the caster that lightning bolts can be summoned. |
 | WIZARD_LIGHTNING_IMPACT_RADIUS | `{{ kits.wizard.data.WIZARD_LIGHTNING_IMPACT_RADIUS }}` | The impact radius, in meters, of the lightning spell. |
