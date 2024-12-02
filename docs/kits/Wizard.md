@@ -55,7 +55,7 @@ A weapon that is used to cast spells. Casting spells costs mana and each spell h
 
 ## Zap
 
-The spell costs `25` mana. Casting summons a zap of electricity in the direction the player is looking. When the zap hits a target, it deals `6` damage and stuns them for `10` ticks. After hitting one target, the zap chains to another target if they are in range and in line of sight. The zap can hit up to `4` targets. The max range of the spell is `15` meters.
+The spell costs `{{ kits.wizard.data.WIZARD_ZAP_MANA_COST }}` mana. Casting summons a zap of electricity in the direction the player is looking. When the zap hits a target, it deals `{{ kits.wizard.data.WIZARD_ZAP_DAMAGE }}` damage and stuns them for `{{ kits.wizard.data.WIZARD_ZAP_STUN_DURATION }}` ticks. After hitting one target, the zap chains to another target if they are in range and in line of sight. The zap can hit up to `{{ kits.wizard.data.WIZARD_ZAP_MAX_HITS }}` targets. The max range of the spell is `{{ kits.wizard.data.WIZARD_ZAP_MAX_RANGE }}` meters.
 
 ![Wizard - Zap Cast](../assets/kits/wizard/_image_1_.jpg_)
 
@@ -73,7 +73,7 @@ The zap spell chains to enemy jumper translocators.
 
 ## Lightning
 
-The spell costs `75` mana. Casting summons a lightning bolt at the location where the player is looking. Lightning bolts deal `12` damage to enemies. The impact of the lightning bolt also stuns enemies for `40` ticks. The caster is also damaged and stunned if they are caught within the lightning bolt's area of effect.
+The spell costs `{{ kits.wizard.data.WIZARD_LIGHTNING_MANA_COST }}` mana. Casting summons a lightning bolt at the location where the player is looking. Lightning bolts deal `{{ kits.wizard.data.WIZARD_LIGHTNING_DAMAGE }}` damage to enemies. The impact of the lightning bolt also stuns enemies for `{{ kits.wizard.data.WIZARD_LIGHTNING_STUN_DURATION }}` ticks. The caster is also damaged and stunned if they are caught within the lightning bolt's area of effect.
 
 ![Wizard - Lightning Cast](../assets/kits/wizard/_image_1_.jpg_)
 
@@ -178,5 +178,3 @@ Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPEN
 | WIZARD_LIGHTNING_MAX_RANGE | `{{ kits.wizard.data.WIZARD_LIGHTNING_MAX_RANGE }}` | The maximum distance, in meters, from the caster that lightning bolts can be summoned. |
 | WIZARD_LIGHTNING_IMPACT_RADIUS | `{{ kits.wizard.data.WIZARD_LIGHTNING_IMPACT_RADIUS }}` | The impact radius, in meters, of the lightning spell. |
 | WIZARD_LIGHTNING_STUN_DURATION | `{{ kits.wizard.data.WIZARD_LIGHTNING_STUN_DURATION }}` | The stun duration, in ticks, of the lightning spell. |
-
-### Changelog
