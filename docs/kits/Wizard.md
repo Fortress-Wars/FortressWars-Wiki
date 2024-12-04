@@ -57,17 +57,17 @@ A weapon that is used to cast spells. Casting spells costs mana and each spell h
 
 The spell costs `{{ kits.wizard.data.WIZARD_ZAP_MANA_COST }}` mana. Casting summons a zap of electricity in the direction the player is looking. When the zap hits a target, it deals `{{ kits.wizard.data.WIZARD_ZAP_DAMAGE }}` damage and stuns them for `{{ kits.wizard.data.WIZARD_ZAP_STUN_DURATION }}` ticks. After hitting one target, the zap chains to another target if they are in range and in line of sight. The zap can hit up to `{{ kits.wizard.data.WIZARD_ZAP_MAX_HITS }}` targets. The max range of the spell is `{{ kits.wizard.data.WIZARD_ZAP_MAX_RANGE }}` meters.
 
-![Wizard - Zap Cast](../assets/kits/wizard/_image_1_.jpg_)
+![Wizard - Zap Cast](../assets/kits/wizard/Wizard%20-%20Zap%20Cast.gif)
 
-![Wizard - Zap Chain Lightning 1](../assets/kits/wizard/_image_1_.jpg_)
+![Wizard - Zap Chain Lightning](../assets/kits/wizard/Wizard%20-%20Zap%20Chain%20Lightning.gif)
 
 The zap spell chains to enemy engineer blocks.
 
-![Wizard - Zap Chain Lightning Engineer Blocks](../assets/kits/wizard/_image_1_.jpg_)
+![Wizard - Zap Chain Lightning Engineer Blocks](../assets/kits/wizard/Wizard%20-%20Zap%20Chain%20Lightning%20Engineer%20Blocks.gif)
 
 The zap spell chains to enemy jumper translocators.
 
-![Wizard - Zap Chain Lightning Jumper Translocator](../assets/kits/wizard/_image_1_.jpg_)
+![Wizard - Zap Chain Lightning Jumper Translocator](../assets/kits/wizard/Wizard%20-%20Zap%20Chain%20Lightning%20Jumper%20Translocator.gif)
 
 #### **Lightning**
 
@@ -75,11 +75,11 @@ The zap spell chains to enemy jumper translocators.
 
 The spell costs `{{ kits.wizard.data.WIZARD_LIGHTNING_MANA_COST }}` mana. Casting summons a lightning bolt at the location where the player is looking. Lightning bolts deal `{{ kits.wizard.data.WIZARD_LIGHTNING_DAMAGE }}` damage to enemies. The impact of the lightning bolt also stuns enemies for `{{ kits.wizard.data.WIZARD_LIGHTNING_STUN_DURATION }}` ticks. The caster is also damaged and stunned if they are caught within the lightning bolt's area of effect.
 
-![Wizard - Lightning Cast](../assets/kits/wizard/_image_1_.jpg_)
+![Wizard - Lightning Cast](../assets/kits/wizard/Wizard%20-%20Lightning%20Cast.gif)
 
 The lightning spell deals damage to enemy engineer blocks.
 
-![Wizard - Lightning Cast Engineer Blocks](../assets/kits/wizard/_image_1_.jpg_)
+![Wizard - Lightning Cast Engineer Blocks](../assets/kits/wizard/Wizard%20-%20Zap%20Chain%20Lightning%20Engineer%20Blocks.gif)
 
 <!-- tabs:end -->
 
@@ -95,19 +95,19 @@ The lightning spell deals damage to enemy engineer blocks.
 
 Mana is a resource used to cast spells.
 
-![Wizard - Mana](../assets/kits/wizard/_image_1_.jpg_)
+![Wizard - Mana](../assets/kits/wizard/Wizard%20-%20Mana.png)
 
 The player's maximum mana is `{{ kits._shared.data.MANA_MAX }}` and it regenerates slowly over time.
 
-![Wizard - Mana Regenerate](../assets/kits/wizard/_image_1_.jpg_)
+![Wizard - Mana Regenerate](../assets/kits/wizard/Wizard%20-%20Mana%20Regenerate.gif)
 
 After the player earns a final blow, they restore `{{ kits._shared.data.MANA_FINAL_BLOW_AMOUNT }}` mana. After earning an assist, they restore `{{ kits._shared.data.MANA_ASSIST_AMOUNT }}` mana.
 
-![Wizard - Mana Final Blow](../assets/kits/wizard/_image_1_.jpg_)
+![Wizard - Mana Final Blow](../assets/kits/wizard/Wizard%20-%20Mana%20Final%20Blow.gif)
 
 Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPENSE_AMOUNT }}` mana.
 
-![Wizard - Mana Dispenser](../assets/kits/wizard/_image_1_.jpg_)
+![Wizard - Mana Dispenser](../assets/kits/wizard/Wizard%20-%20Mana%20Dispenser.gif)
 
 <!-- tabs:end -->
 <br />
