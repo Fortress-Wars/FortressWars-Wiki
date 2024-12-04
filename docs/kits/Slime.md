@@ -121,7 +121,7 @@ When a slime minion dies and the player is within `{{ kits.slime.data.SLIME_MINI
 | SLIME_MINION_MAX_MINIONS | `{{ kits.slime.data.SLIME_MINION_MAX_MINIONS }}` | The maximum number of slime minions the player can have alive at once. |
 | SLIME_MINION_ABSORPTION_LEVEL | `{{ kits.slime.data.SLIME_MINION_ABSORPTION_LEVEL }}` | The level of the slime minions' absorption effect. |
 | SLIME_MINION_ABSORPTION_DURATION | `{{ kits.slime.data.SLIME_MINION_ABSORPTION_DURATION }}` | The duration, in ticks, of the slime minions' absorption effect. |
-| SLIME_MINION_ABSORPTION_RADIUS | `{{ kits.slime.data.SLIME_MINION_ABSORPTION_RADIUS }}` | The radius, in meters, that the player must be in, in order to receive the absorption effect from slime minions. |
+| SLIME_MINION_ABSORPTION_RADIUS | `{{ kits.slime.data.SLIME_MINION_ABSORPTION_RADIUS }}` | The radius, in meters, that the player must be in to receive the absorption effect from slime minions. |
 | SLIME_ARMOR_DURATION | `{{ kits.slime.data.SLIME_ARMOR_DURATION }}` | The duration, in ticks, of the slime armor provided by the player. |
 | SLIME_ARMOR_LEVEL | `{{ kits.slime.data.SLIME_ARMOR_LEVEL }}` | The level of the slime armor provided by the player. |
 | SLIME_ARMOR_COOLDOWN | `{{ kits.slime.data.SLIME_ARMOR_COOLDOWN }}` | The cooldown, in ticks, of the slime armor ability. |

@@ -172,14 +172,14 @@ Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPEN
 | PROMETHEUS_SWORD_DAMAGE | `{{ kits.prometheus.data.PROMETHEUS_SWORD_DAMAGE }}` | The base damage of the sword. |
 | PROMETHEUS_SWORD_SPEED | `{{ kits.prometheus.data.PROMETHEUS_SWORD_SPEED }}` | The base speed of the sword. |
 | PROMETHEUS_WAND_KNOCKBACK | `{{ kits.prometheus.data.PROMETHEUS_WAND_KNOCKBACK }}` | The level of the knockback enchantment on the spell wand. |
-| PROMETHEUS_FLAME_MANA_COST | `{{ kits.prometheus.data.PROMETHEUS_FLAME_MANA_COST }}` | The cost of mana in order to cast the flame spell. |
+| PROMETHEUS_FLAME_MANA_COST | `{{ kits.prometheus.data.PROMETHEUS_FLAME_MANA_COST }}` | The cost of mana to cast the flame spell. |
 | PROMETHEUS_FLAME_CAST_COOLDOWN | `{{ kits.prometheus.data.PROMETHEUS_FLAME_CAST_COOLDOWN }}` | The flame spell's cooldown in ticks. |
 | PROMETHEUS_FLAME_RANGE | `{{ kits.prometheus.data.PROMETHEUS_FLAME_RANGE }}` | The maximum travel distance, in meters, of the flames from the flame spell. |
 | PROMETHEUS_FLAME_SPEED | `{{ kits.prometheus.data.PROMETHEUS_FLAME_SPEED }}` | The travel speed of the flames from the flame spell. (0 = no travel time) |
 | PROMETHEUS_FLAME_BLOCK_HITBOX_SIZE | `{{ kits.prometheus.data.PROMETHEUS_FLAME_BLOCK_HITBOX_SIZE }}` | The hitbox size of the flame spell that is used to detect block collision. |
 | PROMETHEUS_FLAME_ENTITY_HITBOX_SIZE | `{{ kits.prometheus.data.PROMETHEUS_FLAME_ENTITY_HITBOX_SIZE }}` | The hitbox size of the flame spell that is used to detect entity collision. |
 | PROMETHEUS_FLAME_BURN_DURATION | `{{ kits.prometheus.data.PROMETHEUS_FLAME_BURN_DURATION }}` | The flame spell burn duration, in ticks. |
-| PROMETHEUS_FIREBALL_MANA_COST | `{{ kits.prometheus.data.PROMETHEUS_FIREBALL_MANA_COST }}` | The cost of mana in order to cast the fireball spell. |
+| PROMETHEUS_FIREBALL_MANA_COST | `{{ kits.prometheus.data.PROMETHEUS_FIREBALL_MANA_COST }}` | The cost of mana to cast the fireball spell. |
 | PROMETHEUS_FIREBALL_CAST_COOLDOWN | `{{ kits.prometheus.data.PROMETHEUS_FIREBALL_CAST_COOLDOWN }}` | The fireball spell's cooldown in ticks. |
 | PROMETHEUS_FIREBALL_HIT_DAMAGE | `{{ kits.prometheus.data.PROMETHEUS_FIREBALL_HIT_DAMAGE }}` | The damage dealt by the fireball projectile upon hitting an enemy. |
 | PROMETHEUS_FIREBALL_EXPLOSION_RADIUS | `{{ kits.prometheus.data.PROMETHEUS_FIREBALL_EXPLOSION_RADIUS }}` | The radius, in meters, of the fireball. |
@@ -188,7 +188,7 @@ Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPEN
 | PROMETHEUS_FIREBALL_EXPLOSION_SELF_DAMAGE_MULTIPLIER | `{{ kits.prometheus.data.PROMETHEUS_FIREBALL_EXPLOSION_SELF_DAMAGE_MULTIPLIER }}` | The damage multiplier when the fireball explosion deals damage to the player.|
 | PROMETHEUS_FIREBALL_EXPLOSION_FIRE_DURATION | `{{ kits.prometheus.data.PROMETHEUS_FIREBALL_EXPLOSION_FIRE_DURATION }}` | The fireball burn duration, in ticks. |
 | PROMETHEUS_FIREBALL_EXPLOSION_KNOCKBACK_MULTIPLIER | `{{ kits.prometheus.data.PROMETHEUS_FIREBALL_EXPLOSION_KNOCKBACK_MULTIPLIER }}` | The multiplier of the fireballs knockback. |
-| PROMETHEUS_IMBUE_MANA_COST | `{{ kits.prometheus.data.PROMETHEUS_IMBUE_MANA_COST }}` | The cost of mana in order to cast the imbue spell. |
+| PROMETHEUS_IMBUE_MANA_COST | `{{ kits.prometheus.data.PROMETHEUS_IMBUE_MANA_COST }}` | The cost of mana to cast the imbue spell. |
 | PROMETHEUS_IMBUE_CAST_COOLDOWN | `{{ kits.prometheus.data.PROMETHEUS_IMBUE_CAST_COOLDOWN }}` | The imbue spell's cooldown in ticks. |
 | PROMETHEUS_IMBUE_FIRE_ASPECT_LEVEL | `{{ kits.prometheus.data.PROMETHEUS_IMBUE_FIRE_ASPECT_LEVEL }}` | The level of the fire aspect enchantment applied to the sword when imbue is casted. |
 | PROMETHEUS_IMBUE_FIRE_RESISTANCE_LEVEL | `{{ kits.prometheus.data.PROMETHEUS_IMBUE_FIRE_RESISTANCE_LEVEL }}` | The level of the fire resistance potion effect given to the player when imbue is casted. |

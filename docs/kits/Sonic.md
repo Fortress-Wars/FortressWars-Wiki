@@ -99,6 +99,6 @@ The shockwave will stun all nearby enemies and engineer blocks within `{{ kits.s
 | SONIC_BOOM_KNOCKBACK_MULTIPLIER | `{{ kits.sonic.data.SONIC_BOOM_KNOCKBACK_MULTIPLIER }}` | The knockback dealt to enemies who are involved in a sonic boom. |
 | SONIC_BOOM_RECOIL_MULTIPLIER | `{{ kits.sonic.data.SONIC_BOOM_RECOIL_MULTIPLIER }}` | The recoil knockback applied to the player when a sonic boom occurs. |
 | SONIC_BOOM_COLLISION_CHECK_RADIUS | `{{ kits.sonic.data.SONIC_BOOM_COLLISION_CHECK_RADIUS }}` | The radius, in meters, to check for a sonic boom. |
-| SONIC_BOOM_COLLISION_HIT_BOX_EXPANSION | `{{ kits.sonic.data.SONIC_BOOM_COLLISION_HIT_BOX_EXPANSION }}` | The size increase of the player's hitbox for detecting a sonic boom collision. |
+| SONIC_BOOM_COLLISION_HITBOX_EXPANSION | `{{ kits.sonic.data.SONIC_BOOM_COLLISION_HITBOX_EXPANSION }}` | The size increase of the player's hitbox for detecting a sonic boom collision. |
 | SONIC_BOOM_RADIUS | `{{ kits.sonic.data.SONIC_BOOM_RADIUS }}` | The radius, in meters, of the sonic boom shockwave. |
 | SONIC_BOOM_STUN_DURATION | `{{ kits.sonic.data.SONIC_BOOM_STUN_DURATION }}` | The duration, in ticks, of the sonic boom shockwave's stun effect. |

@@ -92,13 +92,14 @@ Anvils will damage engineer blocks.
 | CRUSHER_ANVIL_DIRECT_DAMAGE | `{{ kits.crusher.data.CRUSHER_ANVIL_DIRECT_DAMAGE }}` | The damage dealt by a direct anvil hit. |
 | CRUSHER_ANVIL_INDIRECT_DAMAGE | `{{ kits.crusher.data.CRUSHER_ANVIL_INDIRECT_DAMAGE }}` | The damage dealt by an indirect anvil hit. |
 | CRUSHER_ANVIL_SUMMON_HEIGHT | `{{ kits.crusher.data.CRUSHER_ANVIL_SUMMON_HEIGHT }}` | The distance above the target to determine the actual anvil summon location.  |
-| CRUSHER_ANVIL_SUMMON_POINTS | `{{ kits.crusher.data.CRUSHER_ANVIL_SUMMON_POINTS }}` | The number of summon points to use to ray trace to a target. |
+| CRUSHER_ANVIL_SUMMON_RANGE | `{{ kits.crusher.data.CRUSHER_ANVIL_SUMMON_RANGE }}` | The maximum distance, in meters, that anvils can be summoned from the player. |
 | CRUSHER_ANVIL_IMPACT_RADIUS | `{{ kits.crusher.data.CRUSHER_ANVIL_IMPACT_RADIUS }}` | The radius of an indirect anvil hit. |
 | CRUSHER_ANVIL_DIRECT_IMPACT_RADIUS | `{{ kits.crusher.data.CRUSHER_ANVIL_DIRECT_IMPACT_RADIUS }}` | The radius of a direct anvil hit. |
 | CRUSHER_ANVIL_STUN_RADIUS | `{{ kits.crusher.data.CRUSHER_ANVIL_STUN_RADIUS }}` | The radius around a falling anvil to stun targets. |
 | CRUSHER_ANVIL_STUN_DURATION | `{{ kits.crusher.data.CRUSHER_ANVIL_STUN_DURATION }}` | The duration, in ticks, of the falling anvil stun. |
 | CRUSHER_ANVIL_COOLDOWN | `{{ kits.crusher.data.CRUSHER_ANVIL_COOLDOWN }}` | The cooldown, in ticks, for the Crusher ability. |
-| CRUSHER_ANVIL_SUMMON_POINT_RADIUS | `{{ kits.crusher.data.CRUSHER_ANVIL_SUMMON_POINT_RADIUS }}` | The radius of a summon point used for ray tracing. |
+| CRUSHER_ANVIL_SUMMONING_BLOCK_HITBOX_SIZE | `{{ kits.crusher.data.CRUSHER_ANVIL_SUMMONING_BLOCK_HITBOX_SIZE }}` | The size of the hitbox that is used to detect block collision when summoning the anvil. |
+| CRUSHER_ANVIL_SUMMONING_ENTITY_HITBOX_SIZE | `{{ kits.crusher.data.CRUSHER_ANVIL_SUMMONING_ENTITY_HITBOX_SIZE }}` | The size of the hitbox that is used to detect entity collision when summoning the anvil. |
 | CRUSHER_ANVIL_SELF_DAMAGE_MULTIPLIER | `{{ kits.crusher.data.CRUSHER_ANVIL_SELF_DAMAGE_MULTIPLIER }}` | The self damage multiplier of an anvil when hitting the player. |
 | CRUSHER_ANVIL_IGNORE_DAMAGE_TICKS | `{{ kits.crusher.data.CRUSHER_ANVIL_IGNORE_DAMAGE_TICKS }}` | Determines if the anvil should ignore invulnerability frames. |
 | CRUSHER_ANVIL_TARGET_ENEMIES | `{{ kits.crusher.data.CRUSHER_ANVIL_TARGET_ENEMIES }}` | Determines if the Crusher ability should target enemies. |

@@ -41,7 +41,7 @@
 
 ## Cobweb Traps
 
-Deploy cobwebs in order to trap enemies. Cobweb traps are activated when enemy players walk over them. When activated, deployed traps will turn into a blob of cobweb blocks. Activated traps last for `{{ kits.spider.data.SPIDER_COBWEB_TRAP_DURATION }}` ticks.
+Deploy cobwebs to trap enemies. Cobweb traps are activated when enemy players walk over them. When activated, deployed traps will turn into a blob of cobweb blocks. Activated traps last for `{{ kits.spider.data.SPIDER_COBWEB_TRAP_DURATION }}` ticks.
 
 ![Spider - Cobweb Trap Deploy](../assets/kits/spider/Spider%20-%20Cobweb%20Trap%20Deploy.gif)
 
