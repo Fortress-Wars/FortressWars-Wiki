@@ -1,0 +1,5 @@
+- [Cosmetics](/cosmetics/)
+  - [Death Animations](Death_Animation)
+  - [Player Particle](Player_Particle)
+  - [Arrow Trail](Arrow_Trail)
+  - [Block Particles](Block_Particle)

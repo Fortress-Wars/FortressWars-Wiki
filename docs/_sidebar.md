@@ -5,5 +5,6 @@
 - [Kits](/kits/)
 - [Maps](/maps/)
 - [Mechanics](/mechanics/)
+- [Cosmetics](/cosmetics/)
 - [Systems](/systems/)
 - [Changelogs](/changelogs/)
