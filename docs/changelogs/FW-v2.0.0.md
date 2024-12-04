@@ -5,21 +5,22 @@ _Release Date: TBD_
 - Health Bars
 - Discord Integration
 - Kit Changes
+- Map Updates
 - Technical Changes
 - Other Changes
 - Bug Fixes
 
-### Health Bars
+## Health Bars
 
-Health bars appear above allies. They show the player's Kit, Name, Health Bar, Numeric Health Value, and number of potions. Absorption and other status effects will also be reflected in the health bar. Enemies only see the player's name and nothing else!
+Health bars appear above allies. They show the player's kit, name, health bar, numeric health value, and number of potions. Absorption and other status effects are reflected on the health bar. Enemies only see the player's name and nothing else!
 
-### Discord Integration
+## Discord Integration
 
-A new channel has been created that will show game events and player deaths messages.
+A new channel has been created that shows game events and player deaths messages.
 
 - Configured via "killfeed" and "game" channels in the DiscordSRV config.
 
-### Kit Changes
+## Kit Changes
 
 Aquaman
 
@@ -44,7 +45,7 @@ Bomber
 
 Brute
 
-- Berserk passive now stacks. Each time the health drops to or below **10.0**, **1** stack will be gained (max **2** stacks) the speed level is determined by the number of berserk stacks
+- Berserk passive now stacks. Each time the health drops to or below **10.0**, **1** stack is obtained (max **2** stacks) and the speed level is determined by the number of berserk stacks
 - Axe damage increased from **5.3** to **6**
 - Axe swirl ability now considers line of sight when damaging enemies.
 
@@ -60,7 +61,7 @@ Builder
 Crusher
 
 - Anvil ability now considers line of sight when damaging enemies.
-- Getting hit by an anvil will stun targets for **60** ticks.
+- Getting hit by an anvil stuns targets for **60** ticks.
 
 Demolitionist
 
@@ -86,11 +87,12 @@ Fish
 
 Golem
 
-- Earth wall is now made out of mud.
-- Earth Shatter has been reworked. It now summons a shockwave in the direction ther player is looking and spreads out as it travels.
+- Earth Wall is now made out of mud.
+- Earth Shatter has been reworked. It now summons a shockwave in the direction the player is looking and spreads out as it travels.
 - Increased Earth Shatter radius from **8** meters to **12** meters.
 - Decreased Earth Shatter mana cost from **60** mana to **55** mana.
-- Entities affected by Earth Shatter will be affected with the "Rooting" effect. Enemies are unable to move and take increased fire damage.
+- Enemies affected by Earth Shatter receive the "Rooting" effect.
+- Enemies with the "Rooting" effect are unable to move and take increased fire damage.
 - The "Rooting" effect lasts for **60** ticks.
 - Earth Shatter no longer damages the caster.
 
@@ -109,7 +111,7 @@ Hitman:
 Illusionist
 
 - Divination Star damage bonus multiplier now only triggers when the owner of the Divination Star is the source of the damage.
-- If the player attacks an enemy to uncloak from fake death, they will also hack them for **60** ticks.
+- If the player attacks an enemy to uncloak while invisible, the player also hacks them for **60** ticks.
 
 Jumper
 
@@ -136,10 +138,10 @@ Knight
 Mathematician
 
 - Changed wooden sword to stone sword.
-- Changed how math worksheets are distributed; The player now holds a max of **20** worksheets that regenerate **1** every **15** ticks. Worksheets can be dispensed by dispensers and rewarded for eliminations. Allies and enemies can hold a maximum of **15** worksheets. For every problem answered by the mathematician, one worksheet will be removed from all affected players.
+- Changed how math worksheets are distributed; The player now holds a max of **20** worksheets that regenerate **1** every **15** ticks. Worksheets can be dispensed by dispensers and rewarded for eliminations. Allies and enemies can hold a maximum of **15** worksheets. For every problem answered by the mathematician, one worksheet is removed from all affected players.
 - Increased the duration that allies and enemies hold practice problems from **600** ticks to **12000** ticks.
 - Decreased cooldown for generating math problems from **600** ticks to **100** ticks.
-- A random buff will now also be given after getting an elimination.
+- A random buff is now given to the player after earning an elimination.
 
 Medic
 
@@ -151,7 +153,7 @@ Mercy
 
 - Mercy staff no longer casts a fishing line, instead it is now particle based.
 - Players can target themselves by sneaking.
-- Staff beam will now disconnect if out of line of sight for too long.
+- Staff beam now disconnects if it is out of line of sight for too long.
 - Removed left-click to attach the beam.
 
 Miner
@@ -161,10 +163,10 @@ Miner
 Musketeer
 
 - Added a a second "Burst Mode" firing mode for the rifle.
-- Burst mode shoots **3** shots quickly that will ignore no damage ticks.
+- Burst mode rapidly shoots **3** bullets that ignore no damage ticks.
 - Burst mode bullets have a travel distance unlike "Sniper Mode" bullets.
 - Added damage falloff: Starts at **75** meters for "Sniper Mode" and **5** meters for "Burst Mode".
-- Bullets will no longer apply glowing when hitting an enemy.
+- Bullets no longer apply the glowing effect when hitting enemies.
 - "Sniper Mode" bullets now pierce up to **2** times
 
 Necromancer
@@ -175,24 +177,24 @@ Necromancer
 - Essence of the Afterlife can no longer be destroyed by explosions.
 - Max Essence of the afterlife reduced from **30** to **15**.
 - Max number of skeletons reduced from **3** to **1**.
-- Essnece to spawn a skeleton reduced from **3** to **1**.
-- Skeleton can now be upgraded by right-clicking them. There are **5** levels:
+- Essence to spawn a skeleton reduced from **3** to **1**.
+- The skeleton can now be upgraded by right-clicking them. There are **5** levels:
   - Level 1: 20 health, 10 armor points, stone sword, and extra speed.
   - Level 2: More defense points (15 total).
-  - Level 3: 20 addition health (40 total).
+  - Level 3: 20 additional health (40 total).
   - Level 4: More defense (20 total).
   - Level 5: +75% knockback resistance.
 - Cost to upgrade skeleton is **1** essence per level.
-- Right clicking the player's skeleton will restore **10** health. This will consume **1** essence.
-- Skeleton can now be picked up by right clicking it while sneaking. This will remember its current health and level.
-- The spawn skeleton item and shield will become enchanted to indicate that a skeleton is being held.
+- Right clicking the player's skeleton restores **10** health to the skeleton. This consumes **1** essence.
+- The skeleton can now be picked up by right clicking it while sneaking. This action remembers its current health and level.
+- The spawn skeleton item and shield become enchanted to indicate that a skeleton is being held.
 - Essence now drops for every entity death (was previously only player deaths caused by another player).
 
 Porcupine
 
 - Increased quills spread from **0.1** to **0.2**.
 - Reduced quill damage from **11** to **9**.
-- Porcupine quills will stun enemies for **30** ticks upon damaging them.
+- Porcupine quills stun enemies for **30** ticks upon damaging them.
 
 Potion Master
 
@@ -202,27 +204,27 @@ Priest
 
 - Release healing increased from **0.14** to **0.34** health per sun power stack.
 - Moved the burning effect of the release spell from level **5** to level **2**.
-- Moved the knockback effect of the realese spell from level **5** to level **4**.
+- Moved the knockback effect of the release spell from level **5** to level **4**.
 - The release spell knockback multiplier increased from **0.5** to **1**.
-- Level **3** release spells will unstun allies.
+- Level **3** release spells unstun allies.
 - The release spell now unhacks allies and friendly engineer blocks at level **5**.
 - The regeneration potion effect after casting spells was replaced with "Soothing Light" which is a custom regeneration effect.
 
 Prometheus
 
 - The flame spell no longer travels through full blocks of water.
-- Fireball will no longer knockback allies.
+- Fireball no longer knocks back allies.
 - Fireball can now damage and ignite the caster.
-- Fireball will now deal **4** damage on impact.
+- Fireball now deals **4** damage on impact.
 - Fireball now ignores invulnerability frames.
 - Fireball explosion damage reduced from **12** to **10**
 
 Pyrotechnic
 
 - Added knockback to the rockets.
-- When the barrage ability is activated and the crossbow is already loaded, the crossbow will instantly load the additional barrage rockets.
-- Player can now use the rocket launcher to rocket jump.
-- Added recoil the the rocket launcher.
+- When the barrage ability is activated and the crossbow is already loaded, the crossbow instantly loads the additional barrage rockets.
+- Players can now use the rocket launcher to rocket jump.
+- Added recoil to the rocket launcher.
 
 Raven
 
@@ -237,8 +239,8 @@ Slime
 
 - Slime armor no longer mitigates anvil damage.
 - Slime armor now mitigates piercing damage by **50%** (Arrows, Bullets, and Thorns).
-- Slime armor will no longer break if the fall damage is too high
-- Slime armor will now also break if the slime armor takes blast damage above a certain threshold.
+- Slime armor no longer breaks if the fall damage is too high.
+- Slime armor now breaks if the slime armor takes blast damage above a certain threshold.
 - Reduced slime minion spawn cooldown from **90** ticks to **75** ticks.
 
 Sniper
@@ -266,22 +268,22 @@ Sonic
 
 Spider
 
-- If a cobweb trap item is detroyed for whatever reason, it will now give a cooldown.
+- There is now a cooldown if a cobweb trap item is destroyed for whatever reason.
 - Deployed cobwebs no longer stack.
-- Cobweb cooldown now starts as soon as a the cobweb trap is triggered instead of when the duration ends.
+- Cobweb cooldown now starts as soon as the cobweb trap is triggered instead of when the duration ends.
 - Cobweb traps items now last **1200** ticks before despawning.
 
 Spy
 
 - Any melee attack while the player is cloaked now is considered a "Sneak Attack" (Previously it was just if the player attacked with the sneak attack sword)
-- If the player gets a sneak attack kill while invisible, the cloak ability cooldown will be refreshed by **50%**.
+- If the player gets a sneak attack kill while invisible, the cloak ability cooldown is refreshed by **50%**.
 - Spy's "Didn't see you there" achievement now only requires the player to kill an enemy cloaked spy instead of also requiring the damage type to be a sneak attack.
 
 Vitalist
 
 - Reduced crossbow magazine size from **7** to **4**.
 - Reduced projectile size from **0.4** to **0.1**.
-- Reduced projecile speed from **32** from **16**.
+- Reduced projectile speed from **32** from **16**.
 - Reduced total healing instances from **5** to **3**.
 - Reduced healing rate from from **5** to **3**.
 - Increased healing potency increased from **1** to **1.5**.
@@ -297,11 +299,37 @@ Wizard
 - Zap Spell stun duration decreased from **200** ticks to **10** ticks.
 - Zap Spell's chain lightning now chains to jumper translocators.
 
+## Map Updates
+
+Lobby
+
+- Added birch trees.
+- Added a swamp hut.
+- Added more secrets.
+
+Oasis
+
+- Added signs to help guide players to the beacon.
+- Added ice to the tunnels underneath the beacon.
+
+Lazarus
+
+- Extended seaside cliff near the beacon.
+- Added an explorable temple at the top of the middle of the map.
+
+Forest
+
+- Fixed mobs from spawning.
+
+Urban
+
+- Fixed mobs from spawning.
+
 ## Technical Changes
 
 - Reimplemented all kits
-- Players can now be hacked. Hacked players will not be able to use their abilities (active and passive) and any active abilities will be terminated.
-- Players can now be stunned. Stunned players will not be able to use their abilities.
+- Players can now be hacked. Hacked players are not able to use their abilities (active and passive) and any active abilities are terminated.
+- Players can now be stunned. Stunned players are not able to use their abilities.
 - Added an interface to refresh ability cooldowns.
 - Normalized shields taking damage based on the incoming damage.
 - Added Line of sight checks for explosions and other area of effect abilities.
@@ -310,7 +338,7 @@ Wizard
 - Shield block delay decreased from **5** ticks to **0** ticks.
 - Standardized all armor pieces to all have protection level **1**.
 - Standardized all **physical** damage types to include armor into the damage calculation.
-- When a liquid is replaced from player's building and the block they placed is detroyed, the liquid will be restored.
+- When a liquid is replaced by blocks built by players and the block they placed is destroyed, the liquid is restored.
 
 ## Other Changes
 
@@ -318,7 +346,7 @@ Wizard
 - Regeneration rate for potions while **in** combat reduced from **420** ticks to **200** ticks.
 - Regeneration rate for potions while **out of** combat reduced from **140** ticks to **100** ticks.
 - Tanks now have a **50%** knockback resistance when blocking.
-- King of the Hill respawn times will now be even if both teams have 99% and it is overtime.
+- King of the Hill respawn times are now the same if both teams have 99% and it is overtime.
 - Players can now quick build over vegetation.
 
 ## Bug Fixes
@@ -332,5 +360,5 @@ Wizard
 - Fixed bug where damage achievements' progress would display when damaging self even though self damage doesn't count towards the statistic/achievement.
 - Fixed bug where the classic overtime sudden death scoreboard would not update properly if for the player that died.
 - Fixed The Engineer "Doc Holiday" achievement including enemies.
-- Fixed issue where Earth Walls could regenerater from the "Demolish" ability and would linger permanently.
+- Fixed issue where Earth Walls could regenerate from the "Demolish" ability and would linger permanently.
 - Fixed bug where super vanish would break if the a vanished player logged back in after being deoped while offline.
