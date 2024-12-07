@@ -88,7 +88,7 @@ When a slime minion dies and the player is within `{{ kits.slime.data.SLIME_MINI
 | Extra protection. | Provide a kangaroo with slime armor! | 20 Credits |
 | Not just a damage sponge! | Get a slime kill. | 20 Credits |
 | Slimy slime | Provide slime armor to your slimes. | 20 Credits |
-| Damage Sponge | Mitigate 10,000 damage from allies. | 250 Credits |
+| Damage Sponge | Mitigate 10,000 damage from allies as slime. | 250 Credits |
 | Optimus Slime | Get 1,000 slime kills. | 250 Credits |
 
 <br />

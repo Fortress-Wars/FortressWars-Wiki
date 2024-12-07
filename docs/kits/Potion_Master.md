@@ -89,7 +89,7 @@ Affects enemies with Weakness (Level: `{{ kits.potion_master.data.POTION_MASTER_
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Damage? What Damage? | Kill a brute while they are in berserk and have weakness applied. | 20 Credits |
-| Creeper Cocktail | Throw a potion on a creeper as potion master. | 20 Credits |
+| Creeper Cocktail | Throw a potion on an enemy creeper as potion master. | 20 Credits |
 | Two to go please! | Get a double potion kill. | 20 Credits |
 | Superb Cocktail | Get 1,000 potion kills. | 250 Credits |
 
