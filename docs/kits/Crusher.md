@@ -71,7 +71,7 @@ Anvils will damage engineer blocks.
 | Anvil Inc. | Hit 1,000 enemies with summoned anvils. | 50 Credits |
 | Splat! | Get a double anvil kill! | 50 Credits |
 | Blacksmith's Graveyard | Get a triple anvil kill! | 50 Credits |
-| “Kilogramme o' steel” | Get 1000 anvil kills! | 250 Credits |
+| “Kilogramme o' steel” | Get 1,000 anvil kills! | 250 Credits |
 
 <br />
 
