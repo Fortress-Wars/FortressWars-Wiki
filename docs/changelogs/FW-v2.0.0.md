@@ -356,6 +356,7 @@ Urban
 - Tanks now have a **50%** knockback resistance when blocking.
 - King of the Hill respawn times are now the same if both teams have 99% and it is overtime.
 - Players can now quick build over vegetation.
+- Gamerules can no longer be updated while a game is active.
 
 ## Bug Fixes
 
