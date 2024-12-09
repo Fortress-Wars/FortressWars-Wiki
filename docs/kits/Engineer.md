@@ -171,7 +171,7 @@ Obtain `{{ kits.engineer.data.ENGINEER_KILL_ELIMINATION_REWARD }}` metal after a
 | Howdy, pardner! | Stun an enemy sentry! | 20 Credits |
 | Land Grab! | Help a teammate repair one of their buildings. | 20 Credits |
 | The engineer is Engi-here! | As engineer, take your teleporter that leads right into the enemy base. | 20 Credits |
-| Drugstore Cowboy | Dispense a combined amount of over 10,000 health pots. | 250 Credits |
+| Drugstore Cowboy | Dispense a combined amount of over 10,000 health potions. | 250 Credits |
 | Best Little Slaughterhouse in Texas | Rack up over 5,000 kills with your sentry gun. | 1,000 Credits |
 
 <br />

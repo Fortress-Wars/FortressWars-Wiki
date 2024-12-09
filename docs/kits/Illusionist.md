@@ -91,7 +91,7 @@ If the player damages an enemy to uncloak, they will also hack them for `{{ kits
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Haha...your plan Z failed! | Kill an illusionist while they are invisible. | 20 Credits |
-| I murdered your toys as well. | Hack an enemy sentry! | 20 Credits |
+| I murdered your toys as well. | Hack an enemy sentry as illusionist. | 20 Credits |
 | Plan Z is working perfectly! | Fake your death as illusionist and kill the opponent that you faked your death against. | 20 Credits |
 | Plan Z, I love ya! | Fake your death as illusionist. | 20 Credits |
 | Pure Divination | Get 1,000 future sight kills. | 250 Credits |

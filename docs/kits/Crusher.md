@@ -65,13 +65,13 @@ Anvils will damage engineer blocks.
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Bird Squ-”watcher” | Summon an anvil mid-air above a raven to bring them down and crush them. | 20 Credits |
-| Bowling Ball vs Trampoline! | Kill a slime with an anvil. | 20 Credits |
+| Bowling Ball vs Trampoline! | Kill a slime minion with an anvil. | 20 Credits |
 | Heavy Metal | Get a direct anvil kill. | 20 Credits |
 | Pixar Lamp | Crush an engineer sentry and destroy it. | 20 Credits |
 | Anvil Inc. | Hit 1,000 enemies with summoned anvils. | 50 Credits |
 | Splat! | Get a double anvil kill! | 50 Credits |
 | Blacksmith's Graveyard | Get a triple anvil kill! | 50 Credits |
-| “Kilogramme o' steel” | Get 1000 anvil kills! | 250 Credits |
+| “Kilogramme o' steel” | Get 1,000 anvil kills! | 250 Credits |
 
 <br />
 

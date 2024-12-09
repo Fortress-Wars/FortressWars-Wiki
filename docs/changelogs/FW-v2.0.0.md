@@ -301,6 +301,19 @@ Wizard
 
 ## Map Updates
 
+Caverns
+
+- Fixed respawn locations.
+
+Forest
+
+- Fixed mobs from spawning.
+
+Lazarus
+
+- Extended seaside cliff near the beacon.
+- Added an explorable temple at the top of the middle of the map.
+
 Lobby
 
 - Added birch trees.
@@ -312,14 +325,9 @@ Oasis
 - Added signs to help guide players to the beacon.
 - Added ice to the tunnels underneath the beacon.
 
-Lazarus
+River
 
-- Extended seaside cliff near the beacon.
-- Added an explorable temple at the top of the middle of the map.
-
-Forest
-
-- Fixed mobs from spawning.
+- Fixed beacons not showing their beam upon loading the map.
 
 Urban
 

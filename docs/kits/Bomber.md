@@ -73,12 +73,12 @@ Bombs will disable shields if the bomb hits a player that is blocking.
 <!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
-| Aye, what just happened? | Blow up an enemy from far away. | 20 Credits |
-| Couldn't ya see the bloody bombs! | Blow up a invisible enemy. | 20 Credits |
+| Aye, what just happened? | Blow up an enemy from far away as bomber. | 20 Credits |
+| Couldn't ya see the bloody bombs! | Blow up a invisible enemy as bomber. | 20 Credits |
 | The Destruction of Fort Knox! | Blow up enemy builder bricks as bomber! | 20 Credits |
-| Ka-boooom! | Get a double bomb kill. | 30 Credits |
-| Kablooie! | Get a triple bomb kill. | 50 Credits |
-| And that's what ya get for touching that! | Get 1,000 bomb kills. | 250 Credits |
+| Ka-boooom! | Get a double bomb kill as bomber. | 30 Credits |
+| Kablooie! | Get a triple bomb kill as bomber. | 50 Credits |
+| And that's what ya get for touching that! | Get 1,000 bomb kills as bomber. | 250 Credits |
 
 <br />
 
