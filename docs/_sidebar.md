@@ -5,5 +5,5 @@
 - [Kits](/kits/)
 - [Maps](/maps/)
 - [Mechanics](/mechanics/)
-- [Systems](/systems/)
+- [Technical Documentation](/technical_documentation/)
 - [Changelogs](/changelogs/)

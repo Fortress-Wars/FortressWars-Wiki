@@ -91,7 +91,7 @@ Earth Walls can be broken by tools.
 
 ## Rooting
 
-Entities that are affected by the rooting effect are not able to move and take increased [Fire Damage](/systems/Damage#damage-types). Fire damage is increased by `+2` damage per level.
+Entities that are affected by the rooting effect are not able to move and take increased [Fire Damage](/technical_documentation/Damage#damage-types). Fire damage is increased by `+2` damage per level.
 
 ![Golem - Rooting Movement](../assets/kits/golem/Golem%20-%20Rooting%20Movement.gif)
 
