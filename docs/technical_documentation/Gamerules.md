@@ -8,7 +8,7 @@
 
 The gamerule system allows server administrators to configure predefined rules for desired gameplay. Using gamerules, administrators can control enabled kits enabled, disabled kits, the default kit, and kit data.
 
-The Fortress Wars plugin initializes 3 YAML files located in the plugin's /gamerule/ directory: `default.yml`, `example.yml`, and `tournament.yml`. The default.yml file is used for the default gamerule. If this default gamerule is unable to be parsed, the plugin will fallback to the plugin's hardcoded version of it. If any other gamerule configuration files can't be parsed, then they will not be loaded. Parsing errors are logged in the console.
+The Fortress Wars plugin initializes 3 YAML files located in the plugin's /gamerule/ directory: `default.yml`, `example.yml`, and `tournament.yml`. The default.yml file is used for the default gamerule. If this default gamerule is unable to be parsed, the plugin fallbacks to the plugin's hardcoded version of it. If any other gamerule configuration files can't be parsed, then they are not loaded. Parsing errors are logged in the console.
 
 ---
 
@@ -50,7 +50,7 @@ description: This is an example description for an example gamerule.
 
 `Required`
 
-- The default kit of the gamerule. All players will be allowed to use this kit regardless if they have the kit unlocked or not.
+- The default kit of the gamerule. All players are allowed to use this kit regardless if they have the kit unlocked or not.
 
 ```yml
 defaultKit: default
@@ -80,7 +80,7 @@ playerLimit: 4
 
 `Optional`
 
-- The role limit for each team of this gamerule. This property specifies how much of each role can be in game per team. The available roles are: Damage, Tank, Support, Utility. If a role is not specified, the role will not have a limit.
+- The role limit for each team of this gamerule. This property specifies how much of each role can be in game per team. The available roles are: Damage, Tank, Support, Utility. If a role is not specified, the role does not have a limit.
 
 ```yml
 roleLimit:
@@ -104,7 +104,7 @@ allowPremiumKits: true
 
 `Optional`
 
-- The kits that are enabled by this gamerule. If this property is set, the disabledKits property will not have any effect. The default kit is always included in this list even if not explicitly specified.
+- The kits that are enabled by this gamerule. If this property is set, the disabledKits property doesn't have any effect. The default kit is always included in this list even if not explicitly specified.
 
 ```yml
 enabledKits:
@@ -149,7 +149,7 @@ kitDataOverrides:
     - CRUSHER_ANVIL_TARGET_ENEMIES=false
 ```
 
-- The map can contain a special "shared" property which is applied to all kits.
+- The map can contain a special "shared" property which is applied to all kits. If the same property is overridden for a specifc kit and also in "shared", then the value for the specific kit is priortized.
 
 ```yml
 kitDataOverrides:
@@ -227,6 +227,6 @@ settings:
   gamerule: default
 ```
 
-When the Fortress Wars plugin loads, it will automatically set the active gamerule to this one. If this isn't present or there is no gamerule configured with this id, then the plugin will use the default gamerule.
+When the Fortress Wars plugin loads, it automatically sets the active gamerule to this one. If this isn't present or there is no gamerule configured with this id, then the plugin uses the default gamerule.
 
 Administrators can use the `/fw config save` command to save the active gamerule so it persists throughout server restarts.
