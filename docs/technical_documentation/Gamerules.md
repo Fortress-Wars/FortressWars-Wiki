@@ -26,6 +26,16 @@ The properties used by gamerule configuration files.
 name: example
 ```
 
+### enabled
+
+`Required`
+
+- This property is used to enable or disable the kit.
+
+```yml
+enabled: true
+```
+
 ### name
 
 `Required`
@@ -165,6 +175,7 @@ kitDataOverrides:
 
 ```yml
 id: example
+enabled: true
 name: Example
 description: This is an example description for an example gamerule.
 defaultKit: default
