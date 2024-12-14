@@ -46,24 +46,68 @@ name: Example
 description: This is an example description for an example gamerule.
 ```
 
-### default_kit
+### defaultKit
 
 `Required`
 
 - The default kit of the gamerule. All players will be allowed to use this kit regardless if they have the kit unlocked or not.
 
 ```yml
-default_kit: default
+defaultKit: default
 ```
 
-### enabled_kits
+### kitLimit
 
 `Optional`
 
-- The kits that are enabled by this gamerule. If this property is set, the disabled_kits property will not have any effect. The default kit is always included in this list even if not explicitly specified.
+- The kit limit for each team of this gamerule. This property specifies how many players can use a specific kit at once. The kit limit is team specific. This value must be at least 1.
 
 ```yml
-enabled_kits:
+kitLimit: 1
+```
+
+### playerLimit
+
+`Optional`
+
+- The player limit for each team of this gamerule. This property specifies how players can exist on one team.
+
+```yml
+playerLimit: 4
+```
+
+### roleLimit
+
+`Optional`
+
+- The role limit for each team of this gamerule. This property specifies how much of each role can be in game per team. The available roles are: Damage, Tank, Support, Utility. If a role is not specified, the role will not have a limit.
+
+```yml
+roleLimit:
+  damage: 3
+  tank: 1
+  support: 1
+  utility: 0
+```
+
+### allowPremiumKits
+
+`Optional`
+
+- The property that specifies if players can use premium kits that they do not have unlocked.
+
+```yml
+allowPremiumKits: true
+```
+
+### enabledKits
+
+`Optional`
+
+- The kits that are enabled by this gamerule. If this property is set, the disabledKits property will not have any effect. The default kit is always included in this list even if not explicitly specified.
+
+```yml
+enabledKits:
   - brute
   - buff_master
   - crusher
@@ -72,27 +116,27 @@ enabled_kits:
   - master
 ```
 
-### disabled_kits
+### disabledKits
 
 `Optional`
 
 - The kits that are disabled by this gamerule.
 
 ```yml
-disabled_kits:
+disabledKits:
   - brute
   - fish
   - knight
 ```
 
-### kit_data_overrides
+### kitDataOverrides
 
 `Optional`
 
 - The kit data overrides this gamerule. Each kit data definition includes a `property`, the `=` delimiter, and a `value`. This value can be a double or a boolean. Refer to the [Kits Documentation](/kits/) for kit data properties used by kits.
 
 ```yml
-kit_data_overrides:
+kitDataOverrides:
   brute:
     - BRUTE_AXE_SWIRL_DAMAGE=5
   sonic:
@@ -100,7 +144,7 @@ kit_data_overrides:
 ```
 
 ```yml
-kit_data_overrides:
+kitDataOverrides:
   crusher:
     - CRUSHER_ANVIL_TARGET_ENEMIES=false
 ```
@@ -108,7 +152,7 @@ kit_data_overrides:
 - The map can contain a special "shared" property which is applied to all kits.
 
 ```yml
-kit_data_overrides:
+kitDataOverrides:
   shared:
     - MAX_HEALING_POTIONS=7
   buff_master:
@@ -123,16 +167,24 @@ kit_data_overrides:
 id: example
 name: Example
 description: This is an example description for an example gamerule.
-default_kit: default
-enabled_kits:
+defaultKit: default
+kitLimit: 1
+playerLimit: 4
+roleLimit:
+  damage: 3
+  tank: 1
+  support: 1
+  utility: 0
+allowPremiumKits: true
+enabledKits:
   - default
   - soldier
   - potion_master
-disabled_kits:
+disabledKits:
   - brute
   - fish
   - knight
-kit_data_overrides:
+kitDataOverrides:
   shared:
     - MAX_HEALING_POTIONS=7
   buff_master:
