@@ -357,6 +357,7 @@ Urban
 - King of the Hill respawn times are now the same if both teams have 99% and it is overtime.
 - Players can now quick build over vegetation.
 - Gamerules can no longer be updated while a game is active.
+- Removed the other colors besides yellow of the FW+ rank.
 
 ## Bug Fixes
 
