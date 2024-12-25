@@ -358,6 +358,9 @@ Urban
 - Players can now quick build over vegetation.
 - Gamerules can no longer be updated while a game is active.
 - Removed the other colors besides yellow of the FW+ rank.
+- Updated format of time related statistics on the leaderboards.
+- Added a total achievements unlocked leaderboard on the same hologram as the most time played leaderboard.
+- Added a damage ratio leaderboard on the same hologram as the EDR leaderboard.
 
 ## Bug Fixes
 
