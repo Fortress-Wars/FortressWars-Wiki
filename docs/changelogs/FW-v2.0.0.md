@@ -138,6 +138,7 @@ Knight
 - New Fortify Ability: Increases shield strength, refreshes shield durability, and converts all damage types that normally break or ignore the shield to damage the shield instead.
 - Royal Guard is now effective for all allies and only triggers when Fortify is active and the player is blocking.
 - The "Damage Deflect" ability is only active during Fortify's duration.
+- Removed the "Where do you think you're going?" achievement, because knight no longer has the Pull ability.
 
 Mathematician
 
