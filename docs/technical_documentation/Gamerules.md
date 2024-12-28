@@ -8,7 +8,7 @@
 
 The gamerule system allows server administrators to configure predefined rules for desired gameplay. Using gamerules, administrators can control enabled kits enabled, disabled kits, the default kit, and kit data.
 
-The Fortress Wars plugin initializes 3 YAML files located in the plugin's /gamerule/ directory: `default.yml`, `example.yml`, and `tournament.yml`. The default.yml file is used for the default gamerule. If this default gamerule is unable to be parsed, the plugin fallbacks to the plugin's hardcoded version of it. If any other gamerule configuration files can't be parsed, then they are not loaded. Parsing errors are logged in the console.
+The Fortress Wars plugin initializes 3 YAML files in the plugin's /gamerule/ directory: `default.yml`, `example.yml`, and `tournament.yml`. The default.yml file is used for the default gamerule. The plugin fallbacks to a hardcoded default if this default gamerule can’t be parsed, t. If any other gamerule configuration files can't be parsed, they are not loaded. Parsing errors are logged in the console.
 
 ---
 
@@ -20,7 +20,7 @@ The properties used by gamerule configuration files.
 
 `Required`
 
-- This property is used to identify the gamerule. All gamerules must have unique ids.
+- This property is used to identify the gamerule. All gamerules must have unique IDs.
 
 ```yml
 name: example
@@ -40,7 +40,7 @@ enabled: true
 
 `Required`
 
-- This property is the name of the gamerule that is displayed to players in game.
+- This property is the name of the gamerule.
 
 ```yml
 name: Example
@@ -60,7 +60,7 @@ description: This is an example description for an example gamerule.
 
 `Required`
 
-- The default kit of the gamerule. All players are allowed to use this kit regardless if they have the kit unlocked or not.
+- The default kit of the gamerule. All players are allowed to use this kit.
 
 ```yml
 defaultKit: default
@@ -70,7 +70,7 @@ defaultKit: default
 
 `Optional`
 
-- The kit limit for each team of this gamerule. This property specifies how many players can use a specific kit at once. The kit limit is team specific. This value must be at least 1.
+- The kit limit for each team of this gamerule. This property specifies how many players can use a specific kit at once. The kit limit is team-specific. This value must be at least 1.
 
 ```yml
 kitLimit: 1
@@ -90,7 +90,7 @@ playerLimit: 4
 
 `Optional`
 
-- The role limit for each team of this gamerule. This property specifies how much of each role can be in game per team. The available roles are: Damage, Tank, Support, Utility. If a role is not specified, the role does not have a limit.
+- The role limit for each team of this gamerule. This property specifies how much of each role can be in-game per team. The available roles are: Damage, Tank, Support, and Utility. If a role is not specified, the role does not have a limit.
 
 ```yml
 roleLimit:
@@ -159,7 +159,7 @@ kitDataOverrides:
     - CRUSHER_ANVIL_TARGET_ENEMIES=false
 ```
 
-- The map can contain a special "shared" property which is applied to all kits. If the same property is overridden for a specifc kit and also in "shared", then the value for the specific kit is priortized.
+- The map can contain a special "shared" property. Overrides defined in this property are applied to all kits. If the same property is overridden for a specific kit and in "shared", then the value for the kit is prioritized.
 
 ```yml
 kitDataOverrides:
