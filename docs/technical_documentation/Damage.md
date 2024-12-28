@@ -4,25 +4,42 @@
 
 ### Damage Types
 
-- Air
-- Blast
-- Earth
-- Electric
-- Elemental
-- Fire
-- Ice
-- Impact
-- Impaling
-- Magic
-- Normal
-- Physical
-- Piercing
-- Redistribution
-- Slashing
-- Stabbing
-- System
-- Water
-- Other
+- `Air`
+  - _Air related damage._
+- `Blast`
+  - _Something explodes._
+- `Earth`
+  - _Earth related damage._
+- `Electric`
+  - _Electric related damage._
+- `Elemental`
+  - _Magic that is element based._
+- `Fire`
+  - _Fire related damage._
+- `Ice`
+  - _Ice related damage._
+- `Impact`
+  - _Something big collides into something._
+- `Impaling`
+  - _Something sharp goes into something and stays there._
+- `Magic`
+  - _Magic related damage._
+- `Physical`
+  - _Physical related damage._
+- `Piercing`
+  - _Something sharp goes into something and goes out the other side._
+- `Redistribution`
+  - _Damage that is redirected from one thing to another._
+- `Slashing`
+  - _Something sharp slashes something; does't go in._
+- `Stabbing`
+  - _Something sharp goes in and comes out._
+- `System`
+  - _Damage caused by the system and not an entity or gamer object._
+- `Water`
+  - _Water related damage._
+- `Other`
+  - _Damage that doesn't fall into a damage other type category._
 
 ### Shield Damage Types
 
@@ -177,7 +194,7 @@
   - Shield Damage Type: _Break_
   - Damage Types: _Blast_, _Elemental_, _Fire_, _Impact_, _Magic_ _Phycical_
 - `Prometheus Fireball Impact`
-  - Shield Damage Type: _DAMAGE_
+  - Shield Damage Type: _Damage_
   - Damage Types: _Elemental_, _Fire_, _Impact_, _Magic_, _Phycical_
 - `Prometheus Imbue`
   - Shield Damage Type: _Ignore_

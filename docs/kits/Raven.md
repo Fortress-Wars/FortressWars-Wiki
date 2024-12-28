@@ -76,7 +76,7 @@ If the player runs out of mana while flight is active, then the player takes `{{
 
 ![Raven - Flight No Mana](../assets/kits/raven/Raven%20-%20Flight%20No%20Mana.gif)
 
-Flight is canceled if the player is stunned, hacked, or takes [damage](/systems/Damage#damage-types) of the following types:
+Flight is canceled if the player is stunned, hacked, or takes [damage](/technical_documentation/Damage#damage-types) of the following types:
 
 - Piercing
 - Impaling
