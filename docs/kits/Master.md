@@ -108,7 +108,8 @@ If a creeper has a potion effect and it explodes, the potion effects will linger
 | MASTER_SWORD_DAMAGE | `{{ kits.master.data.MASTER_SWORD_DAMAGE }}` | The base damage of the sword. |
 | MASTER_SWORD_SPEED | `{{ kits.master.data.MASTER_SWORD_SPEED }}` | The base speed of the sword. |
 | MASTER_MINIONS_MAX_CREEPERS | `{{ kits.master.data.MASTER_MINIONS_MAX_CREEPERS }}` | The maximum number of creeper minions that can be alive at once. |
-| MASTER_MINIONS_SPAWN_CREEPER_COOLDOWN | `{{ kits.master.data.MASTER_MINIONS_SPAWN_CREEPER_COOLDOWN }}` | The cooldown, in ticks, of the `Creeper Minion Egg` ability. |
+| MASTER_MINIONS_SPAWN_CREEPER_COOLDOWN | `{{ kits.master.data.MASTER_MINIONS_SPAWN_CREEPER_COOLDOWN }}` | The cooldown, in ticks, of the Creeper Minion Egg ability. |
+| MASTER_MINIONS_SPAWN_CREEPER_AMOUNT | `{{kits.master.data.MASTER_MINIONS_SPAWN_CREEPER_AMOUNT }}` | The amount of creepers to spawn when using the Creeper Minion Egg. | 
 | MASTER_MINIONS_CREEPER_DURATION | `{{ kits.master.data.MASTER_MINIONS_CREEPER_DURATION }}` | The life duration, in ticks, of creeper minions. |
 | MASTER_MINIONS_CREEPER_DAMAGE | `{{ kits.master.data.MASTER_MINIONS_CREEPER_DAMAGE }}` | The explosion damage of creeper minions. |
 | MASTER_MINIONS_CHARGED_CREEPER_DAMAGE | `{{ kits.master.data.MASTER_MINIONS_CHARGED_CREEPER_DAMAGE }}` | The explosion damage of super charged creeper minions. |
