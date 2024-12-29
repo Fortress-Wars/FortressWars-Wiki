@@ -306,6 +306,18 @@ Wizard
 
 ## Map Updates
 
+### New Map
+
+Somber Swamps
+
+- **Description:** An outpost in the darkest part of the swamps.
+- **Gamemode:** King of the Hill
+- **Map Type:** Non-Build (NB)
+- **Size:** Medium
+- **Contributors:** alfredodan
+
+### Map Fixes
+
 Caverns
 
 - Fixed respawn locations.
