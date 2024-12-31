@@ -373,6 +373,9 @@ Urban
 - Updated format of time-related statistics on the leaderboards.
 - Added a “Total Achievements Unlocked” leaderboard on the same hologram as the ”Most Time Played” leaderboard.
 - Added a “Damage Ratio” (Damage Dealt / Damage Taken) leaderboard on the same hologram as the “EDR” leaderboard.
+- Locked achievements in the Achievements GUI are displayed with a barrier icon.
+- Merged secret achievements into the kits category (Fish & Mathematician achievements).
+- Added unlocked achievement count and total number of unlockable achievements to the Achievements GUI.
 
 ## Bug Fixes
 
