@@ -135,8 +135,8 @@ Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPEN
 | ----------- | ----------- | ------ |
 | Even rocks move on | Get a double earth shatter kill. | 20 Credits |
 | There is no planet B | Hit 4 enemies at once with one earth shatter. | 20 Credits |
-| Earth Power | Cast 10,000 earth walls. | 500 Credits |
-| Killer roots | Get 1,000 earth shatter kills. | 250 Credits |
+| Earth Power | Cast 100 earth walls. | 250 Credits |
+| Killer roots | Get 500 earth shatter kills. | 1,000 Credits |
 
 <br />
 

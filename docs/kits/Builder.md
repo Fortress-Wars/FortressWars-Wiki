@@ -90,9 +90,9 @@ Receive bricks and ladders from engineer dispensers.
 | ----------- | ----------- | ------ |
 | BUILDAH KILL! | Eliminate an enemy with your bricks. | 20 Credits |
 | Don't underestimate the BRICKS! | Get a death plane kill as builder. | 20 Credits |
-| Monumental Mason | Get 1,000 brick kills. | 250 Credits |
-| Ladder to heaven! | Place 25,000 ladders. | 1,000 Credits |
-| Sturdy fortress! | Place 100,000 bricks. | 1,000 Credits |
+| Ladder to heaven! | Place 500 ladders. | 250 Credits |
+| Sturdy fortress! | Place 1,000 bricks. | 250 Credits |
+| Monumental Mason | Get 50 brick kills. | 1,000 Credits |
 
 <br />
 

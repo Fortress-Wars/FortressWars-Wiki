@@ -99,7 +99,7 @@ The heat meter indicates how close the machine gun is to overheating.
 | Go ahead! Build your tiny gun, then run! | Destroy a sentry with your machine gun. | 20 Credits. |
 | Not today, oh wait... | Get hit by a gunner bullet while shielding. | 20 Credits |
 | Weeeeeeeeh! Waaaaaaaahh! | Gun down an enemy from 50 blocks away. | 50 Credits |
-| Ooohhhh, run, run, I'm coming for you! | Get 1,000 machine gun kills. | 250 Credits |
+| Ooohhhh, run, run, I'm coming for you! | Get 50 machine gun kills. | 1,000 Credits |
 
 <br />
 

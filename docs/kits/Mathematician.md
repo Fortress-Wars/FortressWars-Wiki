@@ -156,9 +156,9 @@ Available Debuffs:
 | ----------- | ----------- | ------ |
 | Algebruh moment | Pay the ultimate price for incorrectly answering a practice problem. | 20 Credits |
 | Consequences of bad math | Heal an enemy. | 20 Credits |
-| All according to my calculations | Do a total of 100,000 math healing. | 250 Credits |
-| Just an arbitrary number | Get 1,000 practice problems kills. | 250 Credits |
-| Math Wizard | Answer 10,000 math problems correctly. | 250 Credits |
+| Math Wizard | Solve 100 math problems. | 250 Credits |
+| All according to my calculations | Do a total of 1,000 math healing. | 500 Credits |
+| Just an arbitrary number | Get 50 practice problems kills. | 1,000 Credits |
 | Top-tier Pacifist | Win a game with the best EDR with no final blows. | Kit Mathematician |
 
 <br />

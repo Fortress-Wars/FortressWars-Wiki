@@ -99,7 +99,7 @@ While in water, deal `+{{ kits.aquaman.data.AQUAMAN_TRIDENT_WATER_SYNERGY_DAMAGE
 | Ask the sea for mercy! | Kill an enemy in water. | 20 Credits |
 | Something something trident. | Hit a flying raven with your trident. | 20 Credits |
 | It was up to me and I let them die. | Kill an enemy with your trident from a far distance. | 40 Credits |
-| Where I come from...The sea carries our tears away. | Get 1,000 trident kills. | 250 Credits |
+| Where I come from...The sea carries our tears away. | Get 50 trident kills. | 1,000 Credits |
 
 <br />
 

@@ -71,8 +71,8 @@ The shockwave will stun all nearby enemies and engineer blocks within `{{ kits.s
 | Goomba Stomp | Goomba stomp on someone to activate your sonic boom. | 20 Credits |
 | I'm a hedgehog | Get a double sonic boom kill! | 100 Credits |
 | Gotta Go Fast | Get a triple sonic boom kill! | 100 Credits |
-| Escape From The City | Use your sonic speed to travel over 186,000 blocks. | 250 Credits |
-| Through the Sound Barrier | Get 1,000 sonic boom kills. | 250 Credits |
+| Escape From The City | Use your sonic speed to travel 10,000 meters. | 250 Credits |
+| Through the Sound Barrier | Get 50 sonic boom kills. | 1,000 Credits |
 
 <br />
 

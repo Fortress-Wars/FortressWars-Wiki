@@ -83,7 +83,7 @@ Electrolytes are used by the [Healing Stone](#healing-stone) ability to heal all
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Get zem. Raus, Raus! | Heal 4 allies at once as medic. | 20 Credits |
-| Ze healing is not as revarding as ze hurting! | Do a total of 100,000 healing as medic. | 250 Credits |
+| Ze healing is not as revarding as ze hurting! | Do a total of 5,000 healing as medic. | 500 Credits |
 
 <br />
 

@@ -114,7 +114,7 @@ Friendly engineer dispensers will dispense `{{ kits.musketeer.data.MUSKETEER_AMM
 | A shield's not gonna stop me! | Shoot an enemy through their shield to eliminate them. | 20 Credits |
 | Sentry Sniper | Destroy a sentry from over 75 blocks away. | 20 Credits |
 | Gun needs a break, eh? | Kill an enemy musketeer while they are reloading. | 20 Credits |
-| American Revolution | Get 1,000 rifle kills. | 250 Credits |
+| American Revolution | Get 50 rifle kills. | 1,000 Credits |
 
 <br />
 

@@ -116,8 +116,8 @@ Friendly engineer dispensers dispense `{{ kits.vitalist.data.VITALIST_CROSSBOW_A
 | ----------- | ----------- | ------ |
 | Crusader² | Heal a crusader as vitalist | 20 Credits |
 | Value from a Distance | Heal a teammate from over 100 blocks away as vitalist | 20 Credits |
-| Blessed Rebuttal | Get 1,000 kills with the crossbow as vitalist | 250 Credits |
-| Unbending Support | Heal 100,000 health with crossbow shots as vitalist | 250 Credits |
+| Unbending Support | Heal 5,000 health with crossbow shots as vitalist | 500 Credits |
+| Blessed Rebuttal | Get 50 kills with the crossbow as vitalist | 1,000 Credits |
 
 <br />
 

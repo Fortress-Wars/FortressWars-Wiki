@@ -78,7 +78,7 @@ Bombs will disable shields if the bomb hits a player that is blocking.
 | The Destruction of Fort Knox! | Blow up enemy builder bricks as bomber! | 20 Credits |
 | Ka-boooom! | Get a double bomb kill as bomber. | 30 Credits |
 | Kablooie! | Get a triple bomb kill as bomber. | 50 Credits |
-| And that's what ya get for touching that! | Get 1,000 bomb kills as bomber. | 250 Credits |
+| And that's what ya get for touching that! | Get 50 bomb kills as bomber. | 1,000 Credits |
 
 <br />
 

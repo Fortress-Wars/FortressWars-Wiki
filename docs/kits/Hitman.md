@@ -108,8 +108,8 @@ Damages the enemy for `{{ kits.hitman.data.HITMAN_INSTANT_DAMAGE_DAMAGE }}` HP.
 | ----------- | ----------- | ------ |
 | Names Are For Friends, So I Don't Need One | Affect 4 enemies at the same time as hitman. | 20 Credits |
 | Name's Dennis. I've been hired to exterminate you. | As hitman, kill an aquaman. | 20 Credits |
-| Agent 47's hair-loss program | Affect a spy with glowing as they are invisible. | 20 Credits |
-| One Day, I Will Think Of This As Just Another Job | Get 1,000 damage dart kills. | 250 Credits |
+| Agent 47's hair-loss program | Affect an enemy with glowing while they are invisible. | 20 Credits |
+| One Day, I Will Think Of This As Just Another Job | Get 50 damage dart kills. | 1,000 Credits |
 
 <br />
 

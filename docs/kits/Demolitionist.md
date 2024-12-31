@@ -93,8 +93,8 @@ When the player is close to a friendly [Bomber](./Bomber.md), and the friendly B
 | 2 with one Bomb | Get a double bomb kill as a demolitionist. | 50 Credits |
 | Bombs, Blocks, and Bones | Get a triple bomb kill as a demolitionist. | 50 Credits |
 | Where did they go? Are they in the walls? | Get a quadruple bomb kill as a demolitionist. | 50 Credits |
-| Base Breaker | Destroy 100,000 blocks with your bomb. | 250 Credits |
-| Ultimate Demolisher | Get 1,000 bomb kills as a demolitionist. | 250 Credits |
+| Base Breaker | Destroy 1,000 blocks with your bomb. | 250 Credits |
+| Ultimate Demolisher | Get 50 bomb kills as a demolitionist. | 1,000 Credits |
 
 <br />
 
