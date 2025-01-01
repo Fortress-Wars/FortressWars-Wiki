@@ -374,6 +374,7 @@ Urban
 ## Other Changes
 
 - Minions can now use sponge launchers.
+- Minions can now pickup item projectiles. (fish, snowball, diviniation star, etc.)
 - Regeneration rate for potions while **in** combat reduced from **420** ticks to **200** ticks.
 - Regeneration rate for potions while **out of** combat reduced from **140** ticks to **100** ticks.
 - Tanks now have a **50%** knockback resistance when blocking.
