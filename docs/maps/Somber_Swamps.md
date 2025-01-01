@@ -9,7 +9,7 @@
 ---
 
 - **Introduced:** v2.0.0
-- **Description:** A outpost in the darkest part of the swamps.
+- **Description:** An outpost in the darkest part of the swamps.
 - **Gamemode:** King of the Hill
 - **Map Type:** Non-Build (NB)
 - **Size:** Medium
