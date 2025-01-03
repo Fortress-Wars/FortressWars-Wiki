@@ -86,9 +86,9 @@ Hitting an enemy with shield bash will trigger Ironclad. Ironclad will provide d
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Get out of my way! | Hit 4 enemies with one shield bash! | 20 Credits |
-| Iron Shield | Get 1,000 shield bash kills. | 20 Credits |
 | Stronk Shield! | Get a double shield bash kill. | 100 Credits |
 | The Flattener! | Get a triple shield bash kill. | 250 Credits |
+| Iron Shield | Get 50 shield bash kills. | 1,000 Credits |
 
 <br />
 

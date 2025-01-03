@@ -191,7 +191,7 @@ Deal `+{{ kits.fish.data.BEACON_BREAKER_DAMAGE_ADDITIVE }}` damage to beacons.
 | Fishy Business! | Fish up and eat a cod! | Kit Fish |
 | Fish Repellent | Block a fish attack. | 20 Credits |
 | I PRAY TO RNG | Get a pufferfish kill.  | 20 credits |
-| Anchovies! | Get 1,000 fish kills. | 250 Credits |
+| Anchovies! | Get 50 fish kills. | 1,000 Credits |
 
 <br />
 

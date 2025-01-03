@@ -99,7 +99,7 @@ Enemy engineer dispensers will dispense to the player.
 | Happy trails, laborer! | Use an enemy dispenser as a spy! | 20 Credits |
 | Sorry to 'pop-in' unannounced! | Take an enemy teleporter as a spy! | 20 Credits |
 | You got blood on my suit! | Earn a sneak attack kill as spy! | 20 Credits |
-| Oh dear, I've made quite a mess. | Get 1,000 sneak attack kills. | 250 Credits |
+| Oh dear, I've made quite a mess. | Get 50 sneak attack kills. | 1,000 Credits |
 
 <br />
 

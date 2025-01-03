@@ -87,7 +87,7 @@ If a creeper has a potion effect and it explodes, the potion effects will linger
 | Come on kiddies, have some ice cream. | Get a double creeper kill. | 20 Credits |
 | Oh no, you dropped your ice cream. | Get a triple creeper kill. | 20 Credits |
 | Head Dropper | Get a super creeper kill. | 20 Credits |
-| Creeper Army! | Get 1,000 creeper kills. | 250 Credits |
+| Creeper Army! | Get 50 creeper kills. | 1,000 Credits |
 
 <br />
 

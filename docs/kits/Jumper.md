@@ -70,7 +70,7 @@ Enemies can break translocators by picking them up or using certain abilities to
 | Oh how convenient? | Teleport into an enemy beacon room from outside the base. | 20 Credits |
 | Just in time! | Stop an enemy from breaking the beacon by teleporting to them. | 20 Credits |
 | Run That Back | Teleport back to your base while in combat. | 20 Credits  |
-| What am I, an Enderman? | Teleport a total distance of 100,000 blocks. | 250 Credits |
+| What am I, an Enderman? | Teleport a total distance of 2,500 blocks. | 250 Credits |
 
 <br />
 

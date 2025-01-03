@@ -84,7 +84,7 @@ Deal `+{{ kits.miner.data.MINER_ENGINEER_BLOCK_DAMAGE_ADDITIVE }}` damage to eng
 | Efficiently Mining | As miner, mine over 100 blocks in one life. | 20 Credits |
 | Efficiently Scrapping | Destroy an engineer's dispenser, sentry, and teleporter pads in one life. | 20 Credits|
 | Shield Smasher | Break an enemy shield while using Miner's fervor. | 20 Credits |
-| Mole Rat | Break 100,000 blocks as miner. | 250 Credits |
+| Mole Rat | Break 10,000 blocks as miner. | 500 Credits |
 
 <br />
 

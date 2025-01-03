@@ -92,7 +92,7 @@ Friendly engineer dispensers will dispense `{{ kits.pyrotechnic.data.PYROTECHNIC
 | Keep calm and sparkle on. | Get a double rocket kill. | 20 Credits |
 | Glorified Gunpowder | Get a triple rocket kill. | 20 Credits |
 | When birds fry | Knock a raven out of flight using rockets. | 20 Credits |
-| Snap, Crackle, Pop | Get 1,000 rocket kills. | 250 Credits |
+| Snap, Crackle, Pop | Get 50 rocket kills. | 1,000 Credits |
 
 <br />
 

@@ -102,7 +102,7 @@ Right-click or left-click to cycle the `Staff` between `Health Mode` and `Damage
 | Fine, I'll do it myself... | Attach a mercy beam to yourself as mercy. | 20 Credits |
 | You might not want to tell your friends about that. | Get a final blow as mercy | 20 Credits |
 | Midwife Crisis | As mercy, have your beam attached to a friendly engineer as they repair their sentry gun. | 20 Credits |
-| Battle Mercy | Get 1,000 kills as Mercy. | 250 Credits |
+| Battle Mercy | Get 50 kills as Mercy. | 1,000 Credits |
 
 <br />
 

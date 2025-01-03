@@ -139,7 +139,7 @@ Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPEN
 | ----------- | ----------- | ------ |
 | Water Sniper | Cast your water bomb spell and successfully hit an enemy or ally from 50 blocks away. | 20 Credits |
 | Fun at the water park! | Affect 10 Entities at once with your water bomb spell. | 50 Credits |
-| Soothing Water | Heal a total of 100,000 with your water beam spell. | 250 Credits |
+| Soothing Water | Heal a total of 5,000 as kit Aquarius. | 500 Credits |
 
 <br />
 

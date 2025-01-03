@@ -72,7 +72,7 @@ After using the quills ability, the player will receive the thorns effect for `{
 | Effective Quills | Get a double quill kill. | 20 Credits |
 | Super Effective Quills | Get a triple quill kill. | 20 Credits |
 | Did that hurt? | Get a kill with your thorns as porcupine. | 20 Credits |
-| Spiny | Get 1,000 quill kills. | 250 Credits |
+| Spiny | Get 50 quill kills. | 1,000 Credits |
 
 <br />
 

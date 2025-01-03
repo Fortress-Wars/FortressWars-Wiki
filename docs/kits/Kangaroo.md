@@ -74,7 +74,7 @@ The player is immune to fall damage.
 | ----------- | ----------- | ------ |
 | Crippled Turret | Destroy a sentry with your stomp ability. | 20 Credits |
 | Mega Stomp | Stomp on an enemy after falling for 50 blocks. | 50 Credits |
-| Stomptopia | Get 1,000 stomp kills. | 250 Credits |
+| Stomptopia | Get 50 stomp kills. | 1,000 Credits |
 
 <br />
 

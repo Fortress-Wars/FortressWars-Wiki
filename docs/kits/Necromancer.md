@@ -174,8 +174,8 @@ When the player dies, they will drop `{{ kits.necromancer.data.NECROMANCER_ESSEN
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Wither Roses are black, Creepers are green | Have your wither skeleton minion kill an enemy creeper. | 20 Credits |
-| Dead Man Tell No Tales | Get 1,000 skeleton kills. | 250 Credits |
-| Undead Alchemy | Gather a total of 50,000 Essence of the Afterlife. | 250 Credits |
+| Undead Alchemy | Gather a total of 100 Essence of the Afterlife. | 250 Credits |
+| Dead Men Tell No Tales | Get 50 skeleton kills. | 1,000 Credits |
 
 <br />
 

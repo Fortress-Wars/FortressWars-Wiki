@@ -68,10 +68,10 @@ Anvils will damage engineer blocks.
 | Bowling Ball vs Trampoline! | Kill a slime minion with an anvil. | 20 Credits |
 | Heavy Metal | Get a direct anvil kill. | 20 Credits |
 | Pixar Lamp | Crush an engineer sentry and destroy it. | 20 Credits |
-| Anvil Inc. | Hit 1,000 enemies with summoned anvils. | 50 Credits |
+| Anvil Inc. | Hit 100 enemies with summoned anvils. | 50 Credits |
 | Splat! | Get a double anvil kill! | 50 Credits |
 | Blacksmith's Graveyard | Get a triple anvil kill! | 50 Credits |
-| “Kilogramme o' steel” | Get 1,000 anvil kills! | 250 Credits |
+| “Kilogramme o' steel” | Get 50 anvil kills! | 1,000 Credits |
 
 <br />
 

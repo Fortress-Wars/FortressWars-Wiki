@@ -81,8 +81,8 @@ Additionally, dealing melee damage with the axe will instantly break shields.
 | ----------- | ----------- | ------ |
 | A clean cut | Get a double axe swirl kill. | 50 Credits |
 | Skull splitter | Get 2 final blows with in one berserk. | 50 Credits |
-| Passive Aggressive Negotiator | Activate the berserk passive 1,000 times. | 100 Credits|
-| Head Collector | Get 1,000 axe swirl kills. | 250 Credits |
+| Passive Aggressive Negotiator | Activate the berserk passive 100 times. | 100 Credits |
+| Head Collector | Get 50 axe swirl kills. | 1,000 Credits |
 
 <br />
 

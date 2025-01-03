@@ -126,7 +126,7 @@ Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPEN
 | ----------- | ----------- | ------ |
 | Heal Those Broken Wings | Freeze a raven while they are flying. | 20 Credits |
 | Snowball Sniper | Freeze an enemy from 50 blocks away | 20 Credits |
-| Ice Nation | Freeze 1,000 enemies with your freeze spell. | 250 Credits |
+| Ice Nation | Freeze 100 enemies with your freeze spell. | 250 Credits |
 
 <br />
 

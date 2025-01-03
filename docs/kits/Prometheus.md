@@ -138,9 +138,9 @@ Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPEN
 | That’s not fire. | Use the imbue spell again after already casting it. | 20 Credits |
 | Grab the ember-ella! | Get a double fireball kill. | 50 Credits |
 | Burn down the em-fire! | Get a triple fireball kill. | 50 Credits |
-| I’ll have a blazed doughnut | Get 1,000 Fire Kills. | 250 Credits |
-| In the Hall of Flame. | Get 1,000 fireball kills. | 250 Credits |
-| It’s lit! | Ignite 10,000 enemies. | 250 Credits |
+| It’s lit! | Ignite enemies 1,000 times. | 250 Credits |
+| I’ll have a blazed doughnut | Get 50 Fire Kills. | 1,000 Credits |
+| In the Hall of Flame. | Get 50 fireball kills. | 1,000 Credits |
 
 <br />
 

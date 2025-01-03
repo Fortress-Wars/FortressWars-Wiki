@@ -127,8 +127,8 @@ Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPEN
 | Learn how to conduct yourself | Get a quadruple chain lightning kill. | 250 Credits |
 | Shocking revelation! | Get a double lightning strike kill. | 20 Credits |
 | It hertz! | Get a triple lightning strike kill. | 250 Credits |
-| Be sure to wear shocks | Get 1,000 lightning strike kills. | 250 Credits |
-| I'm wired different | Get 1,000 chain lightning kills. | 250 Credits |
+| Be sure to wear shocks | Get 50 lightning strike kills. | 1,000 Credits |
+| I'm wired different | Get 50 chain lightning kills. | 1,000 Credits |
 
 <br />
 

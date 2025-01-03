@@ -88,7 +88,7 @@ While `Fortify` is active and the player is blocking, when enemies are within `{
 | ----------- | ----------- | ------ |
 | Royal Shield! | Absorb a decent amount of damage with the royal guard passive. | 20 Credits |
 | Spiky! | Get a deflect kill. | 20 Credits |
-| Thorns 1,000 | Get 1,000 deflect kills. | 250 Credits |
+| Thorns 50 | Get 50 deflect kills. | 1,000 Credits |
 
 <br />
 

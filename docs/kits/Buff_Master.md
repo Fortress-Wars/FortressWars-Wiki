@@ -103,7 +103,7 @@ Gives the resistance effect _(level: `{{ kits.buff_master.data.BUFF_MASTER_RESIS
 | ----------- | ----------- | ------ |
 | Family Practice | Buff 4 teammates with one activation. | 20 Credits |
 | Stronk Creeper | Buff a creeper with buff master. | 20 Credits |
-| The True Buff Master | Buff 1,000 teammates. | 100 Credits |
+| The True Buff Master | Buff 250 teammates. | 100 Credits |
 
 <br />
 

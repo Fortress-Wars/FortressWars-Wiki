@@ -130,8 +130,8 @@ Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPEN
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | How did I die? | Forget to deactivate your flight spell. | 20 Credits |
-| I believe I can fly... | Fly for over 100,000 meters. | 100 Credits |
-| Project Excelsior | Fly for over 2 hours. | 20 Credits |
+| I believe I can fly... | Fly over 10,000 meters. | 250 Credits |
+| Project Excelsior | Fly for 30 minutes. | 250 Credits |
 
 <br />
 

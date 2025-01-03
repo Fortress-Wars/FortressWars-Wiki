@@ -90,7 +90,7 @@ The player is immune to the poison potion effect.
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Sticky circumstance | Trap an invisible spy with a web trap. | 20 Credits |
-| Web Master | Activate 1,000 of your traps. | 250 Credits |
+| Web Master | Activate 250 web traps. | 250 Credits |
 
 <br />
 
