@@ -1,12 +1,12 @@
 # Welcome to Fortress Wars!
 
-> Fortress Wars is a team-based kit pvp minecraft server with many gamemodes, kits, maps, and custom fatures!
+> Fortress Wars is a team-based kit pvp Minecraft server with many game modes, kits, maps, and custom features!
 
 ---
 
 ### Kits
 
-> 40+ custom coded kits with unique abilities. Visit the [kits](/kits/) page for more information.
+> 40+ custom-coded kits with unique abilities. For more information, visit the [kits](/kits/) page.
 
 ![Entrance Teleporter](../assets/kits/engineer/Engineer%20-%20Teleporter%20Entrance.gif "Engineer")
 
@@ -14,11 +14,11 @@
 
 ### Gamemodes
 
-> All gamemodes are beacon based. Breaking the enemy beacon is the primary objective. Visit the [maps](/maps/) page for more information.
+> All game modes are beacon-based. Breaking the enemy beacon is the primary objective. For more information, visit the [maps](/maps/) page.
 
 #### Classic
 
-Two teams attack and defend their own at the same time!
+Two teams attack and defend at the same time!
 
 ![Urban - Overview](../assets/maps/urban/urban-overview.jpg "Urban")
 
