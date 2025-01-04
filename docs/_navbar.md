@@ -1,7 +1,9 @@
-<!-- _navbar.md -->
+<!-- Logo -->
 
-- [Home](/)
-- [Features](/features/)
-- [Kits](/kits/)
-- [Maps](/maps/)
+[![](../assets/FortressLogoDiscord.png)](/)
+
+<!-- Title -->
+
+[Fortress Wars](/)
+
 - [Changelogs](/changelogs/)

@@ -13,8 +13,13 @@
       rel="stylesheet"
       href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
     />
+    <link
+      rel="stylesheet"
+      href="//rawcdn.githack.com/LIGMATV/docsify-navbar-fixed/main/navbar-fixed.css"
+    />
     <link rel="stylesheet" href="docs.css" />
     <link rel="icon" href="assets/FortressLogoDiscord.png" />
+    <!-- Better Navbar -->
   </head>
   <body>
     <div id="app"></div>
@@ -23,6 +28,7 @@
         name: "Fortress Wars Wiki",
         loadSidebar: true,
         loadNavbar: true,
+        loadFooter: true,
         auto2top: true,
         relativePath: true,
         tabs: {
@@ -36,6 +42,7 @@
           noPackage: true,
           data: ["./data/kits.json", "./data/maps.json"],
         },
+        themeColor: "#3F51B5",
       };
     </script>
     <!-- Docsify v4 -->
@@ -48,5 +55,9 @@
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/front-matter.min.js"></script>
     <!-- Docsify Image Caption-->
     <script src="https://unpkg.com/@h-hg/docsify-image-caption/dist/docsify-image-caption.min.js"></script>
+    <!-- Docsify Search -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+    <!-- Footer -->
+    <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
   </body>
 </html>

@@ -4,17 +4,17 @@
 
 ---
 
-> ## LinkFD
+> #### LinkFD
 >
 > - **Role**: Project Manager & Developer
 > - **Years Active** 2022-2025
 
-> ## alfredodan
+> #### alfredodan
 >
 > - **Role**: Developer
 > - **Years Active** 2023-2025
 
-> ## liamtheliam29
+> #### liamtheliam29
 >
 > - **Role**: Developer
 > - **Years Active** 2022-2023

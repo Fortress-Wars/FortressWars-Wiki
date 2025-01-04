@@ -13,6 +13,19 @@ img {
   font-size: 0.9rem !important;
 }
 
+.app-nav a.active,
+.app-nav a:hover {
+  color: black !important;
+}
+
+.app-nav p {
+  width: unset !important;
+}
+
+footer p {
+  text-align: center;
+}
+
 /* Large devices (laptops/desktops, 992px and up) & Smaller */
 @media only screen and (min-width: 992px) {
   p {
