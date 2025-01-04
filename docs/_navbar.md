@@ -1,6 +1,7 @@
 <!-- _navbar.md -->
 
 - [Home](/)
-- [Changelogs](/changelogs/)
-- [Maps](/maps/)
+- [Features](/features/)
 - [Kits](/kits/)
+- [Maps](/maps/)
+- [Changelogs](/changelogs/)
