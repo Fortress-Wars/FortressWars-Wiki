@@ -1,9 +1,9 @@
 - [Home](/)
-- [Getting Started]()
-- [Gamemodes]()
 - [Features](/features/)
 - [Kits](/kits/)
 - [Maps](/maps/)
-- [Mechanics](/mechanics/)
 - [Technical Documentation](/technical_documentation/)
 - [Changelogs](/changelogs/)
+- [Contributors](/contributors/)
+
+<footer id="mb-footer"></footer>
