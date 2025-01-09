@@ -1,4 +1,4 @@
-_Release Date: TBD_
+_Release Date: February 10, 2025_
 
 # v2.0.0
 
