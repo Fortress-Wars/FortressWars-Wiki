@@ -1,7 +1,6 @@
 _Release Date: July 32, 2023_
 
-Kit Changes:
-=============================================
+# Kit Changes:
 
 Aquaman:
 Added custom loyalty to Trident. (Left click fist after trident has hit a block to trigger manually)
@@ -12,9 +11,7 @@ Reworked quill ability to have more random spread
 Engineer:
 Sentries no longer deal knockback
 
-Other Changes:
-=============================================
-
+# Other Changes:
 
 - Removed Health Bars
 - Removed invisibility glowing on teammates (no longer needed)

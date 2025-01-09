@@ -2,10 +2,40 @@
   margin-left: 20px;
 }
 
-p {
-  width: 50%;
+img {
+  width: 100%;
 }
 
-img {
-  width: 100%
+.img-caption {
+  margin-top: -0.5rem;
+  padding-bottom: 0.5rem;
+  color: #34495e !important;
+  font-size: 0.9rem !important;
+}
+
+.app-nav a.active,
+.app-nav a:hover {
+  color: black !important;
+}
+
+.app-nav p {
+  width: unset !important;
+}
+
+footer p {
+  text-align: center;
+}
+
+/* Large devices (laptops/desktops, 992px and up) & Smaller */
+@media only screen and (min-width: 992px) {
+  p {
+    width: 100%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  p {
+    width: 50%;
+  }
 }

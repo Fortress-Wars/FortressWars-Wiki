@@ -1,0 +1,29 @@
+{
+  "name": "fortresswars-wiki",
+  "version": "2.0.0",
+  "description": "The wiki for the Fortress Wars Server!",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "docsify serve  ./docs",
+    "pretty": "npx prettier . --write",
+    "lint": "eslint . --fix",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "author": "Peter Cesmegi",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/markdown": "^6.2.1",
+    "docsify-cli": "^4.4.4",
+    "eslint": "^9.14.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "husky": "^9.1.6",
+    "prettier": "3.3.3"
+  },
+  "dependencies": {
+    "fortresswars-wiki": "file:"
+  }
+}

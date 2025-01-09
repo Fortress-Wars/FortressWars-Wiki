@@ -1,5 +1,9 @@
-<!-- _navbar.md -->
+<!-- Logo -->
 
-* [Home](/)
-* [Changelogs](/changelogs/)
-* [Kits](/kits/)
+[![](../assets/FortressLogoDiscord.png)](/)
+
+<!-- Title -->
+
+[Fortress Wars](/)
+
+- [Changelogs](/changelogs/)

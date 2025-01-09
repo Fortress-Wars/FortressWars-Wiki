@@ -1,0 +1,255 @@
+# Damage System
+
+### Overview
+
+### Damage Types
+
+- `Air`
+  - _Air related damage._
+- `Blast`
+  - _Something explodes._
+- `Earth`
+  - _Earth related damage._
+- `Electric`
+  - _Electric related damage._
+- `Elemental`
+  - _Magic that is element based._
+- `Fire`
+  - _Fire related damage._
+- `Ice`
+  - _Ice related damage._
+- `Impact`
+  - _Something big collides into something._
+- `Impaling`
+  - _Something sharp goes into something and stays there._
+- `Magic`
+  - _Magic related damage._
+- `Physical`
+  - _Physical related damage._
+- `Piercing`
+  - _Something sharp goes into something and goes out the other side._
+- `Redistribution`
+  - _Damage that is redirected from one thing to another._
+- `Slashing`
+  - _Something sharp slashes something; does't go in._
+- `Stabbing`
+  - _Something sharp goes in and comes out._
+- `System`
+  - _Damage caused by the system and not an entity or gamer object._
+- `Water`
+  - _Water related damage._
+- `Other`
+  - _Damage that doesn't fall into a damage other type category._
+
+### Shield Damage Types
+
+- `Break`
+  - Blocking: _Break the shield and no damage to the target._
+  - Not Blocking: _Damage to the target._
+- `Damage`
+  - Blocking: _Damage to the shield and no damage to the target._
+  - Not Blocking: _Damage to the target_.
+- `Ignore`
+  - Blocking: _No damage to the shield and damage to the target_.
+  - Not Blocking: _Damage to the target_.
+- `Immune`
+  - Blocking: _No damage to the shield or the target_.
+  - Not Blocking: _No damage to the target_.
+- `Respect`
+  - Blocking: _No damage to the shield or the target_.
+  - Not Blocking: _Damage to the target_.
+- `Only Break`
+  - Blocking: _Break the shield and no damage to the target_.
+  - Not Blocking: _No damage to the target_.
+- `Only Damage`
+  - Blocking: _Damage to the shield and no damage to the target_.
+  - Not Blocking: _No damage to the target_.
+- `Pierce`
+  - Blocking: _Damage to the shield and damage to the target_.
+  - Not Blocking: _Damage to the target_.
+
+### Damage Causes
+
+- `Air Gust`
+  - Shield Damage Type: _Respect_
+  - Damage Types: _Air_, _Elemental_, _Magic_
+- `Aquaman Trident`
+  - Shield Damage Type: _Damage_
+  - Damage Types: _Impaling_, _Physical_
+- `Aquaman Trident Far`
+  - Shield Damage Type: _Damage_
+  - Damage Types: _Impaling_, _Physical_
+- `Aquaman Trident Melee`
+  - Shield Damage Type: _Damage_
+  - Damage Types: _Impaling_, _Physical_, _Slashing_
+- `Aquaman Trident Water Melee`
+  - Shield Damage Type: _Damage_
+  - Damage Types: _Impaling_, _Physical_, _Slashing_
+- `Axe Swirl`
+  - Shield Damage Type: _Break_
+  - Damage Types: _Physical_, _Slashing_
+- `Builder Melee`
+  - Shield Damage Type: _Damage_
+  - Damage Types: _Impact_, _Physical_
+- `Bomber Bomb`
+  - Shield Damage Type: _Break_
+  - Damage Types: _Blast_, _Physical_
+- `Combat Log`
+  - Shield Damage Type: _Ignore_
+  - Damage Types: _System_
+- `Crusher Anvil Direct`
+  - Shield Damage Type: _Damage_
+  - Damage Types: _Impact_, _Physical_
+- `Crusher Anvil Indirect`
+  - Shield Damage Type: _Damage_
+  - Damage Types: _Impact_, _Physical_
+- `Creeper Minion`
+  - Shield Damage Type: _Break_
+  - Damage Types: _Blast_, _Physical_
+- `Death Plane`
+  - Shield Damage Type: _Ignore_
+  - Damage Types: _System_
+- `Demolitionist Bomb`
+  - Shield Damage Type: _Break_
+  - Damage Types: _Blast_, _Physical_
+- `Demolitionist Bomb Instant`
+  - Shield Damage Type: _Break_
+  - Damage Types: _Blast_, _Physical_
+- `Earth Shatter`
+  - Shield Damage Type: _Break_
+  - Damage Types: _Earth_, _Elemental_, _Impact_, _Magic_, _Physical_
+- `Environmental`
+  - Shield Damage Type: _Ignore_
+  - Damage Types: _Physical_
+- `Explosion`
+  - Shield Damage Type: _Break_
+  - Damage Types: _Blast_, _Physical_
+- `Fish`
+  - Shield Damage Type: _Respect_
+  - Damage Types: _Impact_, _Physical_
+- `Future Sight`
+  - Shield Damage Type: _Ignore_
+  - Damage Types: _Magic_
+- `Gunner Shot`
+  - Shield Damage Type: _Pierce_
+  - Damage Types: _Physical_, _Piercing_
+- `Hacked Sentry Projectile`
+  - Shield Damage Type: _Damage_
+  - Damage Types: _Physical_, _Piercing_
+- `Hitman Dart`
+  - Shield Damage Type: _Damage_
+  - Damage Types: _Physical_, _Piercing_
+- `Hitman Harm Dart`
+  - Shield Damage Type: _Ignore_
+  - Damage Types: _Magic_
+- `Kangaroo Stomp`
+  - Shield Damage Type: _Damage_
+  - Damage Types: _Impact_, _Physical_
+- `Knight Damage Deflect`
+  - Shield Damage Type: _Ignore_
+  - Damage Types: _Impact_, _Physical_, _Redistribution_
+- `Lightning`
+  - Shield Damage Type: _Ignore_
+  - Damage Types: _Electric_, _Elemental_, _Impact_, _Magic_
+- `Math Worksheet`
+  - Shield Damage Type: _Ignore_
+  - Damage Types: _Magic_
+- `Math Worksheet Self`
+  - Shield Damage Type: _Ignore_
+  - Damage Types: _Magic_
+- `Minion`
+  - Shield Damage Type: _Damage_
+  - Damage Types: _Physical_
+- `Melee`
+  - Shield Damage Type: _Damage_
+  - Damage Types: _Physical_, _Slashing_
+- `Melee`
+  - Shield Damage Type: _Ignore_
+  - Damage Types: _Magic_
+- `Musketeer Burst Shot`
+  - Shield Damage Type: _Pierce_
+  - Damage Types: _Physical_, _Piercing_
+- `Musketeer Sniper Shot`
+  - Shield Damage Type: _Pierce_
+  - Damage Types: _Physical_, _Piercing_
+- `No Mana Flight`
+  - Shield Damage Type: _Ignore_
+  - Damage Types: _Magic_
+- `Normal Shot`
+  - Shield Damage Type: _Damage_
+  - Damage Types: _Physical_, _Piercing_
+- `OP Fish Suffocate`
+  - Shield Damage Type: _Ignore_
+  - Damage Types: _Physical_
+- `Potion Master Potion`
+  - Shield Damage Type: _Ignore_
+  - Damage Types: _Magic_
+- `Porcupine Quill`
+  - Shield Damage Type: _Damage_
+  - Damage Types: _Physical_, _Piercing_
+- `Projectile`
+  - Shield Damage Type: _Damage_
+  - Damage Types: _Physical_, _Piercing_
+- `Prometheus Fireball`
+  - Shield Damage Type: _Break_
+  - Damage Types: _Blast_, _Elemental_, _Fire_, _Impact_, _Magic_ _Phycical_
+- `Prometheus Fireball Impact`
+  - Shield Damage Type: _Damage_
+  - Damage Types: _Elemental_, _Fire_, _Impact_, _Magic_, _Phycical_
+- `Prometheus Imbue`
+  - Shield Damage Type: _Ignore_
+  - Damage Types: _Elemental_, _Fire_, _Magic_
+- `Pufferfish`
+  - Shield Damage Type: _Respect_
+  - Damage Types: _Impact_, _Physical_
+- `Pyrotechnic Rocket`
+  - Shield Damage Type: _Damage_
+  - Damage Types: _Blast_, _Impact_, _Physical_
+- `Royal Guard`
+  - Shield Damage Type: _Damage_
+  - Damage Types: _Physical_, _Redistribution_
+- `Self`
+  - Shield Damage Type: _Ignore_
+  - Damage Types: _System_
+- `Shield Bash`
+  - Shield Damage Type: _Damage_
+  - Damage Types: _Impact_, _Physical_
+- `Sentry Projectile`
+  - Shield Damage Type: _Damage_
+  - Damage Types: _Physical_, _Piercing_
+- `Slime Minion`
+  - Shield Damage Type: _Damage_
+  - Damage Types: _Impact_, _Physical_
+- `Sneak Attack`
+  - Shield Damage Type: _Damage_
+  - Damage Types: _Physical_, _Stabbing_
+- `Sniper Headshot`
+  - Shield Damage Type: _Damage_
+  - Damage Types: _Physical_, _Piercing_
+- `Sniper Kneeshot`
+  - Shield Damage Type: _Damage_
+  - Damage Types: _Physical_, _Piercing_
+- `Snowball`
+  - Shield Damage Type: _Damage_
+  - Damage Types: _Elemental_, _Ice_, _Magic_
+- `Soldier Grenade`
+  - Shield Damage Type: _Break_
+  - Damage Types: _Blast_, _Impact_, _Physical_
+- `Sonic Boom`
+  - Shield Damage Type: _Break_
+  - Damage Types: _Blast_, _Impact_, _Physical_
+- `Super Creeper Minion`
+  - Shield Damage Type: _Break_
+  - Damage Types: _Blast_, _Elemental_, _Electric_, _Magic_, _Physical_
+- `Thorns`
+  - Shield Damage Type: _Ignore_
+  - Damage Types: _Impact_, _Physical_, _Piercing_, _Redistribution_
+- `Vitalist Shot`
+  - Shield Damage Type: _Damage_
+  - Damage Types: _Physical_, _Piercing_
+- `Wither Skeleton Minion`
+  - Shield Damage Type: _Damage_
+  - Damage Types: _Physical_, _Slashing_
+- `Zap`
+  - Shield Damage Type: _Ignore_
+  - Damage Types: _Electric_, _Elemental_, _Magic_
