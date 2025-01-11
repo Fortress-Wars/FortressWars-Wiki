@@ -2,7 +2,7 @@
 
 ---
 
-#### ![candylandicon](../assets/icons/candyland-icon.jpg)
+#### ![candylandicon](../assets/icons/maps/candyland-icon.jpg)
 
 # Overview
 

@@ -2,7 +2,7 @@
 
 ---
 
-#### ![jumper-icon](../assets/icons/jumper-icon.jpg)
+#### ![jumper-icon](../assets/icons/kits/jumper-icon.jpg)
 
 # Overview
 

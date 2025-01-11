@@ -2,7 +2,7 @@
 
 ---
 
-#### ![valleyNBicon](../assets/icons/valley-nb-icon.jpg)
+#### ![valleyNBicon](../assets/icons/maps/valley-nb-icon.jpg)
 
 # Overview
 
@@ -36,6 +36,6 @@
 ---
 
 | Property    | Value                                       | Description                                       |
-| ----------- | ------------------------------------------- | ------------------------------------------------- | --- |
+| ----------- | ------------------------------------------- | ------------------------------------------------- |
 | buildRadius | `{{ maps.map_valley_nb.data.buildRadius }}` | {{ mapPropertyDescriptions.buildRadius.classic }} |
-| buildHeight | `{{ maps.map_valley_nb.data.buildHeight }}` | {{ mapPropertyDescriptions.buildHeight.classic }} | w   |
+| buildHeight | `{{ maps.map_valley_nb.data.buildHeight }}` | {{ mapPropertyDescriptions.buildHeight.classic }} |

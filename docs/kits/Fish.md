@@ -2,7 +2,7 @@
 
 ---
 
-#### ![fish-icon](../assets/icons/fish-icon.jpg)
+#### ![fish-icon](../assets/icons/kits/fish-icon.jpg)
 
 # Overview
 

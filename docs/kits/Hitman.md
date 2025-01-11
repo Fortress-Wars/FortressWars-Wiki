@@ -2,7 +2,7 @@
 
 ---
 
-#### ![hitman-icon](../assets/icons/hitman-icon.jpg)
+#### ![hitman-icon](../assets/icons/kits/hitman-icon.jpg)
 
 # Overview
 

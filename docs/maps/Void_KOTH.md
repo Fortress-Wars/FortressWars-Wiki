@@ -2,7 +2,7 @@
 
 ---
 
-#### ![voidKOTHicon](../assets/icons/void-koth-icon.jpg)
+#### ![voidKOTHicon](../assets/icons/maps/void-koth-icon.jpg)
 
 # Overview
 
@@ -36,5 +36,5 @@
 
 | Property    | Value                                       | Description                                    |
 | ----------- | ------------------------------------------- | ---------------------------------------------- |
-| buildRadius | `{{ maps.map_void_KOTH.data.buildRadius }}` | {{ mapPropertyDescriptions.buildRadius.koth }} |
-| buildHeight | `{{ maps.map_void_KOTH.data.buildHeight }}` | {{ mapPropertyDescriptions.buildHeight.koth }} |
+| buildRadius | `{{ maps.map_void_koth.data.buildRadius }}` | {{ mapPropertyDescriptions.buildRadius.koth }} |
+| buildHeight | `{{ maps.map_void_koth.data.buildHeight }}` | {{ mapPropertyDescriptions.buildHeight.koth }} |

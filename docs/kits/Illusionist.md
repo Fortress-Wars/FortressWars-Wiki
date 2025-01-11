@@ -2,7 +2,7 @@
 
 ---
 
-#### ![illusionist-icon](../assets/icons/illusionist-icon.jpg)
+#### ![illusionist-icon](../assets/icons/kits/illusionist-icon.jpg)
 
 # Overview
 

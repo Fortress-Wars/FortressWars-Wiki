@@ -2,7 +2,7 @@
 
 ---
 
-#### ![oasiscityicon](../assets/icons/oasis-city-icon.jpg)
+#### ![oasiscityicon](../assets/icons/maps/oasis-city-icon.jpg)
 
 # Overview
 

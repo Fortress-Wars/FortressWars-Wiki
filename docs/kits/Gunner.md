@@ -2,7 +2,7 @@
 
 ---
 
-#### ![gunner-icon](../assets/icons/gunner-icon.jpg)
+#### ![gunner-icon](../assets/icons/kits/gunner-icon.jpg)
 
 # Overview
 

@@ -2,7 +2,7 @@
 
 ---
 
-#### ![hulk-icon](../assets/icons/hulk-icon.jpg)
+#### ![hulk-icon](../assets/icons/kits/hulk-icon.jpg)
 
 # Overview
 

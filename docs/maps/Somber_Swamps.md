@@ -2,7 +2,7 @@
 
 ---
 
-#### ![somberswampsicon](../assets/icons/somber-swamps-icon.jpg)
+#### ![somberswampsicon](../assets/icons/maps/somber-swamps-icon.jpg)
 
 # Overview
 

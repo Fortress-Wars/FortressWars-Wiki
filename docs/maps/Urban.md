@@ -2,7 +2,7 @@
 
 ---
 
-#### ![urbanicon](../assets/icons/urban-icon.jpg)
+#### ![urbanicon](../assets/icons/maps/urban-icon.jpg)
 
 # Overview
 
@@ -28,8 +28,8 @@
 ---
 
 | Achievement                       | Description                  | Reward     |
-| --------------------------------- | ---------------------------- | ---------- | --- |
-| Not a place for rural activities! | Win a game on the map Urban. | 20 Credits | s   |
+| --------------------------------- | ---------------------------- | ---------- |
+| Not a place for rural activities! | Win a game on the map Urban. | 20 Credits |
 
 # Map Data
 

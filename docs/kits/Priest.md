@@ -2,7 +2,7 @@
 
 ---
 
-#### ![priest-icon](../assets/icons/priest-icon.jpg)
+#### ![priest-icon](../assets/icons/kits/priest-icon.jpg)
 
 # Overview
 

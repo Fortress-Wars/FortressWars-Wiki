@@ -2,7 +2,7 @@
 
 ---
 
-#### ![spy-icon](../assets/icons/spy-icon.jpg)
+#### ![spy-icon](../assets/icons/kits/spy-icon.jpg)
 
 # Overview
 

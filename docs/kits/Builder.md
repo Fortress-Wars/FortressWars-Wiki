@@ -2,7 +2,7 @@
 
 ---
 
-#### ![builder-icon](../assets/icons/builder-icon.jpg)
+#### ![builder-icon](../assets/icons/kits/builder-icon.jpg)
 
 # Overview
 

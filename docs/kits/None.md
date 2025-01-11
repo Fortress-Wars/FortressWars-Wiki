@@ -2,7 +2,7 @@
 
 ---
 
-#### ![none-icon](../assets/icons/none-icon.jpg)
+#### ![none-icon](../assets/icons/kits/none-icon.jpg)
 
 # Overview
 

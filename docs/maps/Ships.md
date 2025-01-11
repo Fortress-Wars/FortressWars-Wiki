@@ -2,7 +2,7 @@
 
 ---
 
-#### ![shipsicon](../assets/icons/ships-icon.jpg)
+#### ![shipsicon](../assets/icons/maps/ships-icon.jpg)
 
 # Overview
 

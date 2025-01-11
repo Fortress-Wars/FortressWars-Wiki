@@ -10,7 +10,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.7.0
 >
-> #### ![aquaman-icon](../assets/icons/aquaman-icon.jpg)
+> #### ![aquaman-icon](../assets/icons/kits/aquaman-icon.jpg)
 
 > ## [Aquarius](Aquarius)
 >
@@ -18,7 +18,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.7.0
 >
-> #### ![aquarius-icon](../assets/icons/aquarius-icon.jpg)
+> #### ![aquarius-icon](../assets/icons/kits/aquarius-icon.jpg)
 
 > ## [Bomber](Bomber)
 >
@@ -26,7 +26,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.7.0
 >
-> #### ![bomber-icon](../assets/icons/bomber-icon.jpg)
+> #### ![bomber-icon](../assets/icons/kits/bomber-icon.jpg)
 
 > ## [Brute](Brute)
 >
@@ -34,7 +34,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.7.0
 >
-> #### ![brute-icon](../assets/icons/brute-icon.jpg)
+> #### ![brute-icon](../assets/icons/kits/brute-icon.jpg)
 
 > ## [Buff Master](Buff_Master)
 >
@@ -42,7 +42,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.7.0
 >
-> #### ![buff-master-icon](../assets/icons/buff-master-icon.jpg)
+> #### ![buff-master-icon](../assets/icons/kits/buff-master-icon.jpg)
 
 > ## [Builder](Builder)
 >
@@ -50,7 +50,7 @@
 > - **Type**: Free
 > - **Introduced**: v1.7.0
 >
-> #### ![builder-icon](../assets/icons/builder-icon.jpg)
+> #### ![builder-icon](../assets/icons/kits/builder-icon.jpg)
 
 > ## [Crusader](Crusader)
 >
@@ -58,7 +58,7 @@
 > - **Type**: Free
 > - **Introduced**: v1.7.0
 >
-> #### ![crusader-icon](../assets/icons/crusader-icon.jpg)
+> #### ![crusader-icon](../assets/icons/kits/crusader-icon.jpg)
 
 > ## [Crusher](Crusher)
 >
@@ -66,7 +66,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.8.0
 >
-> #### ![crusher-icon](../assets/icons/crusher-icon.jpg)
+> #### ![crusher-icon](../assets/icons/kits/crusher-icon.jpg)
 
 > ## [Default](Default)
 >
@@ -74,7 +74,7 @@
 > - **Type**: Free
 > - **Introduced**: v1.7.0
 >
-> #### ![default-icon](../assets/icons/default-icon.jpg)
+> #### ![default-icon](../assets/icons/kits/default-icon.jpg)
 
 > ## [Demolitionist](Demolitionist)
 >
@@ -82,7 +82,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.7.0
 >
-> #### ![demolitionist-icon](../assets/icons/demolitionist-icon.jpg)
+> #### ![demolitionist-icon](../assets/icons/kits/demolitionist-icon.jpg)
 
 > ## [Engineer](Engineer)
 >
@@ -90,7 +90,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.7.0
 >
-> #### ![engineer-icon](../assets/icons/engineer-icon.jpg)
+> #### ![engineer-icon](../assets/icons/kits/engineer-icon.jpg)
 
 > ## [Fish](Fish)
 >
@@ -98,7 +98,7 @@
 > - **Type**: Special
 > - **Introduced**: v1.7.0
 >
-> #### ![fish-icon](../assets/icons/fish-icon.jpg)
+> #### ![fish-icon](../assets/icons/kits/fish-icon.jpg)
 
 > ## [Golem](Golem)
 >
@@ -106,7 +106,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.7.0
 >
-> #### ![golem-icon](../assets/icons/golem-icon.jpg)
+> #### ![golem-icon](../assets/icons/kits/golem-icon.jpg)
 
 > ## [Gunner](Gunner)
 >
@@ -114,7 +114,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.7.0
 >
-> #### ![gunner-icon](../assets/icons/gunner-icon.jpg)
+> #### ![gunner-icon](../assets/icons/kits/gunner-icon.jpg)
 
 > ## [Hitman](Hitman)
 >
@@ -122,7 +122,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.7.0
 >
-> #### ![hitman-icon](../assets/icons/hitman-icon.jpg)
+> #### ![hitman-icon](../assets/icons/kits/hitman-icon.jpg)
 
 > ## [Hulk](Hulk)
 >
@@ -130,7 +130,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.7.0
 >
-> #### ![hulk-icon](../assets/icons/hulk-icon.jpg)
+> #### ![hulk-icon](../assets/icons/kits/hulk-icon.jpg)
 
 > ## [Illusionist](Illusionist)
 >
@@ -138,7 +138,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.7.0
 >
-> #### ![illusionist-icon](../assets/icons/illusionist-icon.jpg)
+> #### ![illusionist-icon](../assets/icons/kits/illusionist-icon.jpg)
 
 > ## [Jumper](Jumper)
 >
@@ -146,7 +146,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.7.0
 >
-> #### ![jumper-icon](../assets/icons/jumper-icon.jpg)
+> #### ![jumper-icon](../assets/icons/kits/jumper-icon.jpg)
 
 > ## [Kangaroo](Kangaroo)
 >
@@ -154,7 +154,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.7.0
 >
-> #### ![kangaroo-icon](../assets/icons/kangaroo-icon.jpg)
+> #### ![kangaroo-icon](../assets/icons/kits/kangaroo-icon.jpg)
 
 > ## [Knight](Knight)
 >
@@ -162,7 +162,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.7.0
 >
-> #### ![knight-icon](../assets/icons/knight-icon.jpg)
+> #### ![knight-icon](../assets/icons/kits/knight-icon.jpg)
 
 > ## [Master](Master)
 >
@@ -170,7 +170,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.7.0
 >
-> #### ![master-icon](../assets/icons/master-icon.jpg)
+> #### ![master-icon](../assets/icons/kits/master-icon.jpg)
 
 > ## [Mathematician](Mathematician)
 >
@@ -178,7 +178,7 @@
 > - **Type**: Special
 > - **Introduced**: v1.7.0
 >
-> #### ![mathematician-icon](../assets/icons/mathematician-icon.jpg)
+> #### ![mathematician-icon](../assets/icons/kits/mathematician-icon.jpg)
 
 > ## [Medic](Medic)
 >
@@ -186,7 +186,7 @@
 > - **Type**: Free
 > - **Introduced**: v1.7.0
 >
-> #### ![medic-icon](../assets/icons/medic-icon.jpg)
+> #### ![medic-icon](../assets/icons/kits/medic-icon.jpg)
 
 > ## [Mercy](Mercy)
 >
@@ -194,7 +194,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.7.0
 >
-> #### ![mercy-icon](../assets/icons/mercy-icon.jpg)
+> #### ![mercy-icon](../assets/icons/kits/mercy-icon.jpg)
 
 > ## [Miner](Miner)
 >
@@ -202,7 +202,7 @@
 > - **Type**: Free
 > - **Introduced**: v1.7.0
 >
-> #### ![miner-icon](../assets/icons/miner-icon.jpg)
+> #### ![miner-icon](../assets/icons/kits/miner-icon.jpg)
 
 > ## [Musketeer](Musketeer)
 >
@@ -210,7 +210,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.7.0
 >
-> #### ![musketeer-icon](../assets/icons/musketeer-icon.jpg)
+> #### ![musketeer-icon](../assets/icons/kits/musketeer-icon.jpg)
 
 > ## [Necromancer](Necromancer)
 >
@@ -218,7 +218,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.7.0
 >
-> #### ![necromancer-icon](../assets/icons/necromancer-icon.jpg)
+> #### ![necromancer-icon](../assets/icons/kits/necromancer-icon.jpg)
 
 > ## [None](None)
 >
@@ -226,7 +226,7 @@
 > - **Type**: Exclusive
 > - **Introduced**: v1.7.0
 >
-> #### ![none-icon](../assets/icons/none-icon.jpg)
+> #### ![none-icon](../assets/icons/kits/none-icon.jpg)
 
 > ## [Porcupine](Porcupine)
 >
@@ -234,7 +234,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.7.0
 >
-> #### ![porcupine-icon](../assets/icons/porcupine-icon.jpg)
+> #### ![porcupine-icon](../assets/icons/kits/porcupine-icon.jpg)
 
 > ## [Potion Master](Potion_Master)
 >
@@ -242,7 +242,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.7.0
 >
-> #### ![potion-master-icon](../assets/icons/potion-master-icon.jpg)
+> #### ![potion-master-icon](../assets/icons/kits/potion-master-icon.jpg)
 
 > ## [Priest](Priest)
 >
@@ -250,7 +250,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.7.0
 >
-> #### ![priest-icon](../assets/icons/priest-icon.jpg)
+> #### ![priest-icon](../assets/icons/kits/priest-icon.jpg)
 
 > ## [Prometheus](Prometheus)
 >
@@ -258,7 +258,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.8.0
 >
-> #### ![prometheus-icon](../assets/icons/prometheus-icon.jpg)
+> #### ![prometheus-icon](../assets/icons/kits/prometheus-icon.jpg)
 
 > ## [Pyrotechnic](Pyrotechnic)
 >
@@ -266,7 +266,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.7.0
 >
-> #### ![pyrotechnic-icon](../assets/icons/pyrotechnic-icon.jpg)
+> #### ![pyrotechnic-icon](../assets/icons/kits/pyrotechnic-icon.jpg)
 
 > ## [Raven](Raven)
 >
@@ -274,7 +274,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.7.0
 >
-> #### ![raven-icon](../assets/icons/raven-icon.jpg)
+> #### ![raven-icon](../assets/icons/kits/raven-icon.jpg)
 
 > ## [Slime](Slime)
 >
@@ -282,7 +282,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.8.0
 >
-> #### ![slime-icon](../assets/icons/slime-icon.jpg)
+> #### ![slime-icon](../assets/icons/kits/slime-icon.jpg)
 
 > ## [Sniper](Sniper)
 >
@@ -290,7 +290,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.7.0
 >
-> #### ![sniper-icon](../assets/icons/sniper-icon.jpg)
+> #### ![sniper-icon](../assets/icons/kits/sniper-icon.jpg)
 
 > ## [Snowman](Snowman)
 >
@@ -298,7 +298,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.7.0
 >
-> #### ![snowman-icon](../assets/icons/snowman-icon.jpg)
+> #### ![snowman-icon](../assets/icons/kits/snowman-icon.jpg)
 
 > ## [Soldier](Soldier)
 >
@@ -306,7 +306,7 @@
 > - **Type**: Free
 > - **Introduced**: v1.7.0
 >
-> #### ![soldier-icon](../assets/icons/soldier-icon.jpg)
+> #### ![soldier-icon](../assets/icons/kits/soldier-icon.jpg)
 
 > ## [Sonic](Sonic)
 >
@@ -314,7 +314,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.7.0
 >
-> #### ![sonic-icon](../assets/icons/sonic-icon.jpg)
+> #### ![sonic-icon](../assets/icons/kits/sonic-icon.jpg)
 
 > ## [Spider](Spider)
 >
@@ -322,7 +322,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.7.0
 >
-> #### ![spider-icon](../assets/icons/spider-icon.jpg)
+> #### ![spider-icon](../assets/icons/kits/spider-icon.jpg)
 
 > ## [Spy](Spy)
 >
@@ -330,7 +330,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.7.0
 >
-> #### ![spy-icon](../assets/icons/spy-icon.jpg)
+> #### ![spy-icon](../assets/icons/kits/spy-icon.jpg)
 
 > ## [Vitalist](Vitalist)
 >
@@ -338,7 +338,7 @@
 > - **Type**: Premium
 > - **Introduced**: v1.7.0
 >
-> #### ![vitalist-icon](../assets/icons/vitalist-icon.jpg)
+> #### ![vitalist-icon](../assets/icons/kits/vitalist-icon.jpg)
 
 > ## [Wizard](Wizard)
 >
@@ -346,4 +346,4 @@
 > - **Type**: Premium
 > - **Introduced**: v1.7.0
 >
-> #### ![wizard-icon](../assets/icons/wizard-icon.jpg)
+> #### ![wizard-icon](../assets/icons/kits/wizard-icon.jpg)

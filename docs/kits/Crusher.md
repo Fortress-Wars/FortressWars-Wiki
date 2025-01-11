@@ -2,7 +2,7 @@
 
 ---
 
-#### ![crusher-icon](../assets/icons/crusher-icon.jpg)
+#### ![crusher-icon](../assets/icons/kits/crusher-icon.jpg)
 
 # Overview
 

@@ -2,7 +2,7 @@
 
 ---
 
-#### ![aquaman-icon](../assets/icons/aquaman-icon.jpg)
+#### ![aquaman-icon](../assets/icons/kits/aquaman-icon.jpg)
 
 # Overview
 

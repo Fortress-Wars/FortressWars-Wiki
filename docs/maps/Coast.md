@@ -2,7 +2,7 @@
 
 ---
 
-#### ![coasticon](../assets/icons/coast-icon.jpg)
+#### ![coasticon](../assets/icons/maps/coast-icon.jpg)
 
 # Overview
 

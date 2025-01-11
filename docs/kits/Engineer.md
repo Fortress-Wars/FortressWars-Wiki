@@ -2,7 +2,7 @@
 
 ---
 
-#### ![engineer-icon](../assets/icons/engineer-icon.jpg)
+#### ![engineer-icon](../assets/icons/kits/engineer-icon.jpg)
 
 # Overview
 

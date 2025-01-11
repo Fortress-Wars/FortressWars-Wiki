@@ -2,7 +2,7 @@
 
 ---
 
-#### ![sonic-icon](../assets/icons/sonic-icon.jpg)
+#### ![sonic-icon](../assets/icons/kits/sonic-icon.jpg)
 
 # Overview
 

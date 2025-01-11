@@ -2,7 +2,7 @@
 
 ---
 
-#### ![mountainicon](../assets/icons/mountain-icon.jpg)
+#### ![mountainicon](../assets/icons/maps/mountain-icon.jpg)
 
 # Overview
 

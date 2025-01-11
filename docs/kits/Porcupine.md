@@ -2,7 +2,7 @@
 
 ---
 
-#### ![porcupine-icon](../assets/icons/porcupine-icon.jpg)
+#### ![porcupine-icon](../assets/icons/kits/porcupine-icon.jpg)
 
 # Overview
 

@@ -2,7 +2,7 @@
 
 ---
 
-#### ![rivericon](../assets/icons/river-icon.jpg)
+#### ![rivericon](../assets/icons/maps/river-icon.jpg)
 
 # Overview
 

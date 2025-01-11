@@ -2,7 +2,7 @@
 
 ---
 
-#### ![skylandsicon](../assets/icons/skylands-icon.jpg)
+#### ![skylandsicon](../assets/icons/maps/skylands-icon.jpg)
 
 # Overview
 

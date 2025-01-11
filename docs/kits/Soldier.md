@@ -2,7 +2,7 @@
 
 ---
 
-#### ![soldier-icon](../assets/icons/soldier-icon.jpg)
+#### ![soldier-icon](../assets/icons/kits/soldier-icon.jpg)
 
 # Overview
 

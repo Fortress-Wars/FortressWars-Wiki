@@ -2,7 +2,7 @@
 
 ---
 
-#### ![musketeer-icon](../assets/icons/musketeer-icon.jpg)
+#### ![musketeer-icon](../assets/icons/kits/musketeer-icon.jpg)
 
 # Overview
 

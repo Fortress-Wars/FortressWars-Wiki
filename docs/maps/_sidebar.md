@@ -5,7 +5,7 @@
   - [Candyland](Candyland)
   - [Caverns](Caverns)
   - [Clay](Clay)
-  - [Clay (NB)](ClayNB)
+  - [Clay (NB)](Clay_NB)
   - [Cliffs](Cliffs)
   - [Coast](Coast)
   - [Coast (KOTH)](Coast_KOTH)
