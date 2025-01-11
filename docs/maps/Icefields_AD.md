@@ -2,7 +2,7 @@
 
 ---
 
-#### ![icefieldsADicon](../assets/icons/maps/ice-AD-icon.jpg)
+#### ![icefieldsADicon](../assets/icons/maps/ice-ad-icon.jpg)
 
 # Overview
 
@@ -20,7 +20,7 @@
 # Image Gallery
 
 ![Ice - Overview](../assets/maps/iceAD/icead-overview.jpg)
-![Ice - Beacon](../assets/maps/iceAD/icead-beacon)
+![Ice - Beacon](../assets/maps/iceAD/icead-beacon.jpg)
 ![Ice - Attacker Spawn](../assets/maps/iceAD/icead-attackerspawn.jpg)
 
 # Achievements

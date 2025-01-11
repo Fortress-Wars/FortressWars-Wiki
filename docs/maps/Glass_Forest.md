@@ -34,7 +34,7 @@ v
 
 ---
 
-| Property    | Value                                         | Description                                       |
-| ----------- | --------------------------------------------- | ------------------------------------------------- |
-| buildRadius | `{{ maps.map_glassforest.data.buildRadius }}` | {{ mapPropertyDescriptions.buildRadius.classic }} |
-| buildHeight | `{{ maps.map_glassforest.data.buildHeight }}` | {{ mapPropertyDescriptions.buildHeight.classic }} |
+| Property    | Value                                          | Description                                       |
+| ----------- | ---------------------------------------------- | ------------------------------------------------- |
+| buildRadius | `{{ maps.map_glass_forest.data.buildRadius }}` | {{ mapPropertyDescriptions.buildRadius.classic }} |
+| buildHeight | `{{ maps.map_glass_forest.data.buildHeight }}` | {{ mapPropertyDescriptions.buildHeight.classic }} |
