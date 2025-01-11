@@ -37,7 +37,7 @@
 
 ---
 
-| Property    | Value                                        | Description                                       |
-| ----------- | -------------------------------------------- | ------------------------------------------------- |
-| buildRadius | `{{ maps.map_twocastles.data.buildRadius }}` | {{ mapPropertyDescriptions.buildRadius.classic }} |
-| buildHeight | `{{ maps.map_twocastles.data.buildHeight }}` | {{ mapPropertyDescriptions.buildHeight.classic }} |
+| Property    | Value                                         | Description                                       |
+| ----------- | --------------------------------------------- | ------------------------------------------------- |
+| buildRadius | `{{ maps.map_two_castles.data.buildRadius }}` | {{ mapPropertyDescriptions.buildRadius.classic }} |
+| buildHeight | `{{ maps.map_two_castles.data.buildHeight }}` | {{ mapPropertyDescriptions.buildHeight.classic }} |
