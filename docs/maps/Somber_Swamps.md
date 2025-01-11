@@ -28,9 +28,9 @@
 
 ---
 
-| Achievement | Description                          | Reward     |
-| ----------- | ------------------------------------ | ---------- |
-| \_\_\_      | Win a game on the map Somber Swamps. | 20 Credits |
+| Achievement           | Description                          | Reward     |
+| --------------------- | ------------------------------------ | ---------- |
+| A firefly to remember | Win a game on the map Somber Swamps. | 20 Credits |
 
 # Map Data
 
