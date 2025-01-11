@@ -2,7 +2,7 @@
 
 ---
 
-#### ![necromancer-icon](../assets/icons/necromancer-icon.jpg)
+#### ![necromancer-icon](../assets/icons/kits/necromancer-icon.jpg)
 
 # Overview
 

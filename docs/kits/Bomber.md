@@ -2,7 +2,7 @@
 
 ---
 
-#### ![bomber-icon](../assets/icons/bomber-icon.jpg)
+#### ![bomber-icon](../assets/icons/kits/bomber-icon.jpg)
 
 # Overview
 

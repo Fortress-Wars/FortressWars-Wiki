@@ -2,7 +2,7 @@
 
 ---
 
-#### ![demolitionist-icon](../assets/icons/demolitionist-icon.jpg)
+#### ![demolitionist-icon](../assets/icons/kits/demolitionist-icon.jpg)
 
 # Overview
 

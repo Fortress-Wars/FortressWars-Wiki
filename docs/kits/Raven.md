@@ -2,7 +2,7 @@
 
 ---
 
-#### ![raven-icon](../assets/icons/raven-icon.jpg)
+#### ![raven-icon](../assets/icons/kits/raven-icon.jpg)
 
 # Overview
 

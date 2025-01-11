@@ -2,7 +2,7 @@
 
 ---
 
-#### ![spider-icon](../assets/icons/spider-icon.jpg)
+#### ![spider-icon](../assets/icons/kits/spider-icon.jpg)
 
 # Overview
 

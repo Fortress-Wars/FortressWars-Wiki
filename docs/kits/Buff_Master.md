@@ -2,7 +2,7 @@
 
 ---
 
-#### ![buff-master-icon](../assets/icons/buff-master-icon.jpg)
+#### ![buff-master-icon](../assets/icons/kits/buff-master-icon.jpg)
 
 # Overview
 

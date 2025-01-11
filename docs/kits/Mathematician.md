@@ -2,7 +2,7 @@
 
 ---
 
-#### ![mathematician-icon](../assets/icons/mathematician-icon.jpg)
+#### ![mathematician-icon](../assets/icons/kits/mathematician-icon.jpg)
 
 # Overview
 

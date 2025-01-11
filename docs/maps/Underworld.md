@@ -2,7 +2,7 @@
 
 ---
 
-#### ![underworldicon](../assets/icons/underworld-icon.jpg)
+#### ![underworldicon](../assets/icons/maps/underworld-icon.jpg)
 
 # Overview
 

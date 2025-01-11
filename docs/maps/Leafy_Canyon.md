@@ -2,7 +2,7 @@
 
 ---
 
-#### ![leafycanyonicon](../assets/icons/leafycanyon-icon.jpg)
+#### ![leafycanyonicon](../assets/icons/maps/leafy-canyon-icon.jpg)
 
 # Overview
 

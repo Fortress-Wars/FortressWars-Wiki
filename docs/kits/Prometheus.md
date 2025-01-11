@@ -2,7 +2,7 @@
 
 ---
 
-#### ![prometheus-icon](../assets/icons/prometheus-icon.jpg)
+#### ![prometheus-icon](../assets/icons/kits/prometheus-icon.jpg)
 
 # Overview
 

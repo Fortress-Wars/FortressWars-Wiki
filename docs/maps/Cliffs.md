@@ -2,7 +2,7 @@
 
 ---
 
-#### ![cliffsicon](../assets/icons/cliffs-icon.jpg)
+#### ![cliffsicon](../assets/icons/maps/cliffs-icon.jpg)
 
 # Overview
 

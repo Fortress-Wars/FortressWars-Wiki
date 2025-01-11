@@ -2,7 +2,7 @@
 
 ---
 
-#### ![potion-master-icon](../assets/icons/potion-master-icon.jpg)
+#### ![potion-master-icon](../assets/icons/kits/potion-master-icon.jpg)
 
 # Overview
 

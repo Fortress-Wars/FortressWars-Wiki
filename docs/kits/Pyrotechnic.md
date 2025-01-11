@@ -2,7 +2,7 @@
 
 ---
 
-#### ![pyrotechnic-icon](../assets/icons/pyrotechnic-icon.jpg)
+#### ![pyrotechnic-icon](../assets/icons/kits/pyrotechnic-icon.jpg)
 
 # Overview
 

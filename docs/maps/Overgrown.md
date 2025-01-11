@@ -2,7 +2,7 @@
 
 ---
 
-#### ![overgrownicon](../assets/icons/overgrown-icon.jpg)
+#### ![overgrownicon](../assets/icons/maps/overgrown-icon.jpg)
 
 # Overview
 

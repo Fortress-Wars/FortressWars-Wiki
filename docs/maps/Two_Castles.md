@@ -2,7 +2,7 @@
 
 ---
 
-#### ![twocastlesicon](../assets/icons/two-castles-icon.jpg)
+#### ![twocastlesicon](../assets/icons/maps/two-castles-icon.jpg)
 
 # Overview
 

@@ -11,7 +11,7 @@
 > - **Introduced**: v1.8.0
 > - **Contributors**: alfredodan & LinkFD
 >
-> #### ![ashlandsicon](../assets/icons/ashlands-icon.jpg)
+> #### ![ashlandsicon](../assets/icons/maps/ashlands-icon.jpg)
 
 > ## [Biohazard](Biohazard)
 >
@@ -20,7 +20,7 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: Naparizel
 >
-> #### ![biohazardicon](../assets/icons/biohazard-icon.jpg)
+> #### ![biohazardicon](../assets/icons/maps/biohazard-icon.jpg)
 
 > ## [Bootcamp](Bootcamp)
 >
@@ -29,7 +29,7 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: xzyle
 >
-> #### ![Bootcampicon](../assets/icons/bootcamp-icon.jpg)
+> #### ![Bootcampicon](../assets/icons/maps/bootcamp-icon.jpg)
 
 > ## [Candyland](Candyland)
 >
@@ -38,7 +38,7 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: LinkFD & TheLordStan
 >
-> #### ![Candylandicon](../assets/icons/candyland-icon.jpg)
+> #### ![Candylandicon](../assets/icons/maps/candyland-icon.jpg)
 
 > ## [Caverns](Caverns)
 >
@@ -47,7 +47,7 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: UNKNOWN
 >
-> #### ![Cavernsicon](../assets/icons/caverns-icon.jpg)
+> #### ![Cavernsicon](../assets/icons/maps/caverns-icon.jpg)
 
 > ## [Clay](Clay)
 >
@@ -56,7 +56,7 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: flameproofsocks
 >
-> #### ![clayicon](../assets/icons/clay-icon.jpg)
+> #### ![clayicon](../assets/icons/maps/clay-icon.jpg)
 
 > ## [Clay (NB)](Clay_NB)
 >
@@ -65,7 +65,7 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: flameproofsocks & LinkFD
 >
-> #### ![claynbicon](../assets/icons/clay-nb-icon.jpg)
+> #### ![claynbicon](../assets/icons/maps/clay-nb-icon.jpg)
 
 > ## [Coast](Coast)
 >
@@ -74,7 +74,7 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: LinkFD & TheLordStan
 >
-> #### ![coasticon](../assets/icons/coast-icon.jpg)
+> #### ![coasticon](../assets/icons/maps/coast-icon.jpg)
 
 > ## [Coast (KOTH)](Coast_KOTH)
 >
@@ -83,7 +83,7 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: LinkFD & TheLordStan
 >
-> #### ![coastKOTHicon](../assets/icons/coast-koth-icon.jpg)
+> #### ![coastKOTHicon](../assets/icons/maps/coast-koth-icon.jpg)
 
 > ## [Colliery](Colliery)
 >
@@ -92,7 +92,7 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: LinkFD & TheLordStan
 >
-> #### ![Collieryicon](../assets/icons/Colliery-icon.jpg)
+> #### ![Collieryicon](../assets/icons/maps/colliery-icon.jpg)
 
 > ## [Frostnova](Frostnova)
 >
@@ -101,7 +101,7 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: xzyle
 >
-> #### ![Frostnovaicon](../assets/icons/Frostnova-icon.jpg)
+> #### ![Frostnovaicon](../assets/icons/maps/frostnova-icon.jpg)
 
 > ## [Glass Forest](Glass_Forest)
 >
@@ -110,7 +110,7 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: Lucky_Lew
 >
-> #### ![GlassForesticon](../assets/icons/Glass-Forest-icon.jpg)
+> #### ![GlassForesticon](../assets/icons/maps/glass-forest-icon.jpg)
 
 > ## [Great Wall](Great_Wall)
 >
@@ -119,7 +119,7 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: Lucky_Lew
 >
-> #### ![GreatWallicon](../assets/icons/Great-Wall-icon.jpg)
+> #### ![GreatWallicon](../assets/icons/maps/great-wall-icon.jpg)
 
 > ## [Hotel Monseñor](Hotel_Monsenor)
 >
@@ -128,7 +128,7 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: alfredodan
 >
-> #### ![HotelMonsenoricon](../assets/icons/Hotel-Monsenor-icon.jpg)
+> #### ![HotelMonsenoricon](../assets/icons/maps/hotel-monsenor-icon.jpg)
 
 > ## [Icefields](Icefields)
 >
@@ -137,7 +137,7 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: Lucky_Lew
 >
-> #### ![Iceicon](../assets/icons/Ice-icon.jpg)
+> #### ![Iceicon](../assets/icons/maps/ice-icon.jpg)
 
 > ## [Icefields (AD)](Icefields_AD)
 >
@@ -146,7 +146,7 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: LuckyLew & alfredodan
 >
-> #### ![IceADicon](../assets/icons/Ice-AD-icon.jpg)
+> #### ![IceADicon](../assets/icons/maps/ice-ad-icon.jpg)
 
 > ## [Icefields (NB)](Icefields_NB)
 >
@@ -155,7 +155,7 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: LuckyLew & R3dThunderr
 >
-> #### ![IceNBicon](../assets/icons/Ice-NB-icon.jpg)
+> #### ![IceNBicon](../assets/icons/maps/ice-nb-icon.jpg)
 
 > ## [Lazarus](Lazarus)
 >
@@ -164,7 +164,7 @@
 > - **Introduced**: v1.8.0
 > - **Contributors**: alfredodan
 >
-> #### ![Lazarusicon](../assets/icons/Lazarus-icon.jpg)
+> #### ![Lazarusicon](../assets/icons/maps/lazarus-icon.jpg)
 
 > ## [Leafy Canyon](Leafy_Canyon)
 >
@@ -173,7 +173,7 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: LinkFD & TheLordStan
 >
-> #### ![Leafycanyonicon](../assets/icons/leafy-canyon-icon.jpg)
+> #### ![Leafycanyonicon](../assets/icons/maps/leafy-canyon-icon.jpg)
 
 > ## [Mountain](Mountain)
 >
@@ -182,7 +182,7 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: Cloud123
 >
-> #### ![Mountainicon](../assets/icons/Mountain-icon.jpg)
+> #### ![Mountainicon](../assets/icons/maps/mountain-icon.jpg)
 
 > ## [Oasis City](Oasis_City)
 >
@@ -191,7 +191,7 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: LinkFD & TheLordStan
 >
-> #### ![Oasiscityicon](../assets/icons/oasis-city-icon.jpg)
+> #### ![Oasiscityicon](../assets/icons/maps/oasis-city-icon.jpg)
 
 > ## [Overgrown](Overgrown)
 >
@@ -200,7 +200,7 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: LinkFD, TheLordStan & liamtheliam29
 >
-> #### ![Overgrownicon](../assets/icons/Overgrown-icon.jpg)
+> #### ![Overgrownicon](../assets/icons/maps/overgrown-icon.jpg)
 
 > ## [Ravine](Ravine)
 >
@@ -209,7 +209,7 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: Lucky_Lew
 >
-> #### ![Ravineicon](../assets/icons/Ravine-icon.jpg)
+> #### ![Ravineicon](../assets/icons/maps/ravine-icon.jpg)
 
 > ## [River](River)
 >
@@ -218,7 +218,7 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: Lucky_Lew
 >
-> #### ![rivericon](../assets/icons/river-icon.jpg)
+> #### ![rivericon](../assets/icons/maps/river-icon.jpg)
 
 > ## [Ships](Ships)
 >
@@ -227,7 +227,7 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: Lucky_Lew
 >
-> #### ![shipsicon](../assets/icons/ships-icon.jpg)
+> #### ![shipsicon](../assets/icons/maps/ships-icon.jpg)
 
 > ## [Skylands](Skylands)
 >
@@ -236,7 +236,7 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: Lucky_Lew
 >
-> #### ![skylandsicon](../assets/icons/skylands-icon.jpg)
+> #### ![skylandsicon](../assets/icons/maps/skylands-icon.jpg)
 
 > ## [Somber Swamps](Somber_Swamps)
 >
@@ -245,7 +245,7 @@
 > - **Introduced**: v2.0.0
 > - **Contributors**: alfredodan
 >
-> #### ![SomberSwampsicon](../assets/icons/somber-swamps-icon.jpg)
+> #### ![SomberSwampsicon](../assets/icons/maps/somber-swamps-icon.jpg)
 
 > ## [Two Castles](Two_Castles)
 >
@@ -254,7 +254,7 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: inbystander000
 >
-> #### ![twocastlesicon](../assets/icons/two-castles-icon.jpg)
+> #### ![twocastlesicon](../assets/icons/maps/two-castles-icon.jpg)
 
 > ## [Underworld](Underworld)
 >
@@ -263,7 +263,7 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: Lucky_Lew
 >
-> #### ![Underworldicon](../assets/icons/Underworld-icon.jpg)
+> #### ![Underworldicon](../assets/icons/maps/underworld-icon.jpg)
 
 > ## [Urban](Urban)
 >
@@ -272,7 +272,7 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: Demodwarfz & LittleChaos98
 >
-> #### ![Urbanicon](../assets/icons/Urban-icon.jpg)
+> #### ![Urbanicon](../assets/icons/maps/urban-icon.jpg)
 
 > ## [Valley](Valley)
 >
@@ -281,7 +281,7 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: Lucky_Lew
 >
-> #### ![Valleyicon](../assets/icons/valley-icon.jpg)
+> #### ![Valleyicon](../assets/icons/maps/valley-icon.jpg)
 
 > ## [Valley (NB)](Valley_NB)
 >
@@ -290,7 +290,7 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: Lucky_Lew & R3dthunderr
 >
-> #### ![valleynbicon](../assets/icons/valley-nb-icon.jpg)
+> #### ![valleynbicon](../assets/icons/maps/valley-nb-icon.jpg)
 
 > ## [Void](Void)
 >
@@ -299,7 +299,7 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: St3vanAU
 >
-> #### ![voidicon](../assets/icons/void-icon.jpg)
+> #### ![voidicon](../assets/icons/maps/void-icon.jpg)
 
 > ## [Void (KOTH)](Void_KOTH)
 >
@@ -308,4 +308,4 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: LinkFD
 >
-> #### ![voidkothicon](../assets/icons/void-KOTH-icon.jpg)
+> #### ![voidkothicon](../assets/icons/maps/void-KOTH-icon.jpg)

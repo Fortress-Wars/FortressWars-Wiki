@@ -2,7 +2,7 @@
 
 ---
 
-#### ![mercy-icon](../assets/icons/mercy-icon.jpg)
+#### ![mercy-icon](../assets/icons/kits/mercy-icon.jpg)
 
 # Overview
 

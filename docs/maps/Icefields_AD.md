@@ -2,7 +2,7 @@
 
 ---
 
-#### ![icefieldsADicon](../assets/icons/ice-AD-icon.jpg)
+#### ![icefieldsADicon](../assets/icons/maps/ice-AD-icon.jpg)
 
 # Overview
 

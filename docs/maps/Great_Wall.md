@@ -2,7 +2,7 @@
 
 ---
 
-#### ![greatwallicon](../assets/icons/great-wall-icon.jpg)
+#### ![greatwallicon](../assets/icons/maps/great-wall-icon.jpg)
 
 # Overview
 

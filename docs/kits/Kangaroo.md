@@ -2,7 +2,7 @@
 
 ---
 
-#### ![kangaroo-icon](../assets/icons/kangaroo-icon.jpg)
+#### ![kangaroo-icon](../assets/icons/kits/kangaroo-icon.jpg)
 
 # Overview
 

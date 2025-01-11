@@ -2,7 +2,7 @@
 
 ---
 
-#### ![Ashlandsicon](../assets/icons/ashlands-icon.jpg)
+#### ![Ashlandsicon](../assets/icons/maps/ashlands-icon.jpg)
 
 # Overview
 

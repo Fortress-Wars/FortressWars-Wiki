@@ -2,7 +2,7 @@
 
 ---
 
-#### ![knight-icon](../assets/icons/knight-icon.jpg)
+#### ![knight-icon](../assets/icons/kits/knight-icon.jpg)
 
 # Overview
 

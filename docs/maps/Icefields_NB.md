@@ -2,7 +2,7 @@
 
 ---
 
-#### ![iceNBicon](../assets/icons/ice-NB-icon.jpg)
+#### ![iceNBicon](../assets/icons/maps/ice-NB-icon.jpg)
 
 # Overview
 

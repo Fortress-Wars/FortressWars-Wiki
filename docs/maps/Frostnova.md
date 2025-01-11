@@ -2,7 +2,7 @@
 
 ---
 
-#### ![frostnovaicon](../assets/icons/frostnova-icon.jpg)
+#### ![frostnovaicon](../assets/icons/maps/frostnova-icon.jpg)
 
 # Overview
 

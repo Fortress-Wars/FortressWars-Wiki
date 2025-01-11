@@ -2,7 +2,7 @@
 
 ---
 
-#### ![wizard-icon](../assets/icons/wizard-icon.jpg)
+#### ![wizard-icon](../assets/icons/kits/wizard-icon.jpg)
 
 # Overview
 

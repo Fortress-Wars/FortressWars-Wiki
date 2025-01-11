@@ -2,7 +2,7 @@
 
 ---
 
-#### ![golem-icon](../assets/icons/golem-icon.jpg)
+#### ![golem-icon](../assets/icons/kits/golem-icon.jpg)
 
 # Overview
 

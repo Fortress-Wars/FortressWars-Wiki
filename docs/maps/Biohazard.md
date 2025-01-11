@@ -2,7 +2,7 @@
 
 ---
 
-#### ![biohazardicon](../assets/icons/biohazard-icon.jpg)
+#### ![biohazardicon](../assets/icons/maps/biohazard-icon.jpg)
 
 # Overview
 

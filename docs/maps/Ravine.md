@@ -2,7 +2,7 @@
 
 ---
 
-#### ![ravineicon](../assets/icons/ravine-icon.jpg)
+#### ![ravineicon](../assets/icons/maps/ravine-icon.jpg)
 
 # Overview
 

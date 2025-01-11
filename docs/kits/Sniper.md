@@ -2,7 +2,7 @@
 
 ---
 
-#### ![sniper-icon](../assets/icons/sniper-icon.jpg)
+#### ![sniper-icon](../assets/icons/kits/sniper-icon.jpg)
 
 # Overview
 

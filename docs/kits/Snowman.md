@@ -2,7 +2,7 @@
 
 ---
 
-#### ![snowman-icon](../assets/icons/snowman-icon.jpg)
+#### ![snowman-icon](../assets/icons/kits/snowman-icon.jpg)
 
 # Overview
 

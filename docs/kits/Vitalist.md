@@ -2,7 +2,7 @@
 
 ---
 
-#### ![vitalist-icon](../assets/icons/vitalist-icon.jpg)
+#### ![vitalist-icon](../assets/icons/kits/vitalist-icon.jpg)
 
 # Overview
 

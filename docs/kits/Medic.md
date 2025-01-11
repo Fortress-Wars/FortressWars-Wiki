@@ -2,7 +2,7 @@
 
 ---
 
-#### ![medic-icon](../assets/icons/medic-icon.jpg)
+#### ![medic-icon](../assets/icons/kits/medic-icon.jpg)
 
 # Overview
 

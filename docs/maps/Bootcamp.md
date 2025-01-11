@@ -2,7 +2,7 @@
 
 ---
 
-#### ![bootcampicon](../assets/icons/bootcamp-icon.jpg)
+#### ![bootcampicon](../assets/icons/maps/bootcamp-icon.jpg)
 
 # Overview
 
