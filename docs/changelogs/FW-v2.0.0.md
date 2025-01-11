@@ -44,7 +44,7 @@ Aquarius
 
 Bomber
 
-- Increased bomber knockback multiplier from **1.25** to **0.75**
+- Decreased bomber knockback multiplier from **1.25** to **0.75**
 - Bombs consider line-of-sight when damaging enemies.
 
 Brute
@@ -100,7 +100,7 @@ Golem
 - The "Rooting" effect lasts for **60** ticks.
 - Earth Shatter no longer damages the caster.
 
-Hitman:
+Hitman
 
 - Bow now has infinity.
 - Replaced the chainmail leggings with black leather leggings.
@@ -115,7 +115,7 @@ Hitman:
 Illusionist
 
 - Divination Star damage bonus multiplier now only triggers when the owner of the Divination Star is the source of the damage.
-- If the player attacks an enemy to uncloak while invisible, the player also hacks them for **60** ticks.
+- If the player attacks an enemy to uncloak, they also hack the enemy for **60** ticks.
 
 Jumper
 
@@ -150,7 +150,7 @@ Mathematician
 
 Medic
 
-- The Healing rate decreased from **5** ticks to **2** ticks.
+- Increased the healing rate. (**5** ticks -> **2** ticks)
 - The Healing Stone capacity resource is renamed “Electrolytes” and is displayed on the player's action bar.
 - Medic's potions are now visually different from normal healing potions.
 
@@ -193,7 +193,7 @@ Necromancer
 - Right-clicking the player's skeleton restores **10** health to the skeleton. This consumes **1** essence.
 - The skeleton can now be picked up by right-clicking it while sneaking. This action remembers its current health and level.
 - The spawn skeleton item and shield become enchanted to indicate that a skeleton is being held.
-- Essence now drops for every entity death (previously only player-caused deaths).
+- Essence now drops for every player death (previously only player-caused deaths).
 
 Porcupine
 
@@ -290,15 +290,15 @@ Vitalist
 - Reduced projectile size from **0.4** to **0.1**.
 - Reduced projectile speed from **32** from **16**.
 - Reduced total healing instances from **5** to **3**.
-- Reduced healing rate from from **5** to **3**.
+- Reduced number of healing ticks from **5** to **3**.
 - Increased healing potency increased from **1** to **1.5**.
-- Increased healing tick rate from **4** to **10**
+- Decreased healing rate. (**4** -> **10**)
 - The crossbow projectile now has a max travel distance of **150** meters.
 - Added spread to the crossbow projectile.
 
 Wizard
 
-- Lightning Spell now stuns damaged targets for **20** ticks.
+- Lightning Spell and Zap Spell now stun enemies.
 - Lightning Spell now deals **x0.5** damage to the caster.
 - Lightning Spell stun duration decreased from **200** ticks to **40** ticks.
 - Zap Spell stun duration decreased from **200** ticks to **10** ticks.
