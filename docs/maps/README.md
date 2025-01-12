@@ -308,4 +308,4 @@
 > - **Introduced**: v1.7.0
 > - **Contributors**: LinkFD
 >
-> #### ![voidkothicon](../assets/icons/maps/void-KOTH-icon.jpg)
+> #### ![voidkothicon](../assets/icons/maps/void-koth-icon.jpg)
