@@ -34,6 +34,8 @@
   - _Something sharp slashes something; does't go in._
 - `Stabbing`
   - _Something sharp goes in and comes out._
+- `Static`
+  - _Damage that can't be adjusted with damage modifiers_
 - `System`
   - _Damage caused by the system and not an entity or gamer object._
 - `Water`
