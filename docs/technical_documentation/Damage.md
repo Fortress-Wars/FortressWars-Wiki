@@ -8,6 +8,8 @@
   - _Air related damage._
 - `Blast`
   - _Something explodes._
+- `Blood`
+  - _Blood related damage._
 - `Earth`
   - _Earth related damage._
 - `Electric`
@@ -147,6 +149,9 @@
 - `Hitman Harm Dart`
   - Shield Damage Type: _Ignore_
   - Damage Types: _Magic_
+- `Homing Hemoglobin`
+  - Shield Damage Type: _Ignore_
+  - Damage Types: _Blood_, _Magic_
 - `Kangaroo Stomp`
   - Shield Damage Type: _Damage_
   - Damage Types: _Impact_, _Physical_
