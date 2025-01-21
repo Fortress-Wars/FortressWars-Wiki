@@ -11,6 +11,7 @@
   - [Demolitionist](Demolitionist)
   - [Engineer](Engineer)
   - [Fish](Fish)
+  - [Glacier](Glacier)
   - [Golem](Golem)
   - [Gunner](Gunner)
   - [Hitman](Hitman)

@@ -100,6 +100,14 @@
 >
 > #### ![fish-icon](../assets/icons/kits/fish-icon.jpg)
 
+> ## [Glacier](Glacier)
+>
+> - **Role**: Damage
+> - **Type**: Premium
+> - **Introduced**: v2.1.0
+>
+> #### ![glacier-icon](../assets/icons/kits/)
+
 > ## [Golem](Golem)
 >
 > - **Role**: Tank
