@@ -97,7 +97,7 @@
   - Damage Types: _Impact_, _Physical_
 - `Blood Transfusion`
   - Shield Damage Type: _Ignore_
-  - Damage Types: _Redistribution_
+  - Damage Types: _Blood_, _Redistribution_, _Static_
 - `Bomber Bomb`
   - Shield Damage Type: _Break_
   - Damage Types: _Blast_, _Physical_
