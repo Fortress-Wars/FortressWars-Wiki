@@ -170,6 +170,7 @@ Sun power increases by `{{ kits.priest.data.PRIEST_SUN_POWER_FINAL_BLOW_REWARD }
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Bask in the Sunlight! | Cast a level 5 Release spell. | 20 Credits |
+| Repent! | Ignite a demon with your light beam spell. | 20 Credits |
 | Sunbathing Rays | Hit 1,000 allies/enemies with light beam. | 100 Credits |
 | The Sun God! | Gain 1,000 Sun Power. | 250 Credits |
 | The True Sun God! | Cast 50 Level 5 Release spells. | 250 Credits |
