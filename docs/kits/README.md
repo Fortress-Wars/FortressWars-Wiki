@@ -84,6 +84,14 @@
 >
 > #### ![demolitionist-icon](../assets/icons/kits/demolitionist-icon.jpg)
 
+> ## [Demon](Demon)
+>
+> - **Role**: Support
+> - **Type**: Premium
+> - **Introduced**: v2.1.0
+>
+> #### ![demon-icon](../assets/icons/kits/demon-icon.jpg)
+
 > ## [Engineer](Engineer)
 >
 > - **Role**: Utility

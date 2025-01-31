@@ -2,7 +2,7 @@
 
 ---
 
-#### ![demon-icon](../assets/icons/maps/demon-icon.jpg)
+#### ![demon-icon](../assets/icons/kits/demon-icon.jpg)
 
 # Overview
 

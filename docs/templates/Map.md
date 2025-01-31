@@ -5,7 +5,7 @@
 
 ---
 
-#### ![_map_-icon](../assets/maps/_map_/_map_-icon.jpg)
+#### ![_map_-icon](../assets/maps/_map_-icon.jpg)
 
 # Overview
 
