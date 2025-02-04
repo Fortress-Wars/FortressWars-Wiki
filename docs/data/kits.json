@@ -311,6 +311,19 @@
         "FISH_MELEE_SHARPNESS_LEVEL": 1
       }
     },
+    "glacier": {
+      "data": {
+        "MAX_HEALING_POTIONS": 7,
+        "GLACIER_SWORD_DAMAGE": 5,
+        "GLACIER_SWORD_SPEED": 4,
+        "GLACIER_ICE_BALL_COOLDOWN": 160,
+        "GLACIER_ICE_BALL_SLOWNESS_DURATION": 60,
+        "GLACIER_ICE_BALL_SLOWNESS_LEVEL": 3,
+        "GLACIER_ICE_BALL_SNOW_LAYER_DURATION": 500,
+        "GLACIER_SNOWDRIFT_DURATION": 70,
+        "GLACIER_SNOWDRIFT_SPEED_LEVEL": 2
+      }
+    },
     "golem": {
       "data": {
         "MAX_HEALING_POTIONS": 5,

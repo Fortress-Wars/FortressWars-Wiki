@@ -23,7 +23,7 @@
 - Chainmail Leggings
 - Chainmail Boots
 - Iron Sword
-- Snowball
+- Ice Ball
 - {{ kits.glacier.data.MAX_HEALING_POTIONS }} Healing Potions
 
 <br />
@@ -36,21 +36,13 @@
 
 <!-- tabs:start -->
 
-#### **Ability_1**
+#### **Ice Ball**
 
-## Ability_1
+## Ice Ball
 
-_description_1_
+A throwable projectile, when it lands or collides with a enemy it produces a 'snow layer' beneath it or on the ground at the location. When the snowball hits a enemy it applies Slowness `{{ kits.glacier.data.GLACIER_ICE_BALL_SLOWNESS_LEVEL }}` for `{{ kits.glacier.data.GLACIER_ICE_BALL_SLOWNESS_DURATION }}` ticks.
 
 ![_image_1_](../assets/kits/glacier/_image_1_.jpg_)
-
-#### **Ability_2**
-
-## Ability_2
-
-_description_2_
-
-![_image_2_](../assets/kits/glacier/_image_2_.jpg_)
 
 <!-- tabs:end -->
 
@@ -58,11 +50,11 @@ _description_2_
 
 <!-- tabs:start -->
 
-#### **Ability_1**
+#### **Snowdrift**
 
-## Ability_1
+## Snowdrift
 
-_description_1_
+When the player stands on a 'snow layer' they gain Speed `{{ kits.glacier.data.GLACIER_SNOWDRIFT_SPEED_LEVEL }}` for `{{ kits.glacier.data.GLACIER_SNOWDRIFT_DURATION }}` ticks.
 
 ![_image_1_](../assets/kits/glacier/_image_1_.jpg_)
 
@@ -94,24 +86,11 @@ _description_1_
 | HEALING_POTION_AUTOPOT_HOTBAR_ONLY | `{{ kits._shared.data.HEALING_POTION_AUTOPOT_HOTBAR_ONLY }}` | {{ kitDataSharedDescriptions.HEALING_POTION_AUTOPOT_HOTBAR_ONLY }} |
 | POTION_IN_COMBAT_REGENERATION_RATE | `{{ kits._shared.data.POTION_IN_COMBAT_REGENERATION_RATE }}` | {{ kitDataSharedDescriptions.POTION_IN_COMBAT_REGENERATION_RATE }} |
 | POTION_OUT_OF_COMBAT_REGENERATION_RATE | `{{ kits._shared.data.POTION_OUT_OF_COMBAT_REGENERATION_RATE }}` | {{ kitDataSharedDescriptions.POTION_OUT_OF_COMBAT_REGENERATION_RATE }} |
-<!-- | TANK_ROLE_KNOCKBACK_PERCENTAGE | `{{ kits._shared.data.TANK_ROLE_KNOCKBACK_PERCENTAGE }}` | {{ kitDataSharedDescriptions.TANK_ROLE_KNOCKBACK_PERCENTAGE }} |
-| SHIELD_REGENERATION_DELAY | `{{ kits._shared.data.SHIELD_REGENERATION_DELAY }}` | {{ kitDataSharedDescriptions.SHIELD_REGENERATION_DELAY }} |
-| SHIELD_REGENERATION_RATE | `{{ kits._shared.data.SHIELD_REGENERATION_RATE }}` | {{ kitDataSharedDescriptions.SHIELD_REGENERATION_RATE }} |
-| SHIELD_REGENERATION_AMOUNT | `{{ kits._shared.data.SHIELD_REGENERATION_AMOUNT }}` | {{ kitDataSharedDescriptions.SHIELD_REGENERATION_AMOUNT }} |
-| SHIELD_BREAK_COOLDOWN | `{{ kits._shared.data.SHIELD_BREAK_COOLDOWN }}` | {{ kitDataSharedDescriptions.SHIELD_BREAK_COOLDOWN }} | -->
-| | `{{ kits.glacier.data. }}` | |
-| | `{{ kits.glacier.data. }}` | |
-| | `{{ kits.glacier.data. }}` | |
-| | `{{ kits.glacier.data. }}` | |
-| | `{{ kits.glacier.data. }}` | |
-| | `{{ kits.glacier.data. }}` | |
-| | `{{ kits.glacier.data. }}` | |
-| | `{{ kits.glacier.data. }}` | |
-| | `{{ kits.glacier.data. }}` | |
-| | `{{ kits.glacier.data. }}` | |
-| | `{{ kits.glacier.data. }}` | |
-| | `{{ kits.glacier.data. }}` | |
-| | `{{ kits.glacier.data. }}` | |
-| | `{{ kits.glacier.data. }}` | |
+| GLACIER_ICE_BALL_COOLDOWN | `{{ kits.glacier.data.GLACIER_ICE_BALL_COOLDOWN }}` | The ice ball's cooldown in ticks. |
+| GLACIER_ICE_BALL_SLOWNESS_DURATION| `{{ kits.glacier.data.GLACIER_ICE_BALL_SLOWNESS_DURATION }}` | The duration, in ticks, of the slowness the target is effected by.|
+| GLACIER_ICE_BALL_SLOWNESS_LEVEL| `{{ kits.glacier.data.GLACIER_ICE_BALL_SLOWNESS_LEVEL }}` | The level of the slowness the target is effected by.|
+| GLACIER_ICE_BALL_SNOW_LAYER_DURATION| `{{ kits.glacier.data.GLACIER_ICE_BALL_SNOW_LAYER_DURATION }}` | The duration, in ticks, of the snow layer created by the ice ball. |
+| GLACIER_SNOWDRIFT_DURATION| `{{ kits.glacier.data.GLACIER_SNOWDRIFT_DURATION }}` | The duration, in ticks, of the Snowdrift passive. |
+| GLACIER_SNOWDRIFT_SPEED_LEVEL| `{{ kits.glacier.data.GLACIER_SNOWDRIFT_SPEED_LEVEL }}` | The level of speed the user gets from the Snowdrift passive. |
 
 ### Changelog
