@@ -53,13 +53,17 @@ A weapon that is used to cast spells. Casting spells costs blood and each spell 
 
 ## Homing Hemoglobin
 
+The spell costs `2500` blood. Casting summons a projectile of blood that travels forward. The projectile locks onto a nearby target after traveling `3` meters. A [`Blood Bond`](#blood-bond) forms between the hit targets and the player.
+
 ![Demon - Homing Hemoglobin Cast](../assets/kits/demon/_image_1_.jpg_)
 
-![Demon - Homing Hemoglobin Target Enemy](../assets/kits/demon/_image_1_.jpg_)
+Blood projectiles target allies that don't have a blood bond with the player.
 
 ![Demon - HOming Hemoglobin Target Ally](../assets/kits/demon/_image_1_.jpg_)
 
-<!-- tabs:end -->
+Blood projectiles target enemies regardless of whether they have a blood bond with the player. The projectile deals `3` damage.
+
+![Demon - Homing Hemoglobin Target Enemy](../assets/kits/demon/_image_1_.jpg_)
 
 #### **Transfusion**
 
@@ -75,6 +79,20 @@ A weapon that is used to cast spells. Casting spells costs blood and each spell 
 
 <!-- tabs:start -->
 
+#### **Hellfire**
+
+## Hellfire
+
+_description_1_
+
+![Demon - Hellfire Ignite](../assets/kits/demon/_image_1_.jpg_)
+
+<!-- tabs:end -->
+
+### Effects
+
+<!-- tabs:start -->
+
 #### **Blood Bond**
 
 ## Blood Bond
@@ -86,14 +104,6 @@ A weapon that is used to cast spells. Casting spells costs blood and each spell 
 ![Demon - Blood Bond Transmission](../assets/kits/demon/_image_1_.jpg_)
 
 ![Demon - Blood Bond Healing](../assets/kits/demon/_image_1_.jpg_)
-
-#### **Hellfire**
-
-## Hellfire
-
-_description_1_
-
-![Demon - Hellfire Ignite](../assets/kits/demon/_image_1_.jpg_)
 
 <!-- tabs:end -->
 
