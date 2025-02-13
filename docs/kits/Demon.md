@@ -83,7 +83,7 @@ Blood projectiles target enemies regardless of whether they have a blood bond wi
 
 ## Hellfire
 
-_description_1_
+The [`Light Beam`](./Priest#light-beam) spell from kit priest ignites the player.
 
 ![Demon - Hellfire Ignite](../assets/kits/demon/_image_1_.jpg_)
 
@@ -97,13 +97,25 @@ _description_1_
 
 ## Blood Bond
 
-![Demon - Blood Bond](../assets/kits/demon/_image_1_.jpg_)
+A bond that forms between the player and an entity hit by the [`Homing Hemoglobin`](#homing-hemoglobin) spell. The "status effect" is applied to the hit entity and lasts `forever`. There is no limit to how many bonds a player or target can have active.
 
-![Demon - Blood Bond Break](../assets/kits/demon/_image_1_.jpg_)
+![Demon - Blood Bond One](../assets/kits/demon/_image_1_.jpg_)
+
+The number of active bonds is indicated by the number of blood spheres orbiting the entity.
+
+![Demon - Blood Bond Multiple](../assets/kits/demon/_image_1_.jpg_)
+
+After an enemy that has a blood bond with the player takes damage, `75%` of the blood lost is transmitted through the bond. If there are multiple blood bonds to transmit through, then the amount of blood is split evenly.
 
 ![Demon - Blood Bond Transmission](../assets/kits/demon/_image_1_.jpg_)
 
+When an ally has a blood bond with the player and they are not a full health, then the player transmits `100` blood every `4` ticks to heal them.
+
 ![Demon - Blood Bond Healing](../assets/kits/demon/_image_1_.jpg_)
+
+Blood bonds break if the entity is more than `15` meters from the source player,the entity is ignited, or the entity is cleansed.
+
+![Demon - Blood Bond Break](../assets/kits/demon/_image_1_.jpg_)
 
 <!-- tabs:end -->
 
