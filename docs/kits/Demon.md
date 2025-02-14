@@ -65,6 +65,12 @@ Blood projectiles target enemies regardless of whether they have a blood bond wi
 
 ![Demon - Homing Hemoglobin Target Enemy](../assets/kits/demon/_image_1_.jpg_)
 
+#### **Break Blood Bonds**
+
+## Break Blood Bonds
+
+<!-- tabs:end -->
+
 #### **Transfusion**
 
 ## Transfusion

@@ -95,6 +95,9 @@
 - `Builder Melee`
   - Shield Damage Type: _Damage_
   - Damage Types: _Impact_, _Physical_
+- `Blood Bond Break`
+  - Shield Damage Type: _Ignore_
+  - Damage Types: _Blood_, _Redistribution_, _Static_
 - `Blood Transfusion`
   - Shield Damage Type: _Ignore_
   - Damage Types: _Blood_, _Redistribution_, _Static_
