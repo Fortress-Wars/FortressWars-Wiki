@@ -155,7 +155,7 @@ The resource to summon, heal, and upgrade wither skeletons. The player can hold 
 
 ![Necromancer - Essence of the Afterlife](../assets/kits/necromancer/Necromancer%20-%20Essence%20of%20the%20Afterlife.gif)
 
-Essence of the Afterlife will drop from any player or necromancer skeleton that dies.
+Essence of the Afterlife drops upon the death of players and necromancer skeletons.
 
 ![Necromancer - Essence of the Afterlife Drop](../assets/kits/necromancer/Necromancer%20-%20Essence%20of%20the%20Afterlife%20Drop.gif)
 
@@ -202,7 +202,7 @@ When the player dies, they will drop `{{ kits.necromancer.data.NECROMANCER_ESSEN
 | NECROMANCER_SWORD_SPEED | `{{ kits.necromancer.data.NECROMANCER_SWORD_SPEED }}` | The base speed of the sword. |
 | NECROMANCER_SWORD_WITHER_EFFECT_LEVEL | `{{ kits.necromancer.data.NECROMANCER_SWORD_WITHER_EFFECT_LEVEL }}` | The level of the sword's wither effect. |
 | NECROMANCER_SWORD_WITHER_EFFECT_DURATION | `{{ kits.necromancer.data.NECROMANCER_SWORD_WITHER_EFFECT_DURATION }}` | The duration, in ticks, of the sword's wither effect. |
-| NECROMANCER_ESSENCE_OF_THE_AFTER_LIFE_MAX | `{{ kits.necromancer.data.NECROMANCER_ESSENCE_OF_THE_AFTER_LIFE_MAX }}` | The maximum number of essense the player can have at once. |
+| NECROMANCER_ESSENCE_OF_THE_AFTER_LIFE_MAX | `{{ kits.necromancer.data.NECROMANCER_ESSENCE_OF_THE_AFTER_LIFE_MAX }}` | The maximum number of essence the player can have at once. |
 | NECROMANCER_ESSENCE_OF_THE_AFTER_LIFE_FINAL_BLOW_DROP_BONUS | `{{ kits.necromancer.data.NECROMANCER_ESSENCE_OF_THE_AFTER_LIFE_FINAL_BLOW_DROP_BONUS }}` | The number of extra essence to drop when the player kills an enemy. |
 | NECROMANCER_ESSENCE_OF_THE_AFTER_LIFE_PLAYER_DROP_COUNT_PERCENTAGE | `{{ kits.necromancer.data.NECROMANCER_ESSENCE_OF_THE_AFTER_LIFE_PLAYER_DROP_COUNT_PERCENTAGE }}` | The percentage of essence of the after to drop when the player dies. |
 | NECROMANCER_WITHER_SKELETON_ESSENCE_PER_SKELETON | `{{ kits.necromancer.data.NECROMANCER_WITHER_SKELETON_ESSENCE_PER_SKELETON }}` | The amount of essence required to spawn a skeleton. |

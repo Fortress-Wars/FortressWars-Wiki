@@ -45,7 +45,8 @@ A weapon that is used to cast spells. Casting spells costs blood and each spell 
 
 ### Casting
 
-- Homing Hemoglobin _(Left-Click or Right-Click)_
+- Homing Hemoglobin _(Left-Click)_
+- Break Blood Bonds _(Right-Click)_
 
 <!-- tabs:start -->
 
@@ -53,15 +54,15 @@ A weapon that is used to cast spells. Casting spells costs blood and each spell 
 
 ## Homing Hemoglobin
 
-The spell costs `2500` blood. Casting summons a projectile of blood that travels forward. The projectile locks onto a nearby target after traveling `3` meters. A [`Blood Bond`](#blood-bond) forms between the hit targets and the player.
+The spell costs `{{ kits.demon.data.DEMON_HOMING_HEMOGLOBIN_COST }}ml` of blood. Casting summons a projectile of blood that travels forward. The projectile locks onto a nearby entity after traveling `{{ kits.demon.data.DEMON_HOMING_HEMOGLOBIN_START_HOMING_AFTER_DISTANCE }}` meters. When a projectile hits an entity, a [`Blood Bond`](#blood-bond) forms.
 
 ![Demon - Homing Hemoglobin Cast](../assets/kits/demon/_image_1_.jpg_)
 
-Blood projectiles target allies that don't have a blood bond with the player.
+Blood projectiles target allies that don't have a blood bond.
 
-![Demon - HOming Hemoglobin Target Ally](../assets/kits/demon/_image_1_.jpg_)
+![Demon - Homing Hemoglobin Target Ally](../assets/kits/demon/_image_1_.jpg_)
 
-Blood projectiles target enemies regardless of whether they have a blood bond with the player. The projectile deals `3` damage.
+Blood projectiles always target enemies. The projectile deals `{{ kits.demon.data.DEMON_HOMING_HEMOGLOBIN_DAMAGE }}` damage.
 
 ![Demon - Homing Hemoglobin Target Enemy](../assets/kits/demon/_image_1_.jpg_)
 
@@ -69,11 +70,17 @@ Blood projectiles target enemies regardless of whether they have a blood bond wi
 
 ## Break Blood Bonds
 
+A spell that costs `{{ kits.demon.data.DEMON_BREAK_BLOOD_BONDS_COST }}ml` of blood. Casting breaks all of the [`Blood Bonds`](#blood-bond) that the player formed. The player does not take damage when a bond breaks this way.
+
+![Demon - Break Blood Bonds Cast](../assets/kits/demon/_image_1_.jpg_)
+
 <!-- tabs:end -->
 
 #### **Transfusion**
 
 ## Transfusion
+
+An item used to convert blood into health and health into blood. When holding right-click, it transfuses `{{ kits.demon.data.DEMON_TRANSFUSION_BLOOD_AMOUNT }}ml` blood every `{{ kits.demon.data.DEMON_TRANSFUSION_CONVERSION_RATE }}` ticks. The player can left-click to between switch modes.
 
 ![Demon - Health Transfusion](../assets/kits/demon/_image_1_.jpg_)
 
@@ -84,6 +91,18 @@ Blood projectiles target enemies regardless of whether they have a blood bond wi
 ### Passives
 
 <!-- tabs:start -->
+
+#### **Demon's Curse**
+
+## Demon's Curse
+
+The player's magic damage is increased by `5%` for every active blood bond.
+
+![Demon - Demon's Curse Magic Damage Increase](../assets/kits/demon/_image_1_.jpg_)
+
+The player's physical damage is decreased by `10%` for every active blood bond.
+
+![Demon - Demon's Curse Physical Damage Decrease](../assets/kits/demon/_image_1_.jpg_)
 
 #### **Hellfire**
 
@@ -103,23 +122,23 @@ The [`Light Beam`](./Priest#light-beam) spell from kit priest ignites the player
 
 ## Blood Bond
 
-A bond that forms between the player and an entity hit by the [`Homing Hemoglobin`](#homing-hemoglobin) spell. The "status effect" is applied to the hit entity and lasts `forever`. There is no limit to how many bonds a player or target can have active.
+A special bond between the player and an entity. The bond forms when the player hits an entity with the [`Homing Hemoglobin`](#homing-hemoglobin) spell. The bond lasts `forever`.
 
 ![Demon - Blood Bond One](../assets/kits/demon/_image_1_.jpg_)
 
-The number of active bonds is indicated by the number of blood spheres orbiting the entity.
+The number of active bonds is indicated by the number of orbiting blood spheres.
 
 ![Demon - Blood Bond Multiple](../assets/kits/demon/_image_1_.jpg_)
 
-After an enemy that has a blood bond with the player takes damage, `75%` of the blood lost is transmitted through the bond. If there are multiple blood bonds to transmit through, then the amount of blood is split evenly.
+After enemies that have a bond with the player take damage, `{{ kits.demon.data.DEMON_BLOOD_BOND_BLOOD_TRANSMISSION_EFFICIENCY }}%` of the blood lost is transmitted through the bond. If there are multiple bonds, then the amount of blood is split and transmitted evenly.
 
 ![Demon - Blood Bond Transmission](../assets/kits/demon/_image_1_.jpg_)
 
-When an ally has a blood bond with the player and they are not a full health, then the player transmits `100` blood every `4` ticks to heal them.
+Allies that have a bond with the player restore `{{ kits.demon.data.DEMON_BLOOD_BOND_HEALING_POTENCY }}` health every `{{ kits.demon.data.DEMON_BLOOD_BOND_HEALING_RATE }}` ticks. This consumes player's blood resource.
 
 ![Demon - Blood Bond Healing](../assets/kits/demon/_image_1_.jpg_)
 
-Blood bonds break if the entity is more than `15` meters from the source player,the entity is ignited, or the entity is cleansed.
+A blood bond breaks if the distance between the entity and the player is greater than `{{ kits.demon.data.DEMON_BLOOD_BOND_BREAK_DISTANCE }}` meters. It also breaks if the entity is ignited or the entity is cleansed. The player takes `{{ kits.demon.data.DEMONS_CURSE_BLOOD_BOND_BREAK_DAMAGE }}` damage when a bond breaks.
 
 ![Demon - Blood Bond Break](../assets/kits/demon/_image_1_.jpg_)
 
@@ -133,19 +152,39 @@ Blood bonds break if the entity is more than `15` meters from the source player,
 
 ## Blood
 
+The primary resource for blood related spells and items. The conversion for blood to health is `{{ kits.demon.data.DEMON_BLOOD_TO_HEALTH_CONVERSION }}ml` to `1` respectively. The player can hold a maximum of `{{ kits.demon.data.DEMON_BLOOD_MAX }}ml` of blood.
+
 ![Demon - Blood](../assets/kits/demon/_image_1_.jpg_)
 
 ![Demon - Blood Consume](../assets/kits/demon/_image_1_.jpg_)
+
+#### **Blood Potions**
+
+## Blood Potions
+
+A potion used to restore blood. It restores `{{ kits.demon.data.BLOOD_POTION_CLICK_POTENCY }}ml` of blood when using the potion manually and `{{ kits.demon.data.BLOOD_POTION_AUTOPOT_POTENCY }}ml` of blood when using auto-pot. The player can hold a maximum of `{{ kits.demon.data.MAX_BLOOD_POTIONS }}` potions.
+
+![Demon - Blood Potion Use](../assets/kits/demon/_image_1_.jpg_)
+
+Potions regenerate over time.
+
+![Demon - Blood Potion Regenerate](../assets/kits/demon/_image_1_.jpg_)
 
 #### **Essence of the Afterlife**
 
 ## Essence of the Afterlife
 
+A resource used to restore blood.
+
 ![Demon - Essence of the Afterlife](../assets/kits/demon/_image_1_.jpg_)
 
-![Demon - Essence of the Afterlife Drop](../assets/kits/demon/_image_1_.jpg_)
+Picking up an Essence of the Afterlife restores `{{ kits.demon.data.DEMON_BLOOD_PER_ESSENCE }}ml` blood.
 
 ![Demon - Essence of the Afterlife Pickup](../assets/kits/demon/_image_1_.jpg_)
+
+Essence of the Afterlife drops upon the death of players and necromancer skeletons.
+
+![Demon - Essence of the Afterlife Drop](../assets/kits/demon/_image_1_.jpg_)
 
 <!-- tabs:end -->
 <br />
@@ -203,5 +242,11 @@ Blood bonds break if the entity is more than `15` meters from the source player,
 | DEMON_BLOOD_BOND_BREAK_DISTANCE | `{{ kits.demon.data.DEMON_BLOOD_BOND_BREAK_DISTANCE }}` | |
 | DEMON_BLOOD_BOND_BLOOD_TRANSMISSION_EFFICIENCY | `{{ kits.demon.data.DEMON_BLOOD_BOND_BLOOD_TRANSMISSION_EFFICIENCY }}` | |
 | DEMON_HELLFIRE_BURN_DURATION | `{{ kits.demon.data.DEMON_HELLFIRE_BURN_DURATION }}` | |
+| DEMONS_CURSE_MAX_EFFECTIVE_BONDS | `{{ kits.demon.data.DEMONS_CURSE_MAX_EFFECTIVE_BONDS }}` | |
+| DEMONS_CURSE_MAGIC_DAMAGE_INCREASE_PER_BLOOD_BOND | `{{ kits.demon.data.DEMONS_CURSE_MAGIC_DAMAGE_INCREASE_PER_BLOOD_BOND }}` | |
+| DEMONS_CURSE_PHYSICAL_DAMAGE_DECREASE_PER_BLOOD_BOND | `{{ kits.demon.data.DEMONS_CURSE_PHYSICAL_DAMAGE_DECREASE_PER_BLOOD_BOND }}` | |
+| DEMON_BREAK_BLOOD_BONDS_COST | `{{ kits.demon.data.DEMON_BREAK_BLOOD_BONDS_COST }}` | |
+| DEMON_BREAK_BLOOD_BONDS_COOLDOWN | `{{ kits.demon.data.DEMON_BREAK_BLOOD_BONDS_COOLDOWN }}` | |
+| DEMONS_CURSE_BLOOD_BOND_BREAK_DAMAGE | `{{ kits.demon.data.DEMONS_CURSE_BLOOD_BOND_BREAK_DAMAGE }}` | |
 
 ### Changelog
