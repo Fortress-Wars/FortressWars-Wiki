@@ -159,7 +159,7 @@ Essence of the Afterlife drops upon the death of players and necromancer skeleto
 
 ![Necromancer - Essence of the Afterlife Drop](../assets/kits/necromancer/Necromancer%20-%20Essence%20of%20the%20Afterlife%20Drop.gif)
 
-When the player dies, they will drop `{{ kits.necromancer.data.NECROMANCER_ESSENCE_OF_THE_AFTER_LIFE_PLAYER_DROP_COUNT_PERCENTAGE }}%` of their current essence.
+When the player dies, they drop `{{ kits.necromancer.data.NECROMANCER_ESSENCE_OF_THE_AFTER_LIFE_PLAYER_DROP_COUNT_PERCENTAGE }}%` of their essence.
 
 ![Necromancer - Essence of the Afterlife Player Drop](../assets/kits/necromancer/Necromancer%20-%20Essence%20of%20the%20Afterlife%20Player%20Drop.gif)
 

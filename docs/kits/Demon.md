@@ -134,7 +134,7 @@ After enemies that have a bond with the player take damage, `{{ kits.demon.data.
 
 ![Demon - Blood Bond Transmission](../assets/kits/demon/_image_1_.jpg_)
 
-Allies that have a bond with the player restore `{{ kits.demon.data.DEMON_BLOOD_BOND_HEALING_POTENCY }}` health every `{{ kits.demon.data.DEMON_BLOOD_BOND_HEALING_RATE }}` ticks. This consumes the player's blood resource..
+Allies that have a bond with the player restore `{{ kits.demon.data.DEMON_BLOOD_BOND_HEALING_POTENCY }}` health every `{{ kits.demon.data.DEMON_BLOOD_BOND_HEALING_RATE }}` ticks. This consumes the blood.
 
 ![Demon - Blood Bond Healing](../assets/kits/demon/_image_1_.jpg_)
 
