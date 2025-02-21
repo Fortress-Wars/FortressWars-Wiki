@@ -154,7 +154,7 @@ A blood bond breaks if the distance between the entity and the player is greater
 
 The primary resource for blood related spells and items. The conversion for blood to health is `{{ kits.demon.data.DEMON_BLOOD_TO_HEALTH_CONVERSION }}ml` to `1` respectively. The player can hold a maximum of `{{ kits.demon.data.DEMON_BLOOD_MAX }}ml` of blood.
 
-![Demon - Blood](../assets/kits/demon/_image_1_.jpg_)
+![Demon - Blood](../assets/kits/demon/Demon%20-%20Blood.png)
 
 ![Demon - Blood Consume](../assets/kits/demon/_image_1_.jpg_)
 
