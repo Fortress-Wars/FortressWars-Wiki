@@ -97,7 +97,7 @@
   - Damage Types: _Impact_, _Physical_
 - `Blood Bond Break`
   - Shield Damage Type: _Ignore_
-  - Damage Types: _Blood_, _Redistribution_, _Static_
+  - Damage Types: _Blood_, _Magic_
 - `Blood Transfusion`
   - Shield Damage Type: _Ignore_
   - Damage Types: _Blood_, _Redistribution_, _Static_
