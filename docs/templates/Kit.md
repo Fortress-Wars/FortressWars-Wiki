@@ -4,7 +4,7 @@
 
 ---
 
-#### ![_kit_-icon](../assets/icons/maps/_kit_-icon.jpg)
+#### ![_kit_-icon](../assets/icons/kits/_kit_-icon.jpg)
 
 # Overview
 

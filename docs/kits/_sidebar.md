@@ -9,6 +9,7 @@
   - [Crusher](Crusher)
   - [Default](Default)
   - [Demolitionist](Demolitionist)
+  - [Demon](Demon)
   - [Engineer](Engineer)
   - [Fish](Fish)
   - [Golem](Golem)

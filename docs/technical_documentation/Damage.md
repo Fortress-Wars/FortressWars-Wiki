@@ -8,6 +8,8 @@
   - _Air related damage._
 - `Blast`
   - _Something explodes._
+- `Blood`
+  - _Blood related damage._
 - `Earth`
   - _Earth related damage._
 - `Electric`
@@ -34,6 +36,8 @@
   - _Something sharp slashes something; does't go in._
 - `Stabbing`
   - _Something sharp goes in and comes out._
+- `Static`
+  - _Damage that can't be adjusted with damage modifiers_
 - `System`
   - _Damage caused by the system and not an entity or gamer object._
 - `Water`
@@ -91,6 +95,12 @@
 - `Builder Melee`
   - Shield Damage Type: _Damage_
   - Damage Types: _Impact_, _Physical_
+- `Blood Bond Break`
+  - Shield Damage Type: _Ignore_
+  - Damage Types: _Blood_, _Magic_
+- `Blood Transfusion`
+  - Shield Damage Type: _Ignore_
+  - Damage Types: _Blood_, _Redistribution_, _Static_
 - `Bomber Bomb`
   - Shield Damage Type: _Break_
   - Damage Types: _Blast_, _Physical_
@@ -142,6 +152,9 @@
 - `Hitman Harm Dart`
   - Shield Damage Type: _Ignore_
   - Damage Types: _Magic_
+- `Homing Hemoglobin`
+  - Shield Damage Type: _Ignore_
+  - Damage Types: _Blood_, _Magic_
 - `Kangaroo Stomp`
   - Shield Damage Type: _Damage_
   - Damage Types: _Impact_, _Physical_
