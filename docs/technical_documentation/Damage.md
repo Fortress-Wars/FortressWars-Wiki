@@ -188,6 +188,9 @@
 - `No Mana Flight`
   - Shield Damage Type: _Ignore_
   - Damage Types: _Magic_
+- `Non-Combat Log`
+  - Shield Damage Type: _Ignore_
+  - Damage Types: _System_
 - `Normal Shot`
   - Shield Damage Type: _Damage_
   - Damage Types: _Physical_, _Piercing_
