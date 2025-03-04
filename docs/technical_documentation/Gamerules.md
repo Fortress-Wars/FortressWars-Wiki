@@ -8,7 +8,7 @@
 
 The gamerule system allows server administrators to configure predefined rules for desired gameplay. Using gamerules, administrators can control enabled kits enabled, disabled kits, the default kit, and kit data.
 
-The Fortress Wars plugin initializes 3 YAML files in the plugin's /gamerule/ directory: `default.yml`, `example.yml`, and `tournament.yml`. The default.yml file is used for the default gamerule. The plugin fallbacks to a hardcoded default if this default gamerule can’t be parsed, t. If any other gamerule configuration files can't be parsed, they are not loaded. Parsing errors are logged in the console.
+The Fortress Wars plugin initializes 3 YAML files in the plugin's /gamerule/ directory: `default.yml`, `example.yml`, and `tournament.yml`. The default.yml file is used for the default gamerule. The plugin fallbacks to a hardcoded default if this default gamerule can’t be parsed. If any other gamerule configuration files can't be parsed, they are not loaded. Parsing errors are logged in the console.
 
 ---
 
