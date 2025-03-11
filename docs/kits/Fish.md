@@ -209,6 +209,18 @@ Deal `+{{ kits.fish.data.BEACON_BREAKER_DAMAGE_ADDITIVE }}` damage to beacons.
 | HEALING_POTION_AUTOPOT_HOTBAR_ONLY | `{{ kits._shared.data.HEALING_POTION_AUTOPOT_HOTBAR_ONLY }}` | {{ kitDataSharedDescriptions.HEALING_POTION_AUTOPOT_HOTBAR_ONLY }} |
 | POTION_IN_COMBAT_REGENERATION_RATE | `{{ kits._shared.data.POTION_IN_COMBAT_REGENERATION_RATE }}` | {{ kitDataSharedDescriptions.POTION_IN_COMBAT_REGENERATION_RATE }} |
 | POTION_OUT_OF_COMBAT_REGENERATION_RATE | `{{ kits._shared.data.POTION_OUT_OF_COMBAT_REGENERATION_RATE }}` | {{ kitDataSharedDescriptions.POTION_OUT_OF_COMBAT_REGENERATION_RATE }} |
+| CHESTPLATE_ARMOR | `{{ kits.fish.data.CHESTPLATE_ARMOR }}` | {{ kitDataSharedDescriptions.CHESTPLATE_ARMOR }} |
+| CHESTPLATE_ARMOR_TOUGHNESS | `{{ kits.fish.data.CHESTPLATE_ARMOR_TOUGHNESS }}` | {{ kitDataSharedDescriptions.CHESTPLATE_ARMOR_TOUGHNESS }} |
+| CHESTPLATE_PROTECTION_LEVEL | `{{ kits.fish.data.CHESTPLATE_PROTECTION_LEVEL }}` | {{ kitDataSharedDescriptions.CHESTPLATE_PROTECTION_LEVEL }} |
+| CHESTPLATE_KNOCKBACK_RESISTANCE | `{{ kits.fish.data.CHESTPLATE_KNOCKBACK_RESISTANCE }}` | {{ kitDataSharedDescriptions.CHESTPLATE_KNOCKBACK_RESISTANCE }} |
+| LEGGINGS_ARMOR | `{{ kits.fish.data.LEGGINGS_ARMOR }}` | {{ kitDataSharedDescriptions.LEGGINGS_ARMOR }} |
+| LEGGINGS_ARMOR_TOUGHNESS | `{{ kits.fish.data.LEGGINGS_ARMOR_TOUGHNESS }}` | {{ kitDataSharedDescriptions.LEGGINGS_ARMOR_TOUGHNESS }} |
+| LEGGINGS_PROTECTION_LEVEL | `{{ kits.fish.data.LEGGINGS_PROTECTION_LEVEL }}` | {{ kitDataSharedDescriptions.LEGGINGS_PROTECTION_LEVEL }} |
+| LEGGINGS_KNOCKBACK_RESISTANCE | `{{ kits.fish.data.LEGGINGS_KNOCKBACK_RESISTANCE }}` | {{ kitDataSharedDescriptions.LEGGINGS_KNOCKBACK_RESISTANCE }} |
+| BOOTS_ARMOR | `{{ kits.fish.data.BOOTS_ARMOR }}` | {{ kitDataSharedDescriptions.BOOTS_ARMOR }} |
+| BOOTS_ARMOR_TOUGHNESS | `{{ kits.fish.data.BOOTS_ARMOR_TOUGHNESS }}` | {{ kitDataSharedDescriptions.BOOTS_ARMOR_TOUGHNESS }} |
+| BOOTS_PROTECTION_LEVEL | `{{ kits.fish.data.BOOTS_PROTECTION_LEVEL }}` | {{ kitDataSharedDescriptions.BOOTS_PROTECTION_LEVEL }} |
+| BOOTS_KNOCKBACK_RESISTANCE | `{{ kits.fish.data.BOOTS_KNOCKBACK_RESISTANCE }}` | {{ kitDataSharedDescriptions.BOOTS_KNOCKBACK_RESISTANCE }} |
 | BEACON_BREAKER_DAMAGE_ADDITIVE | `{{ kits.fish.data.BEACON_BREAKER_DAMAGE_ADDITIVE }}` | The bonus beacon damage provided by the Beacon Breaker ability. |
 | FISH_CAN_ACTIVATE_OP_FISH | `{{ kits.fish.data.FISH_CAN_ACTIVATE_OP_FISH }}` | Determines if OP Fish Mode can be activated. |
 | FISH_COD_WEIGHT | `{{ kits.fish.data.FISH_COD_WEIGHT }}` | The weight for summoning cod. |

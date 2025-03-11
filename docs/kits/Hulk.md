@@ -97,6 +97,18 @@ While the player is in rage mode, every elimination extends the duration of rage
 | HEALING_POTION_AUTOPOT_HOTBAR_ONLY | `{{ kits._shared.data.HEALING_POTION_AUTOPOT_HOTBAR_ONLY }}` | {{ kitDataSharedDescriptions.HEALING_POTION_AUTOPOT_HOTBAR_ONLY }} |
 | POTION_IN_COMBAT_REGENERATION_RATE | `{{ kits._shared.data.POTION_IN_COMBAT_REGENERATION_RATE }}` | {{ kitDataSharedDescriptions.POTION_IN_COMBAT_REGENERATION_RATE }} |
 | POTION_OUT_OF_COMBAT_REGENERATION_RATE | `{{ kits._shared.data.POTION_OUT_OF_COMBAT_REGENERATION_RATE }}` | {{ kitDataSharedDescriptions.POTION_OUT_OF_COMBAT_REGENERATION_RATE }} |
+| CHESTPLATE_ARMOR | `{{ kits.hulk.data.CHESTPLATE_ARMOR }}` | {{ kitDataSharedDescriptions.CHESTPLATE_ARMOR }} |
+| CHESTPLATE_ARMOR_TOUGHNESS | `{{ kits.hulk.data.CHESTPLATE_ARMOR_TOUGHNESS }}` | {{ kitDataSharedDescriptions.CHESTPLATE_ARMOR_TOUGHNESS }} |
+| CHESTPLATE_PROTECTION_LEVEL | `{{ kits.hulk.data.CHESTPLATE_PROTECTION_LEVEL }}` | {{ kitDataSharedDescriptions.CHESTPLATE_PROTECTION_LEVEL }} |
+| CHESTPLATE_KNOCKBACK_RESISTANCE | `{{ kits.hulk.data.CHESTPLATE_KNOCKBACK_RESISTANCE }}` | {{ kitDataSharedDescriptions.CHESTPLATE_KNOCKBACK_RESISTANCE }} |
+| LEGGINGS_ARMOR | `{{ kits.hulk.data.LEGGINGS_ARMOR }}` | {{ kitDataSharedDescriptions.LEGGINGS_ARMOR }} |
+| LEGGINGS_ARMOR_TOUGHNESS | `{{ kits.hulk.data.LEGGINGS_ARMOR_TOUGHNESS }}` | {{ kitDataSharedDescriptions.LEGGINGS_ARMOR_TOUGHNESS }} |
+| LEGGINGS_PROTECTION_LEVEL | `{{ kits.hulk.data.LEGGINGS_PROTECTION_LEVEL }}` | {{ kitDataSharedDescriptions.LEGGINGS_PROTECTION_LEVEL }} |
+| LEGGINGS_KNOCKBACK_RESISTANCE | `{{ kits.hulk.data.LEGGINGS_KNOCKBACK_RESISTANCE }}` | {{ kitDataSharedDescriptions.LEGGINGS_KNOCKBACK_RESISTANCE }} |
+| BOOTS_ARMOR | `{{ kits.hulk.data.BOOTS_ARMOR }}` | {{ kitDataSharedDescriptions.BOOTS_ARMOR }} |
+| BOOTS_ARMOR_TOUGHNESS | `{{ kits.hulk.data.BOOTS_ARMOR_TOUGHNESS }}` | {{ kitDataSharedDescriptions.BOOTS_ARMOR_TOUGHNESS }} |
+| BOOTS_PROTECTION_LEVEL | `{{ kits.hulk.data.BOOTS_PROTECTION_LEVEL }}` | {{ kitDataSharedDescriptions.BOOTS_PROTECTION_LEVEL }} |
+| BOOTS_KNOCKBACK_RESISTANCE | `{{ kits.hulk.data.BOOTS_KNOCKBACK_RESISTANCE }}` | {{ kitDataSharedDescriptions.BOOTS_KNOCKBACK_RESISTANCE }} |
 | HULK_RAGE_FORM_DURATION | `{{ kits.hulk.data.HULK_RAGE_FORM_DURATION }}` | The duration, in ticks, of the Rage ability. |
 | HULK_RAGE_FORM_COOLDOWN | `{{ kits.hulk.data.HULK_RAGE_FORM_COOLDOWN }}` | The cooldown, in ticks, of the Rage ability. |
 | HULK_RAGE_FORM_KILL_EXTENSION | `{{ kits.hulk.data.HULK_RAGE_FORM_KILL_EXTENSION }}` | The duration extention, in ticks, of the Rage ability that final blows will reward. |
@@ -104,3 +116,15 @@ While the player is in rage mode, every elimination extends the duration of rage
 | HULK_RAGE_FORM_ACTIVATION_COOLDOWN | `{{ kits.hulk.data.HULK_RAGE_FORM_ACTIVATION_COOLDOWN }}` | The cooldown, in ticks, after using the rage ability before the player can use the relax ability. |
 | HULK_RAGE_SWORD_DAMAGE | `{{ kits.hulk.data.HULK_RAGE_SWORD_DAMAGE }}` | The base damage of the rage mode sword. |
 | HULK_RAGE_SWORD_SPEED | `{{ kits.hulk.data.HULK_RAGE_SWORD_SPEED }}` | The base speed of the rage mode sword. |
+| HULK_RAGE_CHESTPLATE_ARMOR | `{{ kits.hulk.data.HULK_RAGE_CHESTPLATE_ARMOR }}` | The base armor of the rage mode chestplate. |
+| HULK_RAGE_CHESTPLATE_ARMOR_TOUGHNESS | `{{ kits.hulk.data.HULK_RAGE_CHESTPLATE_ARMOR_TOUGHNESS }}` | The base armor toughness of the rage mode chestplate. |
+| HULK_RAGE_CHESTPLATE_PROTECTION_LEVEL | `{{ kits.hulk.data.HULK_RAGE_CHESTPLATE_PROTECTION_LEVEL }}` | The protection level of the rage mode chestplate. |
+| HULK_RAGE_CHESTPLATE_KNOCKBACK_RESISTANCE | `{{ kits.hulk.data.HULK_RAGE_CHESTPLATE_KNOCKBACK_RESISTANCE }}` | The knockback resistance of the rage mode chestplate. |
+| HULK_RAGE_LEGGINGS_ARMOR | `{{ kits.hulk.data.HULK_RAGE_LEGGINGS_ARMOR }}` | The base armor of the rage mode leggings. |
+| HULK_RAGE_LEGGINGS_ARMOR_TOUGHNESS | `{{ kits.hulk.data.HULK_RAGE_LEGGINGS_ARMOR_TOUGHNESS }}` | The base armor toughness of the rage mode leggings. |
+| HULK_RAGE_LEGGINGS_PROTECTION_LEVEL | `{{ kits.hulk.data.HULK_RAGE_LEGGINGS_PROTECTION_LEVEL }}` | The protection level of the rage mode leggings. |
+| HULK_RAGE_LEGGINGS_KNOCKBACK_RESISTANCE | `{{ kits.hulk.data.HULK_RAGE_LEGGINGS_KNOCKBACK_RESISTANCE }}` | The knockback resistance of the rage mode leggings. |
+| HULK_RAGE_BOOTS_ARMOR | `{{ kits.hulk.data.HULK_RAGE_BOOTS_ARMOR }}` | The base armor of the rage mode boots. |
+| HULK_RAGE_BOOTS_ARMOR_TOUGHNESS | `{{ kits.hulk.data.HULK_RAGE_BOOTS_ARMOR_TOUGHNESS }}` | The base armor toughness of the rage mode boots. |
+| HULK_RAGE_BOOTS_PROTECTION_LEVEL | `{{ kits.hulk.data.HULK_RAGE_BOOTS_PROTECTION_LEVEL }}` | The protection level of the rage mode boots. |
+| HULK_RAGE_BOOTS_KNOCKBACK_RESISTANCE | `{{ kits.hulk.data.HULK_RAGE_BOOTS_KNOCKBACK_RESISTANCE }}` | The knockback resistance of the rage mode boots. |
