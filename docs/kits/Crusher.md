@@ -89,6 +89,18 @@ Anvils will damage engineer blocks.
 | HEALING_POTION_AUTOPOT_HOTBAR_ONLY | `{{ kits._shared.data.HEALING_POTION_AUTOPOT_HOTBAR_ONLY }}` | {{ kitDataSharedDescriptions.HEALING_POTION_AUTOPOT_HOTBAR_ONLY }} |
 | POTION_IN_COMBAT_REGENERATION_RATE | `{{ kits._shared.data.POTION_IN_COMBAT_REGENERATION_RATE }}` | {{ kitDataSharedDescriptions.POTION_IN_COMBAT_REGENERATION_RATE }} |
 | POTION_OUT_OF_COMBAT_REGENERATION_RATE | `{{ kits._shared.data.POTION_OUT_OF_COMBAT_REGENERATION_RATE }}` | {{ kitDataSharedDescriptions.POTION_OUT_OF_COMBAT_REGENERATION_RATE }} |
+| CHESTPLATE_ARMOR | `{{ kits.crusher.data.CHESTPLATE_ARMOR }}` | {{ kitDataSharedDescriptions.CHESTPLATE_ARMOR }} |
+| CHESTPLATE_ARMOR_TOUGHNESS | `{{ kits.crusher.data.CHESTPLATE_ARMOR_TOUGHNESS }}` | {{ kitDataSharedDescriptions.CHESTPLATE_ARMOR_TOUGHNESS }} |
+| CHESTPLATE_PROTECTION_LEVEL | `{{ kits.crusher.data.CHESTPLATE_PROTECTION_LEVEL }}` | {{ kitDataSharedDescriptions.CHESTPLATE_PROTECTION_LEVEL }} |
+| CHESTPLATE_KNOCKBACK_RESISTANCE | `{{ kits.crusher.data.CHESTPLATE_KNOCKBACK_RESISTANCE }}` | {{ kitDataSharedDescriptions.CHESTPLATE_KNOCKBACK_RESISTANCE }} |
+| LEGGINGS_ARMOR | `{{ kits.crusher.data.LEGGINGS_ARMOR }}` | {{ kitDataSharedDescriptions.LEGGINGS_ARMOR }} |
+| LEGGINGS_ARMOR_TOUGHNESS | `{{ kits.crusher.data.LEGGINGS_ARMOR_TOUGHNESS }}` | {{ kitDataSharedDescriptions.LEGGINGS_ARMOR_TOUGHNESS }} |
+| LEGGINGS_PROTECTION_LEVEL | `{{ kits.crusher.data.LEGGINGS_PROTECTION_LEVEL }}` | {{ kitDataSharedDescriptions.LEGGINGS_PROTECTION_LEVEL }} |
+| LEGGINGS_KNOCKBACK_RESISTANCE | `{{ kits.crusher.data.LEGGINGS_KNOCKBACK_RESISTANCE }}` | {{ kitDataSharedDescriptions.LEGGINGS_KNOCKBACK_RESISTANCE }} |
+| BOOTS_ARMOR | `{{ kits.crusher.data.BOOTS_ARMOR }}` | {{ kitDataSharedDescriptions.BOOTS_ARMOR }} |
+| BOOTS_ARMOR_TOUGHNESS | `{{ kits.crusher.data.BOOTS_ARMOR_TOUGHNESS }}` | {{ kitDataSharedDescriptions.BOOTS_ARMOR_TOUGHNESS }} |
+| BOOTS_PROTECTION_LEVEL | `{{ kits.crusher.data.BOOTS_PROTECTION_LEVEL }}` | {{ kitDataSharedDescriptions.BOOTS_PROTECTION_LEVEL }} |
+| BOOTS_KNOCKBACK_RESISTANCE | `{{ kits.crusher.data.BOOTS_KNOCKBACK_RESISTANCE }}` | {{ kitDataSharedDescriptions.BOOTS_KNOCKBACK_RESISTANCE }} |
 | CRUSHER_ANVIL_DIRECT_DAMAGE | `{{ kits.crusher.data.CRUSHER_ANVIL_DIRECT_DAMAGE }}` | The damage dealt by a direct anvil hit. |
 | CRUSHER_ANVIL_INDIRECT_DAMAGE | `{{ kits.crusher.data.CRUSHER_ANVIL_INDIRECT_DAMAGE }}` | The damage dealt by an indirect anvil hit. |
 | CRUSHER_ANVIL_SUMMON_HEIGHT | `{{ kits.crusher.data.CRUSHER_ANVIL_SUMMON_HEIGHT }}` | The distance above the target to determine the actual anvil summon location.  |

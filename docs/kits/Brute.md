@@ -100,6 +100,18 @@ Additionally, dealing melee damage with the axe will instantly break shields.
 | HEALING_POTION_AUTOPOT_HOTBAR_ONLY | `{{ kits._shared.data.HEALING_POTION_AUTOPOT_HOTBAR_ONLY }}` | {{ kitDataSharedDescriptions.HEALING_POTION_AUTOPOT_HOTBAR_ONLY }} |
 | POTION_IN_COMBAT_REGENERATION_RATE | `{{ kits._shared.data.POTION_IN_COMBAT_REGENERATION_RATE }}` | {{ kitDataSharedDescriptions.POTION_IN_COMBAT_REGENERATION_RATE }} |
 | POTION_OUT_OF_COMBAT_REGENERATION_RATE | `{{ kits._shared.data.POTION_OUT_OF_COMBAT_REGENERATION_RATE }}` | {{ kitDataSharedDescriptions.POTION_OUT_OF_COMBAT_REGENERATION_RATE }} |
+| CHESTPLATE_ARMOR | `{{ kits.brute.data.CHESTPLATE_ARMOR }}` | {{ kitDataSharedDescriptions.CHESTPLATE_ARMOR }} |
+| CHESTPLATE_ARMOR_TOUGHNESS | `{{ kits.brute.data.CHESTPLATE_ARMOR_TOUGHNESS }}` | {{ kitDataSharedDescriptions.CHESTPLATE_ARMOR_TOUGHNESS }} |
+| CHESTPLATE_PROTECTION_LEVEL | `{{ kits.brute.data.CHESTPLATE_PROTECTION_LEVEL }}` | {{ kitDataSharedDescriptions.CHESTPLATE_PROTECTION_LEVEL }} |
+| CHESTPLATE_KNOCKBACK_RESISTANCE | `{{ kits.brute.data.CHESTPLATE_KNOCKBACK_RESISTANCE }}` | {{ kitDataSharedDescriptions.CHESTPLATE_KNOCKBACK_RESISTANCE }} |
+| LEGGINGS_ARMOR | `{{ kits.brute.data.LEGGINGS_ARMOR }}` | {{ kitDataSharedDescriptions.LEGGINGS_ARMOR }} |
+| LEGGINGS_ARMOR_TOUGHNESS | `{{ kits.brute.data.LEGGINGS_ARMOR_TOUGHNESS }}` | {{ kitDataSharedDescriptions.LEGGINGS_ARMOR_TOUGHNESS }} |
+| LEGGINGS_PROTECTION_LEVEL | `{{ kits.brute.data.LEGGINGS_PROTECTION_LEVEL }}` | {{ kitDataSharedDescriptions.LEGGINGS_PROTECTION_LEVEL }} |
+| LEGGINGS_KNOCKBACK_RESISTANCE | `{{ kits.brute.data.LEGGINGS_KNOCKBACK_RESISTANCE }}` | {{ kitDataSharedDescriptions.LEGGINGS_KNOCKBACK_RESISTANCE }} |
+| BOOTS_ARMOR | `{{ kits.brute.data.BOOTS_ARMOR }}` | {{ kitDataSharedDescriptions.BOOTS_ARMOR }} |
+| BOOTS_ARMOR_TOUGHNESS | `{{ kits.brute.data.BOOTS_ARMOR_TOUGHNESS }}` | {{ kitDataSharedDescriptions.BOOTS_ARMOR_TOUGHNESS }} |
+| BOOTS_PROTECTION_LEVEL | `{{ kits.brute.data.BOOTS_PROTECTION_LEVEL }}` | {{ kitDataSharedDescriptions.BOOTS_PROTECTION_LEVEL }} |
+| BOOTS_KNOCKBACK_RESISTANCE | `{{ kits.brute.data.BOOTS_KNOCKBACK_RESISTANCE }}` | {{ kitDataSharedDescriptions.BOOTS_KNOCKBACK_RESISTANCE }} |
 | BRUTE_AXE_MELEE_DAMAGE | `{{ kits.brute.data.BRUTE_AXE_MELEE_DAMAGE }}` | The base melee damage of the axe. |
 | BRUTE_AXE_MELEE_SPEED | `{{ kits.brute.data.BRUTE_AXE_MELEE_SPEED }}` | The base melee speed of the axe. |
 | BRUTE_BERSERK_ACTIVATION_THRESHOLD | `{{ kits.brute.data.BRUTE_BERSERK_ACTIVATION_THRESHOLD }}` | The threshold at which the Berserk ability will trigger. (1hp = 0.5 hearts) |

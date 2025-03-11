@@ -169,6 +169,18 @@ Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPEN
 | MANA_FINAL_BLOW_AMOUNT | `{{ kits._shared.data.MANA_FINAL_BLOW_AMOUNT }}` | {{ kitDataSharedDescriptions.MANA_FINAL_BLOW_AMOUNT }} |
 | MANA_ASSIST_AMOUNT | `{{ kits._shared.data.MANA_ASSIST_AMOUNT }}` | {{ kitDataSharedDescriptions.MANA_ASSIST_AMOUNT }} |
 | MANA_DISPENSER_DISPENSE_AMOUNT | `{{ kits._shared.data.MANA_DISPENSER_DISPENSE_AMOUNT }}` | {{ kitDataSharedDescriptions.MANA_DISPENSER_DISPENSE_AMOUNT }} |
+| CHESTPLATE_ARMOR | `{{ kits.prometheus.data.CHESTPLATE_ARMOR }}` | {{ kitDataSharedDescriptions.CHESTPLATE_ARMOR }} |
+| CHESTPLATE_ARMOR_TOUGHNESS | `{{ kits.prometheus.data.CHESTPLATE_ARMOR_TOUGHNESS }}` | {{ kitDataSharedDescriptions.CHESTPLATE_ARMOR_TOUGHNESS }} |
+| CHESTPLATE_PROTECTION_LEVEL | `{{ kits.prometheus.data.CHESTPLATE_PROTECTION_LEVEL }}` | {{ kitDataSharedDescriptions.CHESTPLATE_PROTECTION_LEVEL }} |
+| CHESTPLATE_KNOCKBACK_RESISTANCE | `{{ kits.prometheus.data.CHESTPLATE_KNOCKBACK_RESISTANCE }}` | {{ kitDataSharedDescriptions.CHESTPLATE_KNOCKBACK_RESISTANCE }} |
+| LEGGINGS_ARMOR | `{{ kits.prometheus.data.LEGGINGS_ARMOR }}` | {{ kitDataSharedDescriptions.LEGGINGS_ARMOR }} |
+| LEGGINGS_ARMOR_TOUGHNESS | `{{ kits.prometheus.data.LEGGINGS_ARMOR_TOUGHNESS }}` | {{ kitDataSharedDescriptions.LEGGINGS_ARMOR_TOUGHNESS }} |
+| LEGGINGS_PROTECTION_LEVEL | `{{ kits.prometheus.data.LEGGINGS_PROTECTION_LEVEL }}` | {{ kitDataSharedDescriptions.LEGGINGS_PROTECTION_LEVEL }} |
+| LEGGINGS_KNOCKBACK_RESISTANCE | `{{ kits.prometheus.data.LEGGINGS_KNOCKBACK_RESISTANCE }}` | {{ kitDataSharedDescriptions.LEGGINGS_KNOCKBACK_RESISTANCE }} |
+| BOOTS_ARMOR | `{{ kits.prometheus.data.BOOTS_ARMOR }}` | {{ kitDataSharedDescriptions.BOOTS_ARMOR }} |
+| BOOTS_ARMOR_TOUGHNESS | `{{ kits.prometheus.data.BOOTS_ARMOR_TOUGHNESS }}` | {{ kitDataSharedDescriptions.BOOTS_ARMOR_TOUGHNESS }} |
+| BOOTS_PROTECTION_LEVEL | `{{ kits.prometheus.data.BOOTS_PROTECTION_LEVEL }}` | {{ kitDataSharedDescriptions.BOOTS_PROTECTION_LEVEL }} |
+| BOOTS_KNOCKBACK_RESISTANCE | `{{ kits.prometheus.data.BOOTS_KNOCKBACK_RESISTANCE }}` | {{ kitDataSharedDescriptions.BOOTS_KNOCKBACK_RESISTANCE }} |
 | PROMETHEUS_SWORD_DAMAGE | `{{ kits.prometheus.data.PROMETHEUS_SWORD_DAMAGE }}` | The base damage of the sword. |
 | PROMETHEUS_SWORD_SPEED | `{{ kits.prometheus.data.PROMETHEUS_SWORD_SPEED }}` | The base speed of the sword. |
 | PROMETHEUS_WAND_KNOCKBACK | `{{ kits.prometheus.data.PROMETHEUS_WAND_KNOCKBACK }}` | The level of the knockback enchantment on the spell wand. |
