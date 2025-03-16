@@ -68,6 +68,26 @@ description: This is an example description for an example gamerule.
 defaultKit: default
 ```
 
+### canVote
+
+`Optional`
+
+- Specifies if this gamerule can be voted for during the gamerule voting phase.
+
+```yml
+canVote: true
+```
+
+### icon
+
+`Optional`
+
+- The icon of the gamerule.
+
+```yml
+icon: STONE
+```
+
 ### kitLimit
 
 `Optional`
@@ -181,6 +201,8 @@ enabled: true
 name: Example
 description: This is an example description for an example gamerule.
 defaultKit: default
+canVote: true
+icon: STONE
 kitLimit: 1
 playerLimit: 4
 roleLimit:
