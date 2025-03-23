@@ -123,6 +123,7 @@ Hitting an enemy with shield bash will trigger Ironclad. Ironclad will provide d
 | SHIELD_REGENERATION_RATE | `{{ kits._shared.data.SHIELD_REGENERATION_RATE }}` | {{ kitDataSharedDescriptions.SHIELD_REGENERATION_RATE }} |
 | SHIELD_REGENERATION_AMOUNT | `{{ kits._shared.data.SHIELD_REGENERATION_AMOUNT }}` | {{ kitDataSharedDescriptions.SHIELD_REGENERATION_AMOUNT }} |
 | SHIELD_BREAK_COOLDOWN | `{{ kits._shared.data.SHIELD_BREAK_COOLDOWN }}` | {{ kitDataSharedDescriptions.SHIELD_BREAK_COOLDOWN }} |
+| SHIELD_DAMAGE_FACTOR | `{{ kits._shared.data.SHIELD_DAMAGE_FACTOR }}` | {{ kitDataSharedDescriptions.SHIELD_DAMAGE_FACTOR }} | 
 | CRUSADER_SWORD_DAMAGE | `{{ kits.crusader.data.CRUSADER_SWORD_DAMAGE }}` | The base damage of the sword. |
 | CRUSADER_SWORD_SPEED | `{{ kits.crusader.data.CRUSADER_SWORD_SPEED }}` | The base speed of the sword. |
 | CRUSADER_SHIELD_BASH_DAMAGE | `{{ kits.crusader.data.CRUSADER_SHIELD_BASH_DAMAGE }}` | The base damage of a shield bash collision. |
