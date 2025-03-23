@@ -68,6 +68,26 @@ description: This is an example description for an example gamerule.
 defaultKit: default
 ```
 
+### canVote
+
+`Optional`
+
+- Specifies if this gamerule can be voted for during the gamerule voting phase.
+
+```yml
+canVote: true
+```
+
+### icon
+
+`Optional`
+
+- The icon of the gamerule.
+
+```yml
+icon: STONE
+```
+
 ### kitLimit
 
 `Optional`
@@ -181,6 +201,8 @@ enabled: true
 name: Example
 description: This is an example description for an example gamerule.
 defaultKit: default
+canVote: true
+icon: STONE
 kitLimit: 1
 playerLimit: 4
 roleLimit:
@@ -230,16 +252,3 @@ Change the active gamerule.
   - gamerule: _The gamerule to set._
 - Permissions:
   - fw.game.rule.set
-
-## Settings
-
-The active gamerule is specified in the `settings.yml` file as follows:
-
-```yml
-settings:
-  gamerule: default
-```
-
-When the Fortress Wars plugin loads, it automatically sets the active gamerule to this one. If this isn't present or there is no gamerule configured with this id, then the plugin uses the default gamerule.
-
-Administrators can use the `/fw config save` command to save the active gamerule so it persists throughout server restarts.
