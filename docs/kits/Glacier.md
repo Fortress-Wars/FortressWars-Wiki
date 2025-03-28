@@ -70,8 +70,8 @@ When the player stands on a 'snow layer' they gain Speed `{{ kits.glacier.data.G
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | Skiing accident | Freeze a enemy Glacier with an Ice ball  | 20 credits |
-| Frozen Blob | Freeze 100 enemies with your Ice Ball. | 250 Credits |
-| Ski-Mogul | Walk on a Snow Layer 500 times. | 250 Credits |
+| Frozen Blob | Freeze 250 enemies with your Ice Ball. | 250 Credits |
+| Ski-Mogul | Walk on a Snow Layer 1000 times. | 250 Credits |
 
 <br />
 
