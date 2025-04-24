@@ -19,11 +19,12 @@
 
 ---
 
-- ***
-- ***
-- ***
-- ***
-- ***
+- Leather Chestplate (Black)
+- Netherite Leggings
+- Leather Boots (Black)
+- Katana
+- Dodge
+- {{ kits.ninja.data.MAX_HEALING_POTIONS }} Healing Potions
 
 <br />
 
@@ -35,21 +36,27 @@
 
 <!-- tabs:start -->
 
-#### **Ability_1**
+#### **Katana**
 
-## Ability_1
+## Katana
 
 _description_1_
 
-![_image_1_](../assets/kits/ninja/_image_1_.jpg_)
+![Ninja - Katana Attack](../assets/kits/ninja/_image_1_.jpg_)
 
-#### **Ability_2**
+![Ninja - Katana Parry Attacck](../assets/kits/ninja/_image_1_.jpg_)
 
-## Ability_2
+![Ninja - Katana Parry and Deflect](../assets/kits/ninja/_image_1_.jpg_)
+
+#### **Dodge**
+
+## Dodge
 
 _description_2_
 
-![_image_2_](../assets/kits/ninja/_image_2_.jpg_)
+![Ninja - Dodge Around Enemy](../assets/kits/ninja/_image_2_.jpg_)
+
+![Ninja - Dodge Escape](../assets/kits/ninja/_image_2_.jpg_)
 
 <!-- tabs:end -->
 
@@ -57,21 +64,21 @@ _description_2_
 
 <!-- tabs:start -->
 
-#### **Ability_1**
+#### **Ki Focus**
 
-## Ability_1
+## Ki Focus
 
 _description_1_
 
-![_image_1_](../assets/kits/ninja/_image_1_.jpg_)
+![Ninja - Ki Focus](../assets/kits/ninja/_image_1_.jpg_)
 
-#### **Ability_2**
+#### **Agility**
 
-## Ability_2
+## Agility
 
-_description_2_
+_description_1_
 
-![_image_2_](../assets/kits/ninja/_image_2_.jpg_)
+![Ninja - Agility](../assets/kits/ninja/_image_1_.jpg_)
 
 <!-- tabs:end -->
 
@@ -79,21 +86,19 @@ _description_2_
 
 <!-- tabs:start -->
 
-#### **Resource_1**
+#### **Ki**
 
-## Resource_1
+## Ki
 
 _description_1_
 
-![_image_1_](../assets/kits/ninja/_image_1_.jpg_)
+![Ninja - Ki](../assets/kits/ninja/_image_1_.jpg_)
 
-#### **Resource_2**
+![Ninja - Ki Accumulate Katana](../assets/kits/ninja/_image_2_.jpg_)
 
-## Resource_2
+![Ninja - Ki Accumulate Dodge](../assets/kits/ninja/_image_2_.jpg_)
 
-_description_2_
-
-![_image_2_](../assets/kits/ninja/_image_2_.jpg_)
+![Ninja - Ki Accumulate Elimination](../assets/kits/ninja/_image_2_.jpg_)
 
 <!-- tabs:end -->
 <br />
