@@ -40,11 +40,15 @@
 
 ## Katana
 
-_description_1_
+Forged in ancient flames and tempered by shadows, the katana is a powerful weapon that slices through enemies.
 
 ![Ninja - Katana Attack](../assets/kits/ninja/_image_1_.jpg_)
 
-![Ninja - Katana Parry Attacck](../assets/kits/ninja/_image_1_.jpg_)
+Hold right-click to parry incoming attacks.
+
+![Ninja - Katana Parry Attack](../assets/kits/ninja/_image_1_.jpg_)
+
+Parried attacks damage nearby enemies.
 
 ![Ninja - Katana Parry and Deflect](../assets/kits/ninja/_image_1_.jpg_)
 
@@ -52,9 +56,11 @@ _description_1_
 
 ## Dodge
 
-_description_2_
+Evade enemy attacks using the dodge ability. When right-clicked, the player teleports to the nearest enemy within `{{ kits.ninja.data.NINJA_DODGE_AROUND_ENEMY_TARGET_RADIUS }}` meters, appearing at a random location around them.
 
 ![Ninja - Dodge Around Enemy](../assets/kits/ninja/_image_2_.jpg_)
+
+When shift + right-clicked, the ninja performs an escape, teleporting to a random location within `{{ kits.ninja.data.NINJA_DODGE_MAX_RADIUS }}` meters.
 
 ![Ninja - Dodge Escape](../assets/kits/ninja/_image_2_.jpg_)
 
@@ -64,19 +70,11 @@ _description_2_
 
 <!-- tabs:start -->
 
-#### **Ki Focus**
-
-## Ki Focus
-
-_description_1_
-
-![Ninja - Ki Focus](../assets/kits/ninja/_image_1_.jpg_)
-
 #### **Agility**
 
 ## Agility
 
-_description_1_
+After performing a successful parry, the player gains speed `{{ kits.ninja.data.NINJA_AGILITY_SPEED_LEVEL }}` for `{{ kits.ninja.data.NINJA_AGILITY_SPEED_DURATION }}` ticks.
 
 ![Ninja - Agility](../assets/kits/ninja/_image_1_.jpg_)
 
@@ -90,15 +88,51 @@ _description_1_
 
 ## Ki
 
-_description_1_
+The player harnesses inner energy to empower their katana with devastating precision. Ki is a mystical resource that increases parry damage by `{{ kits.ninja.data.NINJA_PARRY_DAMAGE_INCREASE_PER_KI }}%` for each point of ki the player possesses. The player can store up to `{{ kits.ninja.data.NINJA_KI_MAX }}` ki.
 
 ![Ninja - Ki](../assets/kits/ninja/_image_1_.jpg_)
 
+When a parry attack is performed, `{{ kits.ninja.data.NINJA_KI_PARRY_CONSUME_AMOUNT }}` ki is consumed to amplify its power, turning defense into a deadly counterstrike.
+
+![Ninja - Ki Focus](../assets/kits/ninja/_image_1_.jpg_)
+
+Ki is accumulated in several ways:
+
+<!-- tabs:start -->
+
+#### **Melee Attacks**
+
+## Melee Attacks
+
+The player accumulates `{{ kits.ninja.data.NINJA_KI_PER_MELEE_ATTACK }}` ki per katana strike.
+
 ![Ninja - Ki Accumulate Katana](../assets/kits/ninja/_image_2_.jpg_)
+
+#### **Parrying Attacks**
+
+## Parrying Attacks
+
+The player accumulates `{{ kits.ninja.data.NINJA_KI_TO_DAMAGE_RATIO }}` ki per point of damage blocked when the damage isn't reflected.
+
+![Ninja - Ki Accumulate Parry](../assets/kits/ninja/_image_2_.jpg_)
+
+#### **Dodging in Combat**
+
+## Dodging in Combat
+
+The player accumulates `{{ kits.ninja.data.NINJA_DODGE_USE_IN_COMBAT_KI_BONUS }}` ki when using the dodge ability while in combat.
 
 ![Ninja - Ki Accumulate Dodge](../assets/kits/ninja/_image_2_.jpg_)
 
+#### **Eliminations**
+
+## Eliminations
+
+The player accumulates `{{ kits.ninja.data.NINJA_KI_ELIMINATION_REWARD }}` ki after eliminating an enemy.
+
 ![Ninja - Ki Accumulate Elimination](../assets/kits/ninja/_image_2_.jpg_)
+
+<!-- tabs:end -->
 
 <!-- tabs:end -->
 <br />
@@ -149,27 +183,27 @@ _description_1_
 | BOOTS_ARMOR_TOUGHNESS | `{{ kits.ninja.data.BOOTS_ARMOR_TOUGHNESS }}` | {{ kitDataSharedDescriptions.BOOTS_ARMOR_TOUGHNESS }} |
 | BOOTS_PROTECTION_LEVEL | `{{ kits.ninja.data.BOOTS_PROTECTION_LEVEL }}` | {{ kitDataSharedDescriptions.BOOTS_PROTECTION_LEVEL }} |
 | BOOTS_KNOCKBACK_RESISTANCE | `{{ kits.ninja.data.BOOTS_KNOCKBACK_RESISTANCE }}` | {{ kitDataSharedDescriptions.BOOTS_KNOCKBACK_RESISTANCE }} |
-| NINJA_KATANA_DAMAGE | `{{ kits.ninja.data.NINJA_KATANA_DAMAGE }}` | |
-| NINJA_KATANA_SPEED | `{{ kits.ninja.data.NINJA_KATANA_SPEED }}` | |
-| NINJA_KI_MAX | `{{ kits.ninja.data.NINJA_KI_MAX }}` | |
-| NINJA_KI_PER_MELEE_ATTACK | `{{ kits.ninja.data.NINJA_KI_PER_MELEE_ATTACK }}` | |
-| NINJA_KI_TO_DAMAGE_RATIO | `{{ kits.ninja.data.NINJA_KI_TO_DAMAGE_RATIO }}` | |
-| NINJA_KI_PARRY_CONSUME_AMOUNT | `{{ kits.ninja.data.NINJA_KI_PARRY_CONSUME_AMOUNT }}` | |
-| NINJA_KI_SWORDS_TO_DISPLAY | `{{ kits.ninja.data.NINJA_KI_SWORDS_TO_DISPLAY }}` | |
-| NINJA_KI_ELIMINATION_REWARD | `{{ kits.ninja.data.NINJA_KI_ELIMINATION_REWARD }}` | |
-| NINJA_PARRY_DURATION | `{{ kits.ninja.data.NINJA_PARRY_DURATION }}` | |
-| NINJA_PARRY_COOLDOWN | `{{ kits.ninja.data.NINJA_PARRY_COOLDOWN }}` | |
-| NINJA_PARRY_BASE_DAMAGE_PERCENTAGE | `{{ kits.ninja.data.NINJA_PARRY_BASE_DAMAGE_PERCENTAGE }}` | |
-| NINJA_PARRY_DAMAGE_INCREASE_PER_KI | `{{ kits.ninja.data.NINJA_PARRY_DAMAGE_INCREASE_PER_KI }}` | |
-| NINJA_PARRY_DAMAGE_RADIUS | `{{ kits.ninja.data.NINJA_PARRY_DAMAGE_RADIUS }}` | |
-| NINJA_PARRY_IGNORE_I_FRAMES | `{{ kits.ninja.data.NINJA_PARRY_IGNORE_I_FRAMES }}` | |
-| NINJA_DODGE_COOLDOWN | `{{ kits.ninja.data.NINJA_DODGE_COOLDOWN }}` | |
-| NINJA_DODGE_MIN_RADIUS | `{{ kits.ninja.data.NINJA_DODGE_MIN_RADIUS }}` | |
-| NINJA_DODGE_MAX_RADIUS | `{{ kits.ninja.data.NINJA_DODGE_MAX_RADIUS }}` | |
-| NINJA_DODGE_AROUND_ENEMY_TARGET_RADIUS | `{{ kits.ninja.data.NINJA_DODGE_AROUND_ENEMY_TARGET_RADIUS }}` | |
-| NINJA_DODGE_AROUND_ENEMY_COOLDOWN | `{{ kits.ninja.data.NINJA_DODGE_AROUND_ENEMY_COOLDOWN }}` | |
-| NINJA_DODGE_MIN_RADIUS_AROUND_ENEMY | `{{ kits.ninja.data.NINJA_DODGE_MIN_RADIUS_AROUND_ENEMY }}` | |
-| NINJA_DODGE_MAX_RADIUS_AROUND_ENEMY | `{{ kits.ninja.data.NINJA_DODGE_MAX_RADIUS_AROUND_ENEMY }}` | |
-| NINJA_DODGE_USE_IN_COMBAT_KI_BONUS | `{{ kits.ninja.data.NINJA_DODGE_USE_IN_COMBAT_KI_BONUS }}` | |
-| NINJA_AGILITY_SPEED_DURATION | `{{ kits.ninja.data.NINJA_AGILITY_SPEED_DURATION }}` | |
-| NINJA_AGILITY_SPEED_LEVEL | `{{ kits.ninja.data.NINJA_AGILITY_SPEED_LEVEL }}` | |
+| NINJA_KATANA_DAMAGE | `{{ kits.ninja.data.NINJA_KATANA_DAMAGE }}` | The base damage of the katana. |
+| NINJA_KATANA_SPEED | `{{ kits.ninja.data.NINJA_KATANA_SPEED }}` | The base speed of the katana. |
+| NINJA_KI_MAX | `{{ kits.ninja.data.NINJA_KI_MAX }}` | The maximum amount of ki that the player can store. |
+| NINJA_KI_PER_MELEE_ATTACK | `{{ kits.ninja.data.NINJA_KI_PER_MELEE_ATTACK }}` | The amount of ki accumulated per katana melee attack. |
+| NINJA_KI_TO_DAMAGE_RATIO | `{{ kits.ninja.data.NINJA_KI_TO_DAMAGE_RATIO }}` | The amount of ki accumulated per damage blocked from unreflected parry attacks. |
+| NINJA_KI_PARRY_CONSUME_AMOUNT | `{{ kits.ninja.data.NINJA_KI_PARRY_CONSUME_AMOUNT }}` | The amount of ki consumed after successfully reflecting an attack. |
+| NINJA_KI_SWORDS_TO_DISPLAY | `{{ kits.ninja.data.NINJA_KI_SWORDS_TO_DISPLAY }}` | The amount of sword icons displayed on the player's action bar. |
+| NINJA_KI_ELIMINATION_REWARD | `{{ kits.ninja.data.NINJA_KI_ELIMINATION_REWARD }}` | The amount of ki accumulated after eliminating an enemy. |
+| NINJA_PARRY_DURATION | `{{ kits.ninja.data.NINJA_PARRY_DURATION }}` | The maximum duration, in ticks, that the player can hold up their katana to parry incoming attacks. |
+| NINJA_PARRY_COOLDOWN | `{{ kits.ninja.data.NINJA_PARRY_COOLDOWN }}` | The cooldown, in ticks, of the katana parry ability. |
+| NINJA_PARRY_BASE_DAMAGE_PERCENTAGE | `{{ kits.ninja.data.NINJA_PARRY_BASE_DAMAGE_PERCENTAGE }}` | The percentage of incoming damage that is reflected or converted when parried. |
+| NINJA_PARRY_DAMAGE_INCREASE_PER_KI | `{{ kits.ninja.data.NINJA_PARRY_DAMAGE_INCREASE_PER_KI }}` | The parry damage increase (percentage) for each point of ki the player possesses. |
+| NINJA_PARRY_DAMAGE_RADIUS | `{{ kits.ninja.data.NINJA_PARRY_DAMAGE_RADIUS }}` | The radius of parry attacks, in meters. |
+| NINJA_PARRY_IGNORE_I_FRAMES | `{{ kits.ninja.data.NINJA_PARRY_IGNORE_I_FRAMES }}` | Specifies if parry attacks should ignore invulnerability frames. |
+| NINJA_DODGE_COOLDOWN | `{{ kits.ninja.data.NINJA_DODGE_COOLDOWN }}` | The cooldown, in ticks, of the dodge ability (escape). |
+| NINJA_DODGE_MIN_RADIUS | `{{ kits.ninja.data.NINJA_DODGE_MIN_RADIUS }}` | The minimum distance that the player can teleport to when using the dodge ability (escape). |
+| NINJA_DODGE_MAX_RADIUS | `{{ kits.ninja.data.NINJA_DODGE_MAX_RADIUS }}` | The maximum distance that the player can teleport to when using the dodge ability (escape). |
+| NINJA_DODGE_AROUND_ENEMY_TARGET_RADIUS | `{{ kits.ninja.data.NINJA_DODGE_AROUND_ENEMY_TARGET_RADIUS }}` | The radius, in blocks, used to locate the nearest enemy target when performing a dodge (around enemy). |
+| NINJA_DODGE_AROUND_ENEMY_COOLDOWN | `{{ kits.ninja.data.NINJA_DODGE_AROUND_ENEMY_COOLDOWN }}` | The cooldown, in ticks, of the dodge ability (around enemy). |
+| NINJA_DODGE_MIN_RADIUS_AROUND_ENEMY | `{{ kits.ninja.data.NINJA_DODGE_MIN_RADIUS_AROUND_ENEMY }}` | The minimum distance that the player can teleport to when using the dodge ability (around enemy). |
+| NINJA_DODGE_MAX_RADIUS_AROUND_ENEMY | `{{ kits.ninja.data.NINJA_DODGE_MAX_RADIUS_AROUND_ENEMY }}` | The maximum distance that the player can teleport to when using the dodge ability (around enemy). |
+| NINJA_DODGE_USE_IN_COMBAT_KI_BONUS | `{{ kits.ninja.data.NINJA_DODGE_USE_IN_COMBAT_KI_BONUS }}` | The amount of ki accumulated when using the dodge ability while in combat. |
+| NINJA_AGILITY_SPEED_DURATION | `{{ kits.ninja.data.NINJA_AGILITY_SPEED_DURATION }}` | The duration, in ticks, of the agility speed effect. |
+| NINJA_AGILITY_SPEED_LEVEL | `{{ kits.ninja.data.NINJA_AGILITY_SPEED_LEVEL }}` | The level of the agility speed effect. |
