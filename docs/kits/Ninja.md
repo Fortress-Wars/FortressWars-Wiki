@@ -44,19 +44,15 @@ Forged in ancient flames and tempered by shadows, the katana is a powerful weapo
 
 ![Ninja - Katana Attack](../assets/kits/ninja/_image_1_.jpg_)
 
-Hold right-click to parry incoming physical attacks.
+Hold right-click to block an incoming physcial attack. The damage is deflected to a nearby enemy. Only physical damage can be parried.
 
-![Ninja - Katana Parry Attack](../assets/kits/ninja/_image_1_.jpg_)
-
-Parried attacks damage nearby enemies.
-
-![Ninja - Katana Parry and Deflect](../assets/kits/ninja/_image_1_.jpg_)
+![Ninja - Katana Parry](../assets/kits/ninja/_image_1_.jpg_)
 
 #### **Dodge**
 
 ## Dodge
 
-Evade enemy attacks using the dodge ability. When right-clicked, the player teleports to the nearest enemy within `{{ kits.ninja.data.NINJA_DODGE_AROUND_ENEMY_TARGET_RADIUS }}` meters, appearing at a random location around them.
+Use the dodge ability to evade enemy attacks. When right-clicked, the player teleports close to the nearest enemy within `{{ kits.ninja.data.NINJA_DODGE_AROUND_ENEMY_TARGET_RADIUS }}` meters.
 
 ![Ninja - Dodge Around Enemy](../assets/kits/ninja/_image_2_.jpg_)
 
@@ -88,7 +84,7 @@ After performing a successful parry, the player gains speed `{{ kits.ninja.data.
 
 ## Ki
 
-The player harnesses inner energy to empower their katana with devastating precision. Ki is a mystical resource that increases parry damage by `{{ kits.ninja.data.NINJA_PARRY_DAMAGE_INCREASE_PER_KI }}%` for each point of ki the player possesses. The player can store up to `{{ kits.ninja.data.NINJA_KI_MAX }}` ki.
+The player harnesses inner energy to empower their katana with devastating precision. Ki is a mystical resource that increases parry damage by `{{ kits.ninja.data.NINJA_PARRY_DAMAGE_INCREASE_PER_KI }}%` for each point the player possesses. The player can store up to `{{ kits.ninja.data.NINJA_KI_MAX }}` ki.
 
 ![Ninja - Ki](../assets/kits/ninja/_image_1_.jpg_)
 
@@ -108,11 +104,11 @@ The player accumulates `{{ kits.ninja.data.NINJA_KI_PER_MELEE_ATTACK }}` ki per 
 
 ![Ninja - Ki Accumulate Katana](../assets/kits/ninja/_image_2_.jpg_)
 
-#### **Parrying Attacks**
+#### **Parrying**
 
-## Parrying Attacks
+## Parrying
 
-The player accumulates `{{ kits.ninja.data.NINJA_KI_TO_DAMAGE_RATIO }}` ki per point of damage blocked when the damage isn't reflected.
+The player accumulates `{{ kits.ninja.data.NINJA_KI_TO_DAMAGE_RATIO }}` ki per point of damage blocked when the damage isn't deflected.
 
 ![Ninja - Ki Accumulate Parry](../assets/kits/ninja/_image_2_.jpg_)
 
@@ -187,13 +183,13 @@ The player accumulates `{{ kits.ninja.data.NINJA_KI_ELIMINATION_REWARD }}` ki af
 | NINJA_KATANA_SPEED | `{{ kits.ninja.data.NINJA_KATANA_SPEED }}` | The base speed of the katana. |
 | NINJA_KI_MAX | `{{ kits.ninja.data.NINJA_KI_MAX }}` | The maximum amount of ki that the player can store. |
 | NINJA_KI_PER_MELEE_ATTACK | `{{ kits.ninja.data.NINJA_KI_PER_MELEE_ATTACK }}` | The amount of ki accumulated per katana melee attack. |
-| NINJA_KI_TO_DAMAGE_RATIO | `{{ kits.ninja.data.NINJA_KI_TO_DAMAGE_RATIO }}` | The amount of ki accumulated per damage blocked from unreflected parry attacks. |
-| NINJA_KI_PARRY_CONSUME_AMOUNT | `{{ kits.ninja.data.NINJA_KI_PARRY_CONSUME_AMOUNT }}` | The amount of ki consumed after successfully reflecting an attack. |
+| NINJA_KI_TO_DAMAGE_RATIO | `{{ kits.ninja.data.NINJA_KI_TO_DAMAGE_RATIO }}` | The amount of ki accumulated per damage blocked from parry attacks that are not deflected. |
+| NINJA_KI_PARRY_CONSUME_AMOUNT | `{{ kits.ninja.data.NINJA_KI_PARRY_CONSUME_AMOUNT }}` | The amount of ki consumed after successfully deflecting an attack. |
 | NINJA_KI_SWORDS_TO_DISPLAY | `{{ kits.ninja.data.NINJA_KI_SWORDS_TO_DISPLAY }}` | The amount of sword icons displayed on the player's action bar. |
 | NINJA_KI_ELIMINATION_REWARD | `{{ kits.ninja.data.NINJA_KI_ELIMINATION_REWARD }}` | The amount of ki accumulated after eliminating an enemy. |
 | NINJA_PARRY_DURATION | `{{ kits.ninja.data.NINJA_PARRY_DURATION }}` | The maximum duration, in ticks, that the player can hold up their katana to parry incoming attacks. |
 | NINJA_PARRY_COOLDOWN | `{{ kits.ninja.data.NINJA_PARRY_COOLDOWN }}` | The cooldown, in ticks, of the katana parry ability. |
-| NINJA_PARRY_BASE_DAMAGE_PERCENTAGE | `{{ kits.ninja.data.NINJA_PARRY_BASE_DAMAGE_PERCENTAGE }}` | The percentage of incoming damage that is reflected or converted when parried. |
+| NINJA_PARRY_BASE_DAMAGE_PERCENTAGE | `{{ kits.ninja.data.NINJA_PARRY_BASE_DAMAGE_PERCENTAGE }}` | The percentage of incoming damage that is deflected or converted when parried. |
 | NINJA_PARRY_DAMAGE_INCREASE_PER_KI | `{{ kits.ninja.data.NINJA_PARRY_DAMAGE_INCREASE_PER_KI }}` | The parry damage increase (percentage) for each point of ki the player possesses. |
 | NINJA_PARRY_DAMAGE_RADIUS | `{{ kits.ninja.data.NINJA_PARRY_DAMAGE_RADIUS }}` | The radius of parry attacks, in meters. |
 | NINJA_PARRY_IGNORE_I_FRAMES | `{{ kits.ninja.data.NINJA_PARRY_IGNORE_I_FRAMES }}` | Specifies if parry attacks should ignore invulnerability frames. |
