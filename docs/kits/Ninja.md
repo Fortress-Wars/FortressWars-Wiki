@@ -44,7 +44,7 @@ Forged in ancient flames and tempered by shadows, the katana is a powerful weapo
 
 ![Ninja - Katana Attack](../assets/kits/ninja/_image_1_.jpg_)
 
-Hold right-click to parry incoming attacks.
+Hold right-click to parry incoming physical attacks.
 
 ![Ninja - Katana Parry Attack](../assets/kits/ninja/_image_1_.jpg_)
 
