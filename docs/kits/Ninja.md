@@ -86,7 +86,7 @@ After performing a successful parry, the player gains speed `{{ kits.ninja.data.
 
 The player harnesses inner energy to empower their katana with devastating precision. Ki is a mystical resource that increases parry damage by `{{ kits.ninja.data.NINJA_PARRY_DAMAGE_INCREASE_PER_KI }}%` for each point the player possesses. The player can store up to `{{ kits.ninja.data.NINJA_KI_MAX }}` ki.
 
-![Ninja - Ki](../assets/kits/ninja/_image_1_.jpg_)
+![Ninja - Ki](../assets/kits/ninja/Ninja%20-%20Ki.png)
 
 When a parry attack is performed, `{{ kits.ninja.data.NINJA_KI_PARRY_CONSUME_AMOUNT }}` ki is consumed to amplify its power, turning defense into a deadly counterstrike.
 
