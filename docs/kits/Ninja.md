@@ -42,11 +42,11 @@
 
 Forged in ancient flames and tempered by shadows, the katana is a powerful weapon that slices through enemies.
 
-![Ninja - Katana Attack](../assets/kits/ninja/_image_1_.jpg_)
+![Ninja - Katana Attack](../assets/kits/ninja/Ninja%20-%20Katana%20Attack.gif)
 
 Hold right-click to block an incoming physcial attack. The damage is deflected to a nearby enemy. Only physical damage can be parried.
 
-![Ninja - Katana Parry](../assets/kits/ninja/_image_1_.jpg_)
+![Ninja - Katana Parry](../assets/kits/ninja/Ninja%20-%20Katana%20Parry.gif)
 
 #### **Dodge**
 
@@ -54,11 +54,11 @@ Hold right-click to block an incoming physcial attack. The damage is deflected t
 
 Use the dodge ability to evade enemy attacks. When right-clicked, the player teleports close to the nearest enemy within `{{ kits.ninja.data.NINJA_DODGE_AROUND_ENEMY_TARGET_RADIUS }}` meters.
 
-![Ninja - Dodge Around Enemy](../assets/kits/ninja/_image_2_.jpg_)
+![Ninja - Dodge Around Enemy](../assets/kits/ninja/Ninja%20-%20Dodge%20Around%20Enemy.gif)
 
 When shift + right-clicked, the ninja performs an escape, teleporting to a random location within `{{ kits.ninja.data.NINJA_DODGE_MAX_RADIUS }}` meters.
 
-![Ninja - Dodge Escape](../assets/kits/ninja/_image_2_.jpg_)
+![Ninja - Dodge Escape](../assets/kits/ninja/Ninja%20-%20Dodge%20Escape.gif)
 
 <!-- tabs:end -->
 
@@ -72,7 +72,7 @@ When shift + right-clicked, the ninja performs an escape, teleporting to a rando
 
 After performing a successful parry, the player gains speed `{{ kits.ninja.data.NINJA_AGILITY_SPEED_LEVEL }}` for `{{ kits.ninja.data.NINJA_AGILITY_SPEED_DURATION }}` ticks.
 
-![Ninja - Agility](../assets/kits/ninja/_image_1_.jpg_)
+![Ninja - Agility](../assets/kits/ninja/Ninja%20-%20Agility.gif)
 
 <!-- tabs:end -->
 
@@ -86,11 +86,11 @@ After performing a successful parry, the player gains speed `{{ kits.ninja.data.
 
 The player harnesses inner energy to empower their katana with devastating precision. Ki is a mystical resource that increases parry damage by `{{ kits.ninja.data.NINJA_PARRY_DAMAGE_INCREASE_PER_KI }}%` for each point the player possesses. The player can store up to `{{ kits.ninja.data.NINJA_KI_MAX }}` ki.
 
-![Ninja - Ki](../assets/kits/ninja/Ninja%20-%20Ki.png)
+![Ninja - Ki](../assets/kits/ninja/Ninja%20-%20Ki.png "White: 0-14, Green: 15-29, Blue: 30-44, Red: 45-59, Gold: 60")
 
 When a parry attack is performed, `{{ kits.ninja.data.NINJA_KI_PARRY_CONSUME_AMOUNT }}` ki is consumed to amplify its power, turning defense into a deadly counterstrike.
 
-![Ninja - Ki Focus](../assets/kits/ninja/_image_1_.jpg_)
+![Ninja - Ki Focus](../assets/kits/ninja/Ninja%20-%20Ki%20Focus.gif)
 
 Ki is accumulated in several ways:
 
@@ -102,7 +102,7 @@ Ki is accumulated in several ways:
 
 The player accumulates `{{ kits.ninja.data.NINJA_KI_PER_MELEE_ATTACK }}` ki per katana strike.
 
-![Ninja - Ki Accumulate Katana](../assets/kits/ninja/_image_2_.jpg_)
+![Ninja - Ki Accumulate Katana](../assets/kits/ninja/Ninja%20-%20Ki%20Accumulate%20Katana.gif)
 
 #### **Parrying**
 
@@ -110,7 +110,7 @@ The player accumulates `{{ kits.ninja.data.NINJA_KI_PER_MELEE_ATTACK }}` ki per 
 
 The player accumulates `{{ kits.ninja.data.NINJA_KI_TO_DAMAGE_RATIO }}` ki per point of damage blocked when the damage isn't deflected.
 
-![Ninja - Ki Accumulate Parry](../assets/kits/ninja/_image_2_.jpg_)
+![Ninja - Ki Accumulate Parry](../assets/kits/ninja/Ninja%20-%20Ki%20Accumulate%20Parry.gif)
 
 #### **Dodging in Combat**
 
@@ -118,7 +118,7 @@ The player accumulates `{{ kits.ninja.data.NINJA_KI_TO_DAMAGE_RATIO }}` ki per p
 
 The player accumulates `{{ kits.ninja.data.NINJA_DODGE_USE_IN_COMBAT_KI_BONUS }}` ki when using the dodge ability while in combat.
 
-![Ninja - Ki Accumulate Dodge](../assets/kits/ninja/_image_2_.jpg_)
+![Ninja - Ki Accumulate Dodge](../assets/kits/ninja/Ninja%20-%20Ki%20Accumulate%20Dodge.gif)
 
 #### **Eliminations**
 
@@ -126,7 +126,7 @@ The player accumulates `{{ kits.ninja.data.NINJA_DODGE_USE_IN_COMBAT_KI_BONUS }}
 
 The player accumulates `{{ kits.ninja.data.NINJA_KI_ELIMINATION_REWARD }}` ki after eliminating an enemy.
 
-![Ninja - Ki Accumulate Elimination](../assets/kits/ninja/_image_2_.jpg_)
+![Ninja - Ki Accumulate Elimination](../assets/kits/ninja/Ninja%20-%20Ki%20Accumulate%20Elimination.gif)
 
 <!-- tabs:end -->
 
