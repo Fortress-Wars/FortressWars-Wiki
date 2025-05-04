@@ -139,3 +139,6 @@ When a slime minion dies and the player is within `{{ kits.slime.data.SLIME_MINI
 | SLIME_ARMOR_LEVEL | `{{ kits.slime.data.SLIME_ARMOR_LEVEL }}` | The level of the slime armor provided by the player. |
 | SLIME_ARMOR_COOLDOWN | `{{ kits.slime.data.SLIME_ARMOR_COOLDOWN }}` | The cooldown, in ticks, of the slime armor ability. |
 | SLIME_ARMOR_APPLY_RADIUS | `{{ kits.slime.data.SLIME_ARMOR_APPLY_RADIUS }}` | The radius, in meters, in which allies will receive slime armor from the player. |
+| SLIME_MINION_TARGET_RADIUS | `{{ kits.slime.data.SLIME_MINION_TARGET_RADIUS }}` | The radius in which slimes target enemies. |
+| SLIME_MINION_MEMORY | `{{ kits.slime.data.SLIME_MINION_MEMORY }}` | The memory of slime minions. |
+| SLIME_ATTACK_RADIUS | `{{ kits.slime.data.SLIME_ATTACK_RADIUS }}` | The attack radius of slime minions. |
