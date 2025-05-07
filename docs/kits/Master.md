@@ -40,7 +40,7 @@
 
 ## Creeper Minion Egg
 
-Right click a block to spawn a creeper minion. Creepers minons can be spawned every `{{ kits.master.data.MASTER_MINIONS_SPAWN_CREEPER_COOLDOWN }}` ticks.
+Right click a block to spawn a creeper minion. The spawn point becomes the minions anchor and prefer to stay within `{{ kits.master.data.MASTER_MINION_START_RETURN_TO_ANCHOR_DISTANCE }}` meters of this location. Creepers minons can be spawned every `{{ kits.master.data.MASTER_MINIONS_SPAWN_CREEPER_COOLDOWN }}` ticks.
 
 ![Master - Creeper Spawn](../assets/kits/master/Master%20-%20Creeper%20Spawn.gif)
 
@@ -127,3 +127,11 @@ If a creeper has a potion effect and it explodes, the potion effects will linger
 | MASTER_MINIONS_CHARGED_CREEPER_DAMAGE | `{{ kits.master.data.MASTER_MINIONS_CHARGED_CREEPER_DAMAGE }}` | The explosion damage of super charged creeper minions. |
 | MASTER_MINIONS_CREEPER_MAX_HEALTH | `{{ kits.master.data.MASTER_MINIONS_CREEPER_MAX_HEALTH }}` | The maximum health of creeper minions. |
 | MASTER_MINIONS_CREEPER_EXPLOSION_RADIUS | `{{ kits.master.data.MASTER_MINIONS_CREEPER_EXPLOSION_RADIUS}}` | The explosion radius, in meters, of creeper minions. |
+| MASTER_MINION_TARGET_RADIUS | `{{ kits.master.data.MASTER_MINION_TARGET_RADIUS }}` | The radius in which creepers target enemies. |
+| MASTER_MINION_MEMORY | `{{ kits.master.data.MASTER_MINION_MEMORY }}` | The memory of creeper minions. |
+| MASTER_MINION_START_RETURN_TO_ANCHOR_DISTANCE | `{{ kits.master.data.MASTER_MINION_START_RETURN_TO_ANCHOR_DISTANCE }}` | The distance, in meters, when creeper minions start pathfinding to the anchor location. |
+| MASTER_MINION_END_RETURN_TO_ANCHOR_DISTANCE | `{{ kits.master.data.MASTER_MINION_END_RETURN_TO_ANCHOR_DISTANCE }}` | The distance, in meters, when creeper minions stop pathfinding to the anchor location. |
+| MASTER_MINION_WALKING_BACK_SPEED | `{{ kits.master.data.MASTER_MINION_WALKING_BACK_SPEED }}` | The walking speed of creeper minions when pathfinding to the anchor location. |
+| MASTER_MINION_START_FOLLOW_OWNER_DISTANCE | `{{ kits.master.data.MASTER_MINION_START_FOLLOW_OWNER_DISTANCE }}` | The distance, in meters, when creeper minions start following the player. |
+| MASTER_MINION_END_FOLLOW_OWNER_DISTANCE | `{{ kits.master.data.MASTER_MINION_END_FOLLOW_OWNER_DISTANCE }}` | The distance, in meters, when creeper minions stop following the player. |
+| MASTER_MINION_FOLLOW_OWNER_SPEED | `{{ kits.master.data.MASTER_MINION_FOLLOW_OWNER_SPEED }}` | The walking speed of creeper minions when following the player. |

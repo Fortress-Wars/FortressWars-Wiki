@@ -243,3 +243,8 @@ When the player dies, they drop `{{ kits.necromancer.data.NECROMANCER_ESSENCE_OF
 | NECROMANCER_WITHER_SKELETON_DEATH_COOLDOWN | `{{ kits.necromancer.data.NECROMANCER_WITHER_SKELETON_DEATH_COOLDOWN }}` | The cooldown, in ticks, given when the player's wither skeleton dies. |
 | NECROMANCER_WITHER_SKELETON_WITHER_EFFECT_LEVEL | `{{ kits.necromancer.data.NECROMANCER_WITHER_SKELETON_WITHER_EFFECT_LEVEL }}` | The level of the wither skeleton's witehr effect. |
 | NECROMANCER_WITHER_SKELETON_WITHER_EFFECT_DURATION | `{{ kits.necromancer.data.NECROMANCER_WITHER_SKELETON_WITHER_EFFECT_DURATION }}` | The duration, in ticks, of the wither skeleton's wither effect. |
+| NECROMANCER_MINION_TARGET_RADIUS | `{{ kits.necromancer.data.NECROMANCER_MINION_TARGET_RADIUS }}` | The radius, in meters, in which the wither minion targets enemies. |
+| NECROMANCER_MINION_MEMORY | `{{ kits.necromancer.data.NECROMANCER_MINION_MEMORY }}` | The memory of the wither skeleton minion. |
+| NECROMANCER_MINION_START_FOLLOW_OWNER_DISTANCE | `{{ kits.necromancer.data.NECROMANCER_MINION_START_FOLLOW_OWNER_DISTANCE }}` | The distance, in meters, when the wither minion starts following the player. |
+| NECROMANCER_MINION_END_FOLLOW_OWNER_DISTANCE | `{{ kits.necromancer.data.NECROMANCER_MINION_END_FOLLOW_OWNER_DISTANCE }}` | The distance, in meters, when the wither minion stops following the player. |
+| NECROMANCER_MINION_FOLLOW_OWNER_SPEED | `{{ kits.necromancer.data.NECROMANCER_MINION_FOLLOW_OWNER_SPEED }}` | The walking speed of the wither minion when following the player. |
