@@ -27,6 +27,7 @@
   - [Miner](Miner)
   - [Musketeer](Musketeer)
   - [Necromancer](Necromancer)
+  - [Ninja](Ninja)
   - [None](None)
   - [Porcupine](Porcupine)
   - [Potion Master](Potion_Master)

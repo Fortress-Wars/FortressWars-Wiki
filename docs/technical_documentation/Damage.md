@@ -158,6 +158,9 @@
 - `Kangaroo Stomp`
   - Shield Damage Type: _Damage_
   - Damage Types: _Impact_, _Physical_
+- `Katana Parry`
+  - Shield Damage Type: _Ignore_
+  - Damage Types: _Physical_, _Slashing_, _Redistribution_
 - `Knight Damage Deflect`
   - Shield Damage Type: _Ignore_
   - Damage Types: _Impact_, _Physical_, _Redistribution_

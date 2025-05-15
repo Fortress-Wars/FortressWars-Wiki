@@ -228,6 +228,14 @@
 >
 > #### ![necromancer-icon](../assets/icons/kits/necromancer-icon.jpg)
 
+> ## [Ninja](Ninja)
+>
+> - **Role**: Damage
+> - **Type**: Premium
+> - **Introduced**: v2.1.0
+>
+> #### ![ninja-icon](../assets/icons/kits/ninja-icon.jpg)
+
 > ## [None](None)
 >
 > - **Role**: Damage
