@@ -13,6 +13,7 @@
   - [Engineer](Engineer)
   - [Fish](Fish)
   - [Golem](Golem)
+  - [Grappler](Grappler)
   - [Gunner](Gunner)
   - [Hitman](Hitman)
   - [Hulk](Hulk)

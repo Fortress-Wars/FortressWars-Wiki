@@ -116,6 +116,14 @@
 >
 > #### ![golem-icon](../assets/icons/kits/golem-icon.jpg)
 
+> ## [Grappler](Grappler)
+>
+> - **Role**: Damage
+> - **Type**: Premium
+> - **Introduced**: v2.1.0
+>
+> #### ![grappler-icon](../assets/icons/kits/grappler-icon.jpg)
+
 > ## [Gunner](Gunner)
 >
 > - **Role**: Damage
