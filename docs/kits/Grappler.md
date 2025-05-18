@@ -44,15 +44,15 @@
 
 Launch a grappling hook that attaches to blocks or enemies. If attached to a block, the player is pulled swiftly towards it. If attached to an entity, the smaller one is pulled towards the larger one. If both are similar size, the pull direction is based on height and groundedness. The pull strength scales with distance from the hook. In addition, reeling in an enemy, deals `4` damage.
 
-![Grappler - Grapple Block](../assets/kits/grappler/_image_1_.jpg_ "Block")
+![Grappler - Grapple Block](../assets/kits/grappler/Grappler%20-%20Grapple%20Block.gif "Block")
 
-![Grappler - Grapple Enemy](../assets/kits/grappler/_image_1_.jpg_ "Enemy")
+![Grappler - Grapple Enemy](../assets/kits/grappler/Grappler%20-%20Grapple%20Enemy.gif "Enemy")
 
-![Grappler - Grapple Ally](../assets/kits/grappler/_image_1_.jpg_ "Ally")
+![Grappler - Grapple Ally](../assets/kits/grappler/Grappler%20-%20Grapple%20Ally.gif "Ally")
 
-![Grappler - Grapple Entity Size](../assets/kits/grappler/_image_1_.jpg_ "Size Difference")
+![Grappler - Grapple Entity Size](../assets/kits/grappler/Grappler%20-%20Grapple%20Entity%20Size.gif "Size Difference")
 
-![Grappler - Grapple Entity Height](../assets/kits/grappler/_image_1_.jpg_ "Height Difference")
+![Grappler - Grapple Entity Height](../assets/kits/grappler/Grappler%20-%20Grapple%20Entity%20Height.gif "Height Difference")
 
 <!-- tabs:end -->
 
@@ -66,7 +66,7 @@ Launch a grappling hook that attaches to blocks or enemies. If attached to a blo
 
 Fall damage is reduced by `{{ kits.grappler.data.GRAPPLER_FEATHER_FALLING_DAMAGE_REDUCTION }}%`.
 
-![Grappler - Feather Falling](../assets/kits/grappler/_image_1_.jpg_)
+![Grappler - Feather Falling](../assets/kits/grappler/Grappler%20-%20Feather%20Falling.gif)
 
 <!-- tabs:end -->
 
