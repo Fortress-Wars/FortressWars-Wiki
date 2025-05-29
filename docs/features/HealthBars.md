@@ -87,3 +87,5 @@ settings:
 ### Changelog
 
 - 2.0.0 - First Introduced
+
+- 2.1.0 - Added killstreak indicator
