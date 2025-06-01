@@ -1,18 +1,9 @@
 # Technical Documentation
 
-> Index for server documentation and implementation detals.
+> Index for server documentation and implementation details.
 
 ---
 
-> ## [Damage System](Damage)
->
-> - Damage types
-> - Shield damage types
-> - Damage causes
-
-> # [Gamerules](Gamerules)
->
-> Overview
-> Configuration
-> Commands
-> Settings
+- [Damage System](Damage)
+- [Gamerules](Gamerules)
+- [Respawn System](RespawnSystem)

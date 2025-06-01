@@ -155,11 +155,11 @@ The resource to summon, heal, and upgrade wither skeletons. The player can hold 
 
 ![Necromancer - Essence of the Afterlife](../assets/kits/necromancer/Necromancer%20-%20Essence%20of%20the%20Afterlife.gif)
 
-Essence of the Afterlife will drop from any player or necromancer skeleton that dies.
+Essence of the Afterlife drops upon the death of players and necromancer skeletons.
 
 ![Necromancer - Essence of the Afterlife Drop](../assets/kits/necromancer/Necromancer%20-%20Essence%20of%20the%20Afterlife%20Drop.gif)
 
-When the player dies, they will drop `{{ kits.necromancer.data.NECROMANCER_ESSENCE_OF_THE_AFTER_LIFE_PLAYER_DROP_COUNT_PERCENTAGE }}%` of their current essence.
+When the player dies, they drop `{{ kits.necromancer.data.NECROMANCER_ESSENCE_OF_THE_AFTER_LIFE_PLAYER_DROP_COUNT_PERCENTAGE }}%` of their essence.
 
 ![Necromancer - Essence of the Afterlife Player Drop](../assets/kits/necromancer/Necromancer%20-%20Essence%20of%20the%20Afterlife%20Player%20Drop.gif)
 
@@ -193,16 +193,29 @@ When the player dies, they will drop `{{ kits.necromancer.data.NECROMANCER_ESSEN
 | HEALING_POTION_AUTOPOT_HOTBAR_ONLY | `{{ kits._shared.data.HEALING_POTION_AUTOPOT_HOTBAR_ONLY }}` | {{ kitDataSharedDescriptions.HEALING_POTION_AUTOPOT_HOTBAR_ONLY }} |
 | POTION_IN_COMBAT_REGENERATION_RATE | `{{ kits._shared.data.POTION_IN_COMBAT_REGENERATION_RATE }}` | {{ kitDataSharedDescriptions.POTION_IN_COMBAT_REGENERATION_RATE }} |
 | POTION_OUT_OF_COMBAT_REGENERATION_RATE | `{{ kits._shared.data.POTION_OUT_OF_COMBAT_REGENERATION_RATE }}` | {{ kitDataSharedDescriptions.POTION_OUT_OF_COMBAT_REGENERATION_RATE }} |
+| CHESTPLATE_ARMOR | `{{ kits.necromancer.data.CHESTPLATE_ARMOR }}` | {{ kitDataSharedDescriptions.CHESTPLATE_ARMOR }} |
+| CHESTPLATE_ARMOR_TOUGHNESS | `{{ kits.necromancer.data.CHESTPLATE_ARMOR_TOUGHNESS }}` | {{ kitDataSharedDescriptions.CHESTPLATE_ARMOR_TOUGHNESS }} |
+| CHESTPLATE_PROTECTION_LEVEL | `{{ kits.necromancer.data.CHESTPLATE_PROTECTION_LEVEL }}` | {{ kitDataSharedDescriptions.CHESTPLATE_PROTECTION_LEVEL }} |
+| CHESTPLATE_KNOCKBACK_RESISTANCE | `{{ kits.necromancer.data.CHESTPLATE_KNOCKBACK_RESISTANCE }}` | {{ kitDataSharedDescriptions.CHESTPLATE_KNOCKBACK_RESISTANCE }} |
+| LEGGINGS_ARMOR | `{{ kits.necromancer.data.LEGGINGS_ARMOR }}` | {{ kitDataSharedDescriptions.LEGGINGS_ARMOR }} |
+| LEGGINGS_ARMOR_TOUGHNESS | `{{ kits.necromancer.data.LEGGINGS_ARMOR_TOUGHNESS }}` | {{ kitDataSharedDescriptions.LEGGINGS_ARMOR_TOUGHNESS }} |
+| LEGGINGS_PROTECTION_LEVEL | `{{ kits.necromancer.data.LEGGINGS_PROTECTION_LEVEL }}` | {{ kitDataSharedDescriptions.LEGGINGS_PROTECTION_LEVEL }} |
+| LEGGINGS_KNOCKBACK_RESISTANCE | `{{ kits.necromancer.data.LEGGINGS_KNOCKBACK_RESISTANCE }}` | {{ kitDataSharedDescriptions.LEGGINGS_KNOCKBACK_RESISTANCE }} |
+| BOOTS_ARMOR | `{{ kits.necromancer.data.BOOTS_ARMOR }}` | {{ kitDataSharedDescriptions.BOOTS_ARMOR }} |
+| BOOTS_ARMOR_TOUGHNESS | `{{ kits.necromancer.data.BOOTS_ARMOR_TOUGHNESS }}` | {{ kitDataSharedDescriptions.BOOTS_ARMOR_TOUGHNESS }} |
+| BOOTS_PROTECTION_LEVEL | `{{ kits.necromancer.data.BOOTS_PROTECTION_LEVEL }}` | {{ kitDataSharedDescriptions.BOOTS_PROTECTION_LEVEL }} |
+| BOOTS_KNOCKBACK_RESISTANCE | `{{ kits.necromancer.data.BOOTS_KNOCKBACK_RESISTANCE }}` | {{ kitDataSharedDescriptions.BOOTS_KNOCKBACK_RESISTANCE }} |
 | TANK_ROLE_KNOCKBACK_PERCENTAGE | `{{ kits._shared.data.TANK_ROLE_KNOCKBACK_PERCENTAGE }}` | {{ kitDataSharedDescriptions.TANK_ROLE_KNOCKBACK_PERCENTAGE }} |
 | SHIELD_REGENERATION_DELAY | `{{ kits._shared.data.SHIELD_REGENERATION_DELAY }}` | {{ kitDataSharedDescriptions.SHIELD_REGENERATION_DELAY }} |
 | SHIELD_REGENERATION_RATE | `{{ kits._shared.data.SHIELD_REGENERATION_RATE }}` | {{ kitDataSharedDescriptions.SHIELD_REGENERATION_RATE }} |
 | SHIELD_REGENERATION_AMOUNT | `{{ kits._shared.data.SHIELD_REGENERATION_AMOUNT }}` | {{ kitDataSharedDescriptions.SHIELD_REGENERATION_AMOUNT }} |
 | SHIELD_BREAK_COOLDOWN | `{{ kits._shared.data.SHIELD_BREAK_COOLDOWN }}` | {{ kitDataSharedDescriptions.SHIELD_BREAK_COOLDOWN }} |
+| SHIELD_DAMAGE_FACTOR | `{{ kits._shared.data.SHIELD_DAMAGE_FACTOR }}` | {{ kitDataSharedDescriptions.SHIELD_DAMAGE_FACTOR }} | 
 | NECROMANCER_SWORD_DAMAGE | `{{ kits.necromancer.data.NECROMANCER_SWORD_DAMAGE }}` | The base damage of the sword. |
 | NECROMANCER_SWORD_SPEED | `{{ kits.necromancer.data.NECROMANCER_SWORD_SPEED }}` | The base speed of the sword. |
 | NECROMANCER_SWORD_WITHER_EFFECT_LEVEL | `{{ kits.necromancer.data.NECROMANCER_SWORD_WITHER_EFFECT_LEVEL }}` | The level of the sword's wither effect. |
 | NECROMANCER_SWORD_WITHER_EFFECT_DURATION | `{{ kits.necromancer.data.NECROMANCER_SWORD_WITHER_EFFECT_DURATION }}` | The duration, in ticks, of the sword's wither effect. |
-| NECROMANCER_ESSENCE_OF_THE_AFTER_LIFE_MAX | `{{ kits.necromancer.data.NECROMANCER_ESSENCE_OF_THE_AFTER_LIFE_MAX }}` | The maximum number of essense the player can have at once. |
+| NECROMANCER_ESSENCE_OF_THE_AFTER_LIFE_MAX | `{{ kits.necromancer.data.NECROMANCER_ESSENCE_OF_THE_AFTER_LIFE_MAX }}` | The maximum number of essence the player can have at once. |
 | NECROMANCER_ESSENCE_OF_THE_AFTER_LIFE_FINAL_BLOW_DROP_BONUS | `{{ kits.necromancer.data.NECROMANCER_ESSENCE_OF_THE_AFTER_LIFE_FINAL_BLOW_DROP_BONUS }}` | The number of extra essence to drop when the player kills an enemy. |
 | NECROMANCER_ESSENCE_OF_THE_AFTER_LIFE_PLAYER_DROP_COUNT_PERCENTAGE | `{{ kits.necromancer.data.NECROMANCER_ESSENCE_OF_THE_AFTER_LIFE_PLAYER_DROP_COUNT_PERCENTAGE }}` | The percentage of essence of the after to drop when the player dies. |
 | NECROMANCER_WITHER_SKELETON_ESSENCE_PER_SKELETON | `{{ kits.necromancer.data.NECROMANCER_WITHER_SKELETON_ESSENCE_PER_SKELETON }}` | The amount of essence required to spawn a skeleton. |
@@ -230,3 +243,8 @@ When the player dies, they will drop `{{ kits.necromancer.data.NECROMANCER_ESSEN
 | NECROMANCER_WITHER_SKELETON_DEATH_COOLDOWN | `{{ kits.necromancer.data.NECROMANCER_WITHER_SKELETON_DEATH_COOLDOWN }}` | The cooldown, in ticks, given when the player's wither skeleton dies. |
 | NECROMANCER_WITHER_SKELETON_WITHER_EFFECT_LEVEL | `{{ kits.necromancer.data.NECROMANCER_WITHER_SKELETON_WITHER_EFFECT_LEVEL }}` | The level of the wither skeleton's witehr effect. |
 | NECROMANCER_WITHER_SKELETON_WITHER_EFFECT_DURATION | `{{ kits.necromancer.data.NECROMANCER_WITHER_SKELETON_WITHER_EFFECT_DURATION }}` | The duration, in ticks, of the wither skeleton's wither effect. |
+| NECROMANCER_MINION_TARGET_RADIUS | `{{ kits.necromancer.data.NECROMANCER_MINION_TARGET_RADIUS }}` | The radius, in meters, in which the wither minion targets enemies. |
+| NECROMANCER_MINION_MEMORY | `{{ kits.necromancer.data.NECROMANCER_MINION_MEMORY }}` | The memory of the wither skeleton minion. |
+| NECROMANCER_MINION_START_FOLLOW_OWNER_DISTANCE | `{{ kits.necromancer.data.NECROMANCER_MINION_START_FOLLOW_OWNER_DISTANCE }}` | The distance, in meters, when the wither minion starts following the player. |
+| NECROMANCER_MINION_END_FOLLOW_OWNER_DISTANCE | `{{ kits.necromancer.data.NECROMANCER_MINION_END_FOLLOW_OWNER_DISTANCE }}` | The distance, in meters, when the wither minion stops following the player. |
+| NECROMANCER_MINION_FOLLOW_OWNER_SPEED | `{{ kits.necromancer.data.NECROMANCER_MINION_FOLLOW_OWNER_SPEED }}` | The walking speed of the wither minion when following the player. |

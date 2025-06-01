@@ -84,6 +84,14 @@
 >
 > #### ![demolitionist-icon](../assets/icons/kits/demolitionist-icon.jpg)
 
+> ## [Demon](Demon)
+>
+> - **Role**: Support
+> - **Type**: Premium
+> - **Introduced**: v2.1.0
+>
+> #### ![demon-icon](../assets/icons/kits/demon-icon.jpg)
+
 > ## [Engineer](Engineer)
 >
 > - **Role**: Utility
@@ -115,6 +123,14 @@
 > - **Introduced**: v1.7.0
 >
 > #### ![golem-icon](../assets/icons/kits/golem-icon.jpg)
+
+> ## [Grappler](Grappler)
+>
+> - **Role**: Damage
+> - **Type**: Premium
+> - **Introduced**: v2.1.0
+>
+> #### ![grappler-icon](../assets/icons/kits/grappler-icon.jpg)
 
 > ## [Gunner](Gunner)
 >
@@ -227,6 +243,14 @@
 > - **Introduced**: v1.7.0
 >
 > #### ![necromancer-icon](../assets/icons/kits/necromancer-icon.jpg)
+
+> ## [Ninja](Ninja)
+>
+> - **Role**: Damage
+> - **Type**: Premium
+> - **Introduced**: v2.1.0
+>
+> #### ![ninja-icon](../assets/icons/kits/ninja-icon.jpg)
 
 > ## [None](None)
 >

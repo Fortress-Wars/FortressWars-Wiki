@@ -8,7 +8,9 @@
 
 The gamerule system allows server administrators to configure predefined rules for desired gameplay. Using gamerules, administrators can control enabled kits enabled, disabled kits, the default kit, and kit data.
 
-The Fortress Wars plugin initializes 3 YAML files in the plugin's /gamerule/ directory: `default.yml`, `example.yml`, and `tournament.yml`. The default.yml file is used for the default gamerule. The plugin fallbacks to a hardcoded default if this default gamerule can’t be parsed, t. If any other gamerule configuration files can't be parsed, they are not loaded. Parsing errors are logged in the console.
+The Fortress Wars plugin initializes 3 YAML files in the plugin's /gamerule/ directory: `default.yml`, `example.yml`, and `tournament.yml`. The default.yml file is used for the default gamerule. The plugin fallbacks to a hardcoded default if this default gamerule can’t be parsed. If any other gamerule configuration files can't be parsed, they are not loaded. Parsing errors are logged in the console.
+
+All gamerules inherit configured properties from the default gamerule. Server administrators can modify the `default.yml` to update all gamerules. Gamerules override inherited settings if they are set.
 
 ---
 
@@ -64,6 +66,26 @@ description: This is an example description for an example gamerule.
 
 ```yml
 defaultKit: default
+```
+
+### canVote
+
+`Optional`
+
+- Specifies if this gamerule can be voted for during the gamerule voting phase.
+
+```yml
+canVote: true
+```
+
+### icon
+
+`Optional`
+
+- The icon of the gamerule.
+
+```yml
+icon: STONE
 ```
 
 ### kitLimit
@@ -179,6 +201,8 @@ enabled: true
 name: Example
 description: This is an example description for an example gamerule.
 defaultKit: default
+canVote: true
+icon: STONE
 kitLimit: 1
 playerLimit: 4
 roleLimit:
@@ -228,16 +252,3 @@ Change the active gamerule.
   - gamerule: _The gamerule to set._
 - Permissions:
   - fw.game.rule.set
-
-## Settings
-
-The active gamerule is specified in the `settings.yml` file as follows:
-
-```yml
-settings:
-  gamerule: default
-```
-
-When the Fortress Wars plugin loads, it automatically sets the active gamerule to this one. If this isn't present or there is no gamerule configured with this id, then the plugin uses the default gamerule.
-
-Administrators can use the `/fw config save` command to save the active gamerule so it persists throughout server restarts.

@@ -76,4 +76,12 @@ some:
     property: true
 ```
 
+### Properties
+
+#### prop1
+
+`Optional`
+
+Description
+
 ### Changelog
