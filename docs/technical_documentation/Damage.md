@@ -140,6 +140,9 @@
 - `Future Sight`
   - Shield Damage Type: _Ignore_
   - Damage Types: _Magic_
+- `Grappling Hook`
+  - Shield Damage Type: _Pierce_
+  - Damage Types: _Physical_, _Piercing_
 - `Gunner Shot`
   - Shield Damage Type: _Pierce_
   - Damage Types: _Physical_, _Piercing_
