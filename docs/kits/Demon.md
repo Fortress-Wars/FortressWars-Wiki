@@ -134,7 +134,7 @@ Allies that have a bond with the player restore `{{ kits.demon.data.DEMON_BLOOD_
 
 ![Demon - Blood Bond Healing](../assets/kits/demon/Demon%20-%20Blood%20Bond%20Healing.gif)
 
-A blood bond breaks if the distance between the entity and the player is greater than `{{ kits.demon.data.DEMON_BLOOD_BOND_BREAK_DISTANCE }}` meters. It also breaks if the entity is ignited or the entity is cleansed. The player takes `{{ kits.demon.data.DEMON_BLOOD_BOND_BREAK_DAMAGE }}` damage when a bond breaks.
+A blood bond breaks if the distance between the entity and the player is greater than `{{ kits.demon.data.DEMON_BLOOD_BOND_BREAK_DISTANCE }}` meters. It also breaks if the entity takes fire damage or the entity is cleansed. The player takes `{{ kits.demon.data.DEMON_BLOOD_BOND_BREAK_DAMAGE }}` damage when a bond breaks.
 
 ![Demon - Blood Bond Break](../assets/kits/demon/Demon%20-%20Blood%20Bond%20Break.gif)
 
