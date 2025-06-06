@@ -19,7 +19,7 @@
 
 ---
 
-- Chainmail Chestplate
+- Leather Chestplate (Blue)
 - Chainmail Leggings
 - Chainmail Boots
 - Iron Sword
