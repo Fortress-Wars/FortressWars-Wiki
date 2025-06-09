@@ -82,9 +82,9 @@ A spell that costs `{{ kits.demon.data.DEMON_BREAK_BLOOD_BONDS_COST }}ml` of blo
 
 An item used to convert blood into health and health into blood. When holding right-click, it transfuses `{{ kits.demon.data.DEMON_TRANSFUSION_BLOOD_AMOUNT }}ml` blood every `{{ kits.demon.data.DEMON_TRANSFUSION_CONVERSION_RATE }}` ticks. The player can left-click to switch modes.
 
-![Demon - Health Transfusion](../assets/kits/demon/Demon%20-%20Health%20Transfusion.gif)
+![Demon - Health Transfusion](../assets/kits/demon/Demon%20-%20Health%20Transfusion.gif "Healh Transfusion Mode")
 
-![Demon - Blood Transfusion](../assets/kits/demon/Demon%20-%20Blood%20Transfusion.gif)
+![Demon - Blood Transfusion](../assets/kits/demon/Demon%20-%20Blood%20Transfusion.gif "Blood Transfusion Mode")
 
 <!-- tabs:end -->
 
@@ -126,7 +126,7 @@ A special bond between the player and an entity. The bond forms when the player 
 
 ![Demon - Blood Bond](../assets/kits/demon/Demon%20-%20Blood%20Bond.gif)
 
-After enemies that have a bond with the player take damage, `{{ kits.demon.data.DEMON_BLOOD_BOND_BLOOD_TRANSMISSION_EFFICIENCY }}%` of the blood lost is transmitted through the bond. If there are multiple bonds, then the amount of blood is split and transmitted evenly.
+Enemies that take damage, transmit lost blood evenly through active blood bonds. While in `blood` transfusion mode, `{{ kits.demon.data.DEMON_BLOOD_BOND_BLOOD_MODE_TRANSMISSION_EFFICIENCY }}%` of transmitted blood is stored. While in `health` transfusion mode, `{{ kits.demon.data.DEMON_BLOOD_BOND_HEALTH_MODE_TRANSMISSION_EFFICIENCY }}%` of the transmitted blood is converted to health for the player, and if the player is max health, blood is stored instead.
 
 ![Demon - Blood Bond Transmission](../assets/kits/demon/Demon%20-%20Blood%20Bond%20Transmission.gif)
 
@@ -134,7 +134,7 @@ Allies that have a bond with the player restore `{{ kits.demon.data.DEMON_BLOOD_
 
 ![Demon - Blood Bond Healing](../assets/kits/demon/Demon%20-%20Blood%20Bond%20Healing.gif)
 
-A blood bond breaks if the distance between the entity and the player is greater than `{{ kits.demon.data.DEMON_BLOOD_BOND_BREAK_DISTANCE }}` meters. It also breaks if the entity is ignited or the entity is cleansed. The player takes `{{ kits.demon.data.DEMON_BLOOD_BOND_BREAK_DAMAGE }}` damage when a bond breaks.
+A blood bond breaks if the distance between the entity and the player is greater than `{{ kits.demon.data.DEMON_BLOOD_BOND_BREAK_DISTANCE }}` meters. It also breaks if the entity takes fire damage or the entity is cleansed. The player takes `{{ kits.demon.data.DEMON_BLOOD_BOND_BREAK_DAMAGE }}` damage when a bond breaks.
 
 ![Demon - Blood Bond Break](../assets/kits/demon/Demon%20-%20Blood%20Bond%20Break.gif)
 
@@ -226,6 +226,7 @@ Essence of the Afterlife drops upon the death of players and necromancer skeleto
 | DEMON_HOMING_HEMOGLOBIN_COST | `{{ kits.demon.data.DEMON_HOMING_HEMOGLOBIN_COST }}` | The cost of blood to cast the homing hemoglobin spell. |
 | DEMON_HOMING_HEMOGLOBIN_SPEED | `{{ kits.demon.data.DEMON_HOMING_HEMOGLOBIN_SPEED }}` | The speed of the homing hemoglobin. |
 | DEMON_HOMING_HEMOGLOBIN_SIZE | `{{ kits.demon.data.DEMON_HOMING_HEMOGLOBIN_SIZE }}` | The size of the homing hemoglobin. |
+| DEMON_HOMING_HEMOGLOBIN_PIERCING_LEVEL | `{{ kits.demon.data.DEMON_HOMING_HEMOGLOBIN_PIERCING_LEVEL }}` | The piercing level of the homing hemoglobin. |
 | DEMON_HOMING_HEMOGLOBIN_HOMING_FACTOR | `{{ kits.demon.data.DEMON_HOMING_HEMOGLOBIN_HOMING_FACTOR }}` | The strength of homing hemoglobin's homing effect. |
 | DEMON_HOMING_HEMOGLOBIN_MAX_TRAVEL_DISTANCE | `{{ kits.demon.data.DEMON_HOMING_HEMOGLOBIN_MAX_TRAVEL_DISTANCE }}` | The maximum travel distance, in meters, of homing hemoglobin. |
 | DEMON_HOMING_HEMOGLOBIN_START_HOMING_AFTER_DISTANCE | `{{ kits.demon.data.DEMON_HOMING_HEMOGLOBIN_START_HOMING_AFTER_DISTANCE }}` | The distance, in meters, at which homing hemoglobin starts homing in on targets. |
@@ -236,7 +237,9 @@ Essence of the Afterlife drops upon the death of players and necromancer skeleto
 | DEMON_BLOOD_BOND_HEALING_RATE | `{{ kits.demon.data.DEMON_BLOOD_BOND_HEALING_RATE }}` | The rate, in ticks, at which allies are healed from blood bonds. |
 | DEMON_BLOOD_BOND_HEALING_POTENCY | `{{ kits.demon.data.DEMON_BLOOD_BOND_HEALING_POTENCY }}` | The amount of healing done by blood bonds. |
 | DEMON_BLOOD_BOND_BREAK_DISTANCE | `{{ kits.demon.data.DEMON_BLOOD_BOND_BREAK_DISTANCE }}` | The distance, in meters, at which blood bonds break. |
-| DEMON_BLOOD_BOND_BLOOD_TRANSMISSION_EFFICIENCY | `{{ kits.demon.data.DEMON_BLOOD_BOND_BLOOD_TRANSMISSION_EFFICIENCY }}` | The percentage of blood that successfully transmits through blood bonds. |
+| DEMON_BLOOD_BOND_BLOOD_MODE_TRANSMISSION_EFFICIENCY | `{{ kits.demon.data.DEMON_BLOOD_BOND_BLOOD_MODE_TRANSMISSION_EFFICIENCY }}` | The percentage of blood that successfully transmits through blood bonds in blood mode. |
+| DEMON_BLOOD_BOND_HEALTH_MODE_TRANSMISSION_EFFICIENCY | `{{ kits.demon.data.DEMON_BLOOD_BOND_HEALTH_MODE_TRANSMISSION_EFFICIENCY }}` | The percentage of blood that successfully transmits through blood bonds in health mode. |
+| DEMON_BLOOD_BOND_TRANSMISSION_SPEED | `{{ kits.demon.data.DEMON_BLOOD_BOND_TRANSMISSION_SPEED }}` | The speed at which blood transmits through bonds. |
 | DEMON_BLOOD_BOND_BREAK_DAMAGE | `{{ kits.demon.data.DEMON_BLOOD_BOND_BREAK_DAMAGE }}` | The damage taken when a blood bond breaks. |
 | DEMON_HELLFIRE_BURN_DURATION | `{{ kits.demon.data.DEMON_HELLFIRE_BURN_DURATION }}` | The burn duration, in ticks, after taking hits from light beam. |
 | DEMONS_CURSE_MAX_EFFECTIVE_BONDS | `{{ kits.demon.data.DEMONS_CURSE_MAX_EFFECTIVE_BONDS }}` | The maximum number of blood bonds that contribute to the demon's curse passive. |
