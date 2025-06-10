@@ -9,7 +9,7 @@
 ---
 
 - **Introduced:** v2.1.0
-- **Description:** A damage kit that uses snowballs to slow down enemies and goes faster under snow.
+- **Description:** A damage kit that uses snowballs to slow down enemies and can goes faster under snow.
 - **Role:** Damage
 - **How to Unlock:** Purchase for 500 Credits.
 
