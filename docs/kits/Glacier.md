@@ -2,14 +2,14 @@
 
 ---
 
-#### ![glacier-icon](../assets/icons/maps/glacier-icon.jpg)
+#### ![glacier-icon](../assets/icons/kits/glacier-icon.jpg)
 
 # Overview
 
 ---
 
 - **Introduced:** v2.1.0
-- **Description:** A damage kit that uses snowballs to slow down enemies and can goes faster under snow.
+- **Description:** A damage kit that uses ice balls to slow down enemies and move faster on snow.
 - **Role:** Damage
 - **How to Unlock:** Purchase for 500 Credits.
 
@@ -40,9 +40,9 @@
 
 ## Ice Ball
 
-A throwable projectile, when it lands or collides with a enemy it produces a 'snow layer' beneath it or on the ground at the location. When the snowball hits a enemy it applies Slowness `{{ kits.glacier.data.GLACIER_ICE_BALL_SLOWNESS_LEVEL }}` for `{{ kits.glacier.data.GLACIER_ICE_BALL_SLOWNESS_DURATION }}` ticks. If there is a existing snow layer and the Ice Ball lands on it will add a snow layer ontop of it. The most snow layers that can be stacked ontop of each other is `{{ kits.glacier.data.GLACIER_ICE_BALL_MAX_SNOW_LAYER }}`.
+A throwable projectile, when it lands or collides with a enemy it produces a temporary snow layer block. When the snowball hits an enemy it applies slowness `{{ kits.glacier.data.GLACIER_ICE_BALL_SLOWNESS_LEVEL }}` for `{{ kits.glacier.data.GLACIER_ICE_BALL_SLOWNESS_DURATION }}` ticks. If there is an existing snow layer block at the location the ice ball lands, an additional layer is added and extends its duration. The maxiumum layers in one block is `{{ kits.glacier.data.GLACIER_ICE_BALL_MAX_SNOW_LAYER }}`.
 
-![_image_1_](../assets/kits/glacier/_image_1_.jpg_)
+![Glacier - Ice Ball Hit Enemy](../assets/kits/glacier/Glacier%20-%20Ice%20Ball%20Hit%20Enemy.gif)
 
 <!-- tabs:end -->
 
@@ -54,9 +54,9 @@ A throwable projectile, when it lands or collides with a enemy it produces a 'sn
 
 ## Snowdrift
 
-When the player stands on a 'snow layer' they gain Speed `{{ kits.glacier.data.GLACIER_SNOWDRIFT_SPEED_LEVEL }}` for `{{ kits.glacier.data.GLACIER_SNOWDRIFT_DURATION }}` ticks.
+When a player moves on a layer of snow, they gain speed `{{ kits.glacier.data.GLACIER_SNOWDRIFT_SPEED_LEVEL }}` for `{{ kits.glacier.data.GLACIER_SNOWDRIFT_DURATION }}` ticks.
 
-![_image_1_](../assets/kits/glacier/_image_1_.jpg_)
+![Glacier - Snowdrift](../assets/kits/glacier/Glacier%20-%20Snowdrift.gif)
 
 <!-- tabs:end -->
 
@@ -69,8 +69,11 @@ When the player stands on a 'snow layer' they gain Speed `{{ kits.glacier.data.G
 <!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
-| Skiing accident | Freeze a enemy Glacier with an Ice ball  | 20 credits |
-| Frozen Blob | Freeze 250 enemies with your Ice Ball. | 250 Credits |
+| Cold and Tangled | Freeze an enemy that is in a cobweb with an ice ball. | 20 Credits |
+| Deep Freeze | Freeze an enemy that is already frozen from a snowman with an ice ball. | 20 Credits |
+| Ice Fishing | Kill a fish as glacier. | 20 credits |
+| Skiing accident | Freeze a enemy glacier with an ice ball  | 20 credits |
+| Frozen Blob | Freeze 250 enemies with your ice ball. | 250 Credits |
 | Ski-Mogul | Walk on a Snow Layer 1000 times. | 250 Credits |
 
 <br />
@@ -102,12 +105,10 @@ When the player stands on a 'snow layer' they gain Speed `{{ kits.glacier.data.G
 | BOOTS_PROTECTION_LEVEL | `{{ kits.glacier.data.BOOTS_PROTECTION_LEVEL }}` | {{ kitDataSharedDescriptions.BOOTS_PROTECTION_LEVEL }} |
 | BOOTS_KNOCKBACK_RESISTANCE | `{{ kits.glacier.data.BOOTS_KNOCKBACK_RESISTANCE }}` | {{ kitDataSharedDescriptions.BOOTS_KNOCKBACK_RESISTANCE }} |
 | GLACIER_ICE_BALL_COOLDOWN | `{{ kits.glacier.data.GLACIER_ICE_BALL_COOLDOWN }}` | The ice ball's cooldown in ticks. |
-| GLACIER_ICE_BALL_VELOCITY_MULTIPLIER | `{{ kits.glacier.data.GLACIER_ICE_BALL_VELOCITY_MULTIPLIER }}` | The velocity mutliplier when throwing the ice ball. |
-| GLACIER_ICE_BALL_SLOWNESS_DURATION| `{{ kits.glacier.data.GLACIER_ICE_BALL_SLOWNESS_DURATION }}` | The duration, in ticks, of the slowness the target is effected by.|
-| GLACIER_ICE_BALL_SLOWNESS_LEVEL| `{{ kits.glacier.data.GLACIER_ICE_BALL_SLOWNESS_LEVEL }}` | The level of the slowness the target is effected by.|
+| GLACIER_ICE_BALL_VELOCITY_MULTIPLIER | `{{ kits.glacier.data.GLACIER_ICE_BALL_VELOCITY_MULTIPLIER }}` | The velocity mutliplier when throwing an ice ball. |
+| GLACIER_ICE_BALL_SLOWNESS_DURATION| `{{ kits.glacier.data.GLACIER_ICE_BALL_SLOWNESS_DURATION }}` | The duration, in ticks, of the ice ball's slowness effect.|
+| GLACIER_ICE_BALL_SLOWNESS_LEVEL| `{{ kits.glacier.data.GLACIER_ICE_BALL_SLOWNESS_LEVEL }}` | The level of the ice ball's slowness effect.|
 | GLACIER_ICE_BALL_SNOW_LAYER_DURATION| `{{ kits.glacier.data.GLACIER_ICE_BALL_SNOW_LAYER_DURATION }}` | The duration, in ticks, of the snow layer created by the ice ball. |
 | GLACIER_ICE_BALL_MAX_SNOW_LAYER| `{{ kits.glacier.data.GLACIER_ICE_BALL_MAX_SNOW_LAYER }}` | The amount of snow layers that can be stacked ontop of each other. |
-| GLACIER_SNOWDRIFT_DURATION| `{{ kits.glacier.data.GLACIER_SNOWDRIFT_DURATION }}` | The duration, in ticks, of the Snowdrift passive. |
-| GLACIER_SNOWDRIFT_SPEED_LEVEL| `{{ kits.glacier.data.GLACIER_SNOWDRIFT_SPEED_LEVEL }}` | The level of speed the user gets from the Snowdrift passive. |
-
-### Changelog
+| GLACIER_SNOWDRIFT_DURATION| `{{ kits.glacier.data.GLACIER_SNOWDRIFT_DURATION }}` | The duration, in ticks, of the snowdrift passive. |
+| GLACIER_SNOWDRIFT_SPEED_LEVEL| `{{ kits.glacier.data.GLACIER_SNOWDRIFT_SPEED_LEVEL }}` | The level of the snowdrift passive's speed effect. |

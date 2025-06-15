@@ -114,7 +114,7 @@
 > - **Type**: Premium
 > - **Introduced**: v2.1.0
 >
-> #### ![glacier-icon](../assets/icons/kits/)
+> #### ![glacier-icon](../assets/icons/kits/glacier-icon.jpg)
 
 > ## [Golem](Golem)
 >
