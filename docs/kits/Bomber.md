@@ -110,7 +110,6 @@ Bombs will disable shields if the bomb hits a player that is blocking.
 | BOOTS_KNOCKBACK_RESISTANCE | `{{ kits.bomber.data.BOOTS_KNOCKBACK_RESISTANCE }}` | {{ kitDataSharedDescriptions.BOOTS_KNOCKBACK_RESISTANCE }} |
 | BOMBER_SWORD_DAMAGE | `{{ kits.bomber.data.BOMBER_SWORD_DAMAGE }}` | The base damage of the sword. |
 | BOMBER_SWORD_SPEED | `{{ kits.bomber.data.BOMBER_SWORD_SPEED }}` | The base speed of the sword. |
-| BOMBER_BOMB_PLACE_ICD | `{{ kits.bomber.data.BOMBER_BOMB_PLACE_ICD }}` | The internal cooldown, in ticks, for placing bombs. |
 | BOMBER_BOMB_PLACE_MIN_DISTANCE | `{{ kits.bomber.data.BOMBER_BOMB_PLACE_MIN_DISTANCE }}` | The minimum distance, in meters, for placing bomb near an already placed bomb. |
 | BOMBER_BOMB_COUNT | `{{ kits.bomber.data.BOMBER_BOMB_COUNT }}` | The maximum number of placed and held bombs a player can have a once. |
 | BOMBER_BOMB_DAMAGE | `{{ kits.bomber.data.BOMBER_BOMB_DAMAGE }}` | The damage that a single bomb does. |
