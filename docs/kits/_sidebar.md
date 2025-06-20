@@ -12,6 +12,7 @@
   - [Demon](Demon)
   - [Engineer](Engineer)
   - [Fish](Fish)
+  - [Glacier](Glacier)
   - [Golem](Golem)
   - [Grappler](Grappler)
   - [Gunner](Gunner)
