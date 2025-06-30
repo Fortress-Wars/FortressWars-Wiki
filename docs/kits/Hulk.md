@@ -41,7 +41,14 @@
 
 ## Rage
 
-Right click to enter rage mode for `{{ kits.hulk.data.HULK_RAGE_FORM_DURATION }}` ticks. When entering rage mode, all armor will be replaced with diamond armor. The bow be replaced with a sword. The player will exit rage mode automatically when the duration ends.
+Right click to enter rage mode for `{{ kits.hulk.data.HULK_RAGE_FORM_DURATION }}` ticks. When entering rage mode, the player:
+
+- Increases in size.
+- Has their armor replaced with diamond.
+- Has their bow replaced with a sword.
+- Receives a `{{ kits.hulk.data.HULK_RAGE_FORM_DAMAGE_PERCENTAGE_BONUS }}%` melee damage bonus.
+
+The player exits rage mode when the duration ends. The cooldown scales with the amount of time spent in rage mode.
 
 ![Rage](../assets/kits/hulk/Hulk%20-%20Rage.gif)
 
@@ -49,7 +56,7 @@ Right click to enter rage mode for `{{ kits.hulk.data.HULK_RAGE_FORM_DURATION }}
 
 ## Relax
 
-Right click to enter relax mode. The diamond armor will be placed with leather armor and the sword will be replaced with a bow.
+Right click to enter relax mode. The diamond armor is replaced with leather armor and the sword is replaced with a bow.
 
 ![Relax](../assets/kits/hulk/Hulk%20-%20Relax.gif)
 
@@ -110,7 +117,12 @@ While the player is in rage mode, every elimination extends the duration of rage
 | BOOTS_PROTECTION_LEVEL | `{{ kits.hulk.data.BOOTS_PROTECTION_LEVEL }}` | {{ kitDataSharedDescriptions.BOOTS_PROTECTION_LEVEL }} |
 | BOOTS_KNOCKBACK_RESISTANCE | `{{ kits.hulk.data.BOOTS_KNOCKBACK_RESISTANCE }}` | {{ kitDataSharedDescriptions.BOOTS_KNOCKBACK_RESISTANCE }} |
 | HULK_RAGE_FORM_DURATION | `{{ kits.hulk.data.HULK_RAGE_FORM_DURATION }}` | The duration, in ticks, of the Rage ability. |
-| HULK_RAGE_FORM_COOLDOWN | `{{ kits.hulk.data.HULK_RAGE_FORM_COOLDOWN }}` | The cooldown, in ticks, of the Rage ability. |
+| HULK_RAGE_FORM_MIN_COOLDOWN | `{{ kits.hulk.data.HULK_RAGE_FORM_MIN_COOLDOWN }}` | The minimum cooldown of the rage ability. |
+| HULK_RAGE_FORM_MAX_COOLDOWN | `{{ kits.hulk.data.HULK_RAGE_FORM_MAX_COOLDOWN }}` | The maximum cooldown of the rage ability. |
+| HULK_RAGE_FORM_SIZE | `{{ kits.hulk.data.HULK_RAGE_FORM_SIZE }}` | The player's size multiplier while in rage mode. |
+| HULK_RELAX_FORM_SIZE | `{{ kits.hulk.data.HULK_RELAX_FORM_SIZE }}` | The player's size multiplier while in relax mode. |
+| HULK_RAGE_FORM_DAMAGE_PERCENTAGE_BONUS | `{{ kits.hulk.data.HULK_RAGE_FORM_DAMAGE_PERCENTAGE_BONUS }}` | The percentage damage bonus received for melee attacks in rage mode. |
+| HULK_RELAX_BOX_PUNCH | `{{ kits.hulk.data.HULK_RELAX_BOX_PUNCH }}` | The bow's punch level. |
 | HULK_RAGE_FORM_KILL_EXTENSION | `{{ kits.hulk.data.HULK_RAGE_FORM_KILL_EXTENSION }}` | The duration extention, in ticks, of the Rage ability that final blows will reward. |
 | HULK_RAGE_FORM_ASSIST_EXTENSION | `{{ kits.hulk.data.HULK_RAGE_FORM_ASSIST_EXTENSION }}` | The duration extention, in ticks, of the Rage ability that assists will reward. |
 | HULK_RAGE_FORM_ACTIVATION_COOLDOWN | `{{ kits.hulk.data.HULK_RAGE_FORM_ACTIVATION_COOLDOWN }}` | The cooldown, in ticks, after using the rage ability before the player can use the relax ability. |

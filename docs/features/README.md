@@ -4,6 +4,7 @@
 
 - Damage Indicators
 - [Health Bars](HealthBars)
+- [Killstreaks](Killstreaks)
 - Potions
 - Shields
 

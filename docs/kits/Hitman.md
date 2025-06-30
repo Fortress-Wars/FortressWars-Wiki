@@ -153,4 +153,4 @@ Damages the enemy for `{{ kits.hitman.data.HITMAN_INSTANT_DAMAGE_DAMAGE }}` HP.
 | HITMAN_WEAKNESS_LEVEL | `{{ kits.hitman.data.HITMAN_WEAKNESS_LEVEL }}` | The level of the weakness effect. |
 | HITMAN_INSTANT_DAMAGE_DAMAGE | `{{ kits.hitman.data.HITMAN_INSTANT_DAMAGE_DAMAGE }}` | The base damage of the harming effect. |
 | HITMAN_ROTATE_EFFECT_COOLDOWN | `{{ kits.hitman.data.HITMAN_ROTATE_EFFECT_COOLDOWN }}` | The cooldown, in ticks, of the Select Debuff ability. |
-| HITMAN_ACTIVATE_EFFECT_COOLDOOWN | `{{ kits.hitman.data.HITMAN_ACTIVATE_EFFECT_COOLDOOWN }}` | The cooldown, in ticks, of triggering debuffs. |
+| HITMAN_ACTIVATE_EFFECT_COOLDOWN | `{{ kits.hitman.data.HITMAN_ACTIVATE_EFFECT_COOLDOWN }}` | The cooldown, in ticks, of triggering debuffs. |
