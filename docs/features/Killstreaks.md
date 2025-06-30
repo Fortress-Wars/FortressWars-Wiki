@@ -100,8 +100,6 @@ Messages are also shown when a killstreak ends:
 
 ### Configuration
 
-configuration_description
-
 ```yaml
 settings:
   killstreaks:
