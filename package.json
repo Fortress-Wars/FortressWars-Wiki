@@ -1,6 +1,6 @@
 {
   "name": "fortresswars-wiki",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "The wiki for the Fortress Wars Server!",
   "main": "index.js",
   "directories": {
