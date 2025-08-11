@@ -158,6 +158,12 @@
 - `Homing Hemoglobin`
   - Shield Damage Type: _Ignore_
   - Damage Types: _Blood_, _Magic_
+- `Icicle`
+  - Shield Damage Type: _Damage_
+  - Damage Types: _Elemental_, _Ice_, _Magic_, _Piercing_, _Physical_
+- `Icicle Minion`
+  - Shield Damage Type: _Damage_
+  - Damage Types: _Elemental_, _Ice_, _Magic_, _Piercing_, _Physical_
 - `Kangaroo Stomp`
   - Shield Damage Type: _Damage_
   - Damage Types: _Impact_, _Physical_
