@@ -126,6 +126,8 @@ The player is immune to the poison potion effect.
 | SHIELD_REGENERATION_AMOUNT | `{{ kits._shared.data.SHIELD_REGENERATION_AMOUNT }}` | {{ kitDataSharedDescriptions.SHIELD_REGENERATION_AMOUNT }} |
 | SHIELD_BREAK_COOLDOWN | `{{ kits._shared.data.SHIELD_BREAK_COOLDOWN }}` | {{ kitDataSharedDescriptions.SHIELD_BREAK_COOLDOWN }} |
 | SHIELD_DAMAGE_FACTOR | `{{ kits._shared.data.SHIELD_DAMAGE_FACTOR }}` | {{ kitDataSharedDescriptions.SHIELD_DAMAGE_FACTOR }} | 
+| SHIELD_BLOCKING_DELAY | `{{ kits._shared.data.SHIELD_BLOCKING_DELAY }}` | {{ kitDataSharedDescriptions.SHIELD_BLOCKING_DELAY }} | 
+| SHIELD_MAX_HEALTH | `{{ kits._shared.data.SHIELD_MAX_HEALTH }}` | {{ kitDataSharedDescriptions.SHIELD_MAX_HEALTH }} | 
 | SPIDER_SWORD_DAMAGE | `{{ kits.spider.data.SPIDER_SWORD_DAMAGE }}` | The base damage of the sword. |
 | SPIDER_SWORD_SPEED | `{{ kits.spider.data.SPIDER_SWORD_SPEED }}` | The base speed of the sword. |
 | SPIDER_SWORD_POISON_DURATION | `{{ kits.spider.data.SPIDER_SWORD_POISON_DURATION }}` | The duration, in ticks, of the sword's poison effect. |

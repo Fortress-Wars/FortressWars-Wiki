@@ -6,6 +6,8 @@
     "SHIELD_REGENERATION_AMOUNT": "The amount of shield health to regenerate during shield regeneration.",
     "SHIELD_BREAK_COOLDOWN": "The cooldown, in ticks, after the shield breaks before it is usable again.",
     "SHIELD_DAMAGE_FACTOR": "The player damage to shield damage conversion factor.",
+    "SHIELD_BLOCKING_DELAY": "The amount of time, in seconds, the shield must be held before being considered active.",
+    "SHIELD_MAX_HEALTH": "The maximum health of the shield.",
     "POTION_IN_COMBAT_REGENERATION_RATE": "The rate, in ticks, at which potions regenerate while in combat.",
     "POTION_OUT_OF_COMBAT_REGENERATION_RATE": "The rate, in ticks, at which potions regenerate while out of combat.",
     "MAX_HEALING_POTIONS": "Maximum number of healing potions the player can carry.",
@@ -58,6 +60,10 @@
         "SHIELD_REGENERATION_AMOUNT": 20,
         "SHIELD_BREAK_COOLDOWN": 100,
         "SHIELD_DAMAGE_FACTOR": 0.9,
+
+        "SHIELD_BLOCKING_DELAY": 0,
+        "SHIELD_MAX_HEALTH": 350,
+
         "POTION_IN_COMBAT_REGENERATION_RATE": 200,
         "POTION_OUT_OF_COMBAT_REGENERATION_RATE": 100,
         "HEALING_POTION_CLICK_POTENCY": 7.5,
