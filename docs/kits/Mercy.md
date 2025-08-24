@@ -40,11 +40,13 @@
 
 ## Staff
 
-The staff ability is used to heal allies, increase ally damage, damage enemies, and decrease enemy damage. When the player right-clicks, a beam will shoot out `{{ kits.mercy.data.MERCY_STAFF_BEAM_RANGE }}` meters in front of the player. If the beam hits an ally or enemy, it will conenct to them.
+The staff ability is used to heal allies, increase allies' damage, damage enemies, and decrease enemies' damage. When the player right-clicks, a beam shoots out `{{ kits.mercy.data.MERCY_STAFF_ATTACH_CHECK_RANGE }}` meters in front of the player. When the beam hits an ally or enemy, it creates a connection. The beam chains to other entities and creates up to `{{ kits.mercy.data.MERCY_STAFF_MAX_CONNECTIONS }}` connections.
 
 ![Mercy - Attach Beam](../assets/kits/mercy/Mercy%20-%20Attach%20Beam.gif)
 
-The player can target themselves by right-clicking while sneaking.
+![Mercy - Attach Beam Multiple](../assets/kits/mercy/Mercy%20-%20Attach%20Beam%20Multiple.gif)
+
+The player can target themselves by right-clicking while sneaking and staff will not chain to other entities in this case.
 
 ![Mercy - Attach Beam Self](../assets/kits/mercy/Mercy%20-%20Attach%20Beam%20Self.gif)
 
@@ -62,7 +64,7 @@ If the player is out of range or out of line of sight for too long, the beam wil
 
 ## Health Mode
 
-While in `Health Mode`, if the beam is connected to an ally, it will restore `{{ kits.mercy.data.MERCY_STAFF_HEAL_POTENCY }}` health every `{{ kits.mercy.data.MERCY_STAFF_HEAL_RATE }}` ticks. If the beam is conencted to an enemy, it will deal `{{ kits.mercy.data.MERCY_STAFF_DAMAGING_AMOUNT }}` damage every `{{ kits.mercy.data.MERCY_STAFF_DAMAGING_RATE }}` ticks.
+While in `Health Mode`, connected allies restore `{{ kits.mercy.data.MERCY_STAFF_HEAL_POTENCY }}` health every `{{ kits.mercy.data.MERCY_STAFF_HEAL_RATE }}` ticks. Conencted enemies take `{{ kits.mercy.data.MERCY_STAFF_DAMAGING_AMOUNT }}` damage every `{{ kits.mercy.data.MERCY_STAFF_DAMAGING_RATE }}` ticks.
 
 ![Mercy - Staff Heal Allies](../assets/kits/mercy/Mercy%20-%20Staff%20Heal%20Allies.gif)
 
@@ -72,7 +74,7 @@ While in `Health Mode`, if the beam is connected to an ally, it will restore `{{
 
 ## Damage Boost Mode
 
-While in `Damage Boost Mode`, if the beam is connected to an ally, the connected ally will deal `{{ kits.mercy.data.MERCY_STAFF_DAMAGE_BUFF_PERCENTAGE }}%` more damage. If the beam is connected to an enemy, the connected enemy will deal `{{ kits.mercy.data.MERCY_STAFF_DAMAGE_NERF_PERCENTAGE }}%` less damage.
+While in `Damage Boost Mode`, connected allies deal `{{ kits.mercy.data.MERCY_STAFF_DAMAGE_BUFF_PERCENTAGE }}%` more damage. Connected enemies deal `{{ kits.mercy.data.MERCY_STAFF_DAMAGE_NERF_PERCENTAGE }}%` less damage.
 
 ![Mercy - Staff Increase Ally Damage](../assets/kits/mercy/Mercy%20-%20Staff%20Increase%20Ally%20Damage.gif)
 
@@ -147,4 +149,4 @@ Right-click or left-click to cycle the `Staff` between `Health Mode` and `Damage
 | MERCY_STAFF_ATTACH_CHECK_RANGE | `{{ kits.mercy.data.MERCY_STAFF_ATTACH_CHECK_RANGE }}` | The beam's initial connection range in meters. |
 | MERCY_STAFF_ATTACH_CHECK_SIZE | `{{ kits.mercy.data.MERCY_STAFF_ATTACH_CHECK_SIZE }}` | The size of the hitbox that is used during the beam's initial connection. |
 | MERCY_STAFF_USE_COOLDOWN | `{{ kits.mercy.data.MERCY_STAFF_USE_COOLDOWN }}` | The cooldown, in ticks, after using the staff ability. |
-| MERCY_STAFF_ACTIONBAR_SIZE | `{{ kits.mercy.data.MERCY_STAFF_ACTIONBAR_SIZE }}` | The size of the connected ally's health bar that is displayed in the player's actionbar. |
+| MERCY_STAFF_MAX_CONNECTIONS | `{{ kits.mercy.data.MERCY_STAFF_MAX_CONNECTIONS }}` | The maximum number of connections the mercy staff can create. |
