@@ -964,7 +964,7 @@
         "MERCY_STAFF_ATTACH_CHECK_RANGE": 8,
         "MERCY_STAFF_ATTACH_CHECK_SIZE": 0.25,
         "MERCY_STAFF_USE_COOLDOWN": 5,
-        "MERCY_STAFF_ACTIONBAR_SIZE": 20
+        "MERCY_STAFF_MAX_CONNECTIONS": 3
       }
     },
     "miner": {
