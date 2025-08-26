@@ -119,5 +119,8 @@ Use your grenade to launch yourself up.
 | SOLDIER_GRENADE_VELOCITY_MULTIPLIER | `{{ kits.soldier.data.SOLDIER_GRENADE_VELOCITY_MULTIPLIER }}` | The velocity mutliplier when throwing the grenade. |
 | SOLDIER_GRENADE_KNOCKBACK_MULTIPLIER | `{{ kits.soldier.data.SOLDIER_GRENADE_KNOCKBACK_MULTIPLIER }}` | The knockback multiplier of grenade ability when it hits enemies. |
 | SOLDIER_GRENADE_SELF_DAMAGE_MULTIPLIER | `{{ kits.soldier.data.SOLDIER_GRENADE_SELF_DAMAGE_MULTIPLIER }}` | The self damage multiplier of a grenade when hitting the player. |
+| SOLDIER_GRENADE_THROW_ICD | `{{ kits.soldier.data.SOLDIER_GRENADE_THROW_ICD }}` | The cooldown, in ticks, for throwing a Grenade. |
+| SOLDIER_GRENADE_COUNT | `{{ kits.soldier.data.SOLDIER_GRENADE_COUNT }}` | The maximum number of Grenades a player can have. |
+| SOLDIER_GRENADE_IGNORE_I_FRAMES | `{{ kits.soldier.data.SOLDIER_GRENADE_IGNORE_I_FRAMES }}` | If the Grenade explosion damage should ignore invulnerability frames. |
 | SOLDIER_SWORD_DAMAGE | `{{ kits.soldier.data.SOLDIER_SWORD_DAMAGE }}` | The base damage of the sword. |
 | SOLDIER_SWORD_SPEED | `{{ kits.soldier.data.SOLDIER_SWORD_SPEED }}` | The base speed of the sword. |
