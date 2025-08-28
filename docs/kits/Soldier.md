@@ -40,7 +40,7 @@
 
 ## Grenade
 
-Right click to launch a grenade forward. When the grenade explodes, it will deal `{{ kits.soldier.data.SOLDIER_GRENADE_DAMAGE }}` damage and also deal knockback.
+Right click to launch a grenade forward. When the grenade explodes, it will deal `{{ kits.soldier.data.SOLDIER_GRENADE_DAMAGE }}` damage and also deal knockback. The player can have a maximum of `{{ kits.soldier.data.SOLDIER_GRENADE_COUNT }}` grenades.
 
 ![Grenade 1](../assets/kits/soldier/Soldier%20-%20Grenade%20Enemy.gif)
 
@@ -114,13 +114,13 @@ Use your grenade to launch yourself up.
 | BOOTS_PROTECTION_LEVEL | `{{ kits.soldier.data.BOOTS_PROTECTION_LEVEL }}` | {{ kitDataSharedDescriptions.BOOTS_PROTECTION_LEVEL }} |
 | BOOTS_KNOCKBACK_RESISTANCE | `{{ kits.soldier.data.BOOTS_KNOCKBACK_RESISTANCE }}` | {{ kitDataSharedDescriptions.BOOTS_KNOCKBACK_RESISTANCE }} |
 | SOLDIER_GRENADE_RADIUS | `{{ kits.soldier.data.SOLDIER_GRENADE_RADIUS }}` | The impact radius of a grenade. |
-| SOLDIER_GRENADE_COOLDOWN | `{{ kits.soldier.data.SOLDIER_GRENADE_COOLDOWN }}` | The cooldown, in ticks, of the Grenade ability. |
+| SOLDIER_GRENADE_COOLDOWN | `{{ kits.soldier.data.SOLDIER_GRENADE_COOLDOWN }}` | The cooldown, in ticks, of the grenade ability. |
 | SOLDIER_GRENADE_DAMAGE | `{{ kits.soldier.data.SOLDIER_GRENADE_DAMAGE }}` | The base damage of the grenade. |
 | SOLDIER_GRENADE_VELOCITY_MULTIPLIER | `{{ kits.soldier.data.SOLDIER_GRENADE_VELOCITY_MULTIPLIER }}` | The velocity mutliplier when throwing the grenade. |
 | SOLDIER_GRENADE_KNOCKBACK_MULTIPLIER | `{{ kits.soldier.data.SOLDIER_GRENADE_KNOCKBACK_MULTIPLIER }}` | The knockback multiplier of grenade ability when it hits enemies. |
 | SOLDIER_GRENADE_SELF_DAMAGE_MULTIPLIER | `{{ kits.soldier.data.SOLDIER_GRENADE_SELF_DAMAGE_MULTIPLIER }}` | The self damage multiplier of a grenade when hitting the player. |
-| SOLDIER_GRENADE_THROW_ICD | `{{ kits.soldier.data.SOLDIER_GRENADE_THROW_ICD }}` | The cooldown, in ticks, for throwing a Grenade. |
-| SOLDIER_GRENADE_COUNT | `{{ kits.soldier.data.SOLDIER_GRENADE_COUNT }}` | The maximum number of Grenades a player can have. |
-| SOLDIER_GRENADE_IGNORE_I_FRAMES | `{{ kits.soldier.data.SOLDIER_GRENADE_IGNORE_I_FRAMES }}` | If the Grenade explosion damage should ignore invulnerability frames. |
+| SOLDIER_GRENADE_THROW_ICD | `{{ kits.soldier.data.SOLDIER_GRENADE_THROW_ICD }}` | The cooldown, in ticks, after throwing a grenade. |
+| SOLDIER_GRENADE_COUNT | `{{ kits.soldier.data.SOLDIER_GRENADE_COUNT }}` | The maximum number of grenades a player can have. |
+| SOLDIER_GRENADE_IGNORE_I_FRAMES | `{{ kits.soldier.data.SOLDIER_GRENADE_IGNORE_I_FRAMES }}` | If the grenade explosion damage should ignore invulnerability frames. |
 | SOLDIER_SWORD_DAMAGE | `{{ kits.soldier.data.SOLDIER_SWORD_DAMAGE }}` | The base damage of the sword. |
 | SOLDIER_SWORD_SPEED | `{{ kits.soldier.data.SOLDIER_SWORD_SPEED }}` | The base speed of the sword. |
