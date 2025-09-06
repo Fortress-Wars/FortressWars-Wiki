@@ -9,7 +9,7 @@
 ---
 
 - **Introduced:** v2.2.0
-- **Description:** _description_
+- **Description:** A snow support kit that summons snow golems and heals allies.
 - **Role:** support
 - **How to Unlock:** Purchase for 500 Credits.
 
@@ -40,25 +40,34 @@
 
 ## Icicle Staff
 
-_description_1_
+An ice infused elemental weapon used to shoot icicles. Icicle heal allies and damage enemies. Icicles leave patches of snow on the ground when hitting entities.
 
-![_image_1_](../assets/kits/snow-golem/_image_1_.jpg_)
+![Icicle Staff - Heal Ally](../assets/kits/snow-golem/_image_1_.jpg_)
 
-#### **Snow Golem Egg**
-
-## Snow Golem Egg
-
-_description_2_
-
-![_image_2_](../assets/kits/snow-golem/_image_2_.jpg_)
+![Icicle Staff - Attack Enemy](../assets/kits/snow-golem/_image_1_.jpg_)
 
 #### **Snow Golem Minion**
 
 ## Snow Golem Minion
 
-_description_2_
+Summon `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_MAX_GOLEMS }}` snow golem minions to fight by your side. Minions shoot icicles that heal allies and damage enemies. Icicles leave patches of snow on the ground upon hitting entities and snow golems spread snow as they roam.
 
-![_image_2_](../assets/kits/snow-golem/_image_2_.jpg_)
+![Snow Golems - Summon](../assets/kits/snow-golem/_image_2_.jpg_ "Summon")
+
+#### AI Priority
+
+1. Heal Allies
+2. Follow Owner
+3. Attack Enemies
+4. Roam Around
+
+![Snow Golems - Heal Allies](../assets/kits/snow-golem/_image_2_.jpg_ "Heal Allies")
+
+![Snow Golems - Follow Owner](../assets/kits/snow-golem/_image_2_.jpg_ "Follow Owner")
+
+![Snow Golems - Damage Enemies](../assets/kits/snow-golem/_image_2_.jpg_ "Attack Enemies")
+
+![Snow Golems - Roam](../assets/kits/snow-golem/_image_2_.jpg_ "Roam Around")
 
 <!-- tabs:end -->
 
@@ -70,9 +79,9 @@ _description_2_
 
 ## Snow Trail Support
 
-_description_2_
+When allies walk over snow layers created by the player, they gain the `Snow Trail Support` effect. Allies with the effect regain `{{ kits.snow_golem.data.SNOW_GOLEM_SNOW_TRAIL_SUPPORT_EFFECTIVE_HP_PER_SECOND }}` health per second.
 
-![_image_2_](../assets/kits/snow-golem/_image_2_.jpg_)
+![Snow Trail Support - Healing](../assets/kits/snow-golem/_image_2_.jpg_)
 
 <!-- tabs:end -->
 
