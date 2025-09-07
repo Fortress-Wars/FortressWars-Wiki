@@ -23,7 +23,7 @@
 - Leather Leggings
 - Leather Boots
 - Icicle Staff
-- Creeper Minion Egg
+- {{ kits.snow_golem.data.SNOW_GOLEM_MINION_MAX_GOLEMS }} Snow Golem Minions
 - {{ kits.snow_golem.data.MAX_HEALING_POTIONS }} Healing Potions
 
 <br />
@@ -40,19 +40,19 @@
 
 ## Icicle Staff
 
-An ice infused elemental weapon used to shoot icicles. Icicle heal allies and damage enemies. Icicles leave patches of snow on the ground when hitting entities.
+An ice infused elemental weapon used to shoot icicles. Icicles heal allies and damage enemies. Icicles leave patches of snow on the ground when hitting entities.
 
-![Icicle Staff - Heal Ally](../assets/kits/snow-golem/_image_1_.jpg_)
+![Snow Golem - Icicle Staff Heal Ally](../assets/kits/snow_golem/Snow%20Golem%20-%20Icicle%20Staff%20Heal%20Ally.gif)
 
-![Icicle Staff - Attack Enemy](../assets/kits/snow-golem/_image_1_.jpg_)
+![Snow Golem - Icicle Staff Attack Enemy](../assets/kits/snow_golem/Snow%20Golem%20-%20Icicle%20Staff%20Attack%20Enemy.gif)
 
 #### **Snow Golem Minion**
 
 ## Snow Golem Minion
 
-Summon `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_MAX_GOLEMS }}` snow golem minions to fight by your side. Minions shoot icicles that heal allies and damage enemies. Icicles leave patches of snow on the ground upon hitting entities and snow golems spread snow as they roam.
+Summon `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_MAX_GOLEMS }}` snow golem minions to fight by your side. Minions shoot icicles that heal allies and damage enemies. Icicles leave patches of snow on the ground upon hitting entities and snow golems spread snow as they roam. Snow golems are weak to fire damage and resistance to ice damage.
 
-![Snow Golems - Summon](../assets/kits/snow-golem/_image_2_.jpg_ "Summon")
+![Snow Golem - Minion Summon](../assets/kits/snow_golem/Snow%20Golem%20-%20Minion%20Summon.gif "Summon")
 
 #### AI Priority
 
@@ -61,13 +61,13 @@ Summon `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_MAX_GOLEMS }}` snow golem mini
 3. Attack Enemies
 4. Roam Around
 
-![Snow Golems - Heal Allies](../assets/kits/snow-golem/_image_2_.jpg_ "Heal Allies")
+![Snow Golem - Minion Heal Allies](../assets/kits/snow_golem/Snow%20Golem%20-%20Minion%20Heal%20Allies.gif "Heal Allies")
 
-![Snow Golems - Follow Owner](../assets/kits/snow-golem/_image_2_.jpg_ "Follow Owner")
+![Snow Golem - Minion Follow Owner](../assets/kits/snow_golem/Snow%20Golem%20-%20Minion%20Follow%20Owner.gif "Follow Owner")
 
-![Snow Golems - Damage Enemies](../assets/kits/snow-golem/_image_2_.jpg_ "Attack Enemies")
+![Snow Golem - Minion Damage Enemies](../assets/kits/snow_golem/Snow%20Golem%20-%20Minion%20Damage%20Enemies.gif "Attack Enemies")
 
-![Snow Golems - Roam](../assets/kits/snow-golem/_image_2_.jpg_ "Roam Around")
+![Snow Golem - Minion Roam Around](../assets/kits/snow_golem/Snow%20Golem%20-%20Minion%20Roam%20Around.gif "Roam Around")
 
 <!-- tabs:end -->
 
@@ -79,9 +79,9 @@ Summon `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_MAX_GOLEMS }}` snow golem mini
 
 ## Snow Trail Support
 
-When allies walk over snow layers created by the player, they gain the `Snow Trail Support` effect. Allies with the effect regain `{{ kits.snow_golem.data.SNOW_GOLEM_SNOW_TRAIL_SUPPORT_EFFECTIVE_HP_PER_SECOND }}` health per second.
+When allies walk over snow layers created by the player, they gain the `Snow Trail Support` effect. Allies with the effect regain `{{ kits.snow_golem.data.SNOW_GOLEM_SNOW_TRAIL_SUPPORT_HEALING_PER_SECOND }}` health per second.
 
-![Snow Trail Support - Healing](../assets/kits/snow-golem/_image_2_.jpg_)
+![Snow Golem - Snow Trail Support](../assets/kits/snow_golem/Snow%20Golem%20-%20Snow%20Trail%20Support.gif)
 
 <!-- tabs:end -->
 
@@ -129,41 +129,40 @@ When allies walk over snow layers created by the player, they gain the `Snow Tra
 | BOOTS_ARMOR_TOUGHNESS | `{{ kits.snow_golem.data.BOOTS_ARMOR_TOUGHNESS }}` | {{ kitDataSharedDescriptions.BOOTS_ARMOR_TOUGHNESS }} |
 | BOOTS_PROTECTION_LEVEL | `{{ kits.snow_golem.data.BOOTS_PROTECTION_LEVEL }}` | {{ kitDataSharedDescriptions.BOOTS_PROTECTION_LEVEL }} |
 | BOOTS_KNOCKBACK_RESISTANCE | `{{ kits.snow_golem.data.BOOTS_KNOCKBACK_RESISTANCE }}` | {{ kitDataSharedDescriptions.BOOTS_KNOCKBACK_RESISTANCE }} |
-| SNOW_GOLEM_ICICLE_STAFF_MELEE_DAMAGE | `{{ kits.snow_golem.data.SNOW_GOLEM_ICICLE_STAFF_MELEE_DAMAGE }}` | |
-| SNOW_GOLEM_ICICLE_STAFF_MELEE_SPEED | `{{ kits.snow_golem.data.SNOW_GOLEM_ICICLE_STAFF_MELEE_SPEED }}` | |
-| SNOW_GOLEM_ICICLE_STAFF_PROJECTILE_SPEED | `{{ kits.snow_golem.data.SNOW_GOLEM_ICICLE_STAFF_PROJECTILE_SPEED }}` | |
-| SNOW_GOLEM_ICICLE_STAFF_PROJECTILE_SIZE | `{{ kits.snow_golem.data.SNOW_GOLEM_ICICLE_STAFF_PROJECTILE_SIZE }}` | |
-| SNOW_GOLEM_ICICLE_STAFF_PROJECTILE_MAX_RANGE | `{{ kits.snow_golem.data.SNOW_GOLEM_ICICLE_STAFF_PROJECTILE_MAX_RANGE }}` | |
-| SNOW_GOLEM_ICICLE_STAFF_PROJECTILE_PIERCING_LEVEL | `{{ kits.snow_golem.data.SNOW_GOLEM_ICICLE_STAFF_PROJECTILE_PIERCING_LEVEL }}` | |
-| SNOW_GOLEM_ICICLE_STAFF_PROJECTILE_DAMAGE | `{{ kits.snow_golem.data.SNOW_GOLEM_ICICLE_STAFF_PROJECTILE_DAMAGE }}` | |
-| SNOW_GOLEM_ICICLE_STAFF_PROJECTILE_HEALING | `{{ kits.snow_golem.data.SNOW_GOLEM_ICICLE_STAFF_PROJECTILE_HEALING }}` | |
-| SNOW_GOLEM_ICICLE_STAFF_PROJECTILE_COOLDOWN | `{{ kits.snow_golem.data.SNOW_GOLEM_ICICLE_STAFF_PROJECTILE_COOLDOWN }}` | |
-| SNOW_GOLEM_MINION_SPAWN_COOLDOWN | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_SPAWN_COOLDOWN }}` | |
-| SNOW_GOLEM_MINION_MAX_GOLEMS | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_MAX_GOLEMS }}` | |
-| SNOW_GOLEM_MINION_SPAWN_GOLEM_AMOUNT | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_SPAWN_GOLEM_AMOUNT }}` | |
-| SNOW_GOLEM_MINION_GOLEMS_DURATION | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_GOLEMS_DURATION }}` | |
-| SNOW_GOLEM_MINION_GOLEMS_MAX_HEALTH | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_GOLEMS_MAX_HEALTH }}` | |
-| SNOW_GOLEM_MINION_ICICLE_DAMAGE | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_ICICLE_DAMAGE }}` | |
-| SNOW_GOLEM_MINION_TARGET_RADIUS | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_TARGET_RADIUS }}` | |
-| SNOW_GOLEM_MINION_MEMORY | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_MEMORY }}` | |
-| SNOW_GOLEM_MINION_START_FOLLOW_OWNER_DISTANCE | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_START_FOLLOW_OWNER_DISTANCE }}` | |
-| SNOW_GOLEM_MINION_END_FOLLOW_OWNER_DISTANCE | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_END_FOLLOW_OWNER_DISTANCE }}` | |
-| SNOW_GOLEM_MINION_FOLLOW_OWNER_SPEED | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_FOLLOW_OWNER_SPEED }}` | |
-| SNOW_GOLEM_MINION_ICICLE_ATTACK_COOLDOWN | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_ICICLE_ATTACK_COOLDOWN }}` | |
-| SNOW_GOLEM_MINION_ICICLE_PREFERRED_ATTACK_DISTANCE | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_ICICLE_PREFERRED_ATTACK_DISTANCE }}` | |
-| SNOW_GOLEM_MINION_MINIMUM_TARGET_DURATION | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_MINIMUM_TARGET_DURATION }}` | |
-| SNOW_GOLEM_SNOW_LAYER_DURATION | `{{ kits.snow_golem.data.SNOW_GOLEM_SNOW_LAYER_DURATION }}` | |
-| SNOW_GOLEM_MAX_SNOW_LAYERS | `{{ kits.snow_golem.data.SNOW_GOLEM_MAX_SNOW_LAYERS }}` | |
-| SNOW_GOLEM_MINION_ICICLE_STAFF_PROJECTILE_SPEED | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_ICICLE_STAFF_PROJECTILE_SPEED }}` | |
-| SNOW_GOLEM_MINION_ICICLE_STAFF_PROJECTILE_SIZE | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_ICICLE_STAFF_PROJECTILE_SIZE }}` | |
-| SNOW_GOLEM_MINION_ICICLE_STAFF_PROJECTILE_MAX_RANGE | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_ICICLE_STAFF_PROJECTILE_MAX_RANGE }}` | |
-| SNOW_GOLEM_MINION_ICICLE_STAFF_PROJECTILE_PIERCING_LEVEL | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_ICICLE_STAFF_PROJECTILE_PIERCING_LEVEL }}` | |
-| SNOW_GOLEM_MINION_ICICLE_PROJECTILE_DAMAGE | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_ICICLE_PROJECTILE_DAMAGE }}` | |
-| SNOW_GOLEM_MINION_ICICLE_PROJECTILE_HEALING | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_ICICLE_PROJECTILE_HEALING }}` | |
-| SNOW_GOLEM_SNOW_MINION_FIRE_DAMAGE_WEAKNESS_PERCENTAGE | `{{ kits.snow_golem.data.SNOW_GOLEM_SNOW_MINION_FIRE_DAMAGE_WEAKNESS_PERCENTAGE }}` | |
-| SNOW_GOLEM_SNOW_MINION_ICE_DAMAGE_RESISTANCE_PERCENTAGE | `{{ kits.snow_golem.data.SNOW_GOLEM_SNOW_MINION_ICE_DAMAGE_RESISTANCE_PERCENTAGE }}` | |
-| SNOW_GOLEM_SNOW_TRAIL_SUPPORT_DURATION | `{{ kits.snow_golem.data.SNOW_GOLEM_SNOW_TRAIL_SUPPORT_DURATION }}` | |
-| SNOW_GOLEM_SNOW_TRAIL_SUPPORT_AMPLIFIER | `{{ kits.snow_golem.data.SNOW_GOLEM_SNOW_TRAIL_SUPPORT_AMPLIFIER }}` | |
-| SNOW_GOLEM_ICICLE_SHOULD_CREATE_SNOW_LAYER_ON_ENTITY_HIT | `{{ kits.snow_golem.data.SNOW_GOLEM_ICICLE_SHOULD_CREATE_SNOW_LAYER_ON_ENTITY_HIT }}` | |
-| SNOW_GOLEM_ICICLE_SHOULD_IGNORE_NO_DAMAGE_TICKS | `{{ kits.snow_golem.data.SNOW_GOLEM_ICICLE_SHOULD_IGNORE_NO_DAMAGE_TICKS }}` | |
-| SNOW_GOLEM_ICICLE_SHOULD_RESET_NO_DAMAGE_TICKS | `{{ kits.snow_golem.data.SNOW_GOLEM_ICICLE_SHOULD_RESET_NO_DAMAGE_TICKS }}` | |
+| SNOW_GOLEM_ICICLE_STAFF_MELEE_DAMAGE | `{{ kits.snow_golem.data.SNOW_GOLEM_ICICLE_STAFF_MELEE_DAMAGE }}` | The base melee damage of the icicle staff. |
+| SNOW_GOLEM_ICICLE_STAFF_MELEE_SPEED | `{{ kits.snow_golem.data.SNOW_GOLEM_ICICLE_STAFF_MELEE_SPEED }}` | The base melee speed of the icicle staff. |
+| SNOW_GOLEM_ICICLE_STAFF_PROJECTILE_SPEED | `{{ kits.snow_golem.data.SNOW_GOLEM_ICICLE_STAFF_PROJECTILE_SPEED }}` | The speed of icicles from the icicle staff. |
+| SNOW_GOLEM_ICICLE_STAFF_PROJECTILE_SIZE | `{{ kits.snow_golem.data.SNOW_GOLEM_ICICLE_STAFF_PROJECTILE_SIZE }}` | The size of icicles from the icicle staff. |
+| SNOW_GOLEM_ICICLE_STAFF_PROJECTILE_MAX_RANGE | `{{ kits.snow_golem.data.SNOW_GOLEM_ICICLE_STAFF_PROJECTILE_MAX_RANGE }}` | The maximum distance, in meters, icicles from the icicle staff travel. |
+| SNOW_GOLEM_ICICLE_STAFF_PROJECTILE_PIERCING_LEVEL | `{{ kits.snow_golem.data.SNOW_GOLEM_ICICLE_STAFF_PROJECTILE_PIERCING_LEVEL }}` | The number of entities icicles from the icicle staff pierce. |
+| SNOW_GOLEM_ICICLE_STAFF_PROJECTILE_DAMAGE | `{{ kits.snow_golem.data.SNOW_GOLEM_ICICLE_STAFF_PROJECTILE_DAMAGE }}` | The amount of damage dealt by icicles from the icicle staff. |
+| SNOW_GOLEM_ICICLE_STAFF_PROJECTILE_HEALING | `{{ kits.snow_golem.data.SNOW_GOLEM_ICICLE_STAFF_PROJECTILE_HEALING }}` | The amount of health restored by icicles from the icicle staff. |
+| SNOW_GOLEM_ICICLE_STAFF_PROJECTILE_COOLDOWN | `{{ kits.snow_golem.data.SNOW_GOLEM_ICICLE_STAFF_PROJECTILE_COOLDOWN }}` | The cooldown, in ticks, of the icicle staff. |
+| SNOW_GOLEM_MINION_SPAWN_COOLDOWN | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_SPAWN_COOLDOWN }}` | The cooldown, in ticks, for spawning snow golem minions. |
+| SNOW_GOLEM_MINION_MAX_GOLEMS | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_MAX_GOLEMS }}` | The maximum number of snow golem minions that can be alive at once. |
+| SNOW_GOLEM_MINION_SPAWN_GOLEM_AMOUNT | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_SPAWN_GOLEM_AMOUNT }}` | The amount of snow golem minions the player can spawn at once. |
+| SNOW_GOLEM_MINION_GOLEMS_DURATION | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_GOLEMS_DURATION }}` | The life duration, in ticks, of snow golem minions. |
+| SNOW_GOLEM_MINION_GOLEMS_MAX_HEALTH | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_GOLEMS_MAX_HEALTH }}` | The maximum health of snow golem minions. |
+| SNOW_GOLEM_MINION_TARGET_RADIUS | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_TARGET_RADIUS }}` | The radius, in meters, in which snow golems look for targets. |
+| SNOW_GOLEM_MINION_MEMORY | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_MEMORY }}` | The memory of snow golem minions. |
+| SNOW_GOLEM_MINION_START_FOLLOW_OWNER_DISTANCE | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_START_FOLLOW_OWNER_DISTANCE }}` | The distance, in meters, when snow golem minions start following the player. |
+| SNOW_GOLEM_MINION_END_FOLLOW_OWNER_DISTANCE | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_END_FOLLOW_OWNER_DISTANCE }}` | The distance, in meters, when snow golem minions stop following the player. |
+| SNOW_GOLEM_MINION_FOLLOW_OWNER_SPEED | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_FOLLOW_OWNER_SPEED }}` | The walking speed of snow golem minions when following the player. |
+| SNOW_GOLEM_MINION_ICICLE_ATTACK_COOLDOWN | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_ICICLE_ATTACK_COOLDOWN }}` | The cooldown, in ticks, for snow golem minions after shooting icicle projectiles. |
+| SNOW_GOLEM_MINION_ICICLE_PREFERRED_ATTACK_DISTANCE | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_ICICLE_PREFERRED_ATTACK_DISTANCE }}` | The distance, in meters, from which snow golem minions prefer to shoot icicles. |
+| SNOW_GOLEM_MINION_MINIMUM_TARGET_DURATION | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_MINIMUM_TARGET_DURATION }}` | The duration, in ticks, snow golem minions stay on target. |
+| SNOW_GOLEM_SNOW_LAYER_DURATION | `{{ kits.snow_golem.data.SNOW_GOLEM_SNOW_LAYER_DURATION }}` | The duration, in ticks, that snow layers created by snow golem minions and icicle entity hits last. |
+| SNOW_GOLEM_MAX_SNOW_LAYERS | `{{ kits.snow_golem.data.SNOW_GOLEM_MAX_SNOW_LAYERS }}` | The maximum number of layers snow layers stack up to. |
+| SNOW_GOLEM_MINION_ICICLE_STAFF_PROJECTILE_SPEED | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_ICICLE_STAFF_PROJECTILE_SPEED }}` | The speed of icicles from snow golem minions. |
+| SNOW_GOLEM_MINION_ICICLE_STAFF_PROJECTILE_SIZE | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_ICICLE_STAFF_PROJECTILE_SIZE }}` | The size of icicles from snow golem minions. |
+| SNOW_GOLEM_MINION_ICICLE_STAFF_PROJECTILE_MAX_RANGE | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_ICICLE_STAFF_PROJECTILE_MAX_RANGE }}` | The maximum distance, in meters, icicles from snow golem minions travel. |
+| SNOW_GOLEM_MINION_ICICLE_STAFF_PROJECTILE_PIERCING_LEVEL | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_ICICLE_STAFF_PROJECTILE_PIERCING_LEVEL }}` | The number of entities icicles from snow golem minions pierce. |
+| SNOW_GOLEM_MINION_ICICLE_PROJECTILE_DAMAGE | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_ICICLE_PROJECTILE_DAMAGE }}` | The amount of damage dealt by icicles from snow golem minions. |
+| SNOW_GOLEM_MINION_ICICLE_PROJECTILE_HEALING | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_ICICLE_PROJECTILE_HEALING }}` | The amount of health restored by icicles from snow golem minions. |
+| SNOW_GOLEM_SNOW_MINION_FIRE_DAMAGE_WEAKNESS_PERCENTAGE | `{{ kits.snow_golem.data.SNOW_GOLEM_SNOW_MINION_FIRE_DAMAGE_WEAKNESS_PERCENTAGE }}` | The percentage of increased damage taken by snow golem minions from fire damage. |
+| SNOW_GOLEM_SNOW_MINION_ICE_DAMAGE_RESISTANCE_PERCENTAGE | `{{ kits.snow_golem.data.SNOW_GOLEM_SNOW_MINION_ICE_DAMAGE_RESISTANCE_PERCENTAGE }}` | The percentage of decreased damage taken by snow golem minions from ice damage. |
+| SNOW_GOLEM_SNOW_TRAIL_SUPPORT_DURATION | `{{ kits.snow_golem.data.SNOW_GOLEM_SNOW_TRAIL_SUPPORT_DURATION }}` | The duration, in ticks, of the snow trail support healing effect. |
+| SNOW_GOLEM_SNOW_TRAIL_SUPPORT_HEALING_PER_SECOND | `{{ kits.snow_golem.data.SNOW_GOLEM_SNOW_TRAIL_SUPPORT_HEALING_PER_SECOND }}` | The healing per second of the snow trail support healing effect. |
+| SNOW_GOLEM_ICICLE_SHOULD_CREATE_SNOW_LAYER_ON_ENTITY_HIT | `{{ kits.snow_golem.data.SNOW_GOLEM_ICICLE_SHOULD_CREATE_SNOW_LAYER_ON_ENTITY_HIT }}` | If snow layers should be created upon hitting targets with icicles. |
+| SNOW_GOLEM_ICICLE_SHOULD_IGNORE_NO_DAMAGE_TICKS | `{{ kits.snow_golem.data.SNOW_GOLEM_ICICLE_SHOULD_IGNORE_NO_DAMAGE_TICKS }}` | If icicle projectile attacks should ignore no damage ticks. |
+| SNOW_GOLEM_ICICLE_SHOULD_RESET_NO_DAMAGE_TICKS | `{{ kits.snow_golem.data.SNOW_GOLEM_ICICLE_SHOULD_RESET_NO_DAMAGE_TICKS }}` | If icicle projectile attacks should reset no damage ticks. |
