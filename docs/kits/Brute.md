@@ -79,6 +79,7 @@ Additionally, dealing melee damage with the axe will instantly break shields.
 <!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
+| Pumpkin Carving | Decapitate a snow golem minion. | 20 Credits |
 | A clean cut | Get a double axe swirl kill. | 50 Credits |
 | Skull splitter | Get 2 final blows with in one berserk. | 50 Credits |
 | Passive Aggressive Negotiator | Activate the berserk passive 100 times. | 100 Credits |

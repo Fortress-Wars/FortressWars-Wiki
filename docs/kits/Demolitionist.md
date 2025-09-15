@@ -130,6 +130,8 @@ When the player is close to a friendly [Bomber](./Bomber.md), and the friendly B
 | SHIELD_REGENERATION_AMOUNT | `{{ kits._shared.data.SHIELD_REGENERATION_AMOUNT }}` | {{ kitDataSharedDescriptions.SHIELD_REGENERATION_AMOUNT }} |
 | SHIELD_BREAK_COOLDOWN | `{{ kits._shared.data.SHIELD_BREAK_COOLDOWN }}` | {{ kitDataSharedDescriptions.SHIELD_BREAK_COOLDOWN }} |
 | SHIELD_DAMAGE_FACTOR | `{{ kits._shared.data.SHIELD_DAMAGE_FACTOR }}` | {{ kitDataSharedDescriptions.SHIELD_DAMAGE_FACTOR }} | 
+| SHIELD_BLOCKING_DELAY | `{{ kits._shared.data.SHIELD_BLOCKING_DELAY }}` | {{ kitDataSharedDescriptions.SHIELD_BLOCKING_DELAY }} | 
+| SHIELD_MAX_HEALTH | `{{ kits._shared.data.SHIELD_MAX_HEALTH }}` | {{ kitDataSharedDescriptions.SHIELD_MAX_HEALTH }} | 
 | DEMOLITIONIST_SWORD_DAMAGE | `{{ kits.demolitionist.data.DEMOLITIONIST_SWORD_DAMAGE }}` | The base damage of the sword. |
 | DEMOLITIONIST_SWORD_SPEED | `{{ kits.demolitionist.data.DEMOLITIONIST_SWORD_SPEED }}` | The base speed of the sword. |
 | DEMOLITIONIST_DEMOLISH_DAMAGE | `{{ kits.demolitionist.data.DEMOLITIONIST_DEMOLISH_DAMAGE }}` | The base damage of a Demolitionist Bomb. |

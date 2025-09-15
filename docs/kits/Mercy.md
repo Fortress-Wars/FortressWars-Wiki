@@ -101,9 +101,12 @@ Right-click or left-click to cycle the `Staff` between `Health Mode` and `Damage
 <!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
+| Beam Team | Create a mercy beam connection between 3 allies. | 20 Credits |
+| Chain of Pain | Create a mercy beam connection between 3 enemies. | 20 Credits |
 | Fine, I'll do it myself... | Attach a mercy beam to yourself as mercy. | 20 Credits |
-| You might not want to tell your friends about that. | Get a final blow as mercy | 20 Credits |
 | Midwife Crisis | As mercy, have your beam attached to a friendly engineer as they repair their sentry gun. | 20 Credits |
+| You might not want to tell your friends about that. | Get a final blow as mercy | 20 Credits |
+| Guardian Angel | Restore a total of 5,000 health as kit mercy. | 250 Credits |
 | Battle Mercy | Get 50 kills as Mercy. | 1,000 Credits |
 
 <br />

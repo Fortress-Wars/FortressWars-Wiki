@@ -39,6 +39,7 @@
   - [Raven](Raven)
   - [Slime](Slime)
   - [Sniper](Sniper)
+  - [Snow Golem](Snow_Golem)
   - [Snowman](Snowman)
   - [Soldier](Soldier)
   - [Sonic](Sonic)
