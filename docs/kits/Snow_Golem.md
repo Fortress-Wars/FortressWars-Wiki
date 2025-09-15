@@ -150,7 +150,7 @@ When allies walk over snow layers created by the player, they gain the `Snow Tra
 | SNOW_GOLEM_MINION_FOLLOW_OWNER_SPEED | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_FOLLOW_OWNER_SPEED }}` | The walking speed of snow golem minions when following the player. |
 | SNOW_GOLEM_MINION_ICICLE_ATTACK_COOLDOWN | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_ICICLE_ATTACK_COOLDOWN }}` | The cooldown, in ticks, for snow golem minions after shooting icicle projectiles. |
 | SNOW_GOLEM_MINION_ICICLE_PREFERRED_ATTACK_DISTANCE | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_ICICLE_PREFERRED_ATTACK_DISTANCE }}` | The distance, in meters, from which snow golem minions prefer to shoot icicles. |
-| SNOW_GOLEM_MINION_MINIMUM_TARGET_DURATION | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_MINIMUM_TARGET_DURATION }}` | The duration, in ticks, snow golem minions stay on target. |
+| SNOW_GOLEM_MINION_MINIMUM_TARGET_DURATION | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_MINIMUM_TARGET_DURATION }}` | The duration, in ticks, for which snow golem minions stay on target. |
 | SNOW_GOLEM_SNOW_LAYER_DURATION | `{{ kits.snow_golem.data.SNOW_GOLEM_SNOW_LAYER_DURATION }}` | The duration, in ticks, that snow layers created by snow golem minions and icicle entity hits last. |
 | SNOW_GOLEM_MAX_SNOW_LAYERS | `{{ kits.snow_golem.data.SNOW_GOLEM_MAX_SNOW_LAYERS }}` | The maximum number of layers snow layers stack up to. |
 | SNOW_GOLEM_MINION_ICICLE_STAFF_PROJECTILE_SPEED | `{{ kits.snow_golem.data.SNOW_GOLEM_MINION_ICICLE_STAFF_PROJECTILE_SPEED }}` | The speed of icicles from snow golem minions. |
