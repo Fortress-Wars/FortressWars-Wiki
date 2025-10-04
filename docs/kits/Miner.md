@@ -9,7 +9,7 @@
 ---
 
 - **Introduced:** v1.7.0
-- **Description:** A utility kit with better mining tools.
+- **Description:** A utility kit excellent block breaking capabilities.
 - **Role:** Utility
 - **How to Unlock:** Unlocked by Default.
 
@@ -81,10 +81,16 @@ Deal `+{{ kits.miner.data.MINER_ENGINEER_BLOCK_DAMAGE_ADDITIVE }}` damage to eng
 <!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
+| Construction Assistant | Give gobblestone to a friendly builder | 20 Credits |
 | Efficiently Mining | As miner, mine over 100 blocks in one life. | 20 Credits |
 | Efficiently Scrapping | Destroy an engineer's dispenser, sentry, and teleporter pads in one life. | 20 Credits|
+| Rock Lobber | Get a gobblestone kill | 20 Credits |
 | Shield Smasher | Break an enemy shield while using Miner's fervor. | 20 Credits |
+| Wall Breaker | Dig an entire earth golem wall | 20 Credits |
+| Two Birds, One Stone | Get a double gobblestone kill | 30 Credits |
+| Rockslide | Get a triple gobblestone kill | 50 Credits |
 | Mole Rat | Break 10,000 blocks as miner. | 500 Credits |
+| Rock Legend | Get 50 gobblestone kills | 1000 Credits |
 
 <br />
 
