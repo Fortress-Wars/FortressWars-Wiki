@@ -9,7 +9,7 @@
 ---
 
 - **Introduced:** v1.7.0
-- **Description:** A utility kit excellent block breaking capabilities.
+- **Description:** A utility kit with excellent block-breaking and damage capabilities.
 - **Role:** Utility
 - **How to Unlock:** Unlocked by Default.
 
@@ -25,7 +25,7 @@
 - Diamond Axe
 - Diamond Pickaxe
 - Diamond Shovel
-- {{ kits.miner.data.MAX_HEALING_POTIONS }} Healing Potions
+- `{{ kits.miner.data.MAX_HEALING_POTIONS }}` Healing Potions
 
 <br />
 
@@ -37,17 +37,47 @@
 
 <!-- tabs:start -->
 
-#### **Miner's Fervor**
+#### **Paxel**
+
+## Paxel
+
+A powerful **multi-tool** combining a diamond pickaxe, axe, and shovel into one.
+Right-click to activate **Miner’s Fervor**, temporarily enhancing your mining and combat efficiency.
+
+![Miner - Paxel Use](../assets/kits/miner/_image_1_.jpg_)
 
 ## Miner's Fervor
 
-Right click a tool to activate. Activating will upgrade the player's tools to netherite and give the player haste.
+When activated, Miner's Fervor provides the following effects:
 
-![Miner's Fervor 1](../assets/kits/miner/Miner%20-%20Miners%20Fervor%20Blocks.gif)
+- Upgrades the paxel’s material to **Netherite**.
+- Increases efficiency to level `{{ kits.miner.data.MINER_UPGRADED_PAXEL_EFFICIENCY_LEVEL }}`.
+- Grants **Haste** level `{{ kits.miner.data.MINER_MINERS_FERVOR_HASTE_LEVEL }}`.
+- Enables the paxel to **instantly break enemy shields**.
+- Causes melee damage to generate [Gobblestone](#gobblestone) based on the damage dealt.
 
-The upgraded axe can instantly break shields.
+![Miner - Fervor Upgrade Tool](../assets/kits/miner/fervor-upgrade.jpg "Upgrade Tool")
 
-![Miner's Fervor 1](../assets/kits/miner/Miner%20-%20Miners%20Fervor%20Shield.gif)
+![Miner - Fervor Break Shields](../assets/kits/miner/fervor-shield-break.jpg "Break Shields")
+
+![Miner - Fervor Damage Enemies](../assets/kits/miner/fervor-damage.jpg "Damage Enemies")
+
+#### **Gobblestone Bag**
+
+## Gobblestone Bag
+
+A bag used to hurl chunks of [Gobblestone](#gobblestone) at enemies.
+
+- **Left-click:** Throw `{{ kits.miner.data.MINER_GOBBLESTONE_THROW_COUNT }}` gobblestone to deal **area damage**.
+- **Right-click:** Burst throw up to `{{ kits.miner.data.MINER_GOBBLESTONE_BURST_COUNT }}` gobblestone for **high close-range area damage**.
+
+![Miner - Gobblestone Bag Throw](../assets/kits/miner/gobblestone-throw.jpg)
+
+![Miner - Gobblestone Bag Burst](../assets/kits/miner/gobblestone-burst.jpg)
+
+You can also give stored Gobblestone to friendly Builders to assist construction efforts.
+
+![Miner - Gobblestone Bag Give](../assets/kits/miner/gobblestone-give.jpg)
 
 <!-- tabs:end -->
 
@@ -59,38 +89,60 @@ The upgraded axe can instantly break shields.
 
 ## Beacon Breaker
 
-Deal `+{{ kits.miner.data.BEACON_BREAKER_DAMAGE_ADDITIVE }}` damage to beacons.
+Deal an additional `+{{ kits.miner.data.BEACON_BREAKER_DAMAGE_ADDITIVE }}` damage to **beacons**, making you exceptionally effective at destroying enemy objectives.
 
-![Beacon Breaker](../assets/kits/miner/Miner%20-%20Beacon%20Breaker.gif)
+![Beacon Breaker](../assets/kits/miner/beacon-breaker.jpg)
 
 #### **Engineer Breaker**
 
 ## Engineer Breaker
 
-Deal `+{{ kits.miner.data.MINER_ENGINEER_BLOCK_DAMAGE_ADDITIVE }}` damage to engineer blocks when using tools.
+Deal an additional `+{{ kits.miner.data.MINER_ENGINEER_BLOCK_DAMAGE_ADDITIVE }}` damage to **Engineer blocks** (such as dispensers or sentries) when using the Paxel.
 
-![Beacon Breaker](../assets/kits/miner/Miner%20-%20Engineer%20Breaker.gif)
+![Engineer Breaker](../assets/kits/miner/engineer-breaker.jpg)
 
 <!-- tabs:end -->
+
+## Resources
+
+<!-- tabs:start -->
+
+#### **Gobblestone**
+
+## Gobblestone
+
+Gobblestone is the Miner’s unique resource, used by the **Gobblestone Bag** ability to launch explosive stones at enemies.
+
+![Miner - Gobblestone](../assets/kits/miner/gobblestone.jpg)
+
+**How to Obtain Gobblestone:**
+
+- Breaking regular blocks
+- Breaking beacons
+- Damaging enemies while **Miner’s Fervor** is active
+
+![Miner - Gobblestone Collect](../assets/kits/miner/gobblestone-collect.jpg)
+
+<!-- tabs:end -->
+
 <br />
 
 # Achievements
 
 ---
 
-<!-- prettier-ignore -->
-| Achievement | Description | Reward |
-| ----------- | ----------- | ------ |
-| Construction Assistant | Give gobblestone to a friendly builder | 20 Credits |
-| Efficiently Mining | As miner, mine over 100 blocks in one life. | 20 Credits |
-| Efficiently Scrapping | Destroy an engineer's dispenser, sentry, and teleporter pads in one life. | 20 Credits|
-| Rock Lobber | Get a gobblestone kill | 20 Credits |
-| Shield Smasher | Break an enemy shield while using Miner's fervor. | 20 Credits |
-| Wall Breaker | Dig an entire earth golem wall | 20 Credits |
-| Two Birds, One Stone | Get a double gobblestone kill | 30 Credits |
-| Rockslide | Get a triple gobblestone kill | 50 Credits |
-| Mole Rat | Break 10,000 blocks as miner. | 500 Credits |
-| Rock Legend | Get 50 gobblestone kills | 1000 Credits |
+| Achievement            | Description                                                               | Reward        |
+| ---------------------- | ------------------------------------------------------------------------- | ------------- |
+| Construction Assistant | Give Gobblestone to a friendly Builder.                                   | 20 Credits    |
+| Efficiently Mining     | As Miner, mine over 100 blocks in one life.                               | 20 Credits    |
+| Efficiently Scrapping  | Destroy an Engineer’s dispenser, sentry, and teleporter pads in one life. | 20 Credits    |
+| Rock Lobber            | Get a Gobblestone kill.                                                   | 20 Credits    |
+| Shield Smasher         | Break an enemy shield while using Miner's Fervor.                         | 20 Credits    |
+| Wall Breaker           | Dig through an entire Earth Golem wall.                                   | 20 Credits    |
+| Two Birds, One Stone   | Get a double Gobblestone kill.                                            | 30 Credits    |
+| Rockslide              | Get a triple Gobblestone kill.                                            | 50 Credits    |
+| Mole Rat               | Break 10,000 blocks as Miner.                                             | 500 Credits   |
+| Rock Legend            | Get 50 Gobblestone kills.                                                 | 1,000 Credits |
 
 <br />
 
@@ -120,17 +172,30 @@ Deal `+{{ kits.miner.data.MINER_ENGINEER_BLOCK_DAMAGE_ADDITIVE }}` damage to eng
 | BOOTS_ARMOR_TOUGHNESS | `{{ kits.miner.data.BOOTS_ARMOR_TOUGHNESS }}` | {{ kitDataSharedDescriptions.BOOTS_ARMOR_TOUGHNESS }} |
 | BOOTS_PROTECTION_LEVEL | `{{ kits.miner.data.BOOTS_PROTECTION_LEVEL }}` | {{ kitDataSharedDescriptions.BOOTS_PROTECTION_LEVEL }} |
 | BOOTS_KNOCKBACK_RESISTANCE | `{{ kits.miner.data.BOOTS_KNOCKBACK_RESISTANCE }}` | {{ kitDataSharedDescriptions.BOOTS_KNOCKBACK_RESISTANCE }} |
-| MINER_MINERS_FERVOR_DURATION | `{{ kits.miner.data.MINER_MINERS_FERVOR_DURATION }}` | The duration, in ticks, of the Miner's Fervor ability. |
-| MINER_MINERS_FERVOR_COOLDOWN | `{{ kits.miner.data.MINER_MINERS_FERVOR_COOLDOWN }}` | The cooldown, in ticks, of the Miner's Fervor ability. |
-| MINER_MINERS_FERVOR_HASTE_LEVEL | `{{ kits.miner.data.MINER_MINERS_FERVOR_HASTE_LEVEL }}` | The level of the haste effect provided by the Miner's Fervor ability. |
-| BEACON_BREAKER_DAMAGE_ADDITIVE | `{{ kits.miner.data.BEACON_BREAKER_DAMAGE_ADDITIVE }}` | The additive damage bonus when damaging beacons. |
-| MINER_ENGINEER_BLOCK_DAMAGE_ADDITIVE | `{{ kits.miner.data.MINER_ENGINEER_BLOCK_DAMAGE_ADDITIVE }}` | The additive damage bonus when damaging engineer blocks. |
-| MINER_PICKAXE_DAMAGE | `{{ kits.miner.data.MINER_PICKAXE_DAMAGE }}` | The base damage of the pickaxe. |
-| MINER_PICKAXE_SPEED | `{{ kits.miner.data.MINER_PICKAXE_SPEED }}` | The base speed of the pickaxe. |
-| MINER_UPGRADED_PICKAXE_EFFICIENCY_LEVEL | `{{ kits.miner.data.MINER_UPGRADED_PICKAXE_EFFICIENCY_LEVEL }}` | The efficiency level of the upgraded pickaxe. |
-| MINER_AXE_DAMAGE | `{{ kits.miner.data.MINER_AXE_DAMAGE }}` | The base damage of the axe. |
-| MINER_AXE_SPEED | `{{ kits.miner.data.MINER_AXE_SPEED }}` |  The base speed of the axe. |
-| MINER_UPGRADED_AXE_EFFICIENCY_LEVEL | `{{ kits.miner.data.MINER_UPGRADED_AXE_EFFICIENCY_LEVEL }}` | The efficiency level of the upgraded axe. |
-| MINER_SHOVEL_DAMAGE | `{{ kits.miner.data.MINER_SHOVEL_DAMAGE }}` | The base damage of the shovel. |
-| MINER_SHOVEL_SPEED | `{{ kits.miner.data.MINER_SHOVEL_SPEED }}` | The base speed of the shovel. |
-| MINER_UPGRADED_SHOVEL_EFFICIENCY_LEVEL | `{{ kits.miner.data.MINER_UPGRADED_SHOVEL_EFFICIENCY_LEVEL }}` | The efficiency level of the upgraded shovel. |
+| BEACON_BREAKER_DAMAGE_ADDITIVE | `{{ kits.miner.data.BEACON_BREAKER_DAMAGE_ADDITIVE }}` | Extra damage dealt to beacons. |
+| MINER_ENGINEER_BLOCK_DAMAGE_ADDITIVE | `{{ kits.miner.data.MINER_ENGINEER_BLOCK_DAMAGE_ADDITIVE }}` | Extra damage dealt to Engineer blocks. |
+| MINER_MINERS_FERVOR_DURATION | `{{ kits.miner.data.MINER_MINERS_FERVOR_DURATION }}` | Duration (in ticks) of Miner's Fervor. |
+| MINER_MINERS_FERVOR_COOLDOWN | `{{ kits.miner.data.MINER_MINERS_FERVOR_COOLDOWN }}` | Cooldown (in ticks) of Miner's Fervor. |
+| MINER_MINERS_FERVOR_HASTE_LEVEL | `{{ kits.miner.data.MINER_MINERS_FERVOR_HASTE_LEVEL }}` | Level of Haste provided by Miner's Fervor. |
+| MINER_MINERS_FERVOR_GOBBLESTONE_PER_MELEE_HIT_MULTIPLIER | `{{ kits.miner.data.MINER_MINERS_FERVOR_GOBBLESTONE_PER_MELEE_HIT_MULTIPLIER }}` | Gobblestone generated per melee hit multiplier. |
+| MINER_PAXEL_DAMAGE | `{{ kits.miner.data.MINER_PAXEL_DAMAGE }}` | The base damage of the Paxel. |
+| MINER_PAXEL_SPEED | `{{ kits.miner.data.MINER_PAXEL_SPEED }}` | The base attack speed of the Paxel. |
+| MINER_UPGRADED_PAXEL_EFFICIENCY_LEVEL | `{{ kits.miner.data.MINER_UPGRADED_PAXEL_EFFICIENCY_LEVEL }}` | The efficiency level of the upgraded paxel. |
+| MINER_GOBBLESTONE_MAX | `{{ kits.miner.data.MINER_GOBBLESTONE_MAX }}` | Maximum Gobblestone storage. |
+| MINER_GOBBLESTONE_PER_BLOCK_BREAK | `{{ kits.miner.data.MINER_GOBBLESTONE_PER_BLOCK_BREAK }}` | Gobblestone gained per block broken. |
+| MINER_GOBBLESTONE_PER_ENGINEER_BLOCK_HIT | `{{ kits.miner.data.MINER_GOBBLESTONE_PER_ENGINEER_BLOCK_HIT }}` | Gobblestone gained from hitting Engineer blocks. |
+| MINER_GOBBLESTONE_PER_BEACON_HIT | `{{ kits.miner.data.MINER_GOBBLESTONE_PER_BEACON_HIT }}` | Gobblestone gained from hitting beacons. |
+| MINER_GOBBLESTONE_GIVE_COOLDOWN | `{{ kits.miner.data.MINER_GOBBLESTONE_GIVE_COOLDOWN }}` | The cooldown (in ticks) for giving Gobblestone to allies. |
+| MINER_GOBBLESTONE_THROW_COOLDOWN | `{{ kits.miner.data.MINER_GOBBLESTONE_THROW_COOLDOWN }}` | The cooldown (in ticks) between Gobblestone throws. |
+| MINER_GOBBLESTONE_THROW_COUNT | `{{ kits.miner.data.MINER_GOBBLESTONE_THROW_COUNT }}` | The number of stones thrown per attack. |
+| MINER_GOBBLESTONE_THROW_SPEED | `{{ kits.miner.data.MINER_GOBBLESTONE_THROW_SPEED }}` | The throwing speed for Gobblestone. |
+| MINER_GOBBLESTONE_THROW_SPREAD | `{{ kits.miner.data.MINER_GOBBLESTONE_THROW_SPREAD }}` | The spread angle for Gobblestone throws. |
+| MINER_GOBBLESTONE_BURST_COOLDOWN | `{{ kits.miner.data.MINER_GOBBLESTONE_BURST_COOLDOWN }}` | The cooldown (in ticks) between burst throws. |
+| MINER_GOBBLESTONE_BURST_COUNT | `{{ kits.miner.data.MINER_GOBBLESTONE_BURST_COUNT }}` | The number of stones thrown in a burst. |
+| MINER_GOBBLESTONE_BURST_SPEED | `{{ kits.miner.data.MINER_GOBBLESTONE_BURST_SPEED }}` | The speed of burst-thrown Gobblestone. |
+| MINER_GOBBLESTONE_BURST_RATE | `{{ kits.miner.data.MINER_GOBBLESTONE_BURST_RATE }}` | The delay (in ticks) between burst throws. |
+| MINER_GOBBLESTONE_SELF_DAMAGE_MULTIPLIER | `{{ kits.miner.data.MINER_GOBBLESTONE_SELF_DAMAGE_MULTIPLIER }}` | The self-damage multiplier for Gobblestone explosions. |
+| MINER_GOBBLESTONE_DAMAGE | `{{ kits.miner.data.MINER_GOBBLESTONE_DAMAGE }}` | The Gobblestone damage. |
+| MINER_GOBBLESTONE_EXPLODE_RADIUS | `{{ kits.miner.data.MINER_GOBBLESTONE_EXPLODE_RADIUS }}` | The explosion radius for Gobblestone impacts. |
+| MINER_GOBBLESTONE_IGNORE_NO_DAMAGE_TICKS | `{{ kits.miner.data.MINER_GOBBLESTONE_IGNORE_NO_DAMAGE_TICKS }}` | Whether to ignore invulnerability frames. |
+| MINER_GOBBLESTONE_SIZE | `{{ kits.miner.data.MINER_GOBBLESTONE_SIZE }}` | The size Gobblestone projectiles. |
