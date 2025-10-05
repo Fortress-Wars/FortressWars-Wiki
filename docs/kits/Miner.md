@@ -22,9 +22,8 @@
 - Chainmail Chestplate
 - Chainmail Leggings
 - Chainmail Boots
-- Diamond Axe
-- Diamond Pickaxe
-- Diamond Shovel
+- Diamond Paxel
+- Gobblestone Bag
 - `{{ kits.miner.data.MAX_HEALING_POTIONS }}` Healing Potions
 
 <br />
@@ -44,23 +43,23 @@
 A powerful **multi-tool** combining a diamond pickaxe, axe, and shovel into one.
 Right-click to activate **Miner’s Fervor**, temporarily enhancing your mining and combat efficiency.
 
-![Miner - Paxel Use](../assets/kits/miner/_image_1_.jpg_)
+![Miner - Paxel Use](../assets/kits/miner/Miner%20-%20Paxel%20Use.gif)
 
 ## Miner's Fervor
 
 When activated, Miner's Fervor provides the following effects:
 
 - Upgrades the paxel’s material to **Netherite**.
-- Increases efficiency to level `{{ kits.miner.data.MINER_UPGRADED_PAXEL_EFFICIENCY_LEVEL }}`.
+- Increases the paxel's efficiency to level `{{ kits.miner.data.MINER_UPGRADED_PAXEL_EFFICIENCY_LEVEL }}`.
 - Grants **Haste** level `{{ kits.miner.data.MINER_MINERS_FERVOR_HASTE_LEVEL }}`.
 - Enables the paxel to **instantly break enemy shields**.
 - Causes melee damage to generate [Gobblestone](#gobblestone) based on the damage dealt.
 
-![Miner - Fervor Upgrade Tool](../assets/kits/miner/fervor-upgrade.jpg "Upgrade Tool")
+![Miner - Fervor Upgrade Tool](../assets/kits/miner/Miner%20-%20Fervor%20Upgrade%20Tool.gif "Upgrade Tool")
 
-![Miner - Fervor Break Shields](../assets/kits/miner/fervor-shield-break.jpg "Break Shields")
+![Miner - Fervor Break Shields](../assets/kits/miner/Miner%20-%20Fervor%20Break%20Shields.gif "Break Shields")
 
-![Miner - Fervor Damage Enemies](../assets/kits/miner/fervor-damage.jpg "Damage Enemies")
+![Miner - Fervor Damage Enemies](../assets/kits/miner/Miner%20-%20Fervor%20Damage%20Enemies.gif "Damage Enemies")
 
 #### **Gobblestone Bag**
 
@@ -71,13 +70,13 @@ A bag used to hurl chunks of [Gobblestone](#gobblestone) at enemies.
 - **Left-click:** Throw `{{ kits.miner.data.MINER_GOBBLESTONE_THROW_COUNT }}` gobblestone to deal **area damage**.
 - **Right-click:** Burst throw up to `{{ kits.miner.data.MINER_GOBBLESTONE_BURST_COUNT }}` gobblestone for **high close-range area damage**.
 
-![Miner - Gobblestone Bag Throw](../assets/kits/miner/gobblestone-throw.jpg)
+![Miner - Gobblestone Bag Throw](../assets/kits/miner/Miner%20-%20Gobblestone%20Bag%20Throw.gif "Throw")
 
-![Miner - Gobblestone Bag Burst](../assets/kits/miner/gobblestone-burst.jpg)
+![Miner - Gobblestone Bag Burst](../assets/kits/miner/Miner%20-%20Gobblestone%20Bag%20Burst.gif "Burst Throw")
 
 You can also give stored Gobblestone to friendly Builders to assist construction efforts.
 
-![Miner - Gobblestone Bag Give](../assets/kits/miner/gobblestone-give.jpg)
+![Miner - Gobblestone Bag Give](../assets/kits/miner/Miner%20-%20Gobblestone%20Bag%20Give.gif "Give Gobblestone")
 
 <!-- tabs:end -->
 
@@ -91,7 +90,7 @@ You can also give stored Gobblestone to friendly Builders to assist construction
 
 Deal an additional `+{{ kits.miner.data.BEACON_BREAKER_DAMAGE_ADDITIVE }}` damage to **beacons**, making you exceptionally effective at destroying enemy objectives.
 
-![Beacon Breaker](../assets/kits/miner/beacon-breaker.jpg)
+![Miner - Beacon Breaker](../assets/kits/miner/Miner%20-%20Beacon%20Breaker.gif)
 
 #### **Engineer Breaker**
 
@@ -99,7 +98,7 @@ Deal an additional `+{{ kits.miner.data.BEACON_BREAKER_DAMAGE_ADDITIVE }}` damag
 
 Deal an additional `+{{ kits.miner.data.MINER_ENGINEER_BLOCK_DAMAGE_ADDITIVE }}` damage to **Engineer blocks** (such as dispensers or sentries) when using the Paxel.
 
-![Engineer Breaker](../assets/kits/miner/engineer-breaker.jpg)
+![Miner - Engineer Breaker](../assets/kits/miner/Miner%20-%20Engineer%20Breaker.gif)
 
 <!-- tabs:end -->
 
@@ -113,15 +112,14 @@ Deal an additional `+{{ kits.miner.data.MINER_ENGINEER_BLOCK_DAMAGE_ADDITIVE }}`
 
 Gobblestone is the Miner’s unique resource, used by the **Gobblestone Bag** ability to launch explosive stones at enemies.
 
-![Miner - Gobblestone](../assets/kits/miner/gobblestone.jpg)
+![Miner - Gobblestone Collect](../assets/kits/miner/Miner%20-%20Gobblestone%20Collect.gif)
 
 **How to Obtain Gobblestone:**
 
 - Breaking regular blocks
 - Breaking beacons
+- Damaging [Engineer Blocks](Engineer#sentries)
 - Damaging enemies while **Miner’s Fervor** is active
-
-![Miner - Gobblestone Collect](../assets/kits/miner/gobblestone-collect.jpg)
 
 <!-- tabs:end -->
 
