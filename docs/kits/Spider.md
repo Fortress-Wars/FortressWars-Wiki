@@ -77,11 +77,11 @@ A stone sword that applies poison level `{{ kits.spider.data.SPIDER_SWORD_POISON
 
 The player moves faster through cobwebs.
 
-![Spider - Weaving Moving Through Cobwebs](../assets/kits/spider/)
+![Spider - Weaving Moving Through Cobwebs](../assets/kits/spider/Spider%20-%20Weaving%20Moving%20Through%20Cobwebs.gif)
 
 On death, the player creates several `Cobweb Traps` nearby.
 
-![Spider - Weaving Cobweb Traps](../assets/kits/spider/)
+![Spider - Weaving Cobweb Traps](../assets/kits/spider/Spider%20-%20Weaving%20Cobweb%20Traps.gif)
 
 #### **Poison Immunity**
 
