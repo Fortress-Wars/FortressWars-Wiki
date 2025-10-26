@@ -161,6 +161,9 @@ _Damage caused by the system and not by entities or game objects._
 - `Future Sight`
   - Shield Damage Type: _Ignore_
   - Damage Types: _Psychic_
+- `Gobblestone`
+  - Shield Damage Type: _Damage_
+  - Damage Types: _Earth_, _Impact_
 - `Grappling Hook`
   - Shield Damage Type: _Pierce_
   - Damage Types: _Piercing_
@@ -230,6 +233,9 @@ _Damage caused by the system and not by entities or game objects._
 - `OP Fish Suffocate`
   - Shield Damage Type: _Ignore_
   - Damage Types: _Air_
+- `Paxel Melee`
+  - Shield Damage Type: _Damage_
+  - Damage Types: _Impaling_, _Slashing_
 - `Porcupine Quill`
   - Shield Damage Type: _Damage_
   - Damage Types: _Piercing_
