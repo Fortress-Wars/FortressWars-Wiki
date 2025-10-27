@@ -71,6 +71,18 @@ A stone sword that applies poison level `{{ kits.spider.data.SPIDER_SWORD_POISON
 
 <!-- tabs:start -->
 
+#### **Weaving**
+
+## Weaving
+
+The player moves faster through cobwebs.
+
+![Spider - Weaving Moving Through Cobwebs](../assets/kits/spider/Spider%20-%20Weaving%20Moving%20Through%20Cobwebs.gif)
+
+On death, the player creates several `Cobweb Traps` nearby.
+
+![Spider - Weaving Cobweb Traps](../assets/kits/spider/Spider%20-%20Weaving%20Cobweb%20Traps.gif)
+
 #### **Poison Immunity**
 
 ## Poison Immunity
@@ -140,3 +152,5 @@ The player is immune to the poison potion effect.
 | SPIDER_COBWEB_ITEM_DURATION | `{{ kits.spider.data.SPIDER_COBWEB_ITEM_DURATION }}` | The duration, in ticks, of the cobweb trap item before despawning. |
 | SPIDER_COBWEB_THROW_COOLDOWN | `{{ kits.spider.data.SPIDER_COBWEB_THROW_COOLDOWN }}` | The cooldown, in ticks, after deploying a cobweb trap. |
 | SPIDER_COBWEB_PICKUP_DELAY | `{{ kits.spider.data.SPIDER_COBWEB_PICKUP_DELAY }}` | The delay, in ticks, before the player can collect cobweb traps after deploying them. |
+| SPIDER_WEAVING_LEVEL | `{{ kits.spider.data.SPIDER_WEAVING_LEVEL }}` | The level of the weaving potion effect. |
+| SPIDER_WEAVING_WEBS_ON_DEATH | `{{ kits.spider.data.SPIDER_WEAVING_WEBS_ON_DEATH }}` | If the player should create cobweb traps upon death. |
