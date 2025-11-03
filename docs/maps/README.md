@@ -31,6 +31,15 @@
 >
 > #### ![Bootcampicon](../assets/icons/maps/bootcamp-icon.jpg)
 
+> ## [Bootcamp (AD)](Bootcamp_AD)
+>
+> - **Gamemode**: Attack and Defend
+> - **Type**: Non-Build
+> - **Introduced**: v2.2.0
+> - **Contributors**: xzyle, alfredodan & FewerReaper1
+>
+> #### ![BootcampADicon](../assets/icons/maps/bootcamp_ad-icon.jpg)
+
 > ## [Candyland](Candyland)
 >
 > - **Gamemode**: Attack and Defend
@@ -157,6 +166,15 @@
 >
 > #### ![IceNBicon](../assets/icons/maps/ice-nb-icon.jpg)
 
+> ## [Islands](Islands)
+>
+> - **Gamemode**: Classic
+> - **Type**: Build
+> - **Introduced**: v2.2.0
+> - **Contributors**: St3venAU
+>
+> #### ![Islandsicon](../assets/icons/maps/islands-icon.jpg)
+
 > ## [Lazarus](Lazarus)
 >
 > - **Gamemode**: King of the Hill
@@ -246,6 +264,15 @@
 > - **Contributors**: alfredodan
 >
 > #### ![SomberSwampsicon](../assets/icons/maps/somber-swamps-icon.jpg)
+
+> ## [Spawn Ruins](Spawn_Ruins)
+>
+> - **Gamemode**: King of the Hill
+> - **Type**: Non-Build
+> - **Introduced**: v2.2.0
+> - **Contributors**: Lucky_Lew, ElectricSparx & alfredodan
+>
+> #### ![SomberSwampsicon](../assets/icons/maps/spawn-ruins-icon.jpg)
 
 > ## [Two Castles](Two_Castles)
 >
