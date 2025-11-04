@@ -30,9 +30,9 @@
 
 ---
 
-| Achievement | Description                        | Reward     |
-| ----------- | ---------------------------------- | ---------- |
-| ----------- | Win a game on the map Spawn Ruins. | 20 Credits |
+| Achievement  | Description                        | Reward     |
+| ------------ | ---------------------------------- | ---------- |
+| Relic of War | Win a game on the map Spawn Ruins. | 20 Credits |
 
 # Map Data
 

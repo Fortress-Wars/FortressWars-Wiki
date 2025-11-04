@@ -31,9 +31,9 @@
 
 ---
 
-| Achievement | Description                          | Reward     |
-| ----------- | ------------------------------------ | ---------- |
-| ----------- | Win a game on the map Bootcamp (AD). | 20 Credits |
+| Achievement      | Description                          | Reward     |
+| ---------------- | ------------------------------------ | ---------- |
+| No Pain, No Gain | Win a game on the map Bootcamp (AD). | 20 Credits |
 
 # Map Data
 

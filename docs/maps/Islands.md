@@ -30,9 +30,9 @@
 
 ---
 
-| Achievement | Description                    | Reward     |
-| ----------- | ------------------------------ | ---------- |
-| ----------- | Win a game on the map Islands. | 20 Credits |
+| Achievement    | Description                    | Reward     |
+| -------------- | ------------------------------ | ---------- |
+| Above all else | Win a game on the map Islands. | 20 Credits |
 
 # Map Data
 
