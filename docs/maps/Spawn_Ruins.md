@@ -5,7 +5,7 @@
 
 ---
 
-#### ![spawn ruins-icon](../assets/maps/spawnruins-icon.jpg)
+#### ![spawn ruins-icon](../assets/icons/maps/spawn-ruins-icon.jpg)
 
 # Overview
 
@@ -22,9 +22,9 @@
 
 # Map Galley
 
-![SpawnRuins - Overview](../assets/maps/spawnruins/spawnruins-overview.jpg)
-![SpawnRuins - Beacon](../assets/maps/spawnruins/spawnruins-beacon.jpg)
-![SpawnRuins - Red Spawn](../assets/maps/spawnruins/spawnruins-red-spawn.jpg)
+![Spawn Ruins - Overview](../assets/maps/spawnruins/spawn-ruins-overview.jpg)
+![Spawn Ruins - Beacon](../assets/maps/spawnruins/spawn-ruins-beacon.jpg)
+![Spawn - Ruins - Red Spawn](../assets/maps/spawnruins/spawn-ruins-red-spawn.jpg)
 
 # Achievements
 
@@ -38,7 +38,7 @@
 
 ---
 
-| Property    | Value                                        | Description                                       |
-| ----------- | -------------------------------------------- | ------------------------------------------------- |
-| buildRadius | `{{ maps.map_spawnruins.data.buildRadius }}` | {{ mapPropertyDescriptions.buildRadius.classic }} |
-| buildHeight | `{{ maps.map_spawnruins.data.buildHeight }}` | {{ mapPropertyDescriptions.buildHeight.classic }} |
+| Property    | Value                                         | Description                                       |
+| ----------- | --------------------------------------------- | ------------------------------------------------- |
+| buildRadius | `{{ maps.map_spawn_ruins.data.buildRadius }}` | {{ mapPropertyDescriptions.buildRadius.classic }} |
+| buildHeight | `{{ maps.map_spawn_ruins.data.buildHeight }}` | {{ mapPropertyDescriptions.buildHeight.classic }} |

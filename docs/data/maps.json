@@ -198,7 +198,7 @@
         "buildHeight": 25
       }
     },
-    "map_spawnruins": {
+    "map_spawn_ruins": {
       "data": {
         "buildRadius": 7,
         "buildHeight": 18

@@ -38,7 +38,7 @@
 > - **Introduced**: v2.2.0
 > - **Contributors**: xzyle, alfredodan & FewerReaper1
 >
-> #### ![BootcampADicon](../assets/icons/maps/bootcamp_ad-icon.jpg)
+> #### ![BootcampADicon](../assets/icons/maps/bootcamp-ad-icon.jpg)
 
 > ## [Candyland](Candyland)
 >

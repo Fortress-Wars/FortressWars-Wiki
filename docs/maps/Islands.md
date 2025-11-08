@@ -5,7 +5,7 @@
 
 ---
 
-#### ![islands-icon](../assets/maps/islands-icon.jpg)
+#### ![islands-icon](../assets/icons/maps/islands-icon.jpg)
 
 # Overview
 

@@ -5,7 +5,7 @@
 
 ---
 
-#### ![bootcamp_ad-icon](../assets/maps/bootcamp-ad-icon.jpg)
+#### ![bootcamp_ad-icon](../assets/icons/maps/bootcamp-ad-icon.jpg)
 
 # Overview
 
