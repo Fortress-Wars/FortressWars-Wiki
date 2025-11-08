@@ -36,6 +36,12 @@
         "buildHeight": 15
       }
     },
+    "map_bootcamp_ad": {
+      "data": {
+        "buildRadius": -1,
+        "buildHeight": 15
+      }
+    },
     "map_candyland": {
       "data": {
         "buildRadius": 35,
@@ -126,6 +132,12 @@
         "buildHeight": 30
       }
     },
+    "map_islands": {
+      "data": {
+        "buildRadius": 20,
+        "buildHeight": 20
+      }
+    },
     "map_lazarus": {
       "data": {
         "buildRadius": 8,
@@ -184,6 +196,12 @@
       "data": {
         "buildRadius": 8,
         "buildHeight": 25
+      }
+    },
+    "map_spawn_ruins": {
+      "data": {
+        "buildRadius": 7,
+        "buildHeight": 18
       }
     },
     "map_underworld": {
