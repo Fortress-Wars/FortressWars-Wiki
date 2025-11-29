@@ -98,7 +98,7 @@ When a fish is summoned, it will be one of `6` fish: Cod, Cooked Cod, Salmon, Co
 
 ### Cod
 
-Deals `{{ kits.fish.data.FISH_COD_DAMAGE }}` damage to the enemy. _(Summon weight: `{{ kits.fish.data.FISH_COD_WEIGHT }}`_)
+Does no effect to the enemy. _(Summon weight: `{{ kits.fish.data.FISH_COD_WEIGHT }}`_)
 
 ![Cod](../assets/kits/fish/Fish%20-%20Cod.gif)
 
@@ -106,7 +106,7 @@ Deals `{{ kits.fish.data.FISH_COD_DAMAGE }}` damage to the enemy. _(Summon weigh
 
 ### Cooked Cod
 
-Deals `{{ kits.fish.data.FISH_COOKED_COD_DAMAGE }}` damage to the enemy. _(Summon weight: `{{ kits.fish.data.FISH_COOKED_COD_WEIGHT }}`_)
+Does no effect to the enemy. _(Summon weight: `{{ kits.fish.data.FISH_COOKED_COD_WEIGHT }}`_)
 
 ![Cooked Cod](../assets/kits/fish/Fish%20-%20Cooked%20Cod.gif)
 
@@ -114,7 +114,7 @@ Deals `{{ kits.fish.data.FISH_COOKED_COD_DAMAGE }}` damage to the enemy. _(Summo
 
 ### Salmon
 
-Gives the blindness effect for `{{ kits.fish.data.FISH_SALMON_BLINDNESS_DURATION_TICKS }}` ticks to the enemy. _(Summon weight: `{{ kits.fish.data.FISH_SALMON_WEIGHT }}`_)
+Deals `{{ kits.fish.data.FISH_SALMON_DAMAGE }}` damage to the enemy. _(Summon weight: `{{ kits.fish.data.FISH_SALMON_WEIGHT }}`_)
 
 ![Salmon](../assets/kits/fish/Fish%20-%20Salmon.gif)
 
@@ -122,7 +122,7 @@ Gives the blindness effect for `{{ kits.fish.data.FISH_SALMON_BLINDNESS_DURATION
 
 ### Cooked Salmon
 
-Gives the blindness effect for `{{ kits.fish.data.FISH_COOKED_SALMON_BLINDNESS_DURATION_TICKS }}` ticks to the enemy. _(Summon weight: `{{ kits.fish.data.FISH_COOKED_SALMON_WEIGHT }}`_)
+Deals `{{ kits.fish.data.FISH_COOKED_SALMON_DAMAGE }}` damage to the enemy. _(Summon weight: `{{ kits.fish.data.FISH_COOKED_SALMON_WEIGHT }}`_)
 
 ![Cooked Salmon](../assets/kits/fish/Fish%20-%20Cooked%20Salmon.gif)
 
@@ -146,6 +146,12 @@ Deals `{{ kits.fish.data.FISH_PUFFERFISH_DAMAGE }}` damage to the enemy. _(Summo
 ![Pufferfish Kill](../assets/kits/fish/Fish%20-%20Pufferfish%20Kill.gif)
 
 <!-- tabs:end -->
+
+#### **Water Synergy**
+
+## Water Synergy
+
+While in water, deal `{{ kits.fish.data.WATER_SYNERGY_DAMAGE_BONUS_PERCENTAGE }}%` more damage. After emerging from the water the effect lingers for and extra `{{ kits.fish.data.WATER_SYNERGY_LINGER_DURATION }}` ticks.
 
 #### **Suffocate**
 
