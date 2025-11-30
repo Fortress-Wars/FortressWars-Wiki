@@ -151,7 +151,7 @@ Deals `{{ kits.fish.data.FISH_PUFFERFISH_DAMAGE }}` damage to the enemy. _(Summo
 
 ## Water Synergy
 
-While in water, deal `{{ kits.fish.data.WATER_SYNERGY_DAMAGE_BONUS_PERCENTAGE }}%` more damage. After emerging from the water the effect lingers for and extra `{{ kits.fish.data.WATER_SYNERGY_LINGER_DURATION }}` ticks.
+While in water, deal `{{ kits.fish.data.WATER_SYNERGY_DAMAGE_BONUS_PERCENTAGE }}%` more damage. After emerging from the water the effect lingers `{{ kits.fish.data.WATER_SYNERGY_LINGER_DURATION }}` ticks.
 
 #### **Suffocate**
 
