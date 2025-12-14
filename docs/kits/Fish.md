@@ -151,7 +151,7 @@ Deals `{{ kits.fish.data.FISH_PUFFERFISH_DAMAGE }}` damage to the enemy. _(Summo
 
 ## Water Synergy
 
-Deal `{{ kits.fish.data.WATER_SYNERGY_DAMAGE_BONUS_PERCENTAGE }}%` more damage while in water. Damage dealt is also considered `Water` damage.
+While in water, all damage dealt is considered `Water` damage and deals `{{ kits.fish.data.WATER_SYNERGY_DAMAGE_BONUS_PERCENTAGE }}%` more damage.
 
 #### **Suffocate**
 
