@@ -98,7 +98,7 @@ When a fish is summoned, it will be one of `6` fish: Cod, Cooked Cod, Salmon, Co
 
 ### Cod
 
-Deals `{{ kits.fish.data.FISH_COD_DAMAGE }}` damage to the enemy. _(Summon weight: `{{ kits.fish.data.FISH_COD_WEIGHT }}`_)
+Has no effects. _(Summon weight: `{{ kits.fish.data.FISH_COD_WEIGHT }}`_)
 
 ![Cod](../assets/kits/fish/Fish%20-%20Cod.gif)
 
@@ -106,7 +106,7 @@ Deals `{{ kits.fish.data.FISH_COD_DAMAGE }}` damage to the enemy. _(Summon weigh
 
 ### Cooked Cod
 
-Deals `{{ kits.fish.data.FISH_COOKED_COD_DAMAGE }}` damage to the enemy. _(Summon weight: `{{ kits.fish.data.FISH_COOKED_COD_WEIGHT }}`_)
+Has no effects. _(Summon weight: `{{ kits.fish.data.FISH_COOKED_COD_WEIGHT }}`_)
 
 ![Cooked Cod](../assets/kits/fish/Fish%20-%20Cooked%20Cod.gif)
 
@@ -114,7 +114,7 @@ Deals `{{ kits.fish.data.FISH_COOKED_COD_DAMAGE }}` damage to the enemy. _(Summo
 
 ### Salmon
 
-Gives the blindness effect for `{{ kits.fish.data.FISH_SALMON_BLINDNESS_DURATION_TICKS }}` ticks to the enemy. _(Summon weight: `{{ kits.fish.data.FISH_SALMON_WEIGHT }}`_)
+Deals `{{ kits.fish.data.FISH_SALMON_DAMAGE }}` damage to the enemy. _(Summon weight: `{{ kits.fish.data.FISH_SALMON_WEIGHT }}`_)
 
 ![Salmon](../assets/kits/fish/Fish%20-%20Salmon.gif)
 
@@ -122,7 +122,7 @@ Gives the blindness effect for `{{ kits.fish.data.FISH_SALMON_BLINDNESS_DURATION
 
 ### Cooked Salmon
 
-Gives the blindness effect for `{{ kits.fish.data.FISH_COOKED_SALMON_BLINDNESS_DURATION_TICKS }}` ticks to the enemy. _(Summon weight: `{{ kits.fish.data.FISH_COOKED_SALMON_WEIGHT }}`_)
+Deals `{{ kits.fish.data.FISH_COOKED_SALMON_DAMAGE }}` damage to the enemy. _(Summon weight: `{{ kits.fish.data.FISH_COOKED_SALMON_WEIGHT }}`_)
 
 ![Cooked Salmon](../assets/kits/fish/Fish%20-%20Cooked%20Salmon.gif)
 
@@ -146,6 +146,12 @@ Deals `{{ kits.fish.data.FISH_PUFFERFISH_DAMAGE }}` damage to the enemy. _(Summo
 ![Pufferfish Kill](../assets/kits/fish/Fish%20-%20Pufferfish%20Kill.gif)
 
 <!-- tabs:end -->
+
+#### **Water Synergy**
+
+## Water Synergy
+
+While in water, all damage dealt is considered `Water` damage and deals `{{ kits.fish.data.WATER_SYNERGY_DAMAGE_BONUS_PERCENTAGE }}%` more damage.
 
 #### **Suffocate**
 
@@ -224,13 +230,9 @@ Deal `+{{ kits.fish.data.BEACON_BREAKER_DAMAGE_ADDITIVE }}` damage to beacons.
 | BEACON_BREAKER_DAMAGE_ADDITIVE | `{{ kits.fish.data.BEACON_BREAKER_DAMAGE_ADDITIVE }}` | The bonus beacon damage provided by the Beacon Breaker ability. |
 | FISH_CAN_ACTIVATE_OP_FISH | `{{ kits.fish.data.FISH_CAN_ACTIVATE_OP_FISH }}` | Determines if OP Fish Mode can be activated. |
 | FISH_COD_WEIGHT | `{{ kits.fish.data.FISH_COD_WEIGHT }}` | The weight for summoning cod. |
-| FISH_COD_DAMAGE | `{{ kits.fish.data.FISH_COD_DAMAGE }}` | The damage dealt to enemies that pick up cod. |
 | FISH_COOKED_COD_WEIGHT | `{{ kits.fish.data.FISH_COOKED_COD_WEIGHT }}` | The weight for summoning cooked cod.  |
-| FISH_COOKED_COD_DAMAGE | `{{ kits.fish.data.FISH_COOKED_COD_DAMAGE }}` | The damage dealt to enemies that pick up cooked cod. |
 | FISH_SALMON_WEIGHT | `{{ kits.fish.data.FISH_SALMON_WEIGHT }}` | The weight for summoning salmon. |
-| FISH_SALMON_BLINDNESS_DURATION_TICKS | `{{ kits.fish.data.FISH_SALMON_BLINDNESS_DURATION_TICKS }}` | The duration, in ticks, of the blindness effect that salmon gives to enemies that pick it up. |
 | FISH_COOKED_SALMON_WEIGHT | `{{ kits.fish.data.FISH_COOKED_SALMON_WEIGHT }}` | The weight for summoning cooked salmon. |
-| FISH_COOKED_SALMON_BLINDNESS_DURATION_TICKS | `{{ kits.fish.data.FISH_COOKED_SALMON_BLINDNESS_DURATION_TICKS }}` | The duration, in ticks, of the blindness effect that cooked salmon gives to enemies that pick it up. |
 | FISH_TROPICAL_FISH_WEIGHT | `{{ kits.fish.data.FISH_TROPICAL_FISH_WEIGHT }}` | The weight for summoning tropical fish. |
 | FISH_TROPICAL_FISH_HEALING | `{{ kits.fish.data.FISH_TROPICAL_FISH_HEALING }}` | The amount of HP to the player that the tropical fish heals after enemies pick it up. |
 | FISH_PUFFERFISH_WEIGHT | `{{ kits.fish.data.FISH_PUFFERFISH_WEIGHT }}` | The weight for summoning pufferfish. |
@@ -257,3 +259,5 @@ Deal `+{{ kits.fish.data.BEACON_BREAKER_DAMAGE_ADDITIVE }}` damage to beacons.
 | FISH_MELEE_DAMAGE | `{{ kits.fish.data.FISH_MELEE_DAMAGE }}` | The base melee damage of the Fish item. |
 | FISH_MELEE_SPEED | `{{ kits.fish.data.FISH_MELEE_SPEED }}` | The base melee speed of the Fish item. |
 | FISH_MELEE_SHARPNESS_LEVEL | `{{ kits.fish.data.FISH_MELEE_SHARPNESS_LEVEL }}` | The sharpness level of the Fish item. |
+| WATER_SYNERGY_DAMAGE_BONUS_PERCENTAGE | `{{ kits.fish.data.WATER_SYNERGY_DAMAGE_BONUS_PERCENTAGE }}` | The percentage damage bonus received while in water. |
+| WATER_SYNERGY_LINGER_DURATION | `{{ kits.fish.data.WATER_SYNERGY_LINGER_DURATION }}` | The duration, in ticks, the water synergy passive lingers while outside of water. |

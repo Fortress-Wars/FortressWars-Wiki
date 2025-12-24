@@ -211,6 +211,8 @@ When the player dies, they drop `{{ kits.necromancer.data.NECROMANCER_ESSENCE_OF
 | SHIELD_REGENERATION_AMOUNT | `{{ kits._shared.data.SHIELD_REGENERATION_AMOUNT }}` | {{ kitDataSharedDescriptions.SHIELD_REGENERATION_AMOUNT }} |
 | SHIELD_BREAK_COOLDOWN | `{{ kits._shared.data.SHIELD_BREAK_COOLDOWN }}` | {{ kitDataSharedDescriptions.SHIELD_BREAK_COOLDOWN }} |
 | SHIELD_DAMAGE_FACTOR | `{{ kits._shared.data.SHIELD_DAMAGE_FACTOR }}` | {{ kitDataSharedDescriptions.SHIELD_DAMAGE_FACTOR }} | 
+| SHIELD_BLOCKING_DELAY | `{{ kits._shared.data.SHIELD_BLOCKING_DELAY }}` | {{ kitDataSharedDescriptions.SHIELD_BLOCKING_DELAY }} | 
+| SHIELD_MAX_HEALTH | `{{ kits._shared.data.SHIELD_MAX_HEALTH }}` | {{ kitDataSharedDescriptions.SHIELD_MAX_HEALTH }} | 
 | NECROMANCER_SWORD_DAMAGE | `{{ kits.necromancer.data.NECROMANCER_SWORD_DAMAGE }}` | The base damage of the sword. |
 | NECROMANCER_SWORD_SPEED | `{{ kits.necromancer.data.NECROMANCER_SWORD_SPEED }}` | The base speed of the sword. |
 | NECROMANCER_SWORD_WITHER_EFFECT_LEVEL | `{{ kits.necromancer.data.NECROMANCER_SWORD_WITHER_EFFECT_LEVEL }}` | The level of the sword's wither effect. |

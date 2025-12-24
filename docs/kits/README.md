@@ -324,6 +324,14 @@
 >
 > #### ![sniper-icon](../assets/icons/kits/sniper-icon.jpg)
 
+> ## [Snow Golem](Snow_Golem)
+>
+> - **Role**: Support
+> - **Type**: Premium
+> - **Introduced**: v2.2.0
+>
+> #### ![snow-golem-icon](../assets/icons/kits/snow-golem-icon.jpg)
+
 > ## [Snowman](Snowman)
 >
 > - **Role**: Tank

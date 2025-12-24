@@ -15,6 +15,7 @@
 - King of the Ladder
 - Parkour
 
-## Special Mechanics
+## Extra
 
 - Sponge Launchers
+- [Voice Chat](VoiceChat)

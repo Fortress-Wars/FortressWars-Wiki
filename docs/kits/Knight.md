@@ -124,6 +124,8 @@ While `Fortify` is active and the player is blocking, when enemies are within `{
 | SHIELD_REGENERATION_AMOUNT | `{{ kits._shared.data.SHIELD_REGENERATION_AMOUNT }}` | {{ kitDataSharedDescriptions.SHIELD_REGENERATION_AMOUNT }} |
 | SHIELD_BREAK_COOLDOWN | `{{ kits._shared.data.SHIELD_BREAK_COOLDOWN }}` | {{ kitDataSharedDescriptions.SHIELD_BREAK_COOLDOWN }} |
 | SHIELD_DAMAGE_FACTOR | `{{ kits._shared.data.SHIELD_DAMAGE_FACTOR }}` | {{ kitDataSharedDescriptions.SHIELD_DAMAGE_FACTOR }} | 
+| SHIELD_BLOCKING_DELAY | `{{ kits._shared.data.SHIELD_BLOCKING_DELAY }}` | {{ kitDataSharedDescriptions.SHIELD_BLOCKING_DELAY }} | 
+| SHIELD_MAX_HEALTH | `{{ kits._shared.data.SHIELD_MAX_HEALTH }}` | {{ kitDataSharedDescriptions.SHIELD_MAX_HEALTH }} | 
 | KNIGHT_SWORD_DAMAGE | `{{ kits.knight.data.KNIGHT_SWORD_DAMAGE }}` | The base damage of the sword. |
 | KNIGHT_SWORD_SPEED | `{{ kits.knight.data.KNIGHT_SWORD_SPEED }}` | The base speed of the sword. |
 | KNIGHT_FORTIFY_SHIELD_DAMAGE_PERCENTAGE | `{{ kits.knight.data.KNIGHT_FORTIFY_SHIELD_DAMAGE_PERCENTAGE }}` | The percentage of incoming damage that the shield will take during the Fortify ability. |

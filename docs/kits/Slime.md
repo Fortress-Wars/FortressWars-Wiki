@@ -125,6 +125,8 @@ When a slime minion dies and the player is within `{{ kits.slime.data.SLIME_MINI
 | SHIELD_REGENERATION_AMOUNT | `{{ kits._shared.data.SHIELD_REGENERATION_AMOUNT }}` | {{ kitDataSharedDescriptions.SHIELD_REGENERATION_AMOUNT }} |
 | SHIELD_BREAK_COOLDOWN | `{{ kits._shared.data.SHIELD_BREAK_COOLDOWN }}` | {{ kitDataSharedDescriptions.SHIELD_BREAK_COOLDOWN }} |
 | SHIELD_DAMAGE_FACTOR | `{{ kits._shared.data.SHIELD_DAMAGE_FACTOR }}` | {{ kitDataSharedDescriptions.SHIELD_DAMAGE_FACTOR }} | 
+| SHIELD_BLOCKING_DELAY | `{{ kits._shared.data.SHIELD_BLOCKING_DELAY }}` | {{ kitDataSharedDescriptions.SHIELD_BLOCKING_DELAY }} | 
+| SHIELD_MAX_HEALTH | `{{ kits._shared.data.SHIELD_MAX_HEALTH }}` | {{ kitDataSharedDescriptions.SHIELD_MAX_HEALTH }} | 
 | SLIME_SWORD_DAMAGE | `{{ kits.slime.data.SLIME_SWORD_DAMAGE }}` | The base damage of the sword. |
 | SLIME_SWORD_SPEED | `{{ kits.slime.data.SLIME_SWORD_SPEED }}` | The base speed of the sword. |
 | SLIME_MINION_HEALTH | `{{ kits.slime.data.SLIME_MINION_HEALTH }}` | The maximum health of slime minions. |
