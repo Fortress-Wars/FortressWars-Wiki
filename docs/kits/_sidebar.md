@@ -1,4 +1,6 @@
-- Kits
+- [Home](/)
+- [Features](/features/)
+- [Kits](/kits/)
   - [Aquaman](Aquaman)
   - [Aquarius](Aquarius)
   - [Bomber](Bomber)
@@ -47,3 +49,7 @@
   - [Spy](Spy)
   - [Vitalist](Vitalist)
   - [Wizard](Wizard)
+- [Maps](/maps/)
+- [Technical Documentation](/technical_documentation/)
+- [Changelogs](/changelogs/)
+- [Contributors](/contributors/)
