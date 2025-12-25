@@ -1,4 +1,7 @@
-- Maps
+- [Home](/)
+- [Features](/features/)
+- [Kits](/kits/)
+- [Maps](/maps/)
   - [Ashlands](Ashlands)
   - [Biohazard](Biohazard)
   - [Bootcamp](Bootcamp)
@@ -37,3 +40,6 @@
   - [Valley (NB)](Valley_NB)
   - [Void](Void)
   - [Void (KOTH)](Void_KOTH)
+- [Technical Documentation](/technical_documentation/)
+- [Changelogs](/changelogs/)
+- [Contributors](/contributors/)
