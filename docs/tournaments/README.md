@@ -52,7 +52,7 @@ The Fortress Wars Tournament is a seasonal, competitive 4v4 league designed to s
 
 ### Map Pool
 
-- 9–11 total maps
+- 12 maps
 - All maps must be tournament-approved
 
 ### Home / Away
