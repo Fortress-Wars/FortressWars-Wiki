@@ -78,7 +78,7 @@ All tournament participants are expected to uphold competitive integrity and spo
 
 **3.1 Eligibility**
 
-- Players must have a Discord account to participate.
+- Captains and Co-Captains must have a Discord account to participate.
 - Players may only participate on **one team per tournament**.
 - Alternate accounts are strictly prohibited.
 
@@ -115,7 +115,7 @@ All tournament participants are expected to uphold competitive integrity and spo
 **3.7 Streaming & Media**
 
 - Stream sniping or using live broadcasts for competitive advantage is prohibited.
-- Official tournament streams must include at least a 2 minute delay.
+- Live streams of the tournament must include at least a 2 minute delay.
 - Players may not interfere with or disrupt official broadcasts.
 
 **3.8 Enforcement & Penalties**
