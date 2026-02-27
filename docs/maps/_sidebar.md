@@ -42,4 +42,5 @@
   - [Void (KOTH)](Void_KOTH)
 - [Technical Documentation](/technical_documentation/)
 - [Changelogs](/changelogs/)
+- [Tournaments](/tournaments/)
 - [Contributors](/contributors/)

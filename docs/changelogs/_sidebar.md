@@ -5,6 +5,7 @@
 - [Technical Documentation](/technical_documentation/)
 - [Changelogs](/changelogs/)
 
+  - [v2.2.0](v2.3.0.md)
   - [v2.2.0](v2.2.0.md)
   - [v2.1.1](v2.1.1.md)
   - [v2.1.0](v2.1.0.md)
@@ -21,4 +22,5 @@
   - [v1.7.1](v1.7.1.md)
   - [v1.7.0](v1.7.0.md)
 
+- [Tournaments](/tournaments/)
 - [Contributors](/contributors/)
