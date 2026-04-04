@@ -93,7 +93,7 @@ Players will earn `{{ kits.sniper.data.SNIPER_ARROWS_FINAL_BLOW_REWARD }}` arrow
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
 | I used to be an adventurer like you... | Shoot an enemy in the knees as sniper. | 20 Credits |
-| The New Bow God! | Headshot your opponent 3 times in a row and bring them to the grave. | 20 Credits |
+| The New Bow Master! | Headshot your opponent 3 times in a row and bring them to the grave. | 20 Credits |
 | Took more than the knee! | Shoot an enemy in the head as sniper | 20 Credits |
 | Head Humiliator | Get 50 headshot kills. | 1,000 Credits |
 | Knee Knocker | Get 50 kneeshot kills. | 1,000 Credits |
