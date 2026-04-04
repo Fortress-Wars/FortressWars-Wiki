@@ -46,7 +46,7 @@ A weapon that is used to cast spells. Casting spells costs mana and each spell h
 ### Casting
 
 - Light Beam _(Left-Click)_
-- Light Release _(Right-Click)_
+- Absolution _(Right-Click)_
 
 <!-- tabs:start -->
 
@@ -54,57 +54,57 @@ A weapon that is used to cast spells. Casting spells costs mana and each spell h
 
 ## Light Beam
 
-The spell requires `{{ kits.priest.data.PRIEST_LIGHT_BEAM_MANA_COST }}` mana to cast. Casting summons a beam of light in the direction the player is looking. When the beam passes through an ally, it gives them absorption `{{ kits.priest.data.PRIEST_LIGHT_BEAM_ABSORPTION_LEVEL }}` for `{{ kits.priest.data.PRIEST_LIGHT_BEAM_ABSORPTION_DURATION }}` ticks and increases [sun power](#sun-power) by `{{ kits.priest.data.PRIEST_SUN_POWER_PER_LIGHT_BEAM_HIT }}`. When the beam passes through an enemy, it affects them with glowing for `{{ kits.priest.data.PRIEST_LIGHT_BEAM_GLOWING_DURATION }}` ticks.
+The spell requires `{{ kits.priest.data.PRIEST_LIGHT_BEAM_MANA_COST }}` mana to cast. Casting summons a beam of light in the direction the player is looking. When the beam passes through an ally, it gives them absorption `{{ kits.priest.data.PRIEST_LIGHT_BEAM_ABSORPTION_LEVEL }}` for `{{ kits.priest.data.PRIEST_LIGHT_BEAM_ABSORPTION_DURATION }}` ticks and increases [grace](#grace) by `{{ kits.priest.data.PRIEST_GRACE_PER_LIGHT_BEAM_HIT }}`. When the beam passes through an enemy, it affects them with glowing for `{{ kits.priest.data.PRIEST_LIGHT_BEAM_GLOWING_DURATION }}` ticks.
 
 ![Priest - Light Beam Ally](../assets/kits/priest/Priest%20-%20Light%20Beam%20Ally.gif)
 
 ![Priest - Light Beam Enemy](../assets/kits/priest/Priest%20-%20Light%20Beam%20Enemy.gif)
 
-#### **Light Release**
+#### **Absolution**
 
-## Light Release
+## Absolution
 
-The spell requires `{{ kits.priest.data.PRIEST_RELEASE_MANA_COST }}` mana and `1` sun power to cast. Casting consumes all sun power to heal allies in a `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_0_RADIUS }}` meter radius. The spell has additional effects when more sun power is consumed.
+The action requires `{{ kits.priest.data.PRIEST_ABSOLUTION_MANA_COST }}` mana and `1` grace to cast. Performing uses all grace to heal allies in a `{{ kits.priest.data.PRIEST_ABSOLUTION_LEVEL_0_RADIUS }}` meter radius. The action has additional effects when more grace is given.
 
-![Priest - Light Release Cast](../assets/kits/priest/Priest%20-%20Light%20Release%20Cast.gif)
+![Priest - Absolution](../assets/kits/priest/Priest%20-%20Absolution.gif)
 
 #### Cleansing Effects
 
-When at least `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_1_SUN_POWER }}` sun power is released, the spell removes potion, status, burning, and freezing effects that negatively affect allies.
+When at least `{{ kits.priest.data.PRIEST_ABSOLUTION_LEVEL_1_GRACE }}` grace is given, the spell removes potion, status, burning, and freezing effects that negatively affect allies.
 
-![Priest - Light Release Cleanse Effects](../assets/kits/priest/Priest%20-%20Light%20Release%20Cleanse%20Effects.gif)
+![Priest - Absolution Cleanse Effects](../assets/kits/priest/Priest%20-%20Absolution%20Cleanse%20Effects.gif)
 
 #### Igniting Enemies
 
-When at least `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_2_SUN_POWER }}` sun power is released, the spell targets and ignites enemies for `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_2_BURN_DURATION }}` ticks. Additionally, the spell's radius increases to `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_2_RADIUS }}` meters.
+When at least `{{ kits.priest.data.PRIEST_ABSOLUTION_LEVEL_2_GRACE }}` grace is give, the spell targets and ignites enemies for `{{ kits.priest.data.PRIEST_ABSOLUTION_LEVEL_2_BURN_DURATION }}` ticks. Additionally, the spell's radius increases to `{{ kits.priest.data.PRIEST_ABSOLUTION_LEVEL_2_RADIUS }}` meters.
 
-![Priest - Light Release Ignite Enemies](../assets/kits/priest/Priest%20-%20Light%20Release%20Ignite%20Enemies.gif)
+![Priest - Absolution Ignite Enemies](../assets/kits/priest/Priest%20-%20Absolution%20Ignite%20Enemies.gif)
 
 #### Cleansing Kit Debuffs
 
-When at least `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_3_SUN_POWER }}` sun power is released, the spell removes all kit debuffs.
+When at least `{{ kits.priest.data.PRIEST_ABSOLUTION_LEVEL_3_GRACE }}` grace is given, the spell removes all kit debuffs.
 
-![Priest - Light Release Cleanse Mercy Beam](../assets/kits/priest/Priest%20-%20Light%20Release%20Cleanse%20Mercy%20Beam.gif)
+![Priest - Absolution Cleanse Mercy Beam](../assets/kits/priest/Priest%20-%20Absolution%20Cleanse%20Mercy%20Beam.gif)
 
 The spell also removes the stun effect from allies and friendly engineer blocks.
 
-![Priest - Light Release No Longer Stunned](../assets/kits/priest/Priest%20-%20Light%20Release%20No%20Longer%20Stunned.gif)
+![Priest - Absolution No Longer Stunned](../assets/kits/priest/Priest%20-%20Absolution%20No%20Longer%20Stunned.gif)
 
 #### Enemy Knockback
 
-When at least `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_4_SUN_POWER }}` sun power is released, the spell knocks enemies back. Additionally, the spell's radius increases to `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_4_RADIUS }}` meters.
+When at least `{{ kits.priest.data.PRIEST_ABSOLUTION_LEVEL_4_GRACE }}` grace is given, the spell knocks enemies back. Additionally, the spell's radius increases to `{{ kits.priest.data.PRIEST_ABSOLUTION_LEVEL_4_RADIUS }}` meters.
 
-![Priest - Light Release Knock Enemies Back](../assets/kits/priest/Priest%20-%20Light%20Release%20Knock%20Enemies%20Back.gif)
+![Priest - Absolution Knock Enemies Back](../assets/kits/priest/Priest%20-%20Absolution%20Knock%20Enemies%20Back.gif)
 
-#### Sun Barrier
+#### Hold Protection
 
-When `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_5_SUN_POWER }}` sun power is released, the spell affects allies with absorption level `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_5_ABSORPTION_LEVEL }}` for `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_5_ABSORPTION_DURATION }}` ticks.
+When `{{ kits.priest.data.PRIEST_ABSOLUTION_LEVEL_5_GRACE }}` grace is given, the spell affects allies with absorption level `{{ kits.priest.data.PRIEST_ABSOLUTION_LEVEL_5_ABSORPTION_LEVEL }}` for `{{ kits.priest.data.PRIEST_ABSOLUTION_LEVEL_5_ABSORPTION_DURATION }}` ticks.
 
-![Priest - Light Release Sun Barrier](../assets/kits/priest/Priest%20-%20Light%20Release%20Sun%20Barrier.gif)
+![Priest - Absolution Holy Protection](../assets/kits/priest/Priest%20-%20Absolution%20Sun%20Barrier.gif)
 
 The spell also removes the hack effect from allies and friendly engineer blocks.
 
-![Priest - Light Release No Longer Hacked](../assets/kits/priest/Priest%20-%20Light%20Release%20No%20Longer%20Hacked.gif)
+![Priest - Absolution No Longer Hacked](../assets/kits/priest/Priest%20-%20Absolution%20No%20Longer%20Hacked.gif)
 
 <!-- tabs:end -->
 <!-- tabs:end -->
@@ -147,17 +147,17 @@ Friendly engineer dispensers restore `{{ kits._shared.data.MANA_DISPENSER_DISPEN
 
 ![Priest - Mana Dispenser](../assets/kits/priest/Priest%20-%20Mana%20Dispenser.gif)
 
-#### **Sun Power**
+#### **Grace**
 
-## Sun Power
+## Grace
 
-Sun power is a resource used to cast the "Light Release" spell. The maximum sun power is `{{ kits.priest.data.PRIEST_SUN_POWER_MAX }}`.
+Grace is used to for absolving. The maximum grace is `{{ kits.priest.data.PRIEST_GRACE_MAX }}`.
 
-![Priest - Sun Power](../assets/kits/priest/Priest%20-%20Sun%20Power.png)
+![Priest - Sun Grace](../assets/kits/priest/Priest%20-%20Grace.png)
 
-Sun power increases by `{{ kits.priest.data.PRIEST_SUN_POWER_FINAL_BLOW_REWARD }}` after earning a final blow and increases by `{{ kits.priest.data.PRIEST_SUN_POWER_ASSIST_REWARD }}` after earning an assist.
+Grace increases by `{{ kits.priest.data.PRIEST_GRACE_FINAL_BLOW_REWARD }}` after earning a final blow and increases by `{{ kits.priest.data.PRIEST_GRACE_ASSIST_REWARD }}` after earning an assist.
 
-![Priest - Sun Power Elimination](../assets/kits/priest/Priest%20-%20Sun%20Power%20Elimination.gif)
+![Priest - Grace Elimination](../assets/kits/priest/Priest%20-%20Grace%20Elimination.gif)
 
 <!-- tabs:end -->
 <br />
@@ -169,11 +169,11 @@ Sun power increases by `{{ kits.priest.data.PRIEST_SUN_POWER_FINAL_BLOW_REWARD }
 <!-- prettier-ignore -->
 | Achievement | Description | Reward |
 | ----------- | ----------- | ------ |
-| Bask in the Light! | Cast a level 5 Release spell. | 20 Credits |
+| Bask in the Light! | Absolve with maximum grace. | 20 Credits |
 | Repent! | Ignite a demon with your light beam spell. | 20 Credits |
 | Sunbathing Rays | Hit 1,000 allies/enemies with light beam. | 100 Credits |
-| State of Grace | Gain 1,000 Grace. | 250 Credits |
-| Cleansing Light | Cast 50 Level 5 Release spells. | 250 Credits |
+| State of Grace | Receive Grace 1,000 times. | 250 Credits |
+| Cleansing Light | Absolve with maximum grace 50 times. | 250 Credits |
 | The Tome of Warmth! | As Priest, restore a total of 1,000 health. | 500 Credits |
 
 <br />
@@ -225,24 +225,24 @@ Sun power increases by `{{ kits.priest.data.PRIEST_SUN_POWER_FINAL_BLOW_REWARD }
 | PRIEST_SOOTHING_LIGHT_HEALING_TICKS | `{{ kits.priest.data.PRIEST_SOOTHING_LIGHT_HEALING_TICKS }}` | The amount of soothing light healing ticks. |
 | PRIEST_SOOTHING_LIGHT_HEALING_TICK_RATE | `{{ kits.priest.data.PRIEST_SOOTHING_LIGHT_HEALING_TICK_RATE }}` | The duration, in ticks, of one soothing light healing tick. |
 | PRIEST_SOOTHING_LIGHT_HEALING_POTENCY | `{{ kits.priest.data.PRIEST_SOOTHING_LIGHT_HEALING_POTENCY }}` | The amount of health to restore during one soothing light healing tick. |
-| PRIEST_RELEASE_MANA_COST | `{{ kits.priest.data.PRIEST_RELEASE_MANA_COST }}` | The cost of mana to cast the light release spell. |
-| PRIEST_RELEASE_CAST_COOLDOWN | `{{ kits.priest.data.PRIEST_RELEASE_CAST_COOLDOWN }}` | The light release spell's cooldown in ticks. |
-| PRIEST_RELEASE_HEALING_MIN | `{{ kits.priest.data.PRIEST_RELEASE_HEALING_MIN }}` | The minimum health that light releases restores. |
-| PRIEST_RELEASE_HEALING_PER_SUN_POWER | `{{ kits.priest.data.PRIEST_RELEASE_HEALING_PER_SUN_POWER }}` | The increase in light release healing per sun power. |
-| PRIEST_RELEASE_LEVEL_1_SUN_POWER | `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_1_SUN_POWER }}` | The sun power required to cast a level 1 light release spell. |
-| PRIEST_RELEASE_LEVEL_2_SUN_POWER | `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_2_SUN_POWER }}` | The sun power required to cast a level 2 light release spell. |
-| PRIEST_RELEASE_LEVEL_3_SUN_POWER | `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_3_SUN_POWER }}` | The sun power required to cast a level 3 light release spell. |
-| PRIEST_RELEASE_LEVEL_4_SUN_POWER | `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_4_SUN_POWER }}` | The sun power required to cast a level 4 light release spell. |
-| PRIEST_RELEASE_LEVEL_5_SUN_POWER | `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_5_SUN_POWER }}` | The sun power required to cast a level 5 light release spell. |
-| PRIEST_RELEASE_LEVEL_0_RADIUS | `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_0_RADIUS }}` | The base radius, in meters, of light release spells. |
-| PRIEST_RELEASE_LEVEL_2_RADIUS | `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_2_RADIUS }}` | The radius, in meters, of level 2 light release spells. |
-| PRIEST_RELEASE_LEVEL_2_BURN_DURATION | `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_2_BURN_DURATION }}` | The enemy burn duration, in ticks, of level 2 light release spells. |
-| PRIEST_RELEASE_LEVEL_4_RADIUS | `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_4_RADIUS }}` | The radius, in meters, of level 4 light release spells. |
-| PRIEST_RELEASE_LEVEL_4_KNOCKBACK_MULTIPLIER | `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_4_KNOCKBACK_MULTIPLIER }}` | The enemy knockback multiplier of level 4 light release spells. |
-| PRIEST_RELEASE_LEVEL_4_KNOCKBACK_Y | `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_4_KNOCKBACK_Y }}` | The additional y velocity of the knockback of level 4 light release spells. |
-| PRIEST_RELEASE_LEVEL_5_ABSORPTION_LEVEL | `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_5_ABSORPTION_LEVEL }}` | The level of the absorption effect from level 5 light release spells. |
-| PRIEST_RELEASE_LEVEL_5_ABSORPTION_DURATION | `{{ kits.priest.data.PRIEST_RELEASE_LEVEL_5_ABSORPTION_DURATION }}` | The duration, ticks, of the absorption effect from level 5 light release spells. |
-| PRIEST_SUN_POWER_MAX | `{{ kits.priest.data.PRIEST_SUN_POWER_MAX }}` | The player's maximum sun power. |
-| PRIEST_SUN_POWER_FINAL_BLOW_REWARD | `{{ kits.priest.data.PRIEST_SUN_POWER_FINAL_BLOW_REWARD }}` | The increase in sun power after earning a final blow. |
-| PRIEST_SUN_POWER_ASSIST_REWARD | `{{ kits.priest.data.PRIEST_SUN_POWER_ASSIST_REWARD }}` | The increase in sun power after earning an assist. |
-| PRIEST_SUN_POWER_PER_LIGHT_BEAM_HIT | `{{ kits.priest.data.PRIEST_SUN_POWER_PER_LIGHT_BEAM_HIT }}` | The increase in sun power after a light beam passes through an ally. |
+| PRIEST_ABSOLUTION_MANA_COST | `{{ kits.priest.data.PRIEST_ABSOLUTION_MANA_COST }}` | The cost of mana to absolve. |
+| PRIEST_ABSOLUTION_COOLDOWN | `{{ kits.priest.data.PRIEST_ABSOLUTION_COOLDOWN }}` | The absolution cooldown in ticks. |
+| PRIEST_ABSOLUTION_HEALING_MIN | `{{ kits.priest.data.PRIEST_ABSOLUTION_HEALING_MIN }}` | The minimum health that absolving restores. |
+| PRIEST_ABSOLUTION_HEALING_PER_GRACE | `{{ kits.priest.data.PRIEST_ABSOLUTION_HEALING_PER_GRACE }}` | The amount of healing one instance of grace does. |
+| PRIEST_ABSOLUTION_LEVEL_1_GRACE | `{{ kits.priest.data.PRIEST_ABSOLUTION_LEVEL_1_GRACE }}` | The grace required to cast a level 1 absolution. |
+| PRIEST_ABSOLUTION_LEVEL_2_GRACE | `{{ kits.priest.data.PRIEST_ABSOLUTION_LEVEL_2_GRACE }}` | The grace required to cast a level 2 absolution. |
+| PRIEST_ABSOLUTION_LEVEL_3_GRACE | `{{ kits.priest.data.PRIEST_ABSOLUTION_LEVEL_3_GRACE }}` | The grace required to cast a level 3 absolution. |
+| PRIEST_ABSOLUTION_LEVEL_4_GRACE | `{{ kits.priest.data.PRIEST_ABSOLUTION_LEVEL_4_GRACE }}` | The grace required to cast a level 4 absolution. |
+| PRIEST_ABSOLUTION_LEVEL_5_GRACE | `{{ kits.priest.data.PRIEST_ABSOLUTION_LEVEL_5_GRACE }}` | The grace required to cast a level 5 absolution. |
+| PRIEST_ABSOLUTION_LEVEL_0_RADIUS | `{{ kits.priest.data.PRIEST_ABSOLUTION_LEVEL_0_RADIUS }}` | The base radius, in meters, of absolution. |
+| PRIEST_ABSOLUTION_LEVEL_2_RADIUS | `{{ kits.priest.data.PRIEST_ABSOLUTION_LEVEL_2_RADIUS }}` | The radius, in meters, of level 2 absolutions. |
+| PRIEST_ABSOLUTION_LEVEL_2_BURN_DURATION | `{{ kits.priest.data.PRIEST_ABSOLUTION_LEVEL_2_BURN_DURATION }}` | The enemy burn duration, in ticks, of level 2 absolutions. |
+| PRIEST_ABSOLUTION_LEVEL_4_RADIUS | `{{ kits.priest.data.PRIEST_ABSOLUTION_LEVEL_4_RADIUS }}` | The radius, in meters, of level 4 absolutions. |
+| PRIEST_ABSOLUTION_LEVEL_4_KNOCKBACK_MULTIPLIER | `{{ kits.priest.data.PRIEST_ABSOLUTION_LEVEL_4_KNOCKBACK_MULTIPLIER }}` | The enemy knockback multiplier of level 4 absolutions. |
+| PRIEST_ABSOLUTION_LEVEL_4_KNOCKBACK_Y | `{{ kits.priest.data.PRIEST_ABSOLUTION_LEVEL_4_KNOCKBACK_Y }}` | The additional y velocity of the knockback of level 4 absolutions. |
+| PRIEST_ABSOLUTION_LEVEL_5_ABSORPTION_LEVEL | `{{ kits.priest.data.PRIEST_ABSOLUTION_LEVEL_5_ABSORPTION_LEVEL }}` | The level of the absorption effect from level 5 absolutions. |
+| PRIEST_ABSOLUTION_LEVEL_5_ABSORPTION_DURATION | `{{ kits.priest.data.PRIEST_ABSOLUTION_LEVEL_5_ABSORPTION_DURATION }}` | The duration, ticks, of the absorption effect from level 5 absolutions. |
+| PRIEST_GRACE_MAX | `{{ kits.priest.data.PRIEST_GRACE_MAX }}` | The player's maximum grace. |
+| PRIEST_GRACE_FINAL_BLOW_REWARD | `{{ kits.priest.data.PRIEST_GRACE_FINAL_BLOW_REWARD }}` | The increase in grace after earning a final blow. |
+| PRIEST_GRACE_ASSIST_REWARD | `{{ kits.priest.data.PRIEST_GRACE_ASSIST_REWARD }}` | The increase in grace after earning an assist. |
+| PRIEST_GRACE_PER_LIGHT_BEAM_HIT | `{{ kits.priest.data.PRIEST_GRACE_PER_LIGHT_BEAM_HIT }}` | The increase in grace after a light beam passes through an ally. |
